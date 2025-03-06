@@ -1,0 +1,49 @@
+group: "mattb325"
+name: "perth-council-building"
+version: "1.0"
+subfolder: "640-government"
+dependencies:
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-sg-vol01"
+
+info:
+  summary: "Convention Center"
+  description: |
+    This is an iconic early 1960's building inspired by the Council Building in
+    Perth's Stirling Gardens. This is an example of the modernist style with
+    Bauhaus leanings, and has distinctive external 'T' shaped sun-shades in
+    alternating patterns over the curtain glass wall to block out the hot
+    Western Australian sun.
+
+    This BAT functions as a government building and town hall in game.
+    In addition to providing 185 civic jobs, it will help alleviate the
+    commercial demand caps that can hinder city development.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/31872-perth-council-building/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil.jpg.647fd87bb0eac97605e92ace84dd8512.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil1.jpg.ca7f448afb45dac2369d0da09c111336.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil2.jpg.42b0a249fd40024a1223d8e9f968d2d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil3.jpg.89ae4b10fc5e9b95c64de2f044388b31.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil4.jpg.eb542fac8272dad082a85b28643e90ce.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-perth-council-building"
+    include:
+    - "\\.SC4Lot$"
+    - "/Perth Council Bldg MAXIS NITE/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-perth-council-building"
+    include:
+    - "\\.SC4Lot$"
+    - "/Perth Council Bldg DARK NITE/"
+
+---
+assetId: "mattb325-perth-council-building"
+version: "1.0"
+lastModified: "2017-07-23T23:46:21Z"
+url: "https://community.simtropolis.com/files/file/31872-perth-council-building/?do=download"

@@ -1,0 +1,49 @@
+group: "mattb325"
+name: "geisel-suess-library"
+version: "1.0.0"
+subfolder: "620-education"
+dependencies:
+- "bsc:bat-props-mattb325-vol04"
+- "bsc:texturepack-cycledogg-vol01"
+- "mattb325:street-planters-and-benches"
+
+info:
+  summary: "Geisel Suess Library, San Diego"
+  description: |
+    This futuristic brutalist building that looks part space-invader, part
+    minecraft creation, is the main library building of the University of
+    California San Diego.  The design draws inspiration from hands holding
+    piles of books aloft.
+
+    In game, this is a large library and sits on a 5x5 lot. It is found in
+    the education menu and provides 235 civic jobs, holds 680,000 books and
+    provides an EQ boost to all age groups over a large radius.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33539-geisel-suess-library-san-diego/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Geisel.jpg.38da5d1077f4bbb68bcc63e2603ac3e7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Geisel1.jpg.e78eec83723a6c14ce15e9d341d30bb9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Geisel2.jpg.72fdad60bb6175f812a3b2f40f1519aa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Geisel3.jpg.640d8f0baca027fcdd943cc15ca80a2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Geisel4.jpg.4cb8e2e509a2649e920388fa7929e2a6.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-geisel-suess-library-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-geisel-suess-library-darknite"
+
+---
+assetId: "mattb325-geisel-suess-library-darknite"
+version: "1.0.0"
+lastModified: "2020-04-10T09:58:19Z"
+url: "https://community.simtropolis.com/files/file/33539-geisel-suess-library-san-diego/?do=download&r=180570"
+
+---
+assetId: "mattb325-geisel-suess-library-maxisnite"
+version: "1.0.0"
+lastModified: "2020-04-10T09:58:19Z"
+url: "https://community.simtropolis.com/files/file/33539-geisel-suess-library-san-diego/?do=download&r=180571"
