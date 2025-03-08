@@ -1,0 +1,51 @@
+group: "mattb325"
+name: "eddy-hall"
+version: "1.0"
+subfolder: "620-education"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-sg-vol01"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Eddy Hall, Minnesota"
+  description: |
+    Inspired by the real Eddy Hall, constructed in 1886 as the Mechanic Arts
+    Building for the University of Minnesota. The actual building is a simplified
+    Queen Anne style executed in red-brick and red sandstone trim. The square
+    tower which is slightly offset from the centre of the building dominates the
+    frontage; it, together with the multi-gabled roof, large windows, patterned
+    brick panels and wrough iron cresting make this a charming, eye catching building.
+
+    This version is offered as a ploppable college on a 4x4 lot.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/31618-eddy-hall-minnesota/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy_Main.jpg.e2e794def7bade90734e9e3f5eae2c47.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy1.jpg.951e28aa7b86dfcb78c859cfe5fd23d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy2.jpg.0309006b783e1c6c92fcce876084098e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy3.jpg.bf952886432972605af30de04686d16d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/EddyNite.jpg.18b58580405b836a1b3869087c07ad02.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-eddy-hall"
+    include:
+    - "(?=PLOP).*\\.SC4Lot$"
+    - "/Eddy_Hall_Maxis_Nite/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-eddy-hall"
+    include:
+    - "(?=PLOP).*\\.SC4Lot$"
+    - "/Eddy_Hall_Dark_Nite/"
+
+---
+assetId: "mattb325-eddy-hall"
+version: "1.0"
+lastModified: "2017-05-14T01:14:39Z"
+url: "https://community.simtropolis.com/files/file/31618-eddy-hall-minnesota/?do=download"

@@ -1,0 +1,55 @@
+group: "mattb325"
+name: "street-planters-and-benches"
+version: "1.0.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "mattb325-street-planters-and-benches"
+  include:
+  - "/Models/"
+dependencies: []
+
+info:
+  summary: "Street Planters and Benches"
+  description: |
+    A series of differently rotated street planters and benches for lotting use.
+    Only the props are included in this package.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33284-street-planters-and-benches/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/StreetPlanters.jpg.5f6dbeffa315f33385d0a6716d178c15.jpg
+
+---
+group: "mattb325"
+name: "street-planters-and-benches-1x1-plazas"
+version: "1.0.0"
+subfolder: "660-parks"
+assets:
+- assetId: "mattb325-street-planters-and-benches"
+  include:
+  - "/Lots/"
+dependencies:
+- "mattb325:street-planters-and-benches"
+
+info:
+  summary: "1x1 Park lots using the Street Planters and Benches prop set"
+  description: |
+    Four very simple lots using differently rotated street planter & bench props.
+    Useful for gap filling in parks or among developed areas.
+
+    Placing these plazas provides residential cap relief to the value of 1,000
+    per lot per R-wealth category and raises commercial and residential
+    desirability in the immediate vicinity.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33284-street-planters-and-benches/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/StreetPlanters.jpg.5f6dbeffa315f33385d0a6716d178c15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/StreetPlanters0.jpg.dee6b5b01fad456293ac6c777b8e91b3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/StreetPlanters1.jpg.7afa92e5ca16f35aa2b72a125d143e70.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/StreetPlanters2.jpg.99b9df8f8dc377142bf35f09c1697294.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/StreetPlanters3.jpg.71d4adb9b1d1bbc83adf62a41803ca1f.jpg
+
+---
+assetId: "mattb325-street-planters-and-benches"
+version: "1.0.0"
+lastModified: "2019-11-16T07:23:08Z"
+url: "https://community.simtropolis.com/files/file/33284-street-planters-and-benches/?do=download"
