@@ -140,21 +140,21 @@ dependencies:
 - "bsc:mega-props-rubik3-vol01-wtc-props"
 - "bsc:textures-vol01"
 - "bsc:textures-vol03"
-version: "2.0"
+version: "2.0-1"
 subfolder: "300-commercial"
 variants:
-- variant: { cam: "yes" }
+- variant: { CAM: "yes" }
   assets:
   - assetId: "bsc-rubik-wtc-complex"
     include:
     - "Two World Trade with Jobs.dat"
     - "One World Trade with Jobs.dat"
-- variant: { cam: "no" }
+- variant: { CAM: "no" }
   assets:
   - assetId: "bsc-rubik-wtc-complex"
     exclude:
     - "Two World Trade with Jobs.dat"
-    - "One World Trade with Jobs.dat\""
+    - "One World Trade with Jobs.dat"
 info:
   summary: "BSC Rubik One and Two Trade Center by Rubik3"
   description: |

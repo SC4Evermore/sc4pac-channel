@@ -1,6 +1,6 @@
 group: "jmyers2043"
 name: "homes-pack"
-version: "2.0"
+version: "2.0-1"
 subfolder: "200-residential"
 dependencies:
 - "bsc:essentials"
@@ -10,16 +10,16 @@ dependencies:
 - "bsc:texturepack-cycledogg-vol01"
 - "bsc:mega-props-jmyers-common-props"
 variants:
- - variant: { building-style: "no" }
+ - variant: { jmyers2043:homes-pack:building-style: "no" }
    assets:
    - assetId: "jmyers-homes-pack"
- - variant: { building-style: "yes" }
+ - variant: { jmyers2043:homes-pack:building-style: "yes" }
    dependencies: 
    - "null-45:allow-more-building-styles-dll"
    assets:
    - assetId: "jmyers-homes-pack"
 variantInfo:
-- variantId: "building-style"
+- variantId: "jmyers2043:homes-pack:building-style"
   description: This setting determines whether to install the version that supports additional building styles or the original version without support for additional styles activated
   values:
   - value: "no"
