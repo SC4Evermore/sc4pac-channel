@@ -865,9 +865,9 @@ dependencies:
 assets:
 - assetId: cerulean-rci-and-cam-compilation
   include:
-  - "/CO\\$\\$8_3x6_CARCH_MikassaMallaCorporateLofts.dat/"
-  - "/PLOP_3x6_CARCH_MikassaMallaCorporateLofts_LAND.SC4Lot/"
-  - "/PLOP_2x6_CARCH_MikassaMallaCorporateLofts_Co\\$\\$.SC4Lot/"
+  - "/CO\\$\\$8_3x6_CARCH_MikassaMallaCorporateLofts.dat"
+  - "/PLOP_3x6_CARCH_MikassaMallaCorporateLofts_LAND.SC4Lot"
+  - "/PLOP_2x6_CARCH_MikassaMallaCorporateLofts_Co\\$\\$.SC4Lot"
 
 ---
 group: cerulean
