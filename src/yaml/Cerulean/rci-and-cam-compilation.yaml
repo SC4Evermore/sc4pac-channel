@@ -1,0 +1,1739 @@
+---
+assetId: cerulean-rci-and-cam-compilation
+version: "1.0.0"
+lastModified: "2025-09-17T06:34:38-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=421:sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+
+---
+group: cerulean
+name: azubre-corporate-office
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Azubre Corporate Office Commercial Lot
+  description: |
+    The Azubre Corporate Offices Building is the flagship building for the Azubre Corporation, the leading designer and distributor for office furniture in Sim Nation.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+  
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$8_CARCH_AzubreCorporateOffice.dat"
+        - "/PLOP_3x3_CARCH_AzubreCorporateOffices_Co\\$\\$\\$.SC4Lot"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$9_3x3_CARCH_AzubreCorporateOffice.dat"
+        - "/PLOP_3x3_CARCH_AzubreCorporateOffices_Co\\$\\$\\$.SC4Lot"
+
+---
+group: cerulean
+name: bls-design-studio
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: BLS Design Studio Commercial Lot
+  description: |
+    The BLS Design Studio is housed in a classic structure of the 1930’s. Originally built by the functionalist Architect Le Corbieres, it has undergone a complete renovation under the personal direction of Barby herself, with funds supplied by the Royal Cerulean Charitable Trusts. 
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/BLS Design Studios/"   
+
+---
+group: cerulean
+name: carpathage-condos
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Carpathage Condos Residential Lot
+  description: |
+    A daring little middle class residential building for the middle class providing balconies, functional corner living rooms, and rooftop ameneties for the stingiest of sims. There are 3 varations of this building
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Carpathage Condos/"  
+
+---
+group: cerulean
+name: chamblade-complex
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Chamblade Complex Landmark Lot
+  description: |
+    Once Victor Chamblade's Sim National corporation reached international acclaim, business skyrocketed, as new clients poured in from around the globe. This rapid exansion paved the way for the Chamblade Complex, an international hub designed by Victor Chamblade III who followed in his fathers footsteps as an architect.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Chamblade Complex PLOP/"  
+
+---
+group: cerulean
+name: chamblade-insurance-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Chamblade Insurance Building Commercial Lot
+  description: |
+    Victor Chamblade started a simple family insurance company that has flourished in the ripe economical framework of Sim Nation to become a leading insurer of sims all around the globe. This flagship office building consists of a pair of adjacent skeleton steel buildings with glass skins. It is designed to provide an efficient floor plan with views from every office.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$6_3x3_CARCH_ChambladeInsuranceBuilding.dat"
+        - "/CO\\$\\$6_3x4_CARCH_ChambladeInsuranceBuilding.dat"
+        - "/PLOP_4x3_CARCH_ChambladeInsuranceBuilding_CO\\$\\$.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$9_2x2_CARCH-Tyb06_ChambladeInsuranceBuilding.SC4Lot"
+        - "/PLOP_4x3_CARCH_ChambladeInsuranceBuilding_CO\\$\\$.dat"
+
+---
+group: cerulean
+name: chamblade-insurance-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Chamblade Insurance Tower Commercial Lot
+  description: |
+    Victor Chamblade started a simple family insurance company that has flourished in the ripe economical framework of Sim Nation to become a leading insurer of sims all around the globe. This flagship office building consists of a pair of adjacent skeleton steel buildings with glass skins. It is designed to provide an efficient floor plan with views from every office.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Chamblade Insurance Tower/"  
+
+---
+group: cerulean
+name: daeleys-laboratory
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Daeleys Laboratory Industrial Lot
+  description: |
+    Daeley has finally found an work space suitable for his devouring mind. All kinds of experiments are brewing behing his glass done, using up mass quantities of ethereal substances to concoct mind bending interfaces. Beware of the tubes pumping devious enchantments to and from Daeley's stores of mysterious substances.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/I-HT3_4x3_CARCH_DaeleysLaboratory.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/I-HT5_5x3_CARCH_DaeleysLaboratory.dat"
+        - "/I-HT6_4x3_CARCH_DaeleysLaboratory.dat"
+
+---
+group: cerulean
+name: djoella-industries
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Djoella Industries Commercial Lot
+  description: |
+    Djoella Industries is a high wealth office building where the offices of Djoella Industries reside. Djoella Industries specializes in high tech titanium structural elements for skyscrapers. This is the flagship building of Djoella Industries and showcases the sleek style that its titanium makes possible.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$8_3x6_CARCH_DjoellaIndustries.dat"
+        - "/PLOP_3x4_CARCH_DjoellaIndustries_LAND.SC4Lot"
+        - "/PLOP_3x3_CARCH_DjoellaIndustries_CO\\$\\$\\$.SC4Lot"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$10_3x3_CARCH_DjoellaIndustries.dat"
+        - "/PLOP_3x4_CARCH_DjoellaIndustries_LAND.SC4Lot"
+        - "/PLOP_3x3_CARCH_DjoellaIndustries_CO\\$\\$\\$.SC4Lot"
+
+---
+group: cerulean
+name: dolphin-landscaping
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Dolphin Landscaping Commercial Lot
+  description: |
+    Dolphin Landscaping is a service oriented landscape design firm specializing in high quality design and installation. Led by Dolphin66, this firms designs have transcended typical Sim Nation lots into masterpieces of turf, stone, and flora.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Dolphin Landscaping/"  
+  
+---
+group: cerulean
+name: foxs-club-globe
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Fox's Club Globe Commercial Lot
+  description: |
+    Brought to you by Fox Inspired Arts, Club Globe is a two story club and bar with Fox's downtown living quarters perched high above the hustle and bustle, so stop by, stroll though his luscious gardens and leave the sharp witted bar tender a generous tip!
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CS\\$\\$\\$8_4x6_CARCH_FoxsClubGlobe.dat"
+        - "/PLOP_5x5_CARCH_FoxsClubGlobe_CS\\$\\$\\$.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CS\\$\\$\\$10_4x4_CARCH_FoxsClubGlobe.dat"
+        - "/PLOP_5x5_CARCH_FoxsClubGlobe_CS\\$\\$\\$.dat"
+
+---
+group: cerulean
+name: geoffhaws-texture-studio
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Geoffhaws Texture Studio Industrial Lot
+  description: |
+    Geoffhaw's Texture Studio is the mysterious home of Geoffhaw's most delicious texture designs. You can often see him and his workers out and about laying out texture designs on the grounds. Tubes pump all kinds of mortar and concrete onto the site for the workers to use to design special bricks and blocks for Geoffhaw's crazy textures.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/I-HT3_4x4_CARCH_GeoffhawsTextureStudio.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/I-HT4_5x4_CARCH_GeoffhawsTextureStudio.dat"
+        - "/I-HT5_4x4_CARCH_GeoffhawsTextureStudio.dat"
+
+---
+group: cerulean
+name: inferior-arms
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Inferior Arms Residential Lot
+  description: |
+    A low wealth housing development with no amenities and very few comforts. Built for capacity, these towers are usually built in groups, as they are designed for contractors who build multiple instances of the same building.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/R\\$8_3x2_CARCH-Tyb06_InferiorArms.SC4Lot"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/R\\$9_CARCH_InferiorArms.dat"
+
+---
+group: cerulean
+name: insufficient-arms
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Insufficient Arms Residential Lot
+  description: |
+    A Large scale housing project with some color and flair for the blandest of Sim Cites. Dumpestra Developers (a subsidiary or Cerulean Architecture & Planning) hope to release a variety of similar buildings to help colorize and liven up  your low wealth cities.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/R\\$9_CARCH_InsufficientArms.dat"
+        
+---
+group: cerulean
+name: jemmera-business-suites
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Jemmera Business Suites Commercial Lot
+  description: |
+    The Jemmera Business Suites is a high wealth office tower with a cutting edge design providing high tech energy saving solutions. The building’s stylishly designed Leeds certified window system creates a creative office environment which maintains low strains on its client’s power consumption.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$8_3x6_CARCH_JemmeraBusinessSuites.dat"
+        - "/PLOP_4x5_CARCH_JemmeraBusinessSuites_CO\\$\\$\\$.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$9_4x4_CARCH_JemmeraBusinessSuites.dat"
+        - "/CO\\$\\$\\$10_3x4_CARCH_JemmeraBusinessSuites.dat"
+        - "/PLOP_4x5_CARCH_JemmeraBusinessSuites_CO\\$\\$\\$.dat"   
+
+---
+group: cerulean
+name: jibboo-international
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Jibboo International Commercial Lot
+  description: |
+    Jibboo International is the headquarters for Jibboo Industries, a global communication solutions company specializing in high-tech, commercial, and governmental applications.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$8_6x6_CARCH_JibbooInternational.dat"
+        - "/PLOP_6x7_CARCH_JibbooInternational_LAND.SC4Lot"
+        - "/PLOP_5x6_CARCH_JibbooInternational_Co\\$\\$\\$.SC4Lot"   
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$9_5x6_CARCH_JibbooInternational.dat"
+        - "/PLOP_6x7_CARCH_JibbooInternational_LAND.SC4Lot"
+        - "/PLOP_5x6_CARCH_JibbooInternational_Co\\$\\$\\$.SC4Lot" 
+
+---
+group: cerulean
+name: kali-knight-conference-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Kali Knight Conference Center Commercial Lot
+  description: |
+    The Kali Knight Conference Center building is a commercial building designed to meet the needs of companies who require large conference spaces to conduct their business. It's angled conference wings provide flexible sizes of conference spaces to meet all of it's client's needs.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$8_CARCH_KaliKnightConferenceCenter.dat"
+        - "/PLOP_5x5_CARCH_KaliKnightConferenceCenter_LAND.SC4Lot"
+        - "/PLOP_5x5_CARCH_KaliKnightConferenceCenter_CO\\$\\$\\$.SC4Lot"   
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$9_CARCH_KaliKnightConferenceCenter.dat"
+        - "/PLOP_5x5_CARCH_KaliKnightConferenceCenter_LAND.SC4Lot"
+        - "/PLOP_5x5_CARCH_KaliKnightConferenceCenter_CO\\$\\$\\$.SC4Lot"         
+
+---
+group: cerulean
+name: mellona-bank
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Mellona Bank Commercial Lot
+  description: |
+    The Mellona Bank Tower was commissioned by John Pei an up and comming financial wizard who has transformed Sim Nation's economy with shrewd business practices and custom care. The tower is designed with an advanced lighting technique which lights up the building with a variety of color schemes. The lighting is matched only by the landscaping.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$8_4x4_CARCH_MellonaBank.dat"
+        - "/PLOP_4x4_CARCH_MellonaBank_CO\\$\\$\\$.SC4Lot" 
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$9_3x5_CARCH_MellonaBank.dat"
+        - "/CO\\$\\$\\$10_3x4_CARCH_MellonaBank.dat"
+        - "/PLOP_4x4_CARCH_MellonaBank_CO\\$\\$\\$.SC4Lot"         
+
+---
+group: cerulean
+name: mikassa-malla-corporate-lofts
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Mikassa Malla Corporate Lofts Commercial Lot
+  description: |
+    Mikassa Malla Corporate Lofts is a medium wealth office tower built to provide large office spaces for corporate tenants. Its curtain wall construction provides wide views of it’s surroundings while maintaining a simple design makes Mikassa Malla an ideal alternative to land owners targeting medium wealth office tenants.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/CO\\$\\$8_3x6_CARCH_MikassaMallaCorporateLofts.dat/"
+  - "/PLOP_3x6_CARCH_MikassaMallaCorporateLofts_LAND.SC4Lot/"
+  - "/PLOP_2x6_CARCH_MikassaMallaCorporateLofts_Co\\$\\$.SC4Lot/"
+
+---
+group: cerulean
+name: mikassa-malla-corporate-lofts-residential
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Mikassa Malla Corporate Lofts Residential Lot
+  description: |
+    Mikassa Malla Corporate Lofts is a medium wealth office tower built to provide large office spaces for corporate tenants. Its curtain wall construction provides wide views of it’s surroundings while maintaining a simple design makes Mikassa Malla an ideal alternative to land owners targeting medium wealth office tenants.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/R\\$\\$\\$9_2x6_CARCH-Tyb06_MikassaMallaCorporateLofts.SC4Lot"
+
+---
+group: cerulean
+name: phennesseai-pharmaceuticals
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Phennesseai Pharmaceuticals Commercial Lot
+  description: |
+    This fourty story office building with an open air plaza at the tenth floor is the home of the Phennesseai Pharmaceutical Company, a distributor of medicine to pharmacies and hospitals all across Sim Nation. It's sleek fish like design responds to the companies extensive enhancements in reasearching medicines derived from aquatic life.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Phennesseai Pharmaceuticals/" 
+
+---
+group: cerulean
+name: polamile-commerce-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Polamile Commerce Center Commercial Lot
+  description: |
+    The Polamile Commerce Center is the pinnacle of mediocrity, a center piece for any city that wishes to expand to high wealth office spaces. It’s utilitarian design forgoes aesthetics for efficiency, achieving a high level of occupancy, enabling it to create a high level of profit while housing average wealth tenants.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$8_3x4_CARCH_PolamileCommerceCenter.dat"
+        - "/PLOP_4x3_CARCH_PolamileCommerceCenter_LAND.SC4Lot"
+        - "/PLOP_3x4_CARCH_PolamileCommerceCenter_Co\\$\\$.SC4Lot" 
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$9_3x3_CARCH_PolamileCommerceCenter.dat"
+        - "/PLOP_4x3_CARCH_PolamileCommerceCenter_LAND.SC4Lot"
+        - "/PLOP_3x4_CARCH_PolamileCommerceCenter_Co\\$\\$.SC4Lot"      
+
+---
+group: cerulean
+name: raysorra-unlimited-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Raysorra Unlimited Building Commercial Lot
+  description: |
+    The Raysoora Unlimited Building houses the offices of the local environmental operations of the Royal Cerulean Family Charities. They are particularly active in cardboard box recycling for the homeless, and beer and spirit bottle recycling in association with AA. They also run special classes for the illiterate on filling in government forms in room 4F6AL/724P-2 with written instructions in triplicate on how to get to the class available in reception. 
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Raysorra Unlimited Building/" 
+  
+---
+group: cerulean
+name: raysorra-unlimited-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Raysorra Unlimited Tower Commercial Lot
+  description: |
+    The Raysorra Unlimited Tower holds the offices of the Royal Cerulean Family Charitable Trusts. Controlled by Lord Cerulean himself, the trusts provide a tax efficient way of keeping the rest of the family in luxury without their incessant complaining and scheming ever impinging on Lord Ceruleans true interest, namely simworld domination. Through a combination of offshore holding companies, and blind trusts he has managed to take control of a majority of the corporations in simnation, such as Mellona Bank, Shalloya Shipping, Chamblade Insurance and Phennesseail Pharmaceuticals. His front company Carch is now the main vehicle of his ambitions and will be coming to a street corner near you.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Raysorra Unlimited Tower/"   
+  
+---
+group: cerulean
+name: shalloya-shipping-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Shalloya Shipping Building Commercial Lot
+  description: |
+    Dante Shalloya came from humble begins. Believing in proper management, he has mastered the art of efficient mid rise buildings. The Shalloya Shipping buildings is the pinnacle of this mastery providing a plethora of middle class jobs, while maintaining the architecture his company is known for.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Shalloya Shipping Building/"     
+  
+---
+group: cerulean
+name: shalloya-shipping-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Shalloya Shipping Tower Commercial Lot
+  description: |
+    The Shalloya Shipping industry began with a boom when Dante Shalloya and his family started a city on what is now known as the Shalloya River. In an area of Sim Nation over run with natural resources, Dante Shalloya began shipping these resources down river to the myriad of cities along its path, and soon became known as the man who could deliver anything. The Shalloya Shipping Tower is the pinnacle of Dante Shalloya's success.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$8_4x5_CARCH_ShalloyaShippingTower.dat"
+        - "/PLOP_4x5_CARCH_ShalloyaShippingTower_CO\\$\\$\\$.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$9_4x4_CARCH_ShalloyaShippingTower.dat"
+        - "/PLOP_4x5_CARCH_ShalloyaShippingTower_CO\\$\\$\\$.dat"   
+  
+---
+group: cerulean
+name: trakkar-tower-of-trade
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Trakkar Tower of Trade Commercial Lot
+  description: |
+    The Trakkar Tower of Trade is the center of the Trakkar trade network, a quasi evil corporation owned by Thom Trakkar, a distant relative of Fras Trakkar whose father, Killian was a murderous pirate. Fras took his father’s fleet and made an expansive trade empire which is mafia like in it’s practices.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$8_4x6_CARCH_TrakkarTowerofTrade.dat"
+        - "/PLOP_4x5_CARCH_TrakkarTowerofTrade_LAND.SC4Lot"
+        - "/PLOP_4x4_CARCH_TrakkarTowerofTrade_Co\\$\\$.SC4Lot"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$10_4x4_CARCH_TrakkarTowerofTrade.dat"
+        - "/PLOP_4x5_CARCH_TrakkarTowerofTrade_LAND.SC4Lot"
+        - "/PLOP_4x4_CARCH_TrakkarTowerofTrade_Co\\$\\$.SC4Lot"        
+
+---
+group: cerulean
+name: willow-tree-executive
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Willow Tree Executive Commercial Lot
+  description: |
+    Designed for high wealth offices, The Willow Tree Executive Plaza includes a sheltered rooftop plaza for it penthouse tenants. It also houses one of Sim Nation’s finest restaurants, The Willow Tree Restaurant and Lounge serving caribbean cuisine from its rooftop plazas on the 37th floor.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$7_3x6_CARCH_WillowTreeExecutivePlaza.dat"
+        - "/CO\\$\\$\\$8_2x6_CARCH_WillowTreeExecutivePlaza.dat"
+        - "/CO\\$\\$\\$8_3x4_CARCH_WillowTreeExecutivePlaza.dat"
+        - "/PLOP_2x5_CARCH_WillowTreeExecutivePlaza_LAND.SC4Lot"
+        - "/PLOP_4x4_CARCH_WillowTreeExecutivePlaza_Co\\$\\$\\$.SC4Lot"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$10_2x4_CARCH_WillowTreeExecutive.dat"
+        - "/PLOP_2x5_CARCH_WillowTreeExecutivePlaza_LAND.SC4Lot"
+        - "/PLOP_4x4_CARCH_WillowTreeExecutivePlaza_Co\\$\\$\\$.SC4Lot"
+
+---
+group: cerulean
+name: winterburne-uptown-suites
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Winterburne Uptown Suites Commercial & Residential Lot
+  description: |
+    The Winterburne is considered by many to be the crown jewel of Sim nations premier downtown hotels. It reigns over the city as a beacon of modernity, with a grace and glamour that has drawn visitors from around the globe. From glorious meeting rooms and palatial ballrooms to the brilliance of its legendary restaurants, The Winterburne dwells in a class by itself. Whether for business or pure pleasure, a stay at The Winterburne entails the ultimate in gracious luxury, attentive personal service and the pleasures of an incomparable location in the heart of the city. 
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/PLOP_6x6_CARCH_WinterburneUptownSuites_CS\\$\\$\\$.SC4Lot"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CS\\$\\$12_5x5_CARCH_WinterburneUptownSuites.SC4Lot"
+        - "/R\\$\\$9_6x6_CARCH_WinterburneUptownSuites.SC4Lot"
+        - "/PLOP_6x6_CARCH_WinterburneUptownSuites_CS\\$\\$\\$.SC4Lot"
+  
+---
+group: cerulean
+name: yelluzha-technologies
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Yelluzha Technologies Commercial Lot
+  description: |
+    The Winterburne is considered by many to be the crown jewel of Sim nations premier downtown hotels. It reigns over the city as a beacon of modernity, with a grace and glamour that has drawn visitors from around the globe. From glorious meeting rooms and palatial ballrooms to the brilliance of its legendary restaurants, The Winterburne dwells in a class by itself. Whether for business or pure pleasure, a stay at The Winterburne entails the ultimate in gracious luxury, attentive personal service and the pleasures of an incomparable location in the heart of the city. 
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol02
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-carch-vol04
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol06
+  - bsc:mega-props-carch-vol07
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-misc-vol01
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ndex:n747-palm-props-vol01
+  - torresprei:sims-geographic-museum-ii-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/PLOP_3x4_CARCH_YelluzhaTechnologies_CO\\$\\$\\$.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$9_3x6_CARCH_YelluzhaTechnologies.dat"
+        - "/CO\\$\\$\\$10_3x4_CARCH_YelluzhaTechnologies.dat"
+        - "/CO\\$\\$\\$12_3x3_CARCH_YelluzhaTechnologies.dat" 
+        - "/PLOP_3x4_CARCH_YelluzhaTechnologies_CO\\$\\$\\$.dat"
+
+---
+group: cerulean
+name: daggerstra-associate-inn
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Daggerstra Associate Inn Commercial Lot
+  description: |
+    The Daggerstra Corporation is proud to introduce The Daggerstra Associate Inn, a favorite for buisiness types with plenty of their children's college fund money to lay down at the slots tables. The Daggerstra Corporation was formed as a conglomerate of all of the failing mafia casinos in Downtown Las Vegas.  
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-swi21-vol01
+  - csx:mega-props-vol06
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CS\\$\\$\\$9_5x5_CARCH Daggerstra Associate Inn.SC4Lot"
+ 
+---
+group: cerulean
+name: daggerstra-entertainment-hostel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Daggerstra Entertainment Hostel Commercial Lot
+  description: |
+    The Daggerstra Corporation is proud to introduce the Daggerstra Entertainment Hostel. The Daggerstra Corporation was formed as a conglomerate of all of the failing mafia casinos in Downtown Las Vegas. The building designs are a mixture of the designs from the the casinos of the two Dons with the largest share in the merger, Anastasio Daggerino, and Guido Arenesta.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:textures-vol02
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Daggestra Gaming Center/" 
+
+---
+group: cerulean
+name: daggerstra-executive-suites
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Daggerstra Executive Suites Commercial Lot
+  description: |
+    The Daggerstra Corporation is proud to introduce their crowning achievement : The Daggerstra Executive Suites. The Daggerstra Corporation was formed as a conglomerate of all of the failing mafia casinos in Downtown Las Vegas. The building designs are a mixture of the designs from the the casinos of the two Dons with the largest share in the merger, Anastasio Daggerino, and Guido Arenesta.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CS\\$\\$\\$11_5x5_Daggerstra Executive Suites.SC4Lot"
+
+---
+group: cerulean
+name: fantazzi-beverages-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Fantazzi Beverages Building Commercial Lot
+  description: |
+    Hugo Fantazzi was a chemist who spent years and years in the Caribbean working with various species of coconut in an effort to cure the installable desire for the sims of the world to live within 2 blocks of where they work. While the inherent, but unproven calming qualities of coconut juice were yielding exciting results, he accidently stumbled upon a mixture of peanut butter and coconut juice with a dash of oregano, and mombo juice was born. 
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol03
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-d66-vol02
+  - csx:mega-props-vol01
+  - bsc:textures-vol01
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Fantazzi Beverages Building/"  
+
+---
+group: cerulean
+name: fantazzi-beverages-corporate-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Fantazzi Beverages Corporate Tower Commercial Lot
+  description: |
+    Hugo Fantazzi was a chemist who spent years and years in the Caribbean working with various species of coconut in an effort to cure the installable desire for the sims of the world to live within 2 blocks of where they work. While the inherent, but unproven calming qualities of coconut juice were yielding exciting results, he accidently stumbled upon a mixture of peanut butter and coconut juice with a dash of oregano, and mombo juice was born. 
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CO\\$\\$\\$11_4x4_Fantazzi Financial Tower.SC4Lot"
+
+---
+group: cerulean
+name: winterburn-outlet-casino
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Winterburn Outlet Casino Commercial Lot
+  description: |
+    It's 2am, do you know where your significant other is? You guessed it, so head on down to the Winterburne Outlet Casino and make sure your pension isn't gone yet. This little retail outlet is sure to keep those towers full of lawyers busy if it pops up in your town, let it grow and sit back and watch the divorces fly through city hall. Of course you could go down and have some drinks at the Backend Lounge and try to make sure your spouse doesn't lose all of your money, that is assuming you can get to the Backend Lounge.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+
+assets:
+- assetId: cerulean-rci-and-cam-compilation
+  include:
+  - "/Winterburn Outlet Casino/" 
+
+---
+group: cerulean
+name: winterburne-downtown-lodging
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Winterburne Downtown Lodging Commercial Lot
+  description: |
+    The Winterburne chain of hotels and motels for the gambler in all of us is not complete without this downtown attraction that is sure to break your heart and drive you mad. Not much for frills, this addition cuts right to the chase with tables and machines from the entry all the way to the garage in back. It's overnight guests are not the sort you would bring home to mom, thought they are the sort your mom might bring home to you .. or hide in their closet. 
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CS\\$\\$11_3x4_CARCH_WinterburneDowntownLodging.SC4Lot"
+
+---
+group: cerulean
+name: winterburn-international-casino
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Winterburn International Casino Commercial Lot
+  description: |
+    The crème of the crop! Congratulations your little burg has arrived! The Winterburn International Casino is the height of luxury and broken dreams. From the esteemed Larry Laffeur Ballroom surrounded on the main floor by the usual and not so usual assortment of card tables and slot machines to the Lucy in the Sky High Rollers Room, this breathtaking skyscraper complex has it all. The vault itself is comprised of 8000 cubic meters of titanium.
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CS\\$\\$\\$11_8x10_CARCH_WinterburnInternationalCasino.SC4Lot"
+
+---
+group: cerulean
+name: winterburne-midtown-motel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Winterburne Midtown Motel Commercial Lot
+  description: |
+    The Winterburne Midtown is part of the Winterburne chain of luxurious and affordable hotels. The Midtown is at the affordable end of the business and boasts the famous Marie Antoinette Ballroom, where surrounded by glittering golden cherubs and chintz curtains, many a C list celebrity has held their wedding celebrations. Or if you prefer there is the slightly less ornate Empress Josephine Ballroom, a particular favourite with the wealthy, more mature women who prefer the distinctly subdued soft lighting so their toy boy second husbands cant see their wrinkles. The Midtown has the distinct advantage of a full valet car parking service, with enough spaces available for all guests, whether staying or merely attending a function, with a free breathalyser and drying out, sorry, sleeping it off room service available. The Winterburne Midtown is a particular favourite of the business travellers' boss, with a wide variety of on-site business services, which include rooms that have generous work stations and in room surveillance cameras so that head office can check that their salesmen aren't slacking by sleeping or doing anything else unproductive. 
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol05
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cerulean-rci-and-cam-compilation
+        include:
+        - "/CS\\$\\$\\$9_6x6_CARCH_WinterburneMidtownMotel.SC4Lot"
+
+---
+group: cerulean
+name:  cerulean-rci-collection    
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Commercial Collection Pack
+  description: A collection of 38 RCI Lots by Cerulean        
+  author: Cerulean
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/421-sc4d-lex-legacy-cerulean-rci-and-cam-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCHLots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/PreviewImage_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CARCH_Preview_Daggerstra_Entertainment_Hostel_Day.jpg
+
+dependencies:
+  - cerulean:azubre-corporate-office
+  - cerulean:bls-design-studio
+  - cerulean:carpathage-condos
+  - cerulean:chamblade-complex
+  - cerulean:chamblade-insurance-building
+  - cerulean:chamblade-insurance-tower
+  - cerulean:daeleys-laboratory  
+  - cerulean:djoella-industries 
+  - cerulean:dolphin-landscaping   
+  - cerulean:foxs-club-globe
+  - cerulean:geoffhaws-texture-studio
+  - cerulean:inferior-arms
+  - cerulean:insufficient-arms
+  - cerulean:jemmera-business-suites
+  - cerulean:jibboo-international 
+  - cerulean:kali-knight-conference-center
+  - cerulean:mellona-bank  
+  - cerulean:mikassa-malla-corporate-lofts
+  - cerulean:mikassa-malla-corporate-lofts-residential
+  - cerulean:phennesseai-pharmaceuticals
+  - cerulean:polamile-commerce-center
+  - cerulean:raysorra-unlimited-building
+  - cerulean:raysorra-unlimited-tower
+  - cerulean:shalloya-shipping-building
+  - cerulean:shalloya-shipping-tower
+  - cerulean:trakkar-tower-of-trade
+  - cerulean:willow-tree-executive
+  - cerulean:winterburne-uptown-suites
+  - cerulean:yelluzha-technologies
+  - cerulean:daggerstra-associate-inn
+  - cerulean:daggerstra-entertainment-hostel
+  - cerulean:daggerstra-executive-suites
+  - cerulean:fantazzi-beverages-building
+  - cerulean:fantazzi-beverages-corporate-tower
+  - cerulean:winterburn-outlet-casino
+  - cerulean:winterburne-downtown-lodging
+  - cerulean:wwinterburn-international-casino
+  - cerulean:winterburne-midtown-motel
