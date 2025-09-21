@@ -1067,7 +1067,6 @@ variants:
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
-
  variantInfo:
   - variantId: sc4e:irm
     description: |-
