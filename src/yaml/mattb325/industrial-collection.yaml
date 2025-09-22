@@ -38,20 +38,20 @@ dependencies:
   - bsc:mega-props-cp-vol02
   - bsc:texturepack-cycledogg-vol01
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -84,20 +84,20 @@ dependencies:
   - bsc:mega-props-cp-vol01
   - mattb325:industrial-pack-shared-resources
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Canadian ?Bitters ?I-M(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Canadian ?Bitters ?I-M(_[MD]N)?#?/" ]       
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Canadian ?Bitters ?I-M(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -124,20 +124,20 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre3.jpg.b63f2b766babfca68199fbe7494faca1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre4.jpg.1ae2ddb4dec308e9cb3f1fbedc0204f0.jpg
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Data ?Centre(_MN)?( \\(Ploppable\\))?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Data ?Centre(_DN)?( \\(Ploppable\\))?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Data ?Centre(_MN)?( \\(Ploppable\\))?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -165,20 +165,20 @@ variants:
 #   - mattb325:industrial-pack-shared-resources
 #   - peg:security-fencing-kit
 # variants:
-#   - variant: { nightmode: standard, irm: no }
+#   - variant: { nightmode: standard, industrial-revolution: maxis-version }
 #     assets:
 #       - assetId: mattb325-industrial-pack-maxisnite
 #         include: [ "/Disease ?Research ?Center(_[MD]N)?#?/" ]
-#   - variant: { nightmode: dark, irm: no }
+#   - variant: { nightmode: dark, industrial-revolution: maxis-version }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-industrial-pack-darknite
 #         include: [ "/Disease ?Research ?Center(_[MD]N)?#?/" ]
-#   - variant: { nightmode: standard, irm: yes }
+#   - variant: { nightmode: standard, industrial-revolution: irm-version }
 #     assets:
 #       - assetId: mattb325-industrial-pack-maxisnite-irm
 #         include: [ "/Disease ?Research ?Center(_[MD]N)?#?/" ]
-#   - variant: { nightmode: dark, irm: yes }
+#   - variant: { nightmode: dark, industrial-revolution: irm-version }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-industrial-pack-darknite-irm
@@ -200,20 +200,20 @@ info:
 dependencies:
   - bsc:mega-props-rt-vol02
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Door ?Mat ?Factory(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Door ?Mat ?Factory(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Door ?Mat ?Factory(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -235,20 +235,20 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes  }
+  - variant: { nightmode: dark, industrial-revolution: irm-version  }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -280,20 +280,20 @@ dependencies:
   - bsc:mega-props-cp-vol02
   - csx:mega-props-vol04
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Havoc ?Bioenhancements(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Havoc ?Bioenhancements(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Havoc ?Bioenhancements(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -326,20 +326,20 @@ dependencies:
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Jenquai ?Alchemy(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Jenquai ?Alchemy(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Jenquai ?Alchemy(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -369,21 +369,21 @@ dependencies:
   - bsc:mega-props-sg-vol01
   - csx:mega-props-vol04
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Kane ?Tiberium(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Kane ?Tiberium(_[MD]N)?#?/" ]
 
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Kane ?Tiberium(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -413,20 +413,20 @@ variants:
 #   - csx:mega-props-vol03
 #   - csx:mega-props-vol04
 # variants:
-#   - variant: { nightmode: standard, irm: no }
+#   - variant: { nightmode: standard, industrial-revolution: maxis-version }
 #     assets:
 #       - assetId: mattb325-industrial-pack-maxisnite
 #         include: [ "/Mail Distribution Center I-HT/" ]
-#   - variant: { nightmode: dark, irm: no }
+#   - variant: { nightmode: dark, industrial-revolution: maxis-version }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-industrial-pack-darknite
 #         include: [ "/Mail Distribution Center I-HT/" ]
-#   - variant: { nightmode: standard, irm: yes }
+#   - variant: { nightmode: standard, industrial-revolution: irm-version }
 #     assets:
 #       - assetId: mattb325-industrial-pack-maxisnite-irm
 #         include: [ "/Mail Distribution Center I-HT/" ]
-#   - variant: { nightmode: dark, irm: yes }
+#   - variant: { nightmode: dark, industrial-revolution: irm-version }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-industrial-pack-darknite-irm
@@ -456,20 +456,20 @@ dependencies:
   - bsc:mega-props-cp-vol02
   - bsc:textures-vol01
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Maxs ?Microchips(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Maxs ?Microchips(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Maxs ?Microchips(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -492,20 +492,20 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-jes-vol01
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Newsome ?Mill(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Newsome ?Mill(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Newsome ?Mill(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -527,20 +527,20 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Nokia ?Building-I-HT(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Nokia ?Building-I-HT(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Nokia ?Building-I-HT(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -573,20 +573,20 @@ dependencies:
   - csx:mega-props-vol04
   - peg:security-fencing-kit
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Pedriana ?Pharmaceuticals(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Pedriana ?Pharmaceuticals(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Pedriana ?Pharmaceuticals(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -614,20 +614,20 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol04
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Peerless ?JAL(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Peerless ?JAL(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Peerless ?JAL(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -682,20 +682,20 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/Selby2.jpg.6daeea6ab870ff006e282bd282770dce.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/Selby3.jpg.23db47400cc766a7421db0b9723c8d6c.jpg
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -726,20 +726,20 @@ dependencies:
   - peg:security-fencing-kit
   - csx:mega-props-vol04
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Stratton ?Biotech(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Stratton ?Biotech(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Stratton ?Biotech(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -766,20 +766,20 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol04
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/The ?Like ?Factory(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/The ?Like ?Factory(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/The ?Like ?Factory(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -811,20 +811,20 @@ dependencies:
   - csx:mega-props-vol04
   - peg:security-fencing-kit
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Timber ?Warehouses(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Timber ?Warehouses(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Timber ?Warehouses(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -857,20 +857,20 @@ dependencies:
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Tsvirkunov ?Electronics(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Tsvirkunov ?Electronics(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Tsvirkunov ?Electronics(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -900,20 +900,20 @@ dependencies:
   - peg:security-fencing-kit
   - csx:mega-props-vol04
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Vu ?Laboratories(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Vu ?Laboratories(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Vu ?Laboratories(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -939,20 +939,20 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/Watco3.jpg.1fa418d90d5f8c3228301d87beef5ffd.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/Watco4.jpg.2f6c06985fb06b097570201f49e09c9a.jpg
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Watco(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Watco(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Watco(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -983,20 +983,20 @@ dependencies:
   - bsc:textures-vol01
   - peg:security-fencing-kit
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Whoop ?Ass ?Factory(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Whoop ?Ass ?Factory(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Whoop ?Ass ?Factory(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
@@ -1053,30 +1053,30 @@ info:
   description: |-
     A dependency containing a few resources used in `pkg=mattb325:industrial-collection`
 variants:
-  - variant: { nightmode: standard, irm: no }
+  - variant: { nightmode: standard, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: no }
+  - variant: { nightmode: dark, industrial-revolution: maxis-version }
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
-  - variant: { nightmode: standard, irm: yes }
+  - variant: { nightmode: standard, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, irm: yes }
+  - variant: { nightmode: dark, industrial-revolution: irm-version }
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
  variantInfo:
-  - variantId: irm
+  - variantId: industrial-revolution
     description: |-
-      Select to install the specific IRM version or the original version of the lot.
+      Select to install the specific IRM version or the original version of the lot. 
     values:
-    - value: "no"
+    - value: maxis-version
       description: |-
-        Install the original version of the lot
-    - value: "yes"
+        Install the original version of the lot 
+    - value: irm-version
       description: |-
         Install the IRM version of the lot
