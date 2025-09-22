@@ -1043,7 +1043,6 @@ dependencies:
   - mattb325:whoop-ass-factory
 
 ---
-
 group: mattb325
 name: industrial-pack-shared-resources
 version: "2.0-1"
@@ -1069,14 +1068,14 @@ variants:
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
- variantInfo:
-  - variantId: industrial-revolution
-    description: |-
-      Select to install the specific IRM version or the original version of the lot. 
-    values:
+variantInfo:
+ - variantId: industrial-revolution
+   description: |-
+    Select to install the specific IRM version or the original version of the lot. 
+   values:
     - value: maxis-version
       description: |-
-        Install the original version of the lot 
+       Install the original version of the lot 
     - value: irm-version
       description: |-
-        Install the IRM version of the lot
+       Install the IRM version of the lot
