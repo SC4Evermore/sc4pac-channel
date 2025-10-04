@@ -1,0 +1,155 @@
+---
+assetId: cobb32118-campatible-residental-lots
+version: "1.0.0"
+lastModified: "2025-09-25T06:43:01-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=422:sc4d-lex-legacy-bsc-cobb32118-campatible-residental-lots
+
+---
+group: cobb
+name: commercial-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Cobb Commercial Set
+  description: |
+    Collection of 7 commercial buildings created by Cobb32118
+  author: Cobb32118
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/422-sc4d-lex-legacy-bsc-cobb32118-campatible-residental-lots
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118_13th_St_Condos_by_Cobb_JPG01.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118_Cobb_Emerald_Park_JPG_night1.jpg
+
+dependencies:
+  - bsc:essentials
+  - cobb:mega-props-vol01
+  - cobb:mega-props-vol02
+  - cobb:mega-props-vol03
+  - cobb:mega-props-vol04
+  - cobb:mega-props-vol05
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cobb32118-campatible-residental-lots
+        include:
+        - "/CS\\$\\$\\$8_3x3_Cobb32118-Tyb06_Cobb_5th_Avenue_Hotel_363a609a.SC4Lot"
+        - "/CS\\$\\$\\$6_4x3_Cobb32118-Tyb06_The Cobb Europa Hotel_863ba2b1.SC4Lot"
+        - "/CS\\$\\$\\$8_4x4_Cobb32118-Tyb06_The Cobb Riviera Hotel_CS$$$_a63ae574.SC4Lot"
+        - "/PLOP_4x3_Cobb32118_Cobb_Emerald_Park_LAND_adbb5412.SC4Lot"
+        - "/PLOP_4x4_Cobb32118_Cobb_Emperador_LAND_b199c63e.SC4Lot"
+        - "/PLOP_3x3_Cobb32118_The_Cobb_Tower_Co$$$_2d775d58.SC4Lot"
+        - "/PLOP_4x3_Cobb32118_Cobb_Riviera_LAND_8dce8d0f.SC4Lot"
+        - "/PLOP_3x3_Cobb32118_Cobb_5th_Avenue_LAND_d190baa3.SC4Lot"
+        - "/PLOP_3x4_Cobb32118_Cobb_Central_Park_West_CS$$$_31a5bab4.SC4Lot" 
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cobb32118-campatible-residental-lots
+        include:  
+        - "/CS\\$\\$\\$8_3x3_Cobb32118-Tyb06_Cobb_5th_Avenue_Hotel_363a609a.SC4Lot"
+        - "/CS\\$\\$\\$6_4x3_Cobb32118-Tyb06_The Cobb Europa Hotel_863ba2b1.SC4Lot"
+        - "/CS\\$\\$\\$8_4x4_Cobb32118-Tyb06_The Cobb Riviera Hotel_CS$$$_a63ae574.SC4Lot"
+        - "/CO\\$\\$\\$9_5x3_Cobb32118-Tyb06_The Cobb Emerald Park Offices_763a5902.SC4Lot"
+        - "/CS\\$\\$\\$10_4x4_Cobb32118-Tyb06_The Cobb Emperador Hotel_863ae3e5.SC4Lot"
+        - "/CS\\$\\$\\$11_4x4_Cobb32118-Tyb06_Cobb_Regency_Resort_and_SPA_e63a61e2.SC4Lot"
+        - "/CO\\$\\$\\$9_3x3_Cobb32118-Tyb06_The Cobb Tower_063a209b.SC4Lot"
+        - "/PLOP_4x3_Cobb32118_Cobb_Emerald_Park_LAND_adbb5412.SC4Lot"
+        - "/PLOP_4x4_Cobb32118_Cobb_Emperador_LAND_b199c63e.SC4Lot"
+        - "/PLOP_3x3_Cobb32118_The_Cobb_Tower_Co$$$_2d775d58.SC4Lot"
+        - "/PLOP_4x3_Cobb32118_Cobb_Emerald_Park_LAND_adbb5412.SC4Lot"
+        - "/PLOP_4x3_Cobb32118_Cobb_Riviera_LAND_8dce8d0f.SC4Lot"  
+        - "/PLOP_3x3_Cobb32118_Cobb_5th_Avenue_LAND_d190baa3.SC4Lot"
+        - "/PLOP_3x4_Cobb32118_Cobb_Central_Park_West_CS$$$_31a5bab4.SC4Lot"
+        
+---
+group: cobb
+name: residential-set
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Cobb Residential Set
+  description: |
+    Collection of 19 residential buildings created by Cobb32118
+  author: Cobb32118
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/422-sc4d-lex-legacy-bsc-cobb32118-campatible-residental-lots
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118_13th_St_Condos_by_Cobb_JPG01.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118_Cobb_Emerald_Park_JPG_night1.jpg
+
+dependencies:
+  - bsc:essentials
+  - cobb:mega-props-vol01
+  - cobb:mega-props-vol02
+  - cobb:mega-props-vol03
+  - cobb:mega-props-vol04
+  - cobb:mega-props-vol05
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cobb32118-campatible-residental-lots
+        include:
+        - "/R\\$\\$\\$7_3x3_Cobb_5th_Avenue_918f79b2.SC4Lot"
+        - "/R\\$\\$\\$8_3x4_Cobb_Central_Park_West_b1a308fe.SC4Lot"
+        - "/R\\$\\$7_4x3_Cobb_Europa_2dc931f1.SC4Lot"
+        - "/R\\$\\$\\$8_4x3_Cobb_Grand_Plaza_6dfcb441.SC4Lot"
+        - "/R\\$\\$\\$8_4x4_Cobb_Regency_ad8541ff.SC4Lot"
+        - "/R\\$\\$\\$8_4x3_Cobb_Riviera_adcf0cae.SC4Lot"
+        - "/R\\$\\$\\$7_4x3_Cobb_Royale_ed9d75c5.SC4Lot"
+        - "/R\\$7_6x6_Cobb_Troglodyte_Complex_9168df91.SC4Lot"
+        - "/R\\$\\$\\$6_3x2_Seaside_Villa_Cobb32118_8dd26969.SC4Lot" 
+        - "/PLOP_5x5_Cobb32118_Cobb_Altura_Tower_LAND_4da2ce96.SC4Lot" 
+        - "/PLOP_4x3_Cobb32118_Cobb_Europa_LAND_2dc92faa.SC4Lot" 
+        - "/PLOP_4x3_Cobb32118_Cobb_Galleria_LAND_d161d9cd.SC4Lot" 
+        - "/PLOP_4x4_Cobb32118_Cobb_Oceanic_LAND_4dc5d4e9.SC4Lot" 
+        - "/PLOP_3x2_Cobb32118_Cobb_Seaside_Villa_LAND_8dd26dbc.SC4Lot" 
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cobb32118-campatible-residental-lots
+        include:  
+        - "/R\\$\\$\\$7_3x3_Cobb_5th_Avenue_918f79b2.SC4Lot"
+        - "/R\\$\\$\\$8_3x4_Cobb_Central_Park_West_b1a308fe.SC4Lot"
+        - "/R\\$\\$7_4x3_Cobb_Europa_2dc931f1.SC4Lot"
+        - "/R\\$\\$\\$8_4x3_Cobb_Grand_Plaza_6dfcb441.SC4Lot"
+        - "/R\\$\\$\\$8_4x4_Cobb_Regency_ad8541ff.SC4Lot"
+        - "/R\\$\\$\\$8_4x3_Cobb_Riviera_adcf0cae.SC4Lot"
+        - "/R\\$\\$\\$7_4x3_Cobb_Royale_ed9d75c5.SC4Lot"
+        - "/R\\$7_6x6_Cobb_Troglodyte_Complex_9168df91.SC4Lot"
+        - "/R\\$\\$\\$6_3x2_Seaside_Villa_Cobb32118_8dd26969.SC4Lot"        
+        - "/R\\$\\$9_5x3_13th_St_Condos_by_Cobb_b16d09d3.SC4Lot"
+        - "/R\\$\\$\\$12_5x5_Cobb_Altura_Tower_4da2c7bc.SC4Lot"
+        - "/R\\$\\$\\$10_5x5_Cobb_Atlantic_4daa8b65.SC4Lot"
+        - "/R\\$\\$\\$9_4x3_Cobb_Emerald_Park_adbb57d6.SC4Lot"
+        - "/R\\$\\$\\$9_4x4_Cobb_Emperador_3199c421.SC4Lot"
+        - "/R\\$\\$\\$14_4x3_Cobb_Galleria_d161f031.SC4Lot"
+        - "/R\\$\\$\\$10_4x4_Cobb_Oceanic_6dc5febf.SC4Lot"
+        - "/R\\$\\$\\$9_4x3_Cobb_Park_Plaza_0d7a9004.SC4Lot"
+        - "/R\\$\\$10_3x3_Cobb_Shoreline_717bcb1f.SC4Lot"
+        - "/R\\$\\$9_3x3_Cobb_Veinte_7177b231.SC4Lot"
+        - "/PLOP_5x5_Cobb32118_Cobb_Altura_Tower_LAND_4da2ce96.SC4Lot" 
+        - "/PLOP_4x3_Cobb32118_Cobb_Europa_LAND_2dc92faa.SC4Lot" 
+        - "/PLOP_4x3_Cobb32118_Cobb_Galleria_LAND_d161d9cd.SC4Lot" 
+        - "/PLOP_4x4_Cobb32118_Cobb_Oceanic_LAND_4dc5d4e9.SC4Lot" 
+        - "/PLOP_3x2_Cobb32118_Cobb_Seaside_Villa_LAND_8dd26dbc.SC4Lot"  
+---
+group: cobb
+name:  cobb32118-commercial-collection    
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Cobb32118 Collection Pack
+  description: A collection of 26 Lots by Cobb32118      
+  author: Cobb32118
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/422-sc4d-lex-legacy-bsc-cobb32118-campatible-residental-lots
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118_13th_St_Condos_by_Cobb_JPG01.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118_Cobb_Emerald_Park_JPG_night1.jpg
+
+dependencies:
+  - cobb:commercial-set
+  - cobb:residential-set
