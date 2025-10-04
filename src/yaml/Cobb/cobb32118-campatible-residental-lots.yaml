@@ -135,7 +135,7 @@ variants:
         - "/PLOP_3x2_Cobb32118_Cobb_Seaside_Villa_LAND_8dd26dbc.SC4Lot"  
 ---
 group: cobb
-name:  cobb32118-commercial-collection    
+name:  collection-pack    
 version: "1.0.0"
 subfolder: 300-commercial
 info:
