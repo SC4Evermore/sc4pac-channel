@@ -36,30 +36,30 @@ variants:
         include:
         - "/CS\\$\\$\\$8_3x3_Cobb32118-Tyb06_Cobb_5th_Avenue_Hotel_363a609a.SC4Lot"
         - "/CS\\$\\$\\$6_4x3_Cobb32118-Tyb06_The Cobb Europa Hotel_863ba2b1.SC4Lot"
-        - "/CS\\$\\$\\$8_4x4_Cobb32118-Tyb06_The Cobb Riviera Hotel_CS$$$_a63ae574.SC4Lot"
+        - "/CS\\$\\$\\$8_4x4_Cobb32118-Tyb06_The Cobb Riviera Hotel_CS\\$\\$\\$_a63ae574.SC4Lot"
         - "/PLOP_4x3_Cobb32118_Cobb_Emerald_Park_LAND_adbb5412.SC4Lot"
         - "/PLOP_4x4_Cobb32118_Cobb_Emperador_LAND_b199c63e.SC4Lot"
-        - "/PLOP_3x3_Cobb32118_The_Cobb_Tower_Co$$$_2d775d58.SC4Lot"
+        - "/PLOP_3x3_Cobb32118_The_Cobb_Tower_Co\\$\\$\\$_2d775d58.SC4Lot"
         - "/PLOP_4x3_Cobb32118_Cobb_Riviera_LAND_8dce8d0f.SC4Lot"
         - "/PLOP_3x3_Cobb32118_Cobb_5th_Avenue_LAND_d190baa3.SC4Lot"
-        - "/PLOP_3x4_Cobb32118_Cobb_Central_Park_West_CS$$$_31a5bab4.SC4Lot" 
+        - "/PLOP_3x4_Cobb32118_Cobb_Central_Park_West_CS\\$\\$\\$_31a5bab4.SC4Lot" 
   - variant: { CAM: "yes" }
     assets:
       - assetId: cobb32118-campatible-residental-lots
         include:  
         - "/CS\\$\\$\\$8_3x3_Cobb32118-Tyb06_Cobb_5th_Avenue_Hotel_363a609a.SC4Lot"
         - "/CS\\$\\$\\$6_4x3_Cobb32118-Tyb06_The Cobb Europa Hotel_863ba2b1.SC4Lot"
-        - "/CS\\$\\$\\$8_4x4_Cobb32118-Tyb06_The Cobb Riviera Hotel_CS$$$_a63ae574.SC4Lot"        
+        - "/CS\\$\\$\\$8_4x4_Cobb32118-Tyb06_The Cobb Riviera Hotel_CS\\$\\$\\$_a63ae574.SC4Lot"        
         - "/CO\\$\\$\\$9_5x3_Cobb32118-Tyb06_The Cobb Emerald Park Offices_763a5902.SC4Lot"
         - "/CS\\$\\$\\$10_4x4_Cobb32118-Tyb06_The Cobb Emperador Hotel_863ae3e5.SC4Lot"
         - "/CS\\$\\$\\$11_4x4_Cobb32118-Tyb06_Cobb_Regency_Resort_and_SPA_e63a61e2.SC4Lot"
         - "/CO\\$\\$\\$9_3x3_Cobb32118-Tyb06_The Cobb Tower_063a209b.SC4Lot"
         - "/PLOP_4x3_Cobb32118_Cobb_Emerald_Park_LAND_adbb5412.SC4Lot"
         - "/PLOP_4x4_Cobb32118_Cobb_Emperador_LAND_b199c63e.SC4Lot"
-        - "/PLOP_3x3_Cobb32118_The_Cobb_Tower_Co$$$_2d775d58.SC4Lot"
+        - "/PLOP_3x3_Cobb32118_The_Cobb_Tower_Co\\$\\$\\$_2d775d58.SC4Lot"
         - "/PLOP_4x3_Cobb32118_Cobb_Riviera_LAND_8dce8d0f.SC4Lot"  
         - "/PLOP_3x3_Cobb32118_Cobb_5th_Avenue_LAND_d190baa3.SC4Lot"
-        - "/PLOP_3x4_Cobb32118_Cobb_Central_Park_West_CS$$$_31a5bab4.SC4Lot"
+        - "/PLOP_3x4_Cobb32118_Cobb_Central_Park_West_CS\\$\\$\\$_31a5bab4.SC4Lot"
         
 ---
 group: cobb
