@@ -161,7 +161,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2025_01/67833a412d27c_CensusRepositoryFacilityNight.jpg.d19c65b73a1576978deae3716c39fecc.jpg
 
 dependencies:
-  - kel9509:census-repository-facility-traffic-management
+  - kel9509:census-repository-facility
   - kel9509:census-repository-facility-querry
   - kel9509:census-repository-facility-vault
   
