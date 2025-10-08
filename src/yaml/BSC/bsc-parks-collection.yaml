@@ -1,0 +1,368 @@
+assetId: "sc4d-lex-legacy-bsc-parks-collection"
+version: "2.0"
+lastModified: "2024-08-20T10:01:49Z"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=283:sc4d-lex-legacy-bsc-parks-collection"
+
+---
+group: bsc
+name:  bsc-parks-base-set  
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC Parks - Base Set
+  description: |
+    The basic BSC Parks set that allows you to create your own modular city park.
+
+    The set contains:
+ 
+    *  Narrow Path
+    *  Wide Paths
+    *  Tree Ave Paths
+    *  Plaza
+    *  Wall Set
+    *  Filler Lots
+    *  Basic Feature Lots
+    *  Transportation Lots
+
+    For users who have installed Submenu, a specific submenu is available for BSC Parks content.  
+  author: SimGoober (SG), Deadwoods (DAE/DEDWD), BarbyW (BLS), RipTide (RT, or BRT in collaboration with BarbyW), D66, Swi21, Debussyman, Yoder7652 (YDR), CasperVG (CAS), Geoffhaw, Cerulean (CARCH), Caliban and GasCooker (GC)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/2x2parks1_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-d66-vol03
+  - bsc:mega-props-dbssymn-vol01
+  - bsc:mega-props-dbssymn-vol02
+  - bsc:mega-props-mbear-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-rt-wfk-vol01
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-jrj-vol03
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-t1-vol01
+  - bsc:mega-props-caliban-vol01
+  - bsc:mega-props-ydr-vol01
+  - bsc:mega-props-snm-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:bat-props-vdk-vol01
+  - bsc:bat-props-jenx-tree-props-vol01
+  - bsc:flags
+  - bsc:sg-models-agriculture
+  - csx:mega-props-vol01
+  - csx:mega-props-vol03
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-bsc-parks
+  - bsc:mega-props-dedwd-bsc-raised-parks
+  - bsc:dae-road-texture-pack
+  - bsc:bsc-parks-texture-pack
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-urban-canal-props
+  - bsc:mega-props-diggis-canals-streams-and-ponds
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - peg:mtp-super-pack
+  - peg:christmas-development-kit
+  - peg:the-great-lighthouse-of-alexandria-props
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-parks-collection
+  include:
+  - "/BSC_Parks_Narrow_Paths.dat"
+  - "/BSC_Parks_Wide_Paths.dat"    
+  - "/BSC_Parks_Wall_Set.dat"   
+  - "/BSC_Parks_Tree_Ave_Pieces.dat"   
+  - "/BSC_Parks_Plaza_Pieces.dat"   
+  - "/BSC_Parks_Filler_Lots.dat"   
+  - "/BSC_Parks_Transportation.dat"
+
+---
+group: bsc
+name:  bsc-parks-raised-park-set
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC Parks - Raised Park Set
+  description: |
+    These lots, and the ones in the associated Rasied Park sets, are based on some ideas I got from Japan. In Shinjuku there are some parks raised above street level. This has the effect of removing much of the traffic noise from the park areas. Connecting these parks to each other and nearby buildings are pedestrian bridges to keep the pedestrian traffic flowing. Finally the Tokyo Government Office building has some amazing stonework at its base emulating some of the magnificent Japanese castles. These were combined into a common set of lots contained in this (and associated) lots. 
+  author: SimGoober (SG), Deadwoods (DAE/DEDWD), BarbyW (BLS), RipTide (RT, or BRT in collaboration with BarbyW), D66, Swi21, Debussyman, Yoder7652 (YDR), CasperVG (CAS), Geoffhaw, Cerulean (CARCH), Caliban and GasCooker (GC)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/2x2parks1_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-d66-vol03
+  - bsc:mega-props-dbssymn-vol01
+  - bsc:mega-props-dbssymn-vol02
+  - bsc:mega-props-mbear-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-rt-wfk-vol01
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-jrj-vol03
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-t1-vol01
+  - bsc:mega-props-caliban-vol01
+  - bsc:mega-props-ydr-vol01
+  - bsc:mega-props-snm-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:bat-props-vdk-vol01
+  - bsc:bat-props-jenx-tree-props-vol01
+  - bsc:flags
+  - bsc:sg-models-agriculture
+  - csx:mega-props-vol01
+  - csx:mega-props-vol03
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-bsc-parks
+  - bsc:mega-props-dedwd-bsc-raised-parks
+  - bsc:dae-road-texture-pack
+  - bsc:bsc-parks-texture-pack
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-urban-canal-props
+  - bsc:mega-props-diggis-canals-streams-and-ponds
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - peg:mtp-super-pack
+  - peg:christmas-development-kit
+  - peg:the-great-lighthouse-of-alexandria-props
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-parks-collection
+  include:
+  - "/@1DEDWD Raised Parks#/"
+
+---
+group: bsc
+name:  bsc-parks-waterfront-set
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC Parks - Waterfront Set
+  description: |
+    A set of 17 waterfront lots using ripptide's WFK props and the BSC Park base texture. These will link into the BSC Parks and also into the simgoober canals as Couchspuds Bistro is included. This is not a reward and like Cap'n Swamper's no longer has jobs. These can be placed without road access now. The passenger ferry and bus stop still require road access. There is also a version of callagrafx’s St David’s Hotel to fit into this waterfront. This also needs road access. 
+  author: SimGoober (SG), Deadwoods (DAE/DEDWD), BarbyW (BLS), RipTide (RT, or BRT in collaboration with BarbyW), D66, Swi21, Debussyman, Yoder7652 (YDR), CasperVG (CAS), Geoffhaw, Cerulean (CARCH), Caliban and GasCooker (GC)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/2x2parks1_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-d66-vol03
+  - bsc:mega-props-dbssymn-vol01
+  - bsc:mega-props-dbssymn-vol02
+  - bsc:mega-props-mbear-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-rt-wfk-vol01
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-jrj-vol03
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-t1-vol01
+  - bsc:mega-props-caliban-vol01
+  - bsc:mega-props-ydr-vol01
+  - bsc:mega-props-snm-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:bat-props-vdk-vol01
+  - bsc:bat-props-jenx-tree-props-vol01
+  - bsc:flags
+  - bsc:sg-models-agriculture
+  - csx:mega-props-vol01
+  - csx:mega-props-vol03
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-bsc-parks
+  - bsc:mega-props-dedwd-bsc-raised-parks
+  - bsc:dae-road-texture-pack
+  - bsc:bsc-parks-texture-pack
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-urban-canal-props
+  - bsc:mega-props-diggis-canals-streams-and-ponds
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - peg:mtp-super-pack
+  - peg:christmas-development-kit
+  - peg:the-great-lighthouse-of-alexandria-props
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-parks-collection
+  include:
+  - "/@4BRT Waterfront Parks#/"
+  
+---
+group: bsc
+name:  bsc-parks-feature-parks-expansion-pack
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC Parks - Feature Parks Expansion Pack 
+  description: |
+    The first expansion of BSC Parks with new Feature Parks that allow you to enhance your modular city park and build your own Central Park.
+  author: SimGoober (SG), Deadwoods (DAE/DEDWD), BarbyW (BLS), RipTide (RT, or BRT in collaboration with BarbyW), D66, Swi21, Debussyman, Yoder7652 (YDR), CasperVG (CAS), Geoffhaw, Cerulean (CARCH), Caliban and GasCooker (GC)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/2x2parks1_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-d66-vol03
+  - bsc:mega-props-dbssymn-vol01
+  - bsc:mega-props-dbssymn-vol02
+  - bsc:mega-props-mbear-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-rt-wfk-vol01
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-jrj-vol03
+  - bsc:mega-props-jrj-vol05
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-t1-vol01
+  - bsc:mega-props-caliban-vol01
+  - bsc:mega-props-ydr-vol01
+  - bsc:mega-props-snm-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:bat-props-vdk-vol01
+  - bsc:bat-props-jenx-tree-props-vol01
+  - bsc:flags
+  - bsc:sg-models-agriculture
+  - csx:mega-props-vol01
+  - csx:mega-props-vol02
+  - csx:mega-props-vol03
+  - csx:mega-props-vol04
+  - csx:mega-props-vol05
+  - csx:mega-props-vol06
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-bsc-parks
+  - bsc:mega-props-dedwd-bsc-raised-parks
+  - bsc:dae-road-texture-pack
+  - bsc:bsc-parks-texture-pack
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-urban-canal-props
+  - bsc:mega-props-diggis-canals-streams-and-ponds
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - peg:mtp-super-pack
+  - peg:christmas-development-kit
+  - peg:the-great-lighthouse-of-alexandria-props
+  - bsc:sg-models-adult
+  - sfbt:essentials
+  - gizmo:effect-props
+  - ndex:dt-trees-pack-vol01
+# TODO PEG Chicken Ranch v205b & PEG-CDK Legacy Resources
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-parks-collection
+  include:
+  - "/@2Feature Parks#/"
+  - "/@3Feature Parks/"
+
+---
+group: bsc
+name: bsc-parks-collection
+version: "4.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC Parks Collection
+  description: |
+    The entire BSC Parks collection in a single download. 
+    
+    This SC4 Devotion LEX Legacy Pack features the BSC Team and SC4D LEX Restoration Team-assembled Park and Recreation  uploads called BSC Parks of multiple popular BSC BATers and their associates like: SimGoober (SG), Deadwoods (DAE/DEDWD), BarbyW (BLS), RipTide (RT, or BRT in collaboration with BarbyW), D66, Swi21, Debussyman, Yoder7652 (YDR), CasperVG, Geoffhaw, SPA and many others which had been available on the Lot Exchange (LEX) at SC4 Devotion (and in some cases on Simtropolis STEX too). It includes the contents of 40+ previously separate downloads (including some contents that were only available on the SC4D LEX DVD or haven't been officially released previously).
+  author: SimGoober (SG), Deadwoods (DAE/DEDWD), BarbyW (BLS), RipTide (RT, or BRT in collaboration with BarbyW), D66, Swi21, Debussyman, Yoder7652 (YDR), CasperVG (CAS), Geoffhaw, Cerulean (CARCH), Caliban and GasCooker (GC)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/2x2parks1_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
+
+dependencies:
+  - bsc:bsc-parks-base-set
+  - bsc:bsc-parks-raised-park-set
+  - bsc:bsc-parks-waterfront-set
+  - bsc:bsc-parks-feature-parks-expansion-pack
