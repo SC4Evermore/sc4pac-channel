@@ -364,7 +364,7 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
 
 dependencies:
-  - bsc:bsc-parks-base-set
-  - bsc:bsc-parks-raised-park-set
-  - bsc:bsc-parks-waterfront-set
-  - bsc:bsc-parks-feature-parks-expansion-pack
+  - bsc:parks-base-set
+  - bsc:parks-raised-park-set
+  - bsc:parks-waterfront-set
+  - bsc:parks-feature-parks-expansion-pack
