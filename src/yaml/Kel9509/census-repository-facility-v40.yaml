@@ -7,7 +7,7 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=331:k
 ---
 group: kel9509
 name: census-repository-facility
-version: "4.0.0"
+version: "4.0.0-1"
 subfolder: 640-government
 info:
   summary: Census Repository Facility Traffic Management
@@ -29,7 +29,7 @@ dependencies:
   - memo:i-r-fix
   - nam:traffic-simulator
   - null-45:more-demand-info-dll
-  - kel9509:census-repository-facility-querry
+  - kel9509:census-repository-facility-query
 
 variants:
   - variant: { nam:traffic-simulator:capacity: "classic" }
@@ -66,7 +66,7 @@ subfolder: 640-government
 info:
   summary: Census Repository Facility Query
   description: |
-    Component of the Census Repository Facility for Querry support
+    Component of the Census Repository Facility for Query support
   author: Kel9509, BSC Team, CAM Team, NAM Team
   websites: 
     - https://www.sc4evermore.com/index.php/downloads/download/21-other/331-kel9509-census-repository-facility
@@ -128,7 +128,7 @@ dependencies:
   - bsc:mega-props-misc-vol01
   - memo:i-r-fix
   - null-45:more-demand-info-dll
-  - kel9509:census-repository-facility-querry
+  - kel9509:census-repository-facility-query
 
 assets:
 - assetId: kel9509-census-repository-facility
