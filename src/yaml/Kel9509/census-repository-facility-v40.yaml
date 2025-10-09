@@ -1,6 +1,6 @@
 ---
 assetId: kel9509-census-repository-facility
-version: "4.0.0"
+version: "4.0.0-1"
 lastModified: "2025-01-11T17:43:35-08:00"
 url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=331:kel9509-census-repository-facility
 
@@ -60,11 +60,11 @@ variants:
         
 ---
 group: kel9509
-name: census-repository-facility-querry
-version: "4.0.0"
+name: census-repository-facility-query
+version: "4.0.0-1"
 subfolder: 640-government
 info:
-  summary: Census Repository Facility Querry
+  summary: Census Repository Facility Query
   description: |
     Component of the Census Repository Facility for Querry support
   author: Kel9509, BSC Team, CAM Team, NAM Team
@@ -84,19 +84,19 @@ dependencies:
   - null-45:more-demand-info-dll
 
 variants:
-  - variant: { kel9509:census-repository-facility-querry:size: "regular-size" }
+  - variant: { kel9509:census-repository-facility-query:size: "regular-size" }
     assets:
       - assetId: kel9509-census-repository-facility
         include:
         - "/Census_Repository_Query_and_Essentials_v4.0-Regular_Size.dat"
-  - variant: { kel9509:census-repository-facility-querry:size: "expanded-size" }
+  - variant: { kel9509:census-repository-facility-query:size: "expanded-size" }
     assets:
       - assetId: kel9509-census-repository-facility
         include:
         - "/Census_Repository_Query_and_Essentials_v4.0-Expanded_Size.dat"
 
 variantInfo:
-  - variantId: kel9509:census-repository-facility-querry:size
+  - variantId: kel9509:census-repository-facility-query:size
     description: Due to the particular nature of modding, there are two versions of the building resolution.
     values:
       - value: regular-size
@@ -107,7 +107,7 @@ variantInfo:
 ---
 group: kel9509
 name: census-repository-facility-vault
-version: "4.0.0"
+version: "4.0.0-1"
 subfolder: 640-government
 info:
   summary: Census Repository Facility Vault
@@ -138,7 +138,7 @@ assets:
 ---
 group: kel9509
 name: census-repository
-version: "4.0.0"
+version: "4.0.0-1"
 subfolder: 640-government
 info:
   summary: Census Repository Facility 
@@ -162,6 +162,6 @@ info:
 
 dependencies:
   - kel9509:census-repository-facility
-  - kel9509:census-repository-facility-querry
+  - kel9509:census-repository-facility-query
   - kel9509:census-repository-facility-vault
   

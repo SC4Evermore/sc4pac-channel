@@ -5,7 +5,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=283:
 
 ---
 group: bsc
-name:  bsc-parks-base-set  
+name:  parks-base-set  
 version: "2.0.0"
 subfolder: 660-parks
 info:
@@ -101,7 +101,7 @@ assets:
 
 ---
 group: bsc
-name:  bsc-parks-raised-park-set
+name:  parks-raised-park-set
 version: "2.0.0"
 subfolder: 660-parks
 info:
@@ -178,7 +178,7 @@ assets:
 
 ---
 group: bsc
-name:  bsc-parks-waterfront-set
+name:  parks-waterfront-set
 version: "2.0.0"
 subfolder: 660-parks
 info:
@@ -255,7 +255,7 @@ assets:
   
 ---
 group: bsc
-name:  bsc-parks-feature-parks-expansion-pack
+name:  parks-feature-parks-expansion-pack
 version: "2.0.0"
 subfolder: 660-parks
 info:
@@ -333,6 +333,8 @@ dependencies:
   - sfbt:essentials
   - gizmo:effect-props
   - ndex:dt-trees-pack-vol01
+  - peg:cdk-legacy-resources
+  - peg:chicken-ranch-props
 # TODO PEG Chicken Ranch v205b & PEG-CDK Legacy Resources
 
 assets:
