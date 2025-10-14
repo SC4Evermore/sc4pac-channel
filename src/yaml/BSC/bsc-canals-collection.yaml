@@ -1,0 +1,398 @@
+assetId: "sc4d-lex-legacy-bsc-canals-collection"
+version: "2.0"
+lastModified: "2024-08-20T02:52:39-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=277:sc4d-lex-legacy-bsc-canals-collection"
+
+---
+group: bsc
+name: irrigation-canals  
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC Irrigation Canals
+  description: |
+    The complete set of agricultural canals that will allow water to be transported from the mountains to the rivers. The set contains not only canals but also water pumps to draw water from the canals and send it to the agricultural fields.
+
+    For users who have installed Submenu, a specific submenu is available for BSC Canals content.  
+  author: BSC Team and associates, SimGoober, Callagrafx, Zero7, Newman Inc, Mattb325, MGB204
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+dependencies:
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-canals-cal-remastered-simgoober-style
+  - bsc:mega-props-canals-cal-stone-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-irrigation-canals-props
+  - bsc:sg-ditches-2009-props
+  - bsc:sg-urban-canal-props
+  - bsc:zero7-sunken-canal-props
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:prop-pack-cal-small-boats-vol01
+  - csx:mega-props-vol01
+  - peg:mtp-super-pack
+  - peg:pond-kit-ii-deluxe-edition
+  - peg:mtp-scenic-views
+  - eggman121:rrw-reskin-lot-support
+  - sc4jeeks:parking-textures-vol01
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-canals-collection
+  include:
+  - "/Irrigation Ditches 2009#/"
+  - "/Irrigation Canals 2004#/"    
+  - "/Agricultural Suburban Canals (ASC)#/"    
+
+---
+group: bsc
+name: sg-urban-canals
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC SG Urban Canals
+  description: |
+    The complete set of urban canals that allow you to beautify your cities with canals.
+
+    For users who have installed Submenu, a specific submenu is available for BSC Canals content.  
+  author: BSC Team and associates, SimGoober, Callagrafx, Zero7, Newman Inc, Mattb325, MGB204
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+dependencies:
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-canals-cal-remastered-simgoober-style
+  - bsc:mega-props-canals-cal-stone-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-irrigation-canals-props
+  - bsc:sg-ditches-2009-props
+  - bsc:sg-urban-canal-props
+  - bsc:zero7-sunken-canal-props
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:prop-pack-cal-small-boats-vol01
+  - csx:mega-props-vol01
+  - peg:mtp-super-pack
+  - peg:pond-kit-ii-deluxe-edition
+  - peg:mtp-scenic-views
+  - eggman121:rrw-reskin-lot-support
+  - sc4jeeks:parking-textures-vol01
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-canals-collection
+  include:
+  - "/Urban Canals/"
+   
+---
+group: bsc
+name: sg-stone-canals
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC Stone Canals
+  description: |
+    This stone canal allows for the creation of a network of historic canals that crosses both historic towns and rural landscapes.
+
+    For users who have installed Submenu, a specific submenu is available for BSC Canals content.  
+  author: BSC Team and associates, SimGoober, Callagrafx, Zero7, Newman Inc, Mattb325, MGB204
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+dependencies:
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-canals-cal-remastered-simgoober-style
+  - bsc:mega-props-canals-cal-stone-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-irrigation-canals-props
+  - bsc:sg-ditches-2009-props
+  - bsc:sg-urban-canal-props
+  - bsc:zero7-sunken-canal-props
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:prop-pack-cal-small-boats-vol01
+  - csx:mega-props-vol01
+  - peg:mtp-super-pack
+  - peg:pond-kit-ii-deluxe-edition
+  - peg:mtp-scenic-views
+  - eggman121:rrw-reskin-lot-support
+  - sc4jeeks:parking-textures-vol01
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-canals-collection
+  include:
+  - "/Stone Canals#/"
+  
+---
+group: bsc
+name: sg-brick-canals
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC SG Brick Canals
+  description: |
+    The complete SimGoober (SG) Brick Canals set. This historic set is one of the first canals to be developed, allowing you to make your city more beautiful with navigable canals, as well as pumping water and supplying your city's buildings.
+
+    For users who have installed Submenu, a specific submenu is available for BSC Canals content.  
+  author: BSC Team and associates, SimGoober, Callagrafx, Zero7, Newman Inc, Mattb325, MGB204
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+dependencies:
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-canals-cal-remastered-simgoober-style
+  - bsc:mega-props-canals-cal-stone-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-irrigation-canals-props
+  - bsc:sg-ditches-2009-props
+  - bsc:sg-urban-canal-props
+  - bsc:zero7-sunken-canal-props
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:prop-pack-cal-small-boats-vol01
+  - csx:mega-props-vol01
+  - peg:mtp-super-pack
+  - peg:pond-kit-ii-deluxe-edition
+  - peg:mtp-scenic-views
+  - eggman121:rrw-reskin-lot-support
+  - sc4jeeks:parking-textures-vol01
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-canals-collection
+  include:
+  - "/Brick Canals#/"
+  - "/Gateshead for SG Brick Canals/"
+
+---
+group: bsc
+name: river-and-pond-kit-rpk
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC River and Pond Kit (RPK)
+  description: |
+    This set of channels allows you to create rural landscapes with rapids and waterfalls, but also acts as an intermediary between the BSC and PEG Pond Kit canals.
+
+    For users who have installed Submenu, a specific submenu is available for BSC Canals content.  
+  author: BSC Team and associates, SimGoober, Callagrafx, Zero7, Newman Inc, Mattb325, MGB204
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+dependencies:
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-canals-cal-remastered-simgoober-style
+  - bsc:mega-props-canals-cal-stone-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-irrigation-canals-props
+  - bsc:sg-ditches-2009-props
+  - bsc:sg-urban-canal-props
+  - bsc:zero7-sunken-canal-props
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:prop-pack-cal-small-boats-vol01
+  - csx:mega-props-vol01
+  - peg:mtp-super-pack
+  - peg:pond-kit-ii-deluxe-edition
+  - peg:mtp-scenic-views
+  - eggman121:rrw-reskin-lot-support
+  - sc4jeeks:parking-textures-vol01
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-canals-collection
+  include:
+  - "/BSC River and Pond Kit (RPK)#/"
+
+---
+group: bsc
+name: sg-remastered-canals
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC Remastered SG Canals
+  description: |
+    This set of canals is Callagrafx's famous Remastered SG Canals, which has restored the historic BSC SG Brick Canals to a modern version. The complete set allows you to create a city with a modern style and modern canals.
+
+    For users who have installed Submenu, a specific submenu is available for BSC Canals content.  
+  author: BSC Team and associates, SimGoober, Callagrafx, Zero7, Newman Inc, Mattb325, MGB204
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+dependencies:
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-canals-cal-remastered-simgoober-style
+  - bsc:mega-props-canals-cal-stone-style
+  - bsc:mega-props-newmaninc-rivers-and-ponds
+  - bsc:sg-irrigation-canals-props
+  - bsc:sg-ditches-2009-props
+  - bsc:sg-urban-canal-props
+  - bsc:zero7-sunken-canal-props
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:prop-pack-cal-small-boats-vol01
+  - csx:mega-props-vol01
+  - peg:mtp-super-pack
+  - peg:pond-kit-ii-deluxe-edition
+  - peg:mtp-scenic-views
+  - eggman121:rrw-reskin-lot-support
+  - sc4jeeks:parking-textures-vol01
+
+assets:
+- assetId: sc4d-lex-legacy-bsc-canals-collection
+  include:
+  - "/Remastered SG Canals#/"
+  - "/Zero7 Sunken Canals/"
+
+---
+group: bsc
+name: bsc-canals-collection
+version: "4.0.0"
+subfolder: 660-parks
+info:
+  summary: BSC Canals Collection
+  description: |
+    The entire BSC Canals collection in a single download. 
+    
+    This SC4 Devotion LEX Legacy Pack features the BSC Team and SC4D LEX Restoration Team-assembled canal and waterway uploads of multiple popular BSC BATers and their associates like: SimGoober, Callagrafx, Newman Inc (CityNut), Zero7 (rp2004/2005), Mattb325 and MGB204/rsc204 (with diagonal addons), which had been available on the Lot Exchange (LEX) at SC4 Devotion (and in some cases on Simtropolis STEX too).
+    
+    It includes the contents of 41 previously separate downloads (including some contents that were only available on the SC4D LEX DVD and an unreleased upload from Callagrafx for his SG Remastered canal set).
+  author: BSC Team and associates, SimGoober, Callagrafx, Zero7, Newman Inc, Mattb325, MGB204
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+dependencies:
+  - bsc:irrigation-canals
+  - bsc:sg-urban-canals
+  - bsc:sg-stone-canals
+  - bsc:sg-brick-canals
+  - bsc:river-and-pond-kit-rpks
+  - bsc:sg-remastered-canals
