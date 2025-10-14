@@ -63,7 +63,7 @@ assets:
   include:
   - "/Irrigation Ditches 2009#/"
   - "/Irrigation Canals 2004#/"    
-  - "/Agricultural Suburban Canals (ASC)#/"    
+  - "/Agricultural Suburban Canals \\(ASC\\)#/"    
 
 ---
 group: bsc
@@ -304,7 +304,7 @@ dependencies:
 assets:
 - assetId: sc4d-lex-legacy-bsc-canals-collection
   include:
-  - "/BSC River and Pond Kit (RPK)#/"
+  - "/BSC River and Pond Kit \\(RPK\\)#/"
 
 ---
 group: bsc
