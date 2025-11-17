@@ -29,7 +29,7 @@ variants:
   - variant: { terring:avgn-loading-text-mod:contents: uncensored }
     assets:
       - assetId: avgn-loading-text-mod-18
-  - variant: { terring:avgn-loading-text-mod:contents: family friendly }
+  - variant: { terring:avgn-loading-text-mod:contents: family-friendly }
     assets:
       - assetId:  avgn-loading-text-mod-ff
 
@@ -39,5 +39,5 @@ variantInfo:
     values:
       - value: uncensored
         description: The uncensored version is the original version of the mod with AVGN's typical foul language.
-      - value: family friendly
+      - value: family-friendly
         description: The Family Friendly version is the censored version and ideal for a young audience. 
