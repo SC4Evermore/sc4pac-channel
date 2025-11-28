@@ -11,7 +11,7 @@ subfolder: "700-transit"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   include:
-  - "/PLOP_13x7_JENX Amsterdam Central Station (ACS) v1_ed4e6d3c.SC4Lot"
+  - "/PLOP_13x7_JENX Amsterdam Central Station \\(ACS\\) v1_ed4e6d3c.SC4Lot"
 dependencies:
   - bsc:bat-props-jenx-amsterdam-central-buildings-v1
   - gizmo:scc-bus-props
@@ -39,7 +39,6 @@ assets:
   include:
   - "/PLOP_16x10_BSC_JENX_AmsterdamCentralStation_UnderConstruction_ce7f2642.SC4Lot"
   - "/PLOP_16x10_BSC_JENX_Amsterdam_Central_Station_V2_ee8379ef.SC4Lot"
-  - "/PLOP_16x10_JENX-Tyb06_Amsterdam_Central_Station_HRW_464f8341.SC4Lot"
   - "/PLOP_16x10_JENX-Tyb06_Amsterdam_Central_Station_HRW_464f8341.SC4Lot"
 dependencies:
   - bsc:essentials
