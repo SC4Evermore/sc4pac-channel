@@ -1,0 +1,153 @@
+assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
+version: "1.0.0"
+lastModified: "2025-10-18T15:24:15-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=424:sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
+
+---
+group: "bsc"
+name: "jenx-amsterdam-central-buildings-v1"
+version: "1.0.0"
+subfolder: "700-transit"
+assets:
+- assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
+  include:
+  - "/PLOP_13x7_JENX Amsterdam Central Station (ACS) v1_ed4e6d3c.SC4Lot"
+dependencies:
+  - bsc:bat-props-jenx-amsterdam-central-buildings-v1
+  - gizmo:scc-bus-props
+  - gizmo:vehicle-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+
+info:
+  summary: "BSC JENX Amsterdam Central Station (old)"
+  description:
+    The station is build in a neo-style inspired on late-gothic and early renaisance. This is the central hub of activity in the city. It is where commuter, regional, and international trains arrive and depart. It is also the central staging area for the city's busses and tram network. There is virtually no point of The Netherlands that cannot be reached from the Centraal Station. In order to handle such a vast transportation network (more than 1500 trains daily), the station had to be big. So big on Amsterdam's shifting soil that it takes 8,600 pilings to keep the building stable. Outside, the red stone exterior is decorated with carvings, spires, and what appear to be a pair of clocks. One is indeed a chronometer. The other is a read-out for the wind vane on top of the station. While totally impractical in this time of motorized transportation, it is a nice homage to the city's seafaring past.
+  author: "Xannepan"
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations
+    - https://community.simtropolis.com/files/file/2575-jenx-amsterdam-central-station-2nd-attempt/
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
+
+---
+group: "bsc"
+name: "jenx-amsterdam-central-buildings-v2"
+version: "1.0.0"
+subfolder: "700-transit"
+assets:
+- assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
+  include:
+  - "/PLOP_16x10_BSC_JENX_AmsterdamCentralStation_UnderConstruction_ce7f2642.SC4Lot"
+  - "/PLOP_16x10_BSC_JENX_Amsterdam_Central_Station_V2_ee8379ef.SC4Lot"
+  - "/PLOP_16x10_JENX-Tyb06_Amsterdam_Central_Station_HRW_464f8341.SC4Lot"
+  - "/PLOP_16x10_JENX-Tyb06_Amsterdam_Central_Station_HRW_464f8341.SC4Lot"
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-dae-vol01
+  - csx:mega-props-vol04
+  - csx:mega-props-vol06
+  - bsc:textures-vol01
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - bsc:bat-props-jenx-amsterdam-central-buildings-v2
+  - bsc:mega-props-jenx-vol03
+  - bsc:mega-props-w2w-vol01
+  - bsc:textures-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+
+info:
+  summary: "BSC JENX Amsterdam Central Station V2"
+  description:
+    The station is build in a neo-style inspired on late-gothic and early renaisance. This is the central hub of activity in the city. It is where commuter, regional, and international trains arrive and depart. It is also the central staging area for the city's busses and tram network. There is virtually no point of The Netherlands that cannot be reached from the Centraal Station. In order to handle such a vast transportation network (more than 1500 trains daily), the station had to be big. So big on Amsterdam's shifting soil that it takes 8,600 pilings to keep the building stable. Outside, the red stone exterior is decorated with carvings, spires, and what appear to be a pair of clocks. One is indeed a chronometer. The other is a read-out for the wind vane on top of the station. While totally impractical in this time of motorized transportation, it is a nice homage to the city's seafaring past.
+  author: "Xannepan"
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
+
+---
+group: "bsc"
+name: "jenx-gare-du-nord"
+version: "1.0.0"
+subfolder: "700-transit"
+assets:
+- assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
+  include:
+  - "/PLOP_16x22_JENXPARIS Gare du Nord_2005_70b5b508.SC4Lot"
+  - "/PLOP_14x20_JENXPARIS Gare du Nord_2007_1471715c.SC4Lot"
+dependencies:
+  - bsc:bat-props-jenx-paris-gare-du-nord-buildings-v2005
+  - bsc:bat-props-jenx-paris-gare-du-nord-buildings-v2007
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-jenx-vol03
+  - bsc:mega-props-gascooker-vol01
+  - csx:mega-props-vol04
+  - bsc:bat-props-jenx-tree-props-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+
+info:
+  summary: "BSC JENX Gare Du Nord Station"
+  description:
+    The precursor to the Gare du Nord was inaugurated in 1846 but was already inadequate by around 1854. Construction of a larger station began in 1861 and was completed in 1866. The station's architect is Jacques Hittorff. The main elevation, in neo-Corinthian style, is decorated with 9 statues personifying the most important cities of France and Europe towards which the railway leaving the platforms would lead. Inside, two rows of Corinthian cast iron columns support the main glass roof. Currently, Gare du Nord is one of the six large terminus stations in Paris. By number of travellers (180 million/year), it is probably the third busiest train station in the world. 
+  author: "Xannepan"
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations
+    - https://community.simtropolis.com/files/file/14430-jenxgaredunordbeta/
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
+
+---
+group: "bsc"
+name: "jenx-gare-d-orsay"
+version: "1.0.0"
+subfolder: "700-transit"
+assets:
+- assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
+  include:
+  - "/PLOP_14x7_JENXPARIS Gare Orsay_9b470b90.SC4Lot"
+  - "/PLOP_7x16_JENX-Tyb06_PARIS_Gare_Orsay_HRW_366f0fbe.SC4Lot"
+dependencies:
+  - bsc:bat-props-jenx-paris-gare-orsay-building
+  - bsc:mega-props-jenx-vol03
+  - bsc:textures-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - gizmo:vehicle-props
+
+info:
+  summary: "BSC JENX Gare d'Orsay Station"
+  description:
+    Gare d'Orsay is a former Paris railway station and hotel, built in 1900 to designs by Victor Laloux, Lucien Magne and Émile Bénard; it served as a terminus for the Chemin de Fer de Paris _ Orléans (Paris-Orléans Railway). It was the first electrified urban rail terminal in the world, opened 28 May 1900, in time for the 1900 Exposition Universelle.
+  author: "Xannepan"
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
+
+---
+group: "bsc"
+name: "jenx-metro-bir-hakeim"
+version: "1.0.0"
+subfolder: "700-transit"
+assets:
+- assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
+  include:
+  - "/PLOP_1x2_JENXPARIS_ElRailStation_Bir_Hakeim_45_bf855695.SC4Lot"
+  - "/PLOP_5x1_JENXPARIS_ElRailStation_Bir_Hakeim_ff83d4e7.SC4Lot"
+dependencies:
+  - bsc:bat-props-jenx-paris-metro-bir-hakeim-props
+  - bsc:mega-props-jbsimio-vol03
+  - bsc:mega-props-sg-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+
+info:
+  summary: "BSC JENX Metro Bir Hakeim Station"
+  description:
+    Bir-Hakeim is an elevated station of the Paris Metro.The station opened on 24 April 1906. The station is provided as an orthogonal and diagonal version. (The lot and description menu is based on the victorian style elevated rail stations included in the NAM)
+  author: "Xannepan"
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
+
+
