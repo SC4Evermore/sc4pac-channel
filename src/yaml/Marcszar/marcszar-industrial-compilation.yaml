@@ -1,0 +1,258 @@
+---
+assetId: marcszar-industrial-compilation-irm
+version: "1.0.0"
+lastModified: "2023-11-11T08:09:51-08:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=170:sc4d-lex-legacy-bsc-marcszar-industrial-compilation-irm-version
+
+---
+assetId: marcszar-industrial-compilation
+version: "1.0.0"
+lastModified: "2023-11-11T08:08:19-08:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=169:sc4d-lex-legacy-bsc-marcszar-industrial-compilation
+
+---
+group: marcszar
+name: coleman-and-sons-distributors
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Coleman and Sons Distributors Industrial Lot
+  description: |
+    This warehouse BAT was inspired by a similar structure in Brooklyn, New York. (See images below.) 
+    
+    Two versions are included- growable and ploppable I-M lots. Both lots will be installed into your plugins folder; simply delete any versions you don’t want from your plugins folder after installation.
+  author: Marcszar
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/169-sc4d-lex-legacy-bsc-marcszar-industrial-compilation
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/170-sc4d-lex-legacy-bsc-marcszar-industrial-compilation-irm-version
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Colemans_LEX_Screenshot1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Domino_Sugars_Plant_LEX_Image_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/McCormick_and_Company_V2_LEX_Image_1.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:marcszar-industrial-props
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:textures-vol01
+
+variants:
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: marcszar-industrial-compilation
+        include:
+        - "/MSZ_IM_PLOP_8x8_ColemanAndSonsDistributors.dat"
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: marcszar-industrial-compilation
+        include:
+        - "/MSZ_IM\\$\\$8_GROW_8x8_ColemanAndSonsDistributors.dat"
+        - "/MSZ_IM_PLOP_8x8_ColemanAndSonsDistributors.dat"
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: marcszar-industrial-compilation-irm
+        include:
+        - "/MSZ_IM_PLOP_8x8_ColemanAndSonsDistributors.dat"
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: marcszar-industrial-compilation-irm
+        include:
+        - "/MSZ_IM\\$\\$8_GROW_8x8_ColemanAndSonsDistributors.dat"
+        - "/MSZ_IM_PLOP_8x8_ColemanAndSonsDistributors.dat"  
+
+---
+group: marcszar
+name: domino-sugars-plant
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Domino Sugars Plant Industrial Lot
+  description: |
+    The Domino Sugars Plant is one of the few remaining industries in Baltimore's Inner Harbor. It has a prominent neon rooftop sign which is visible for quite a distance at night. The smell of refined sugar wafts through many of the surrounding neighborhoods, much to the residents' delight!  
+    
+    There are three different versions of this lot available: A growable stage 3 IM lot, a growable stage 7 IM lot (which requires the CAM), and a ploppable landmark lot with IM jobs. The growable lots will only grow on high-density industrial zones. All three versions will be installed into your plugins folder. After running the installer for this BAT, you can delete any versions you do not want from your plugins folder. (Even if you do not have the CAM, you can safely leave the growable CAM lot in your plugins folder.) 
+  author: Marcszar
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/169-sc4d-lex-legacy-bsc-marcszar-industrial-compilation
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/170-sc4d-lex-legacy-bsc-marcszar-industrial-compilation-irm-version
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Colemans_LEX_Screenshot1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Domino_Sugars_Plant_LEX_Image_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/McCormick_and_Company_V2_LEX_Image_1.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:marcszar-industrial-props
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:textures-vol01
+
+variants:
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: marcszar-industrial-compilation
+        include:
+        - "/PLOP_7x4_Domino Sugars Plant.dat"
+        - "/IM\\$\\$3_7x4_Domino Sugars Plant.dat"
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: marcszar-industrial-compilation
+        include:
+        - "/IM\\$\\$7_7x4_Domino Sugars Plant.dat"
+        - "/PLOP_7x4_Domino Sugars Plant.dat"
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: marcszar-industrial-compilation-irm
+        include:
+        - "/PLOP_7x4_Domino Sugars Plant.dat"
+        - "/IM\\$\\$3_7x4_Domino Sugars Plant.dat"
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: marcszar-industrial-compilation-irm
+        include:
+        - "/IM\\$\\$7_7x4_Domino Sugars Plant.dat"
+        - "/PLOP_7x4_Domino Sugars Plant.dat"  
+
+---
+group: marcszar
+name: mccormick-and-company
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: McCormick and Company Industrial Lot
+  description: |
+    The McCormick and Company warehouse was one of the largest industries to reside in Baltimore's Inner Harbor. Unfortunately the building does not exist anymore, having been demolished in 1989. From Baltimore: Then and Now: "This building would become one of the last vestiges of both the industrial side and the international shipping side of the Inner Harbor. The McCormick Spice and Tea Co. built the nine-story building... to house both its packaging operations and an "Olde English" tea room and fake village street, popular for civic events. The processing of cinammon, nutmeg, and other spices created aromas that were a pleasant foil to the typical industrial and nautical odors of the harbor and center city."
+
+    This BAT sits on an 8 x 8 IM lot. The stage 3 industrial lot is CAMpatible as its stats have been generated with the PIM-X. A stage 7 CAMeLOT and a ploppable IM lot are also included. This BAT will only grow in high-density industrial zones adjacent to street corners. This version of the McCormick and Company BAT can be safely used alongside the older version still available on the LEX. (Which, if you have it, you may need to keep as a dependency for Deadwood's Ministry of Garbage.) 
+  author: Marcszar
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/169-sc4d-lex-legacy-bsc-marcszar-industrial-compilation
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/170-sc4d-lex-legacy-bsc-marcszar-industrial-compilation-irm-version
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Colemans_LEX_Screenshot1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Domino_Sugars_Plant_LEX_Image_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/McCormick_and_Company_V2_LEX_Image_1.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:marcszar-industrial-props
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:textures-vol01
+
+variants:
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: marcszar-industrial-compilation
+        include:
+        - "/IM\\$\\$3_4x3_McCormick and Company.dat"
+        - "/IM\\$\\$3_8x8_McCormick and Company Revisited.dat"
+        - "/PLOP_8x8_McCormick and Company Revisited.dat"
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: marcszar-industrial-compilation
+        include:
+        - "/IM\\$\\$3_4x3_McCormick and Company.dat"        
+        - "/IM\\$\\$7_8x8_McCormick and Company Revisited.dat"
+        - "/PLOP_8x8_McCormick and Company Revisited.dat"
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: marcszar-industrial-compilation-irm
+        include:        
+        - "/IM\\$\\$3_4x3_McCormick and Company.dat"
+        - "/IM\\$\\$3_8x8_McCormick and Company Revisited.dat"
+        - "/PLOP_8x8_McCormick and Company Revisited.dat"
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: marcszar-industrial-compilation-irm
+        include:
+        - "/IM\\$\\$3_4x3_McCormick and Company.dat"        
+        - "/IM\\$\\$7_8x8_McCormick and Company Revisited.dat"
+        - "/PLOP_8x8_McCormick and Company Revisited.dat"  
+
+---
+group: marcszar
+name: wiessner-brewery
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Wiessner Brewery Industrial Lot
+  description: |
+    The Wiessner Brewery (Also known as the American Brewery) is a prominent but unfortunately abandoned landmark in Baltimore not far from the Baltimore cemetery. The neighborhood it is located in is also severely deteriorated and almost completely abandoned. You can see a Baltimore Sun special report on the brewery and neighborhood here. The brewery is, however, on the National Register of Historic Sites and so is not threatened with demolition. 
+    
+    From Baltimore: Then and Now: "A brewery was founded on this site in 1863 by John Frederick Wiessner, a German immigrant. By 1887, Wiessner's brewery had outgrown its original building, and he replaced it with the present five-story structure. The building's height and the organization of its interior spaces were a factor of brewing requirements, but its remarkable exterior expresses late Victorian tastes and the sensibilities of the age in which it was built. The central tower housed a 10,000 bushel grain elevator." 
+    
+    There are three different versions of this lot available: A growable stage 3 IM lot, a growable stage 6 IM lot (which requires the CAM), and a ploppable landmark lot with IM jobs. The growable lots will only grow on high-density industrial zones. All three versions will be installed into your plugins folder. After running the installer for this BAT, you can delete any versions you do not want from your plugins folder. (Even if you do not have the CAM, you can safely leave the growable CAM lot in your plugins folder.) 
+  author: Marcszar
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/169-sc4d-lex-legacy-bsc-marcszar-industrial-compilation
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/170-sc4d-lex-legacy-bsc-marcszar-industrial-compilation-irm-version
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Colemans_LEX_Screenshot1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Domino_Sugars_Plant_LEX_Image_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/McCormick_and_Company_V2_LEX_Image_1.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:marcszar-industrial-props
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:textures-vol01
+
+variants:
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: marcszar-industrial-compilation
+        include:
+        - "/IM\\$\\$3_5x5_Wiessner Brewery.dat"
+        - "/PLOP_5x5_Wiessner Brewery.dat"
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: marcszar-industrial-compilation
+        include:
+        - "/IM\\$\\$6_5x5_Wiessner Brewery.dat"        
+        - "/PLOP_5x5_Wiessner Brewery.dat"
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: marcszar-industrial-compilation-irm
+        include:        
+        - "/IM\\$\\$3_5x5_Wiessner Brewery.dat"
+        - "/PLOP_5x5_Wiessner Brewery.dat"
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: marcszar-industrial-compilation-irm
+        include:
+        - "/IM\\$\\$6_5x5_Wiessner Brewery.dat"        
+        - "/PLOP_5x5_Wiessner Brewery.dat"  
+
+---
+group: marcszar
+name: marcszar-industrial-collection
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Industrial Collection Pack
+  description: A collection of 41 Industrial Lots by Marcszar
+  author: Marcszar
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/169-sc4d-lex-legacy-bsc-marcszar-industrial-compilation
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/170-sc4d-lex-legacy-bsc-marcszar-industrial-compilation-irm-version
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Colemans_LEX_Screenshot1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Domino_Sugars_Plant_LEX_Image_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/McCormick_and_Company_V2_LEX_Image_1.jpg
+
+dependencies:
+  - marcszar:coleman-and-sons-distributors
+  - marcszar:domino-sugars-plant
+  - marcszar:mccormick-and-company
+  - marcszar:wiessner-brewery

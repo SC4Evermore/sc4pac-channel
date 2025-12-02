@@ -1,0 +1,279 @@
+---
+assetId: zero7-industrial-pack-irm
+version: "1.0.0"
+lastModified: "2023-11-11T08:02:18-08:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=141:sc4d-lex-legacy-zero7-industrial-pack-irm-edition
+
+---
+assetId: zero7-industrial-pack
+version: "1.0.0"
+lastModified: "2023-08-26T23:54:05-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=140:sc4d-lex-legacy-zero7-industrial-pack
+
+---
+group: zero7
+name: industrial-pack-shared-resources
+version: "2.0-1"
+subfolder: 100-props-textures
+info:
+  summary: Industrial pack shared resources
+  description: |-
+    A dependency containing a few resources used in `pkg=mattb325:industrial-collection`
+variants:
+  - variant: { memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: zero7-industrial-pack
+        include:
+        - "/Z7_MirrorBox_Blue-0x5ad0e817_0x73cb3347_0x180000.SC4Model"
+        - "/Z7_K2Distribution-0x5ad0e817_0x73cb3347_0x110000.SC4Model"
+        - "/z7prop_LowBrickWallPillar-0x5ad0e817_0xb8144390_0x200000.SC4Model"
+        - "/z7prop_LowBrickWall16m-0x5ad0e817_0xb8144390_0x1f0000.SC4Model"
+        - "/z7prop_LowBrickWall8m-0x5ad0e817_0xb8144390_0x1e0000.SC4Model"
+        - "/z7prop_LowBrickWall4m-0x5ad0e817_0xb8144390_0x1d0000.SC4Model"
+        - "/z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model"
+        - "/z7_PearsonsFurnishings-0x5ad0e817_0xb8144390_0x1a0000.SC4Model"
+        - "/Z7_SteetonMill-0x5ad0e817_0x73cb3347_0x1e0000.SC4Model"
+  - variant: { memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: zero7-industrial-pack-irm
+        include:
+        - "/Z7_MirrorBox_Blue-0x5ad0e817_0x73cb3347_0x180000.SC4Model"
+        - "/Z7_K2Distribution-0x5ad0e817_0x73cb3347_0x110000.SC4Model"
+        - "/z7prop_LowBrickWallPillar-0x5ad0e817_0xb8144390_0x200000.SC4Model"
+        - "/z7prop_LowBrickWall16m-0x5ad0e817_0xb8144390_0x1f0000.SC4Model"
+        - "/z7prop_LowBrickWall8m-0x5ad0e817_0xb8144390_0x1e0000.SC4Model"
+        - "/z7prop_LowBrickWall4m-0x5ad0e817_0xb8144390_0x1d0000.SC4Model"
+        - "/z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model"
+        - "/z7_PearsonsFurnishings-0x5ad0e817_0xb8144390_0x1a0000.SC4Model"
+        - "/Z7_SteetonMill-0x5ad0e817_0x73cb3347_0x1e0000.SC4Model"
+
+---
+group: zero7
+name: mirror-box-blue-hightech
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Mirror Box Blue HighTech Industrial Lot
+  description: |
+    MirrorBox Blue is a modern office building in a fairly minimalist style. There are 2 lots - the first is 2x2 CO$$$ which is suitable for either an office park or town centre; the second is 3x3 IHT as like to have out of town offices and hi-tech industry growing in mixed technology parks (and because it looks at home mixed with the IHT stuff!)
+  author: zero7
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/140-sc4d-lex-legacy-zero7-industrial-pack
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/141-sc4d-lex-legacy-zero7-industrial-pack-irm-edition
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_MirrorBoxBlue_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Night0.jpg
+
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol02
+  - zero7:industrial-pack-shared-resources
+
+variants:
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "no" }
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: zero7-industrial-pack
+        include:
+        - "/IHT\\$\\$\\$4_3x3_MirrorBox HiTech Blue - zero7_c4b1bf0b.SC4Lot"
+        - "/MirrorBox HiTech Blue - zero7-0x6534284a-0x73cb3347-0x74b1bef9.SC4Desc"  
+  - variant: { CAM: "no", memo:industrial-revolution-mod:enabled: "yes" }
+  - variant: { CAM: "yes", memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: zero7-industrial-pack-irm
+        include:
+        - "/IHT\\$\\$\\$4_3x3_MirrorBox HiTech Blue - zero7_c4b1bf0b.SC4Lot"
+        - "/MirrorBox HiTech Blue - zero7-0x6534284a-0x73cb3347-0x74b1bef9.SC4Desc"  
+
+---
+group: zero7
+name: k2-distribution-centre
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: K2 Distribution Centre Industrial Lot
+  description: |
+    K2 Distribution Center is a modern distribution center. 
+  author: zero7
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/140-sc4d-lex-legacy-zero7-industrial-pack
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/141-sc4d-lex-legacy-zero7-industrial-pack-irm-edition
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_MirrorBoxBlue_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Night0.jpg
+
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol02
+  - zero7:industrial-pack-shared-resources
+
+variants:
+  - variant: { memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: zero7-industrial-pack
+        include:
+        - "/IM\\$\\$3_4x5_K2 Distribution Centre - zero7_74842461.SC4Lot"
+        - "/K2 Distribution Centre - zero7-0x6534284a-0x73cb3347-0xd4842405.SC4Desc"  
+  - variant: { memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: zero7-industrial-pack-irm
+        include:
+        - "/IM\\$\\$3_4x5_K2 Distribution Centre - zero7_74842461.SC4Lot"
+        - "/K2 Distribution Centre - zero7-0x6534284a-0x73cb3347-0xd4842405.SC4Desc"  
+
+---
+group: zero7
+name: pearsons-period-furnishings
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Pearsons Period Furnishings Industrial Lot
+  description: |
+    Pearsons are a small manufacturing company specialising in high quality furniture aimed at those restoring period properties. Most of their work is in Victorian or Georgian styles, but over the years thay have spanned Tudor to Arts and Crafts.
+  author: zero7
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/140-sc4d-lex-legacy-zero7-industrial-pack
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/141-sc4d-lex-legacy-zero7-industrial-pack-irm-edition
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_MirrorBoxBlue_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Night0.jpg
+
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol02
+  - zero7:industrial-pack-shared-resources
+
+variants:
+  - variant: { memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: zero7-industrial-pack
+        include:
+        - "/IM\\$\\$2_7x4_Pearsons Period Furnishings - zero7_09fffe7a.SC4Lot"
+        - "/z7prop_LowBrickWallPillar-0x6534284a-0xb8144390-0xda07a1f7.SC4Desc"  
+        - "/z7prop_LowBrickWall16m-0x6534284a-0xb8144390-0xda07a163.SC4Desc"  
+        - "/z7prop_LowBrickWall8m-0x6534284a-0xb8144390-0xba07a187.SC4Desc"  
+        - "/z7prop_LowBrickWall4m-0x6534284a-0xb8144390-0x9a07a1db.SC4Desc" 
+        - "/Pearsons Period Furnishings - zero7-0x6534284a-0xb8144390-0xd9fffe42.SC4Desc" 
+        - "/Isuzu Cargo-0x6534284a-0xb8144390-0xda02d424.SC4Desc" 
+  - variant: { memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: zero7-industrial-pack-irm
+        include:
+        - "/IM\\$\\$2_7x4_Pearsons Period Furnishings - zero7_09fffe7a.SC4Lot"
+        - "/z7prop_LowBrickWallPillar-0x6534284a-0xb8144390-0xda07a1f7.SC4Desc"  
+        - "/z7prop_LowBrickWall16m-0x6534284a-0xb8144390-0xda07a163.SC4Desc"  
+        - "/z7prop_LowBrickWall8m-0x6534284a-0xb8144390-0xba07a187.SC4Desc"  
+        - "/z7prop_LowBrickWall4m-0x6534284a-0xb8144390-0x9a07a1db.SC4Desc" 
+        - "/Pearsons Period Furnishings - zero7-0x6534284a-0xb8144390-0xd9fffe42.SC4Desc" 
+        - "/Isuzu Cargo-0x6534284a-0xb8144390-0xda02d424.SC4Desc" 
+
+---
+group: zero7
+name: steeton-mill
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Steeton Mill Industrial Lot
+  description: |
+    Steeton Mill was once sole employer for the village of Steeton - in fact without the mill, the village would never have existed. Over the years the nearby town expanded, swallowing the village. The mill became the centre of an industrial area and by always supplying the textiles the rag trade wanted managed to not only survive, but prosper to the extent that the mill has been expanded on two occasions - most recently with a large three storey brick-built extension.
+  author: zero7
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/140-sc4d-lex-legacy-zero7-industrial-pack
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/141-sc4d-lex-legacy-zero7-industrial-pack-irm-edition
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_MirrorBoxBlue_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Night0.jpg
+
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol02
+  - zero7:industrial-pack-shared-resources
+
+variants:
+  - variant: { memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: zero7-industrial-pack
+        include:
+        - "/IM\\$\\$3_4x4_Steeton Mill - zero7_c5582efd.SC4Lot"
+        - "/Steeton Mill - zero7-0x6534284a-0x73cb3347-0x95582ec4.SC4Desc"  
+  - variant: { memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: zero7-industrial-pack-irm
+        include:
+        - "/IM\\$\\$3_4x4_Steeton Mill - zero7_c5582efd.SC4Lot"
+        - "/Steeton Mill - zero7-0x6534284a-0x73cb3347-0x95582ec4.SC4Desc"  
+
+---
+group: zero7
+name: zero7-industrial-collection
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Industrial Collection Pack
+  description: A collection of 41 Industrial Lots by zero7
+  author: zero7
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/140-sc4d-lex-legacy-zero7-industrial-pack
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/141-sc4d-lex-legacy-zero7-industrial-pack-irm-edition
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_MirrorBoxBlue_Day0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Z7_K2Distribution_Night0.jpg
+
+dependencies:
+  - zero7:mirror-box-blue-hightech
+  - zero7:k2-distribution-centre
+  - zero7:pearsons-period-furnishings
+  - zero7:steeton-mill
