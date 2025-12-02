@@ -576,7 +576,7 @@ variants:
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Pedriana ?Pharmaceuticals(_[MD]N)?#?/" ]
-  - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "yes" }
+  - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
