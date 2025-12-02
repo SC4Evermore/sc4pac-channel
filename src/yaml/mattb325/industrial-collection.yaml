@@ -656,10 +656,29 @@ dependencies:
   - bsc:mega-props-jrj-vol05
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
-assets:
-  - assetId: mattb325-spar-distribution
-    exclude:
-      - "\\(Com Svc\\)"
+variants:
+  - variant: { nightmode: standard, memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        exclude:
+          - "\\(Com Svc\\)"
+  - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        exclude:
+          - "\\(Com Svc\\)"
+  - variant: { nightmode: standard, memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite-irm
+        exclude:
+          - "\\(Com Svc\\)"
+  - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite-irm
+        exclude:
+          - "\\(Com Svc\\)" 
 
 ---
 group: mattb325
