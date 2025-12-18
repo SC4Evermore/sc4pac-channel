@@ -1,0 +1,33 @@
+group: "csx"
+name: "billboards"
+version: "2.1"
+subfolder: "640-government"
+dependencies:
+- "csx:billboards-props"
+- "bsc:essentials"
+- "bsc:mega-props-sg-vol01"
+- "bsc:mega-props-misc-vol02"
+assets:
+- assetId: "csx-billboards"
+  include:
+    - "/CSXLots/"
+
+info:
+  summary: "Billboards Props"
+  description: |
+    This is a collection of billboards on a single ploppable lot to help finance your city.
+
+    The billboard props are in families, so a different one will appear each time they're plopped. These are all business deals and will give an small income to swell the mayor's slush fund. There are five sets in the collection, each in a separate dat: one general and 5 adult. Any not required can be removed from the install folder. The Legs'R'Us dat is specially for Vandy.
+  
+  author: "CSX"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/333-csx-billboards"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CSX_Billboards_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CSX_Billboards_sn.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/csxbillboards_s.jpg
+
+---
+assetId: "csx-billboards"
+version: "2.1"
+lastModified: "2025-03-06T11:47:17-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=333:csx-billboards"
