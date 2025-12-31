@@ -223,7 +223,7 @@ variants:
 group: mattb325
 name: gsk-packaging
 subfolder: 400-industrial
-version: "2"
+version: "2.0-1"
 info:
   summary: GSK Packaging
   author: mattb325
