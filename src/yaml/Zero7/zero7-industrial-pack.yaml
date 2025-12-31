@@ -12,43 +12,6 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=140:s
 
 ---
 group: zero7
-name: industrial-pack-shared-resources
-version: "2.0-1"
-subfolder: 100-props-textures
-info:
-  summary: Industrial pack shared resources
-  description: |-
-    A dependency containing a few resources used in `pkg=mattb325:industrial-collection`
-variants:
-  - variant: { memo:industrial-revolution-mod:enabled: "no" }
-    assets:
-      - assetId: zero7-industrial-pack
-        include:
-        - "/Z7_MirrorBox_Blue-0x5ad0e817_0x73cb3347_0x180000.SC4Model"
-        - "/Z7_K2Distribution-0x5ad0e817_0x73cb3347_0x110000.SC4Model"
-        - "/z7prop_LowBrickWallPillar-0x5ad0e817_0xb8144390_0x200000.SC4Model"
-        - "/z7prop_LowBrickWall16m-0x5ad0e817_0xb8144390_0x1f0000.SC4Model"
-        - "/z7prop_LowBrickWall8m-0x5ad0e817_0xb8144390_0x1e0000.SC4Model"
-        - "/z7prop_LowBrickWall4m-0x5ad0e817_0xb8144390_0x1d0000.SC4Model"
-        - "/z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model"
-        - "/z7_PearsonsFurnishings-0x5ad0e817_0xb8144390_0x1a0000.SC4Model"
-        - "/Z7_SteetonMill-0x5ad0e817_0x73cb3347_0x1e0000.SC4Model"
-  - variant: { memo:industrial-revolution-mod:enabled: "yes" }
-    assets:
-      - assetId: zero7-industrial-pack-irm
-        include:
-        - "/Z7_MirrorBox_Blue-0x5ad0e817_0x73cb3347_0x180000.SC4Model"
-        - "/Z7_K2Distribution-0x5ad0e817_0x73cb3347_0x110000.SC4Model"
-        - "/z7prop_LowBrickWallPillar-0x5ad0e817_0xb8144390_0x200000.SC4Model"
-        - "/z7prop_LowBrickWall16m-0x5ad0e817_0xb8144390_0x1f0000.SC4Model"
-        - "/z7prop_LowBrickWall8m-0x5ad0e817_0xb8144390_0x1e0000.SC4Model"
-        - "/z7prop_LowBrickWall4m-0x5ad0e817_0xb8144390_0x1d0000.SC4Model"
-        - "/z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model"
-        - "/z7_PearsonsFurnishings-0x5ad0e817_0xb8144390_0x1a0000.SC4Model"
-        - "/Z7_SteetonMill-0x5ad0e817_0x73cb3347_0x1e0000.SC4Model"
-
----
-group: zero7
 name: mirror-box-blue-hightech
 version: "1.0.0"
 subfolder: 400-industrial
@@ -139,14 +102,16 @@ variants:
       - assetId: zero7-industrial-pack
         include:
         - "/IM\\$\\$3_4x5_K2 Distribution Centre - zero7_74842461.SC4Lot"
-        - "/K2 Distribution Centre - zero7-0x6534284a-0x73cb3347-0xd4842405.SC4Desc"  
+        - "/K2 Distribution Centre - zero7-0x6534284a-0x73cb3347-0xd4842405.SC4Desc"
+        - "/Z7_K2Distribution-0x5ad0e817_0x73cb3347_0x110000.SC4Model" 
   - variant: { memo:industrial-revolution-mod:enabled: "yes" }
     assets:
       - assetId: zero7-industrial-pack-irm
         include:
         - "/IM\\$\\$3_4x5_K2 Distribution Centre - zero7_74842461.SC4Lot"
         - "/K2 Distribution Centre - zero7-0x6534284a-0x73cb3347-0xd4842405.SC4Desc"  
-
+        - "/Z7_K2Distribution-0x5ad0e817_0x73cb3347_0x110000.SC4Model" 
+ 
 ---
 group: zero7
 name: pearsons-period-furnishings
@@ -194,6 +159,12 @@ variants:
         - "/z7prop_LowBrickWall4m-0x6534284a-0xb8144390-0x9a07a1db.SC4Desc" 
         - "/Pearsons Period Furnishings - zero7-0x6534284a-0xb8144390-0xd9fffe42.SC4Desc" 
         - "/Isuzu Cargo-0x6534284a-0xb8144390-0xda02d424.SC4Desc" 
+        - "/z7_PearsonsFurnishings-0x5ad0e817_0xb8144390_0x1a0000.SC4Model" 
+        - "/z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model" 
+        - "/z7prop_LowBrickWall4m-0x5ad0e817_0xb8144390_0x1d0000.SC4Model"
+        - "/z7prop_LowBrickWall8m-0x5ad0e817_0xb8144390_0x1e0000.SC4Model"
+        - "/z7prop_LowBrickWall16m-0x5ad0e817_0xb8144390_0x1f0000.SC4Model"
+        - "/z7prop_LowBrickWallPillar-0x5ad0e817_0xb8144390_0x200000.SC4Model"
   - variant: { memo:industrial-revolution-mod:enabled: "yes" }
     assets:
       - assetId: zero7-industrial-pack-irm
@@ -205,6 +176,12 @@ variants:
         - "/z7prop_LowBrickWall4m-0x6534284a-0xb8144390-0x9a07a1db.SC4Desc" 
         - "/Pearsons Period Furnishings - zero7-0x6534284a-0xb8144390-0xd9fffe42.SC4Desc" 
         - "/Isuzu Cargo-0x6534284a-0xb8144390-0xda02d424.SC4Desc" 
+        - "/z7_PearsonsFurnishings-0x5ad0e817_0xb8144390_0x1a0000.SC4Model" 
+        - "/z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model" 
+        - "/z7prop_LowBrickWall4m-0x5ad0e817_0xb8144390_0x1d0000.SC4Model"
+        - "/z7prop_LowBrickWall8m-0x5ad0e817_0xb8144390_0x1e0000.SC4Model"
+        - "/z7prop_LowBrickWall16m-0x5ad0e817_0xb8144390_0x1f0000.SC4Model"
+        - "/z7prop_LowBrickWallPillar-0x5ad0e817_0xb8144390_0x200000.SC4Model"
 
 ---
 group: zero7
@@ -248,12 +225,14 @@ variants:
         include:
         - "/IM\\$\\$3_4x4_Steeton Mill - zero7_c5582efd.SC4Lot"
         - "/Steeton Mill - zero7-0x6534284a-0x73cb3347-0x95582ec4.SC4Desc"  
+        - "/Z7_SteetonMill-0x5ad0e817_0x73cb3347_0x1e0000.SC4Model"  
   - variant: { memo:industrial-revolution-mod:enabled: "yes" }
     assets:
       - assetId: zero7-industrial-pack-irm
         include:
         - "/IM\\$\\$3_4x4_Steeton Mill - zero7_c5582efd.SC4Lot"
-        - "/Steeton Mill - zero7-0x6534284a-0x73cb3347-0x95582ec4.SC4Desc"  
+        - "/Steeton Mill - zero7-0x6534284a-0x73cb3347-0x95582ec4.SC4Desc"
+        - "/Z7_SteetonMill-0x5ad0e817_0x73cb3347_0x1e0000.SC4Model"          
 
 ---
 group: zero7
