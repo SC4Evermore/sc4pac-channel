@@ -16,6 +16,8 @@ info:
   summary: Sudden Valley Terrain Mod 
   description: |
     The Sudden Valley Mod is a comprehensive terrain mod designed to be a suitable replacement for the standard MAXIS terrain.  Included are several optional features (described below) that are designed to complete the environment's aesthetic.
+  warning: |-
+    Requires DirectX Hardware Rendering Mode for Graphics. Will CTD with Software Rendering Mode and/or on macOS.  
   author:  Gobias
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/29-gobias-sudden-valley-terrain-mod
@@ -63,35 +65,35 @@ variantInfo:
   - variantId: gobias:sudden-valley-terrain:snow-line
     description: Set the maximum elevation to optimize climate parameters
     values:
-      - value: High Altitude
+      - value: "High Altitude"
         description: Set the snow line at a high elevation
-      - value: Low Altitude
+      - value: "Low Altitude"
         description: Set the snow line at a low elevation
   - variantId: gobias:sudden-valley-terrain:base-texture
     description: Set the replacement of Maxis's base textures with the terrain mod-compatible package
     values:
-      - value: No
+      - value: "No"
         description: Do not install the Maxis base texture replacement
-      - value: Yes
+      - value: "Yes"
         description: Install the Maxis base texture replacement 
   - variantId: gobias:sudden-valley-terrain:water-texture
     description: Install the water texture compatible with the terrain mod
     values:
-      - value: No
+      - value: "No"
         description: Do not install Sudden Valley Terrain Water Texture (Recommended if you are using an alternative water texture mod)
-      - value: Yes
+      - value: "Yes"
         description: Install the Sudden Valley Terrain - Water texture             
   - variantId: gobias:sudden-valley-terrain:beach-texture
     description: Install the beach texture compatible with the terrain mod
     values:
-      - value: No
+      - value: "No"
         description: Do not install Sudden Valley Terrain Beach Texture (Recommended if you are using an alternative beach texture mod)
-      - value: Yes
+      - value: "Yes"
         description: Install the Sudden Valley Terrain - Beach texture       
   - variantId: gobias:sudden-valley-terrain:rock-texture
     description: Install the rock texture compatible with the terrain mod
     values:
-      - value: No
+      - value: "No"
         description: Do not install Sudden Valley Terrain Rock Texture (Recommended if you are using an alternative rock texture mod)
-      - value: Yes
+      - value: "Yes"
         description: Install the Sudden Valley Terrain - Rock texture             
