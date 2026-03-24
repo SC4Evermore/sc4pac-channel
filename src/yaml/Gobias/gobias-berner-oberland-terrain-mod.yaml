@@ -1,0 +1,126 @@
+---
+assetId: gobias-berner-oberland-terrain-mod
+version: "1.0.0"
+lastModified: "2026-03-22T09:04:21-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=30:gobias-berner-oberland-terrain-mod
+
+---
+group: gobias
+name: berner-oberland-terrain
+version: "1.0.0"
+subfolder: 170-terrain
+conflicting:
+  - "null-45:extended-terrain-dll"
+
+info:
+  summary: Berner Oberland Terrain Mod 
+  description: |
+    The Berner Oberland Terrain Mod is a comprehensive mod designed to simulate the landscape of the Swiss Alps.  The region is noted for it's bright green grasses, crystal-blue glacial lakes and dramatic mountain heights.  As such the mod is best suited for use with mountainous maps.  Included are several optional features (described below) that are designed to enhance the accuracy of the region's appearance.
+  warning: |-
+    Requires DirectX Hardware Rendering Mode for Graphics. Will CTD with Software Rendering Mode and/or on macOS.  
+  author:  Gobias
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/30-gobias-berner-oberland-terrain-mod
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ScreenshotA.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ScreenshotB.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/1.JPG
+    
+assets:
+  - assetId: gobias-berner-oberland-terrain-mod
+    include:
+    - "/BO Core Textures.dat"
+    withConditions:
+        # ---capacity---
+      - ifVariant: { nightmode: "standard" }
+        include:
+          - "/BO Maxis Night.dat"
+      - ifVariant: { nightmode: "dark" }
+        include:
+          - "/BO Dark Night.dat"
+      - ifVariant: { gobias:berner-oberland-terrain:snow-line: "High" }
+        include:
+          - "/BO Properties High Alt.dat"
+      - ifVariant: { gobias:berner-oberland-terrain:snow-line: "Low" }
+        include:
+          - "/BO Properties Low Alt.dat"
+      - ifVariant: { gobias:berner-oberland-terrain:shadows: "Standard" }
+        include:
+          - "/BO Shadows Standard.dat"
+      - ifVariant: { gobias:berner-oberland-terrain:shadows: "Long" }
+        include:
+          - "/BO Shadows Long.dat"
+      - ifVariant: { gobias:berner-oberland-terrain:glacier: "No" }
+        include:
+          - "/BO INI Snow.dat"
+      - ifVariant: { gobias:berner-oberland-terrain:glacier: "Yes" }
+        include:
+          - "/BO INI Snow wGlacier.dat"          
+      - ifVariant: { gobias:berner-oberland-terrain:base-texture: "No" }
+      - ifVariant: { gobias:berner-oberland-terrain:base-texture: "Yes" }
+        include:
+          - "/BO Base Texture Replacements.dat"
+      - ifVariant: { gobias:berner-oberland-terrain:water-texture: "No" }
+      - ifVariant: { gobias:berner-oberland-terrain:water-texture: "Yes" }
+        include:
+          - "/BO Water and Shore Mod.dat"
+      - ifVariant: { gobias:berner-oberland-terrain:beach-texture: "No" }
+      - ifVariant: { gobias:berner-oberland-terrain:beach-texture: "Yes" }
+        include:
+          - "/BO Beach Mod.dat"     
+      - ifVariant: { gobias:berner-oberland-terrain:rock-texture: "No" }
+      - ifVariant: { gobias:berner-oberland-terrain:rock-texture: "Yes" }
+        include:
+          - "/BO Rock Mod.dat"               
+
+variantInfo:
+  - variantId: gobias:berner-oberland-terrain:snow-line
+    description: Set the maximum elevation to optimize climate parameters
+    values:
+      - value: "High"
+        description: Set the snow line at a High Altitude
+      - value: "Low"
+        description: Set the snow line at a Low Altitude
+  - variantId: gobias:berner-oberland-terrain:shadows
+    description: The Longer Shadow option produces stronger terrain shadows mimicking a lower sun-angle but  has a known issue where model shadows may exhibit some slight "tearing". It is up to the user to decide whether or not they prefer the upside of longer terrain shadows in exchange
+    values:
+      - value: "Standard"
+        description: The shadow length remains at the default values
+      - value: "Long"
+        description: The shadows are getting longer
+  - variantId: gobias:berner-oberland-terrain:glacier
+    description: Set whether the Terrain Controller should have glaciers or not
+    values:
+      - value: "No"
+        description: The Terrain Controller does not have a glacier
+      - value: "Yes"
+        description: The Terrain Controller has glaciers      
+  - variantId: gobias:berner-oberland-terrain:base-texture
+    description: Set the replacement of Maxis's base textures with the terrain mod-compatible package
+    values:
+      - value: "No"
+        description: Do not install the Maxis base texture replacement
+      - value: "Yes"
+        description: Install the Maxis base texture replacement 
+  - variantId: gobias:berner-oberland-terrain:water-texture
+    description: Install the water texture compatible with the terrain mod
+    values:
+      - value: "No"
+        description: Do not install Berner Oberland Terrain - Water Texture (Recommended if you are using an alternative water texture mod)
+      - value: "Yes"
+        description: Install the Berner Oberland Terrain - Water texture             
+  - variantId: gobias:berner-oberland-terrain:beach-texture
+    description: Install the beach texture compatible with the terrain mod
+    values:
+      - value: "No"
+        description: Do not install Berner Oberland Terrain - Beach Texture (Recommended if you are using an alternative beach texture mod)
+      - value: "Yes"
+        description: Install the Berner Oberland Terrain - Beach texture       
+  - variantId: gobias:berner-oberland-terrain:rock-texture
+    description: Install the rock texture compatible with the terrain mod
+    values:
+      - value: "No"
+        description: Do not install Berner Oberland Terrain - Rock Texture (Recommended if you are using an alternative rock texture mod)
+      - value: "Yes"
+        description: Install the SBerner Oberland Terrain - Rock texture         
