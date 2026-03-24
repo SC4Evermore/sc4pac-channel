@@ -38,10 +38,10 @@ assets:
       - ifVariant: { nightmode: "dark" }
         include:
           - "/SV Dark Night.dat"
-      - ifVariant: { gobias:sudden-valley-terrain:snow-line: "High_Altitude" }
+      - ifVariant: { gobias:sudden-valley-terrain:snow-line: "High" }
         include:
           - "/SV Properties High Alt.dat"
-      - ifVariant: { gobias:sudden-valley-terrain:snow-line: "Low_Altitude" }
+      - ifVariant: { gobias:sudden-valley-terrain:snow-line: "Low" }
         include:
           - "/SV Properties Low Alt.dat"
       - ifVariant: { gobias:sudden-valley-terrain:base-texture: "No" }
@@ -65,10 +65,10 @@ variantInfo:
   - variantId: gobias:sudden-valley-terrain:snow-line
     description: Set the maximum elevation to optimize climate parameters
     values:
-      - value: "High_Altitude"
-        description: Set the snow line at a high elevation
-      - value: "Low_Altitude"
-        description: Set the snow line at a low elevation
+      - value: "High"
+        description: Set the snow line at a High Altitude
+      - value: "Low"
+        description: Set the snow line at a Low Altitude
   - variantId: gobias:sudden-valley-terrain:base-texture
     description: Set the replacement of Maxis's base textures with the terrain mod-compatible package
     values:
