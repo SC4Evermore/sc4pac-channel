@@ -54,7 +54,18 @@ assets:
           - "/GB Chicago River Water.dat"  
       - ifVariant: { gobias:water:type: "Loch-Lomond-Water" }
         include:
-          - "/GB Loch Lomond Water.dat"            
+          - "/GB Loch Lomond Water.dat"    
+      - ifVariant: { gobias:berner-oberland-terrain:snow-line: "None" }          
+      - ifVariant: { gobias:berner-oberland-terrain:snow-line: "High" }
+        dependencies:
+          - "gobias:berner-oberland-terrain"
+        include:
+          - "/BO Properties UPDATED High Alt.dat"
+      - ifVariant: { gobias:berner-oberland-terrain:snow-line: "Low" }
+        dependencies:
+          - "gobias:berner-oberland-terrain"      
+        include:
+          - "/BO Properties UPDATED Low Alt.dat"          
           
 variantInfo:
   - variantId: gobias:water:type
