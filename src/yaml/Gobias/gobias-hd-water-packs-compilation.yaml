@@ -26,7 +26,7 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/11.JPG
 
 assets:
-  - assetId: gobias-sudden-valley-terrain-mod
+  - assetId: gobias-hd-water-packs-compilation
     withConditions:
       - ifVariant: { gobias:water:type: "Staten-Island-Water" }
         include:
@@ -102,7 +102,7 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/11.JPG
 
 assets:
-  - assetId: gobias-sudden-valley-terrain-mod
+  - assetId: gobias-hd-water-packs-compilation
     withConditions:
       - ifVariant: { gobias:water:type: "Staten-Island-Water" }
         include:
