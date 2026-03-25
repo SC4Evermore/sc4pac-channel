@@ -55,11 +55,11 @@ assets:
       - ifVariant: { gobias:water:type: "Loch-Lomond-Water" }
         include:
           - "/GB Loch Lomond Water.dat"    
-      - ifVariant: { gobias:berner-oberland-terrain:snow-line: "None" }          
-      - ifVariant: { gobias:berner-oberland-terrain:snow-line: "High" }
+      - ifVariant: { gobias:berner-oberland-terrain:snow-line:patch: "None" }          
+      - ifVariant: { gobias:berner-oberland-terrain:snow-line:patch: "High" }
         include:
           - "/BO Properties UPDATED High Alt.dat"
-      - ifVariant: { gobias:berner-oberland-terrain:snow-line: "Low" }    
+      - ifVariant: { gobias:berner-oberland-terrain:snow-line:patch: "Low" }    
         include:
           - "/BO Properties UPDATED Low Alt.dat"          
           
@@ -85,7 +85,7 @@ variantInfo:
         description: Select to install the Chicago River Water     
       - value: "Loch-Lomond-Water"
         description: Select to install the Loch Lomond Water
-  - variantId: gobias:berner-oberland-terrain:snow-line
+  - variantId: gobias:berner-oberland-terrain:snow-line:patch
     description: Set the maximum elevation to optimize climate parameters
     values:
       - value: "None"
