@@ -1,0 +1,133 @@
+---
+assetId: gobias-hd-water-packs-compilation
+version: "1.0.0"
+lastModified: "2026-03-23T19:09:43-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=431:sc4d-lex-legacy-gobias-hd-water-packs-compilation
+
+---
+group: gobias
+name: gobias-hd-water-packs-for-gobias-terrain-mods
+version: "1.0.0"
+subfolder: 170-terrain
+conflicting:
+  - "null-45:extended-terrain-dll"
+
+info:
+  summary: Gobias HD Water Packs
+  description: |
+    A pack of water textures created by Gobias and compatible with the settings of Gobias's Terrain mods
+  warning: |-
+    Requires DirectX Hardware Rendering Mode for Graphics. Will CTD with Software Rendering Mode and/or on macOS.  
+  author:  Gobias
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/431-sc4d-lex-legacy-gobias-hd-water-packs-compilation
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/11.JPG
+
+assets:
+  - assetId: gobias-sudden-valley-terrain-mod
+    withConditions:
+      - ifVariant: { gobias:water:type: "Staten Island Water" }
+        include:
+          - "/GB Staten Island Water.dat"
+      - ifVariant: { gobias:water:type: "Bodensee Water" }
+        include:
+          - "/GB Bodensee Water.dat"
+      - ifVariant: { gobias:water:type: "Seto Inland Sea Water" }
+        include:
+          - "/GB Seto Inland Sea Water.dat"
+      - ifVariant: { gobias:water:type: "Cape Cod Bay Water" }
+        include:
+          - "/GB Cape Cod Bay Water.dat"  
+      - ifVariant: { gobias:water:type: "Mississippi River Water" }
+        include:
+          - "/GB Mississippi River Water.dat"
+      - ifVariant: { gobias:water:type: "Caribbean Sea Water" }
+        include:
+          - "/GB Caribbean Sea Water.dat"            
+      - ifVariant: { gobias:water:type: "Inside Passage Water" }
+        include:
+          - "/GB Inside Passage Water.dat"
+      - ifVariant: { gobias:water:type: "Chicago River Water" }
+        include:
+          - "/GB Chicago River Water.dat"  
+      - ifVariant: { gobias:water:type: "Loch Lomond Water" }
+        include:
+          - "/GB Loch Lomond Water.dat"            
+          
+variantInfo:
+  - variantId: gobias:water:type
+    description: Select the water style
+    values:
+      - value: "Staten Island Water"
+        description: Select to install the Staten Island Water
+      - value: "Bodensee Water"
+        description: Select to install the Bodensee Water
+      - value: "Seto Inland Sea Water"
+        description: Select to install the Seto Inland Sea Water
+      - value: "Cape Cod Bay Water"
+        description: Select to install the Cape Cod Bay Water
+      - value: "Mississippi River Water"
+        description: Select to install the Mississippi River Water
+      - value: "Caribbean Sea Water"
+        description: Select to install the Caribbean Sea Water  
+      - value: "Inside Passage Water"
+        description: Select to install the Inside Passage Water
+      - value: "Chicago River Water"
+        description: Select to install the Chicago River Water     
+      - value: "Loch Lomond Water"
+        description: Select to install the Loch Lomond Water
+
+---
+---
+group: gobias
+name: gobias-hd-water-packs-for-lowkee-terrain-mods
+version: "1.0.0"
+subfolder: 170-terrain
+conflicting:
+  - "null-45:extended-terrain-dll"
+
+info:
+  summary: Gobias HD Water Packs
+  description: |
+    A pack of water textures created by Gobias and compatible with the settings of Lowkee's Terrain mods
+  warning: |-
+    Requires DirectX Hardware Rendering Mode for Graphics. Will CTD with Software Rendering Mode and/or on macOS.  
+  author:  Gobias
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/431-sc4d-lex-legacy-gobias-hd-water-packs-compilation
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/11.JPG
+
+assets:
+  - assetId: gobias-sudden-valley-terrain-mod
+    withConditions:
+      - ifVariant: { gobias:water:type: "Staten Island Water" }
+        include:
+          - "/GB Staten Island Water.dat"
+      - ifVariant: { gobias:water:type: "Bodensee Water" }
+        include:
+          - "/GB Bodensee Water.dat"
+      - ifVariant: { gobias:water:type: "Seto Inland Sea Water" }
+        include:
+          - "/GB Seto Inland Sea Water.dat"
+      - ifVariant: { gobias:water:type: "Cape Cod Bay Water" }
+        include:
+          - "/GB Cape Cod Bay Water.dat"  
+      - ifVariant: { gobias:water:type: "Mississippi River Water" }
+        include:
+          - "/GB Mississippi River Water.dat"
+      - ifVariant: { gobias:water:type: "Caribbean Sea Water" }
+        include:
+          - "/GB Caribbean Sea Water.dat"            
+      - ifVariant: { gobias:water:type: "Inside Passage Water" }
+        include:
+          - "/GB Inside Passage Water.dat"
+      - ifVariant: { gobias:water:type: "Chicago River Water" }
+        include:
+          - "/GB Chicago River Water.dat"  
+      - ifVariant: { gobias:water:type: "Loch Lomond Water" }
+        include:
+          - "/GB Loch Lomond Water.dat"            
