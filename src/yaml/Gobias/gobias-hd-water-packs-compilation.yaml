@@ -106,28 +106,28 @@ assets:
     withConditions:
       - ifVariant: { gobias:water:type: "Staten Island Water" }
         include:
-          - "/GB Staten Island Water.dat"
+          - "/LK Staten Island Water.dat"
       - ifVariant: { gobias:water:type: "Bodensee Water" }
         include:
-          - "/GB Bodensee Water.dat"
+          - "/LK Bodensee Water.dat"
       - ifVariant: { gobias:water:type: "Seto Inland Sea Water" }
         include:
-          - "/GB Seto Inland Sea Water.dat"
+          - "/LK Seto Inland Sea Water.dat"
       - ifVariant: { gobias:water:type: "Cape Cod Bay Water" }
         include:
-          - "/GB Cape Cod Bay Water.dat"  
+          - "/LK Cape Cod Bay Water.dat"  
       - ifVariant: { gobias:water:type: "Mississippi River Water" }
         include:
-          - "/GB Mississippi River Water.dat"
+          - "/LK Mississippi River Water.dat"
       - ifVariant: { gobias:water:type: "Caribbean Sea Water" }
         include:
-          - "/GB Caribbean Sea Water.dat"            
+          - "/LK Caribbean Sea Water.dat"            
       - ifVariant: { gobias:water:type: "Inside Passage Water" }
         include:
-          - "/GB Inside Passage Water.dat"
+          - "/LK Inside Passage Water.dat"
       - ifVariant: { gobias:water:type: "Chicago River Water" }
         include:
-          - "/GB Chicago River Water.dat"  
+          - "/LK Chicago River Water.dat"  
       - ifVariant: { gobias:water:type: "Loch Lomond Water" }
         include:
-          - "/GB Loch Lomond Water.dat"            
+          - "/LK Loch Lomond Water.dat"            
