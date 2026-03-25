@@ -85,6 +85,15 @@ variantInfo:
         description: Select to install the Chicago River Water     
       - value: "Loch-Lomond-Water"
         description: Select to install the Loch Lomond Water
+  - variantId: gobias:berner-oberland-terrain:snow-line
+    description: Set the maximum elevation to optimize climate parameters
+    values:
+      - value: "None"
+        description: Select this option if you haven't installed the Berner Oberland Terrain Mod (Recommended settings if you haven't installed the Berner Oberland Terrain Mod)    
+      - value: "High"
+        description: Set the snow line at a High Altitude
+      - value: "Low"
+        description: Set the snow line at a Low Altitude
 
 ---
 ---

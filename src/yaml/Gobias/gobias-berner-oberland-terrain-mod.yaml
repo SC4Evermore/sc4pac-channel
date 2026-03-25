@@ -82,8 +82,6 @@ variantInfo:
         description: Set the snow line at a High Altitude
       - value: "Low"
         description: Set the snow line at a Low Altitude
-      - value: "None"
-        description: Select this option if you haven't installed the Berner Oberland Terrain Mod (Recommended settings if you haven't installed the Berner Oberland Terrain Mod)
   - variantId: gobias:berner-oberland-terrain:shadows
     description: The Longer Shadow option produces stronger terrain shadows mimicking a lower sun-angle but  has a known issue where model shadows may exhibit some slight "tearing". It is up to the user to decide whether or not they prefer the upside of longer terrain shadows in exchange
     values:
