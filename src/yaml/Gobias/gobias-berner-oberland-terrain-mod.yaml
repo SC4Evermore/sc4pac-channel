@@ -32,7 +32,6 @@ assets:
     include:
     - "/BO Core Textures.dat"
     withConditions:
-        # ---capacity---
       - ifVariant: { nightmode: "standard" }
         include:
           - "/BO Maxis Night.dat"

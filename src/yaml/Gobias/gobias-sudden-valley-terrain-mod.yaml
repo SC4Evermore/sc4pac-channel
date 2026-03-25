@@ -31,7 +31,6 @@ assets:
     - "/SV Textures A.dat"
     - "/SV Textures B.dat"
     withConditions:
-        # ---capacity---
       - ifVariant: { nightmode: "standard" }
         include:
           - "/SV Maxis Night.dat"

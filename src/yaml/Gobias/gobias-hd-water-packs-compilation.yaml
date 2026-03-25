@@ -96,7 +96,6 @@ variantInfo:
         description: Set the snow line at a Low Altitude
 
 ---
----
 group: gobias
 name: gobias-hd-water-packs-for-lowkee-terrain-mods
 version: "1.0.0"
