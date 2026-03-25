@@ -59,7 +59,7 @@ assets:
       - ifVariant: { gobias:berner-oberland:snow-line-patch: "High" }
         include:
           - "/BO Properties UPDATED High Alt.dat"
-      - ifVariant: { gobias:berner-oberland:water:snow-line-patch: "Low" }    
+      - ifVariant: { gobias:berner-oberland:snow-line-patch: "Low" }    
         include:
           - "/BO Properties UPDATED Low Alt.dat"          
           
