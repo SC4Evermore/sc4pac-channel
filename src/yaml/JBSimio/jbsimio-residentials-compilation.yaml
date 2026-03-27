@@ -27,6 +27,6 @@ dependencies:
   - "bsc:textures-vol02"
 
 assets:
-- assetId: jbsimio-residentials-compilation
-  include:
-  - "/RUSA Project/" 
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/RUSA Project/" 
