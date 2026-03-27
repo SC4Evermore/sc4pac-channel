@@ -1,0 +1,34 @@
+--
+assetId: jbsimio-residentials-compilation
+version: "1.0.0"
+lastModified: "2026-03-23T18:59:43-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=434:sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+
+---
+group: jbsimio
+name: repetitive-urban-sprawl-apartments-project
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Repetitive Urban Sprawl Apartments (RUSA) Project
+  description: |
+    The Block Tower is a 36 stories tall residential building for your city's most wealthy sims. With its unique high tech architecture it will stand out between the other buildings. During the night the building is covered in a soft purple light which will create a unique atmosphere for its residents. 
+  author:  JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20JBSimio%20Residentials.png
+
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol01"
+  - "bsc:mega-props-jbsimio-vol02"
+  - "bsc:mega-props-cp-vol01"
+  - "bsc:textures-vol01"
+  - "bsc:textures-vol02"
+
+assets:
+- assetId: jbsimio-residentials-compilation
+  include:
+  - "/RUSA Project/" 
+
+---
