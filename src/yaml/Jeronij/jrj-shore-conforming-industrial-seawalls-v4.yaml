@@ -1,0 +1,28 @@
+assetId: "jrj-shore-conforming-industrial-seawalls-v4-mod"
+version: "4.0"
+lastModified: "2024-11-01T08:14:36-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=321:jrj-shore-conforming-industrial-seawalls-v4"
+
+---
+group: "jeronij"
+name: "jrj-shore-conforming-industrial-seawalls"
+version: "4.0"
+subfolder: "660-parks"
+dependencies:
+- "bsc:essentials"
+- "bsc:mega-props-jrj-vol02"
+- "bsc:mega-props-jrj-vol06"
+assets:
+- assetId: "jrj-shore-conforming-industrial-seawalls-v4-mod"
+
+info:
+  summary: "JRJ Shore Conforming Industrial Seawalls"
+  description: |
+    Add to your industrial shoreline and harbours a modern and nice looking.This is an updated version of the old Shore Conforming Seawalls. This is a BATted version, with all its improvements and all its limitations.
+
+    These lots appear in a new submenu if `pkg=memo:submenus-dll` is installed.
+  author: "Jeronij"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/321-jrj-shore-conforming-industrial-seawalls-v4"
+  images: 
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/JRJSeawallsLEX01a.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/JRJSeawallsLEX02.jpg
