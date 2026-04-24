@@ -1,13 +1,13 @@
 ---
 assetId: bsc-simgoober-residentials-set
-version: "1.0.0"
-lastModified: "2024-05-01T07:54:12-07:00"
+version: "2.0.0"
+lastModified: "2026-04-23T15:00:02-07:00"
 url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=274:sc4d-lex-legacy-bsc-simgoober-residentials
 
 ---
 group: simgoober
 name:  sg-residentials-vol01-small-homes-and-cottages   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Residentials Vol01 - Small Homes and Cottages, by simgoober
@@ -53,7 +53,7 @@ assets:
 ---
 group: simgoober
 name:  sg-residentials-vol02-condos-and-rowhomes   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Residentials Vol02 - Condos and Rowhomes, by simgoober
@@ -91,7 +91,7 @@ assets:
 ---
 group: simgoober
 name:  sg-residentials-vol03-luxory-homes-and-mansions   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Residentials Vol03 - Luxory Homes and Mansions, by simgoober
@@ -133,7 +133,7 @@ assets:
 ---
 group: simgoober
 name:  sg-residentials-vol04-high-rise-blocks   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Residentials Vol04 - High-rise Blocks, by simgoober
@@ -182,7 +182,7 @@ variants:
 ---
 group: simgoober
 name:  mobile-homes
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Mobile Homes,  by simgoober
@@ -244,7 +244,7 @@ assets:
 ---
 group: simgoober
 name:  elwood-apartments
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Elwood Apartments,  by simgoober
@@ -281,7 +281,7 @@ variants:
 ---
 group: simgoober
 name:  mary-sue-home
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Mary Sue Home,  by simgoober
@@ -311,7 +311,7 @@ assets:
 ---
 group: simgoober
 name:  pencil-towers
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Pencil Towers,  by simgoober
@@ -348,7 +348,7 @@ variants:
 ---
 group: simgoober
 name:  mathew-keegen-offices   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 300-commercial
 info:
   summary: SG Mathew Keegen Offices, by simgoober
@@ -385,7 +385,7 @@ assets:
 ---
 group: simgoober
 name:  schmucker-house   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Schmucker House, by simgoober
@@ -413,12 +413,11 @@ assets:
   include:
   - "/R\\$\\$\\$4_4x3_SG_SchmuckerHouse_72c9ca68.SC4Lot"  
   - "/SG_3x3_SchmuckerHouse_32c9cad7.SC4Lot"
-  - "/SG SchmuckerHouse Museum_9f64ad09.SC4Lot"
 
 ---
 group: simgoober
 name:  susan-b-anthony-building   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Susan B Anthony Building, by simgoober
@@ -447,13 +446,12 @@ assets:
 - assetId: bsc-simgoober-residentials-set
   include:
   - "/SG_House_SusanBAnthony_GROW.dat"  
-  - "/SG_1x2_Susan B Anthony Museum_65188d8c.SC4Lot"
 
   
 ---
 group: simgoober
 name:  simgoober-residential-collection    
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: Residential Collection Pack
