@@ -1,0 +1,42 @@
+---
+assetId: bsc-simgoober-religious-building-collection
+version: "1.0.0"
+lastModified: "2026-04-23T13:30:02-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=449:sc4d-lex-legacy-bsc-simgoober-religious-building-collection&catid=18
+
+---
+group: simgoober
+name:  simgoober-religious-building-collection
+version: "1.0.0"
+subfolder: 650-religion
+info:
+  summary: SimGoober Religious Building Collection
+  description: |
+    11 churches of all denominations to fulfill the religious needs of your sims. This is a composite pack of all previously released churches. Some are rewards but none replace the in game churches.
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/449-sc4d-lex-legacy-bsc-simgoober-religious-building-collection
+    - https://community.simtropolis.com/files/file/14036-church-pack/
+    - https://community.simtropolis.com/files/file/15318-church-pack-2/
+    - https://community.simtropolis.com/files/file/4589-bsc-alabaster-mosque/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_ChurchPack01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_ChurchPack02.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_BSC%201.JPG
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-civic-rewards
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol03
+  - peg:mtp-super-pack
+
+assets:
+- assetId: bsc-simgoober-religious-building-collection
+  include:
+  - "/Religious Buildings/"  
