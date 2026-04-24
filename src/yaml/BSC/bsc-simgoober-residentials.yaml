@@ -343,45 +343,7 @@ variants:
         - "/Atlas/"
         - "/Cumberland/"
         - "/Musgrave/"
-        - "/PLOP_3x3_SG_ApartmentTower-Musgrave_d795f70a.SC4Lot"
         
----
-group: simgoober
-name:  mathew-keegen-offices   
-version: "2.0.0"
-subfolder: 300-commercial
-info:
-  summary: SG Mathew Keegen Offices, by simgoober
-  description: |
-    Matthew Keenan was a successful businessman and politician in Milwaukee, and eventually became an officer of the Northwestern Mutual Life Insurance Co. The building is pressed Cream City brick, and was designed by Edward Townsend Mix.
-  author: SimGoober (SG)
-  websites: 
-    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/274-sc4d-lex-legacy-bsc-simgoober-residentials
-    - https://community.simtropolis.com/files/file/14189-mathew-keenan-townhome
-    
-  images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RLS_Ashton_Day.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG%20Schmucker-d.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_WallDoffApartments_Day.jpg
-
-dependencies:
-  - bsc:essentials
-  - bsc:sg-mega-residentials-vol03-models
-  - bsc:mega-props-sg-vol01
-  - bsc:mega-props-swi21-vol01
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-d66-vol01
-  - bsc:mega-props-dae-vol01
-  - bsc:mega-props-misc-vol01
-  - csx:mega-props-vol03
-  - bsc:textures-vol01
-  - bsc:textures-vol02
-
-assets:
-- assetId: bsc-simgoober-residentials-set
-  include:
-  - "/Mathew Keegen Offices/"  
-
 ---
 group: simgoober
 name:  schmucker-house   
@@ -412,7 +374,6 @@ assets:
 - assetId: bsc-simgoober-residentials-set
   include:
   - "/R\\$\\$\\$4_4x3_SG_SchmuckerHouse_72c9ca68.SC4Lot"  
-  - "/SG_3x3_SchmuckerHouse_32c9cad7.SC4Lot"
 
 ---
 group: simgoober
