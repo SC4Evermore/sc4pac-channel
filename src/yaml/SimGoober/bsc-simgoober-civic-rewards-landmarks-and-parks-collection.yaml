@@ -1,0 +1,219 @@
+---
+assetId: bsc-simgoober-civic-rewards-landmarks-and-parks-collection
+version: "1.0.0"
+lastModified: "2026-04-23T13:30:02-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=451:sc4d-lex-legacy-bsc-simgoober-civic-rewards-landmarks-and-parks-collection
+
+---
+group: simgoober
+name:  simgoober-landmark-set
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: SimGoober Landmarks Set
+  description: |
+    This set includes all the landmarks created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/451-sc4d-lex-legacy-bsc-simgoober-civic-rewards-landmarks-and-parks-collection
+    - https://community.simtropolis.com/files/file/3290-columbus-one-towne-center/
+    - https://community.simtropolis.com/files/file/12961-astoria-pointe-apartments/
+    - https://community.simtropolis.com/files/file/12956-walldoff-apartments/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Argonath01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_MitchellBuilding_Large.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Rewards%20Collection%20v1.png
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-civic-rewards
+  - bsc:sg-mega-residentials-vol03-models
+  - bsc:sg-mega-residentials-vol04-models
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-restaurants
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-misc-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - cogeo:logistics-centre-dependency-pack
+  - peg:mtp-super-pack
+
+assets:
+- assetId: bsc-simgoober-civic-rewards-landmarks-and-parks-collection
+  include:
+  - "/Landmarks/"  
+
+---
+group: simgoober
+name:  simgoober-rewards-set
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: SimGoober Rewards Set
+  description: |
+    This set includes all the rewards created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/451-sc4d-lex-legacy-bsc-simgoober-civic-rewards-landmarks-and-parks-collection
+    - https://community.simtropolis.com/files/file/15234-baby-boomers-bingo/
+    - https://community.simtropolis.com/files/file/12392-blackbeards-den/
+    - https://community.simtropolis.com/files/file/12738-mayors-seaside-villa/
+    - https://community.simtropolis.com/files/file/12750-playboy-mansion/
+    - https://community.simtropolis.com/files/file/4431-ritz-carlton-hotel-conference-center/
+    - https://community.simtropolis.com/files/file/14218-the-mitchell-building/
+    - https://community.simtropolis.com/files/file/12491-rls-executive-tower/
+    - https://community.simtropolis.com/files/file/12560-suburban-mall/
+    - https://community.simtropolis.com/files/file/11873-rls-vacation-resort/
+    - https://community.simtropolis.com/files/file/14560-sim-skate-arena/
+    - https://community.simtropolis.com/files/file/15586-sim-swim-arena/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Argonath01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_MitchellBuilding_Large.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Rewards%20Collection%20v1.png
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-civic-rewards
+  - bsc:sg-mega-residentials-vol03-models
+  - bsc:sg-mega-residentials-vol04-models
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-restaurants
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-misc-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - cogeo:logistics-centre-dependency-pack
+  - peg:mtp-super-pack
+
+assets:
+- assetId: bsc-simgoober-civic-rewards-landmarks-and-parks-collection
+  include:
+  - "/Rewards/"  
+
+---
+group: simgoober
+name:  simgoober-parks-set
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: SimGoober Parks Set
+  description: |
+    This set includes all the parks created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/451-sc4d-lex-legacy-bsc-simgoober-civic-rewards-landmarks-and-parks-collection
+    - https://community.simtropolis.com/files/file/14522-public-pools-pack/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Argonath01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_MitchellBuilding_Large.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Rewards%20Collection%20v1.png
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-civic-rewards
+  - bsc:sg-mega-residentials-vol03-models
+  - bsc:sg-mega-residentials-vol04-models
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-restaurants
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-misc-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - cogeo:logistics-centre-dependency-pack
+  - peg:mtp-super-pack
+
+assets:
+- assetId: bsc-simgoober-civic-rewards-landmarks-and-parks-collection
+  include:
+  - "/Parks/"  
+
+---
+group: simgoober
+name:  simgoober-civic-rewards-landmarks-and-parks-collection
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Landmark, Rewards and Parks Collection Pack
+  description: A collection of 25 Landmark, Rewards and Parks Lots by SimGoober (SG)       
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/451-sc4d-lex-legacy-bsc-simgoober-civic-rewards-landmarks-and-parks-collection
+    - https://community.simtropolis.com/files/file/3290-columbus-one-towne-center/
+    - https://community.simtropolis.com/files/file/12961-astoria-pointe-apartments/
+    - https://community.simtropolis.com/files/file/12956-walldoff-apartments/
+    - https://community.simtropolis.com/files/file/15234-baby-boomers-bingo/
+    - https://community.simtropolis.com/files/file/12392-blackbeards-den/
+    - https://community.simtropolis.com/files/file/12738-mayors-seaside-villa/
+    - https://community.simtropolis.com/files/file/12750-playboy-mansion/
+    - https://community.simtropolis.com/files/file/4431-ritz-carlton-hotel-conference-center/
+    - https://community.simtropolis.com/files/file/14218-the-mitchell-building/
+    - https://community.simtropolis.com/files/file/12491-rls-executive-tower/
+    - https://community.simtropolis.com/files/file/12560-suburban-mall/
+    - https://community.simtropolis.com/files/file/11873-rls-vacation-resort/
+    - https://community.simtropolis.com/files/file/14560-sim-skate-arena/
+    - https://community.simtropolis.com/files/file/15586-sim-swim-arena/    
+    - https://community.simtropolis.com/files/file/14522-public-pools-pack/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Argonath01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_MitchellBuilding_Large.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Rewards%20Collection%20v1.png
+    
+dependencies:
+  - simgoober:simgoober-landmark-set
+  - simgoober:simgoober-rewards-set
+  - simgoober:simgoober-parks-set
