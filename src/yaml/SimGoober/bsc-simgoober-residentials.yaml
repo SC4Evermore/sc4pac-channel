@@ -404,7 +404,87 @@ assets:
   include:
   - "/SG_House_SusanBAnthony_GROW.dat"  
 
-  
+---
+group: simgoober
+name: mediterranean-seaside-villa
+version: "2.0.0"
+subfolder: 200-residential
+info:
+  summary: Mediterranean Seaside Villa by SimGoober
+  description: |
+    Tired of living in the middle of an older neighborhood? Have your eyes on some of those newer, bigger, fancier places? Well, this one is for you! A seaside villa, with a private waterfront lot!
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/274-sc4d-lex-legacy-bsc-simgoober-residentials
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RLS_Ashton_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG%20Schmucker-d.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_WallDoffApartments_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-mega-residentials-vol03-models
+
+assets:
+- assetId: bsc-simgoober-residentials-set
+  include:
+  - "/R\\$\\$\\$3_3x4_SG_RLSHome_SeasideVilla_b4abd0a2.SC4Lot"  
+
+---
+group: simgoober
+name: playboy-mansion
+version: "2.0.0"
+subfolder: 200-residential
+info:
+  summary: PlayBoy Mansion by SimGoober
+  description: |
+    Mayor, the Adult industry seems to be growing in your city. As a reward, one of the owners in particular would like to build a new residence. He got the plans from the architect who made that nice seaside Villa of yours, but is making a few "upgrades"....
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/274-sc4d-lex-legacy-bsc-simgoober-residentials
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RLS_Ashton_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG%20Schmucker-d.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_WallDoffApartments_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-mega-residentials-vol03-models
+
+assets:
+- assetId: bsc-simgoober-residentials-set
+  include:
+  - "/R\\$\\$\\$3_3x4_SG_RLSHome_PlayboyMansion_b4aa821c.SC4Lot"  
+
+---
+group: simgoober
+name: charlotte-manor
+version: "2.0.0"
+subfolder: 200-residential
+info:
+  summary: Charlotte Manor by SimGoober
+  description: |
+    Charlotte Manor by SimGoober
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/274-sc4d-lex-legacy-bsc-simgoober-residentials
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RLS_Ashton_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG%20Schmucker-d.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_WallDoffApartments_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-mega-residentials-vol03-models
+
+assets:
+- assetId: bsc-simgoober-residentials-set
+  include:
+  - "/R\\$\\$\\$3_4x4_SG_CharlotteManor.SC4Lot"  
+
 ---
 group: simgoober
 name:  simgoober-residential-collection    
@@ -434,3 +514,6 @@ dependencies:
   - simgoober:pencil-towers  
   - simgoober:schmucker-house
   - simgoober:susan-b-anthony-building  
+  - simgoober:mediterranean-seaside-villa
+  - simgoober:playboy-mansion
+  - simgoober:charlotte-manor
