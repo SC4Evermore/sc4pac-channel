@@ -167,8 +167,6 @@ variants:
       - assetId: bsc-simgoober-residentials-set
         include:
         - "/Residential LOT Collection Vol04/"
-        - "/SG_5x4_AstoriaPointe_Plop.dat"
-        - "/SG_3x3_WallDoff Hotel_Plop.dat"
   - variant: { CAM: "yes" }
     assets:
       - assetId: bsc-simgoober-residentials-set
@@ -176,8 +174,6 @@ variants:
         - "/Residential LOT Collection Vol04/"
         - "/SG_PrincessTower_CAM_GROW.dat"
         - "/SG_SmithBlock_CAM_GROW.dat"
-        - "/SG_5x4_AstoriaPointe_Plop.dat"
-        - "/SG_3x3_WallDoff Hotel_Plop.dat"
         
 ---
 group: simgoober
