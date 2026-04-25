@@ -6,7 +6,7 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=448:s
 
 ---
 group: simgoober
-name: simgoober-education-set
+name: education-set
 version: "1.0.0"
 subfolder: 620-education
 info:
@@ -59,7 +59,7 @@ assets:
 
 ---
 group: simgoober
-name: simgoober-health-set
+name: health-set
 version: "1.0.0"
 subfolder: 630-health
 info:
@@ -106,7 +106,7 @@ assets:
 
 ---
 group: simgoober
-name: simgoober-government-set
+name: government-set
 version: "1.0.0"
 subfolder: 640-government
 info:
@@ -150,7 +150,7 @@ assets:
 
 ---
 group: simgoober
-name: simgoober-security-set
+name: security-set
 version: "1.0.0"
 subfolder: 610-safety
 info:
@@ -197,7 +197,7 @@ assets:
 
 ---
 group: simgoober
-name:  simgoober-civic-servicies-health-safety-education-collection    
+name:  civic-servicies-health-safety-education-collection    
 version: "1.0.0"
 subfolder: 640-government
 info:
@@ -227,7 +227,7 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/EDUCAT%201.JPG
     
 dependencies:
-  - simgoober:simgoober-education-set
-  - simgoober:simgoober-health-set
-  - simgoober:simgoober-government-set
-  - simgoober:simgoober-security-set
+  - simgoober:education-set
+  - simgoober:health-set
+  - simgoober:government-set
+  - simgoober:security-set

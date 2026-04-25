@@ -6,7 +6,7 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=451:s
 
 ---
 group: simgoober
-name:  simgoober-landmark-set
+name: landmark-set
 version: "1.0.0"
 subfolder: 360-landmark
 info:
@@ -63,7 +63,7 @@ assets:
 
 ---
 group: simgoober
-name:  simgoober-rewards-set
+name: rewards-set
 version: "1.0.0"
 subfolder: 360-landmark
 info:
@@ -128,7 +128,7 @@ assets:
 
 ---
 group: simgoober
-name:  simgoober-parks-set
+name: parks-set
 version: "1.0.0"
 subfolder: 660-parks
 info:
@@ -183,7 +183,7 @@ assets:
 
 ---
 group: simgoober
-name:  simgoober-civic-rewards-landmarks-and-parks-collection
+name: civic-rewards-landmarks-and-parks-collection
 version: "1.0.0"
 subfolder: 360-landmark
 info:
@@ -214,6 +214,6 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Rewards%20Collection%20v1.png
     
 dependencies:
-  - simgoober:simgoober-landmark-set
-  - simgoober:simgoober-rewards-set
-  - simgoober:simgoober-parks-set
+  - simgoober:landmark-set
+  - simgoober:rewards-set
+  - simgoober:parks-set

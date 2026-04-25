@@ -6,7 +6,7 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=450:s
 
 ---
 group: simgoober
-name:  simgoober-power-plant-set
+name: power-plant-set
 version: "1.0.0"
 subfolder: 500-utilities
 info:
@@ -50,7 +50,7 @@ assets:
 
 ---
 group: simgoober
-name:  simgoober-water-utility-set
+name: water-utility-set
 version: "1.0.0"
 subfolder: 500-utilities
 info:
@@ -102,7 +102,7 @@ assets:
   
 ---
 group: simgoober
-name:  simgoober-waste-utility-set
+name: waste-utility-set
 version: "1.0.0"
 subfolder: 500-utilities
 info:
@@ -146,7 +146,7 @@ assets:
 
 ---
 group: simgoober
-name:  simgoober-utility-collection    
+name: utility-collection    
 version: "1.0.0"
 subfolder: 500-utilities
 info:
@@ -173,6 +173,6 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Muellkraftwerk_Tag.jpg
     
 dependencies:
-  - simgoober:simgoober-power-plant-set
-  - simgoober:simgoober-water-utility-set
-  - simgoober:simgoober-waste-utility-set
+  - simgoober:power-plant-set
+  - simgoober:water-utility-set
+  - simgoober:waste-utility-set
