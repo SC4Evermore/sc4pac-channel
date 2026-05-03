@@ -225,7 +225,6 @@ info:
     - https://community.simtropolis.com/files/file/11352-sainsbury-locals-suburban-version/
     - https://community.simtropolis.com/files/file/11353-sainsbury-locals-urban-version/
     - https://community.simtropolis.com/files/file/11356-sainsbury-savacentre/
-    
 
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
@@ -563,7 +562,6 @@ variants:
         - "/SG_Factory_LongFellow_CS\\$_GROW.dat"
         - "/SG_RobotBuilding_Cs\\$\\$\\$_GROW.dat"
         - "/SG_BlockThalhimer_CS\\$_GROW.dat"
-        - "/SG_BlockThalhimer_CS\\$_GROW.dat"
         - "/7-Eleven Convenience Store/"
         - "/Ace Hardware/"
         - "/Ace Loans/"
@@ -635,7 +633,6 @@ variants:
         - "/CS\\$9_10x2_SG_Factory_LongFellow.SC4Lot"
         - "/CS\\$\\$\\$9_3x4_SG_RobotBuilding.SC4Lot"
         - "/CS\\$\\$\\$10_3x3_SG_RobotBuilding.SC4Lot"
-        - "/SG_BlockThalhimer_CS\\$_CAM_GROW.dat"
         - "/SG_BlockThalhimer_CS\\$_CAM_GROW.dat"
         - "/7-Eleven Convenience Store/"
         - "/Ace Hardware/"
