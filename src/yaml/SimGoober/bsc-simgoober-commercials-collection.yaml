@@ -75,7 +75,6 @@ dependencies:
   - t-wrecks:maxis-prop-names-and-query-fix
   - bsc:sg-irrigation-canals-props
 
-
 variants:
   - variant: { CAM: "no" }
     assets:
@@ -782,7 +781,6 @@ dependencies:
   - t-wrecks:maxis-prop-names-and-query-fix
   - bsc:sg-irrigation-canals-props
 
-
 variants:
   - variant: { CAM: "no" }
     assets:
@@ -929,7 +927,6 @@ dependencies:
   - gizmo:vehicle-props
   - t-wrecks:maxis-prop-names-and-query-fix
   - bsc:sg-irrigation-canals-props
-
 
 variants:
   - variant: { CAM: "no" }
