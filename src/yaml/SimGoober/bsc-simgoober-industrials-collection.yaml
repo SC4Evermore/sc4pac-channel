@@ -402,6 +402,6 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_LongFellows03.jpg
     
 dependencies:
-  - simgoober:power-plant-set
-  - simgoober:water-utility-set
-  - simgoober:waste-utility-set
+  - simgoober:hi-tech-industrial-set
+  - simgoober:dirty-industrial-set
+  - simgoober:manufacturing-industrial-set
