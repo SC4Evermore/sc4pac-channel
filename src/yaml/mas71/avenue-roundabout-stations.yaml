@@ -13,10 +13,9 @@ info:
       - Avenue Roundabouts Subway and BUS Station
 
     Each of them contains two versions of LOTs in this zip.
-    1. ver2_Left_Hand_Version
-    2. ver2_Right_Hand_Version
+    1. Right Hand Version
+    2. Left Hand Version
     Please choose it to a traffic state of your SC4.
-    (You can use all 4 LOTs, they are only visually driving side specific.)
 
     ## Lot Details
     LotType : Subway Station with Bus Stop (on surface)
@@ -34,15 +33,6 @@ info:
     Plop Cost : $3800
     Monthly Cost : $75
     Bulldoze Cost : $190
-
-    Dependencies
-
-    [Network Addon Mod v49](https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/2-network-addon-mod) (and above)
-    [Mas71 Mega Props vol01](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc)
-
-
-    Please enjoy my 6th mini work!!
-    Thank you!!
 
     Mas'71 from Japan
   images:
