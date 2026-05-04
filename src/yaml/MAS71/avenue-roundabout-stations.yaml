@@ -1,0 +1,70 @@
+group: mas71
+name: avenue-roundabout-stations
+version: "2.1"
+subfolder: 700-transit
+info:
+  summary: "Transit stations which fill the center of an avenue roundabout"
+  author: "Mas'71"
+  description: |-
+    All the lots have been updated for latest NAM/MTA capacity and TSEC standards and also fixed for MAC users.
+
+    This revisited upload contains both of MAS71's Avenue center Roundabout Stations:
+      - Avenue Roundabout Subway Station
+      - Avenue Roundabouts Subway and BUS Station
+
+    Each of them contains two versions of LOTs in this zip.
+    1. ver2_Left_Hand_Version
+    2. ver2_Right_Hand_Version
+    Please choose it to a traffic state of your SC4.
+    (You can use all 4 LOTs, they are only visually driving side specific.)
+
+    ## Lot Details
+    LotType : Subway Station with Bus Stop (on surface)
+    Lot size : 2 x 2
+    Capacity : 35000 passengers
+    JOB : 16
+    Plop Cost : $3800
+    Monthly Cost : $80
+    Bulldoze Cost : $190
+
+    LotType : Subway Station with underground parking and Bus Stop
+    Lot size : 2 x 2
+    Capacity : 50000 passengers
+    JOB : 16
+    Plop Cost : $3800
+    Monthly Cost : $75
+    Bulldoze Cost : $190
+
+    Dependencies
+
+    [Network Addon Mod v49](https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/2-network-addon-mod) (and above)
+    [Mas71 Mega Props vol01](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc)
+
+
+    Thank you!!
+
+    Mas'71 from Japan
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/mas71_Ave-Roundabout_SUBandBUS_Station_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/mas71_Ave-Roundabout_SUBandBUS_Station_02.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/mas71_Ave-Roundabout_SubwayStation_01.jpg
+  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/435-avenue-roundabout-subway-and-bus-stations
+dependencies:
+  - mas71:mega-props-vol01
+variants:
+  - variant: { driveside: left }
+    assets:
+      - assetId: "mas71-avenue-roundabout-subway-and-bus-stations"
+        include:
+          - /Left Hand Version \(JPN\)/
+  - variant: { driveside: right }
+    assets:
+      - assetId: "mas71-avenue-roundabout-subway-and-bus-stations"
+        include:
+          - /Right Hand Version \(International\)/
+
+---
+assetId: "mas71-avenue-roundabout-subway-and-bus-stations"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=435:avenue-roundabout-subway-and-bus-station"
+version: "2.1"
+lastModified: "2026-04-02T01:55:04-07:00"

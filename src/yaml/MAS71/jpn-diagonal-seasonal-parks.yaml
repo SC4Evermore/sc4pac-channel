@@ -1,0 +1,72 @@
+group: "mas71"
+name: "diagonal-seasonal-parks"
+version: "1"
+subfolder: "660-parks"
+info:
+  summary: "Two diagonal corner parks that change throughout the seasons"
+  author: "Mas'71"
+  description: |-
+    This is the "Parks of Diagonal" small set.  
+    I made 2 styles simple park LOTs.  
+    Please plop it up while referring to the guide of the arrow.
+
+    #### Details of LOTs
+
+    Plop Size : 2x1 (for diagonal corner 3x3 )  
+    Plop Cost : $160  
+    Wealth : Medium Wealth  
+    Park Effect : 30/30R  
+    Landmark Effect : 30/10R  
+    Demand Satisfied : $1000, $$1000, $$$1000  
+    Air Pollution : -12/12R  
+    Monthly Cost : $20  
+    Bulldoze Cost : $20
+
+    All Icons add to "PARK" menu.
+
+    #### Additional Notes
+
+    The lots are seasonal. Nothing is displayed down immediately after having dropped.  
+    !! Please advance time. !! It will displayed in 1,March & 1/June & 1/September & 1/December.  
+
+    #### Dependencies
+
+    You should get this one to use these LOTs.
+
+    [MAS71 Mega Prop Pack vol01 - Misc](/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc)  
+    [PEG-MTP Seasonal Woods v208](https://community.simtropolis.com/files/file/4515-peg-mtp-seasonal-woods-v208/) ---- (only "PEG\_Seasonal-Tree-Pack\_208.Dat")  
+      
+    \=====================================================================  
+      
+    If you will find problems about this work, Please send a PM to me.
+
+    Thank you for Download,  
+    If you were able to enjoy this work even a little, I am happy!! :-)
+
+    and I'm sorry to my no good English too.
+
+    Mas'71 from JAPAN.
+
+      
+    ********************************************************************* 
+    !! Even if a problem occurs in your SC4, PC and YourLife(lol)  
+    on the use of a successful work product,  
+    I do not carry all responsibility on my back.
+
+    !! It is prohibited to use this all of this work for the profit-pursuing purpose.  
+    *********************************************************************
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/JPN_Diagonal_Parks_01.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/JPN_Diagonal_Parks_02.jpg
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/437-jpn-diagonal-seasonal-parks
+dependencies:
+- mas71:mega-props-vol01
+- peg:mtp-seasonal-woods
+assets:
+- assetId: "mas71-jpn-diagonal-seasonal-parks"
+
+---
+assetId: "mas71-jpn-diagonal-seasonal-parks"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=437:jpn-diagonal-seasonal-parks"
+version: "1"
+lastModified: "2026-04-22T13:11:00-07:00"

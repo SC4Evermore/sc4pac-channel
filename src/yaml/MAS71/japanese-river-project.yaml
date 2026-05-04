@@ -1,0 +1,206 @@
+group: mas71
+name: japanese-river-project
+version: "2"
+subfolder: 660-parks
+info:
+  summary: "A canal set featuring wide sloped banks"
+  author: "Mas'71"
+  description: |-
+    This SC4 Devotion LEX Legacy Pack features the Japanese River Project (JRP) canal set by MAS71 (including the Suburban Canal Set and MAS71 MEGA Props Vol 02), which had been available on the Lot Exchange (LEX) at SC4 Devotion. After battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023, and this package is designed to collect these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    ## Contents
+    This package contains the following former LEX downloads:
+    - JRP-Core Lot Pack
+    - JRP-Addon Lot Pack 1
+    - JRP-Addon Lot Pack 2
+
+    The Lots may be found under the Seaports menu.
+
+    The source model files, originally available for download on the LEX, can be found in the [SC4D LEX Legacy - 3DSMAX & GMAX Models Pack](https://www.sc4evermore.com/index.php/downloads/download/8-other/67-sc4d-lex-legacy-3dsmax-gmax-models-pack).
+
+    ## CREDITS:
+
+    The following members contributed models, textures, and modding support to this collection:
+
+        MAS71
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06, and was assembled by Tarkus.
+    
+    ### Special Thanks
+
+    Webmaster & administration staff at SC4 Devotion.
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after 20 years thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did. ;-)
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/jrp_013.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/jrp_alp2_11.jpg
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
+dependencies:
+  - mas71:mega-props-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: "sc4d-lex-legacy-mas71-japanese-river-project-jrp"
+    exclude:
+      - /@4Suburban Canal/
+      - /@1\^Props Pack#/
+
+---
+group: mas71
+name: suburban-canal-set
+version: "2"
+subfolder: 660-parks
+info:
+  summary: "Narrow suburban canal set"
+  author: "Mas'71"
+  description: |-
+    This SC4 Devotion LEX Legacy Pack features the Japanese River Project (JRP) canal set by MAS71 (including the Suburban Canal Set and MAS71 MEGA Props Vol 02), which had been available on the Lot Exchange (LEX) at SC4 Devotion. After battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023, and this package is designed to collect these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    ## Contents
+    This package contains the following former LEX downloads:
+    - JRP Suburban Canal
+
+    The Lots may be found under the Seaports menu.
+
+    The source model files, originally available for download on the LEX, can be found in the [SC4D LEX Legacy - 3DSMAX & GMAX Models Pack](https://www.sc4evermore.com/index.php/downloads/download/8-other/67-sc4d-lex-legacy-3dsmax-gmax-models-pack).
+
+    ## CREDITS:
+
+    The following members contributed models, textures, and modding support to this collection:
+
+        MAS71
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06, and was assembled by Tarkus.
+    
+    ### Special Thanks
+
+    Webmaster & administration staff at SC4 Devotion.
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after 20 years thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did. ;-)
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Suburban%20Canal%20Addon1_01.jpg
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
+dependencies:
+  - mas71:mega-props-vol01
+  - mas71:mega-props-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+# Need an ordinary variants block because different dependencies is not supported in the `withConditions` syntax.
+variants:
+  - variant: { mas71:suburban-canal-set:tree-type: maxis }
+  - variant: { mas71:suburban-canal-set:tree-type: porkissimo }
+    dependencies:
+      - porkissimo:jenx-porkie-expanded-porkie-props
+  - variant: { mas71:suburban-canal-set:tree-type: simfox }
+    dependencies:
+      - simfox:treepack-vol02
+  - variant: { mas71:suburban-canal-set:tree-type: cherry }
+assets:
+  - assetId: "sc4d-lex-legacy-mas71-japanese-river-project-jrp"
+    include:
+      - "/03_JRPSC prop_Option Gurdrail 01.dat"
+      - /@101_Essential \(canal props\)/
+    withConditions:
+      - ifVariant: { mas71:suburban-canal-set:tree-type: maxis, mas71:suburban-canal-set:fence-color: white }
+        include:
+          - "/@4Lot Set - MAXIS tree/"
+          - "/=White/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: maxis, mas71:suburban-canal-set:fence-color: black }
+        include:
+          - "/@4Lot Set - MAXIS tree/"
+          - "/-Black/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: maxis, mas71:suburban-canal-set:fence-color: green }
+        include:
+          - "/@4Lot Set - MAXIS tree/"
+          - "/-Green/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: porkissimo, mas71:suburban-canal-set:fence-color: white }
+        include:
+          - "/@5!Lot Set - PORKISSIMO tree/"
+          - "/=White/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: porkissimo, mas71:suburban-canal-set:fence-color: black }
+        include:
+          - "/@5!Lot Set - PORKISSIMO tree/"
+          - "/-Black/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: porkissimo, mas71:suburban-canal-set:fence-color: green }
+        include:
+          - "/@5!Lot Set - PORKISSIMO tree/"
+          - "/-Green/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: simfox, mas71:suburban-canal-set:fence-color: white }
+        include:
+          - "/@6!Lot Set - SIMFOX tree/"
+          - "/=White/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: simfox, mas71:suburban-canal-set:fence-color: black }
+        include:
+          - "/@6!Lot Set - SIMFOX tree/"
+          - "/-Black/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: simfox, mas71:suburban-canal-set:fence-color: green }
+        include:
+          - "/@6!Lot Set - SIMFOX tree/"
+          - "/-Green/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: cherry, mas71:suburban-canal-set:fence-color: white }
+        include:
+          - "/@7!Lot Set - CHERRY tree/"
+          - "/=White/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: cherry, mas71:suburban-canal-set:fence-color: black }
+        include:
+          - "/@7!Lot Set - CHERRY tree/"
+          - "/-Black/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: cherry, mas71:suburban-canal-set:fence-color: green }
+        include:
+          - "/@7!Lot Set - CHERRY tree/"
+          - "/-Green/"
+variantInfo:
+- variantId: "mas71:suburban-canal-set:tree-type"
+  description: "Choose a tree type for these lots"
+  values:
+  - value: "maxis"
+    description: "Maxis default trees"
+  - value: "porkissimo"
+    description: "Seasonal trees from Porkie's prop pack."
+  - value: "simfox"
+    description: "Nonseasonal trees from Simfox's tree pack."
+  - value: "cherry"
+    description: "Seasonal Sakura cherry trees"
+    default: true
+- variantId: "mas71:suburban-canal-set:fence-color"
+  description: "Choose a fence color"
+  values:
+  - value: "white"
+    description: "White fences"
+    default: true
+  - value: "black"
+    description: "Black fences"
+  - value: "green"
+    description: "Green fences"
+
+---
+group: "mas71"
+name: "mega-props-vol02"
+version: "2"
+subfolder: "100-props-textures"
+info:
+  summary: "Repackaged props for `pkg=mas71:japanese-river-project` and `pkg=mas71:suburban-canal-set`"
+  author: "Mas71"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/jrp_013.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/jrp_alp2_11.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Suburban%20Canal%20Addon1_01.jpg
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
+assets:
+  - assetId: "sc4d-lex-legacy-mas71-japanese-river-project-jrp"
+    include:
+      - /@1\^Props Pack#/
+
+---
+assetId: "sc4d-lex-legacy-mas71-japanese-river-project-jrp"
+version: "2"
+lastModified: "2024-08-10T07:44:55-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=152:sc4d-lex-legacy-mas71-japanese-river-project-jrp"

@@ -1,0 +1,145 @@
+group: "mas71"
+name: "rice-fields"
+version: "1"
+subfolder: "660-parks"
+dependencies:
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "mas71:mega-props-vol01"
+info:
+  summary: "Ploppable seasonal rice fields"
+  description: |-
+    **Japanese Rice Fields by Mas'71**  
+    \- Seasonal Puzzle Pieces LOTs -
+
+    \-----------------------------------------------------------  
+    **Updated** - 14 June 2025  
+    added Submenu, general clean-up as part of the Project ZIP and SC4Devotion LEX Restoration efforts.  
+    **Updated** - 15, January, 2008 (first post)  
+    \-----------------------------------------------------------  
+      
+    These LOTs would make the Rice Fields on voluntary areas in your city.
+
+    #### Stats
+    Puzzle Pieces 10 LOTs  
+    Lot size : 1 x 1, 2 x 1  
+    Plop Cost : $3  
+    Monthly Cost : -$3 / piece  
+    Bulldoze Cost : $1  
+    Park Effect : None  
+    LandMark Effect : None  
+    Demand Satisfied : R$+50 / piece  
+    (add Icons on "PARKS" menu. )
+
+    Some in game additional descriptions has been added.
+
+    Thank you!!
+
+    #### Installation
+
+    There are two types of LOTs (now bundled into two separate DAT files. CHOOSE ONLY ONE of the DAT files and REMOVE the other.  
+    1. MAS71 JPN Rice Fields Lots by Original.dat - When use original RiceFieldsOverlayTexture (Default - included with the DAT)  
+    2. MAS71 JPN Rice Fields Lots by BSC.dat - When use BSC Texture (See Dependencies)  
+      
+    The upload contains the old MML MOD (Menu Management Lot) for legacy purposes only in the ~Documents folder. You should only use it if for some reason you are not able to use the [Submenu DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/) mod. If you are using the Submenu DLL mod (which is highly recommended), you must not use the MML Mod.  
+      
+    !!!! Please do not use the two versions - **"**MAS71 JPN Rice Fields Lots by Original.dat**"** and **"**MAS71 JPN Rice Fields Lots by BSC.dat**"** - at the same time !!!!
+
+    To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards. 
+
+    #### Dependencies
+
+    These lots do need the following files to work properly :
+
+    *   MAS71\_JPN\_RiceField\_Models.dat (INCLUDED)
+    *   [SC4D LEX Legacy - BSC Common Dependencies V9c](/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (and above)
+
+    *   BSC Textures Vol01  
+        
+    *   BSC Textures Vol02
+
+    *   [MAS71 MEGA Prop Pack vol01 - MISC](/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc) v2 (and above) - you must have the Version 2 of this prop pack in order to see the fences
+    *   [Submenus DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - Only required if you wish to use the added submenu.  
+        Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    #### Directions
+
+    These LOTs having SEASONAL PROPs.  
+    Nothing display immediately just after plopped LOTs.  
+    Please advance a time.  
+    It would display correctly in **1/March** and **1/July** and **1/November** at game times.  
+      
+
+    #### Special Thanks
+
+    Thanks for advice about making a props Ripplejet san.  
+    Thanks for making original readme files Jeronij san.  
+    and  
+    all of **SC4Devotion** and **SimCityForce**.  
+      
+    \--------------------------------------------------------------------------------  
+      
+    \- Note -  
+    If you have any problem and your voices, Please check this thread in SC4Devotion.  
+    **\>>> [Mas'71 works mini pamphlet.](http://sc4devotion.com/forums/index.php?topic=2897.0)**  
+      
+    \- Mas'71 in Japan  
+    \--------------------------------------------------------------------------------  
+    \--- Mas'71 from Japan 2008.
+  author: "Mas'71"
+  images:
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/mas71_JPN-RiceFields_SC4D.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/mas71_JPN-RiceFields_02_SC4D.jpg"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/43-agriculture/438-jpn-rice-fields"
+assets:
+- assetId: "mas71-jpn-rice-fields"
+  include:
+  - /mas71_JPN_RiceField_Models.dat
+  withConditions:
+  - ifVariant: { mas71:jpn-rice-fields:texture-type: "original", mas71:jpn-rice-fields:menu-type: "mml" }
+    include:
+    - /MAS71 JPN Rice Fields Lots by Original.dat
+    - /Mas71_JPN-RiseFields_MML.dat
+  - ifVariant: { mas71:jpn-rice-fields:texture-type: "original", mas71:jpn-rice-fields:menu-type: "submenu" }
+    include:
+    - /MAS71 JPN Rice Fields Lots by Original.dat
+    - /mas71_Ricefields_Submenu.dat
+  - ifVariant: { mas71:jpn-rice-fields:texture-type: "original", mas71:jpn-rice-fields:menu-type: "none" }
+    include:
+    - /MAS71 JPN Rice Fields Lots by BSC.dat
+  - ifVariant: { mas71:jpn-rice-fields:texture-type: "bsc", mas71:jpn-rice-fields:menu-type: "mml" }
+    include:
+    - /MAS71 JPN Rice Fields Lots by Original.dat
+    - /Mas71_JPN-RiseFields_MML.dat
+  - ifVariant: { mas71:jpn-rice-fields:texture-type: "bsc", mas71:jpn-rice-fields:menu-type: "submenu" }
+    include:
+    - /MAS71 JPN Rice Fields Lots by BSC.dat
+    - /mas71_Ricefields_Submenu.dat
+  - ifVariant: { mas71:jpn-rice-fields:texture-type: "bsc", mas71:jpn-rice-fields:menu-type: "none" }
+    include:
+    - /MAS71 JPN Rice Fields Lots by BSC.dat
+variantInfo:
+- variantId: "mas71:jpn-rice-fields:texture-type"
+  description: "Choose texture type used to assist when initially placing fields"
+  values:
+  - value: "original"
+    description: "Use original textures"
+    default: true
+  - value: "bsc"
+    description: "Use BSC path textures"
+- variantId: "mas71:jpn-rice-fields:menu-type"
+  description: "Choose how these lots show in your menu"
+  values:
+  - value: "submenu"
+    description: "Select if you use the Submenus DLL."
+    default: true
+  - value: "mml"
+    description: "Select if you do not use the Submenus DLL and prefer the lots nested inside a Menu Management Lot."
+  - value: "none"
+    description: "Select to place all the lots straight in the Parks menu."
+
+---
+assetId: "mas71-jpn-rice-fields"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=438:jpn-rice-fields"
+version: "1"
+lastModified: "2026-04-22T20:10:50Z"
