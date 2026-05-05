@@ -200,6 +200,29 @@ assets:
       - /@1\^Props Pack#/
 
 ---
+group: bsc
+name: japanese-river-project-collection
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: Japanese River Project Collection
+  description: |
+    The entire Japanese River Project Collection in a single download. 
+    
+  author: Mas'71
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/jrp_013.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/jrp_alp2_11.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Suburban%20Canal%20Addon1_01.jpg
+
+dependencies:
+  - mas71:japanese-river-project
+  - mas71:suburban-canal-set
+
+---
 assetId: "sc4d-lex-legacy-mas71-japanese-river-project-jrp"
 version: "2"
 lastModified: "2024-08-10T07:44:55-07:00"

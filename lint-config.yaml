@@ -1,6 +1,7 @@
 # Additional channel URLs the packages in your channel depend on (default: [])
 extra-channels:
 - https://memo33.github.io/sc4pac/channel/
+- https://sc4pac.simtropolis.com/
 
 # Additional subfolders (if not already used by the Main channel)
 subfolders: []
