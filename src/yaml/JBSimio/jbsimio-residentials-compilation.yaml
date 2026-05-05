@@ -198,7 +198,7 @@ dependencies:
 assets:
  - assetId: jbsimio-residentials-compilation
    include:
-   - "/Evergreen Hills/" 
+   - "/Pheasant Run/" 
 
 ---
 group: "jbsimio"
@@ -239,7 +239,7 @@ dependencies:
 assets:
  - assetId: jbsimio-residentials-compilation
    include:
-   - "/Evergreen Hills/" 
+   - "/Stratton Apartments/" 
 
 
 
@@ -263,11 +263,11 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/SHURImage01.jpg
     - https://www.sc4evermore.com/images/sc4pac/jbsimio/Brownstone_Low.jpg
     - https://www.sc4evermore.com/images/sc4pac/jbsimio/Buder_Day.jpg
     - https://www.sc4evermore.com/images/sc4pac/jbsimio/Citizen_Day.jpg
     - https://www.sc4evermore.com/images/sc4pac/jbsimio/Lockwood_Day.jpg
-    - https://www.sc4evermore.com/images/sc4pac/jbsimio/SHURImage01.jpg
     - https://www.sc4evermore.com/images/sc4pac/jbsimio/Rookery_Day.jpg
     - https://www.sc4evermore.com/images/sc4pac/jbsimio/Stearns_Day.jpg
     - https://www.sc4evermore.com/images/sc4pac/jbsimio/Taft_Day.jpg
