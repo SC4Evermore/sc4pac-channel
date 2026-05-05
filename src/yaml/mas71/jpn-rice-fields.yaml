@@ -100,10 +100,10 @@ assets:
     - /mas71_Ricefields_Submenu.dat
   - ifVariant: { mas71:jpn-rice-fields:texture-type: "original", mas71:jpn-rice-fields:menu-type: "none" }
     include:
-    - /MAS71 JPN Rice Fields Lots by BSC.dat
+    - /MAS71 JPN Rice Fields Lots by Original.dat
   - ifVariant: { mas71:jpn-rice-fields:texture-type: "bsc", mas71:jpn-rice-fields:menu-type: "mml" }
     include:
-    - /MAS71 JPN Rice Fields Lots by Original.dat
+    - /MAS71 JPN Rice Fields Lots by BSC.dat
     - /Mas71_JPN-RiseFields_MML.dat
   - ifVariant: { mas71:jpn-rice-fields:texture-type: "bsc", mas71:jpn-rice-fields:menu-type: "submenu" }
     include:
