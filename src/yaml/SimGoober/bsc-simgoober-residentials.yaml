@@ -1,13 +1,13 @@
 ---
 assetId: bsc-simgoober-residentials-set
-version: "1.0.0"
-lastModified: "2024-05-01T07:54:12-07:00"
+version: "2.0.0"
+lastModified: "2026-04-23T15:00:02-07:00"
 url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=274:sc4d-lex-legacy-bsc-simgoober-residentials
 
 ---
 group: simgoober
 name:  sg-residentials-vol01-small-homes-and-cottages   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Residentials Vol01 - Small Homes and Cottages, by simgoober
@@ -53,7 +53,7 @@ assets:
 ---
 group: simgoober
 name:  sg-residentials-vol02-condos-and-rowhomes   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Residentials Vol02 - Condos and Rowhomes, by simgoober
@@ -91,7 +91,7 @@ assets:
 ---
 group: simgoober
 name:  sg-residentials-vol03-luxory-homes-and-mansions   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Residentials Vol03 - Luxory Homes and Mansions, by simgoober
@@ -133,7 +133,7 @@ assets:
 ---
 group: simgoober
 name:  sg-residentials-vol04-high-rise-blocks   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Residentials Vol04 - High-rise Blocks, by simgoober
@@ -167,8 +167,6 @@ variants:
       - assetId: bsc-simgoober-residentials-set
         include:
         - "/Residential LOT Collection Vol04/"
-        - "/SG_5x4_AstoriaPointe_Plop.dat"
-        - "/SG_3x3_WallDoff Hotel_Plop.dat"
   - variant: { CAM: "yes" }
     assets:
       - assetId: bsc-simgoober-residentials-set
@@ -176,13 +174,11 @@ variants:
         - "/Residential LOT Collection Vol04/"
         - "/SG_PrincessTower_CAM_GROW.dat"
         - "/SG_SmithBlock_CAM_GROW.dat"
-        - "/SG_5x4_AstoriaPointe_Plop.dat"
-        - "/SG_3x3_WallDoff Hotel_Plop.dat"
         
 ---
 group: simgoober
 name:  mobile-homes
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Mobile Homes,  by simgoober
@@ -244,7 +240,7 @@ assets:
 ---
 group: simgoober
 name:  elwood-apartments
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Elwood Apartments,  by simgoober
@@ -281,7 +277,7 @@ variants:
 ---
 group: simgoober
 name:  mary-sue-home
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Mary Sue Home,  by simgoober
@@ -311,7 +307,7 @@ assets:
 ---
 group: simgoober
 name:  pencil-towers
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Pencil Towers,  by simgoober
@@ -343,49 +339,11 @@ variants:
         - "/Atlas/"
         - "/Cumberland/"
         - "/Musgrave/"
-        - "/PLOP_3x3_SG_ApartmentTower-Musgrave_d795f70a.SC4Lot"
         
 ---
 group: simgoober
-name:  mathew-keegen-offices   
-version: "1.0.0"
-subfolder: 300-commercial
-info:
-  summary: SG Mathew Keegen Offices, by simgoober
-  description: |
-    Matthew Keenan was a successful businessman and politician in Milwaukee, and eventually became an officer of the Northwestern Mutual Life Insurance Co. The building is pressed Cream City brick, and was designed by Edward Townsend Mix.
-  author: SimGoober (SG)
-  websites: 
-    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/274-sc4d-lex-legacy-bsc-simgoober-residentials
-    - https://community.simtropolis.com/files/file/14189-mathew-keenan-townhome
-    
-  images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RLS_Ashton_Day.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG%20Schmucker-d.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_WallDoffApartments_Day.jpg
-
-dependencies:
-  - bsc:essentials
-  - bsc:sg-mega-residentials-vol03-models
-  - bsc:mega-props-sg-vol01
-  - bsc:mega-props-swi21-vol01
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-d66-vol01
-  - bsc:mega-props-dae-vol01
-  - bsc:mega-props-misc-vol01
-  - csx:mega-props-vol03
-  - bsc:textures-vol01
-  - bsc:textures-vol02
-
-assets:
-- assetId: bsc-simgoober-residentials-set
-  include:
-  - "/Mathew Keegen Offices/"  
-
----
-group: simgoober
 name:  schmucker-house   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Schmucker House, by simgoober
@@ -412,13 +370,11 @@ assets:
 - assetId: bsc-simgoober-residentials-set
   include:
   - "/R\\$\\$\\$4_4x3_SG_SchmuckerHouse_72c9ca68.SC4Lot"  
-  - "/SG_3x3_SchmuckerHouse_32c9cad7.SC4Lot"
-  - "/SG SchmuckerHouse Museum_9f64ad09.SC4Lot"
 
 ---
 group: simgoober
 name:  susan-b-anthony-building   
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: SG Susan B Anthony Building, by simgoober
@@ -447,18 +403,97 @@ assets:
 - assetId: bsc-simgoober-residentials-set
   include:
   - "/SG_House_SusanBAnthony_GROW.dat"  
-  - "/SG_1x2_Susan B Anthony Museum_65188d8c.SC4Lot"
 
-  
+---
+group: simgoober
+name: mediterranean-seaside-villa
+version: "2.0.0"
+subfolder: 200-residential
+info:
+  summary: Mediterranean Seaside Villa by SimGoober
+  description: |
+    Tired of living in the middle of an older neighborhood? Have your eyes on some of those newer, bigger, fancier places? Well, this one is for you! A seaside villa, with a private waterfront lot!
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/274-sc4d-lex-legacy-bsc-simgoober-residentials
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RLS_Ashton_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG%20Schmucker-d.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_WallDoffApartments_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-mega-residentials-vol03-models
+
+assets:
+- assetId: bsc-simgoober-residentials-set
+  include:
+  - "/R\\$\\$\\$3_3x4_SG_RLSHome_SeasideVilla_b4abd0a2.SC4Lot"  
+
+---
+group: simgoober
+name: playboy-mansion
+version: "2.0.0"
+subfolder: 200-residential
+info:
+  summary: PlayBoy Mansion by SimGoober
+  description: |
+    Mayor, the Adult industry seems to be growing in your city. As a reward, one of the owners in particular would like to build a new residence. He got the plans from the architect who made that nice seaside Villa of yours, but is making a few "upgrades"....
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/274-sc4d-lex-legacy-bsc-simgoober-residentials
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RLS_Ashton_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG%20Schmucker-d.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_WallDoffApartments_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-mega-residentials-vol03-models
+
+assets:
+- assetId: bsc-simgoober-residentials-set
+  include:
+  - "/R\\$\\$\\$3_3x4_SG_RLSHome_PlayboyMansion_b4aa821c.SC4Lot"  
+
+---
+group: simgoober
+name: charlotte-manor
+version: "2.0.0"
+subfolder: 200-residential
+info:
+  summary: Charlotte Manor by SimGoober
+  description: |
+    Charlotte Manor by SimGoober
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/274-sc4d-lex-legacy-bsc-simgoober-residentials
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RLS_Ashton_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG%20Schmucker-d.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_WallDoffApartments_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-mega-residentials-vol03-models
+
+assets:
+- assetId: bsc-simgoober-residentials-set
+  include:
+  - "/R\\$\\$\\$3_4x4_SG_CharlotteManor.SC4Lot"  
+
 ---
 group: simgoober
 name:  simgoober-residential-collection    
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 200-residential
 info:
   summary: Residential Collection Pack
   description: A collection of 36 Residential Lots by SimGoober (SG)       
-  author: Tag One
+  author: SimGoober (SG)
   websites: 
     - https://www.sc4evermore.com/index.php/downloads/download/11-residential/274-sc4d-lex-legacy-bsc-simgoober-residentials
     
@@ -479,3 +514,6 @@ dependencies:
   - simgoober:pencil-towers  
   - simgoober:schmucker-house
   - simgoober:susan-b-anthony-building  
+  - simgoober:mediterranean-seaside-villa
+  - simgoober:playboy-mansion
+  - simgoober:charlotte-manor

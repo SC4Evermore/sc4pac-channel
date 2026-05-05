@@ -1,0 +1,178 @@
+---
+assetId: bsc-simgoober-utilities-set
+version: "1.0.0"
+lastModified: "2026-04-23T11:50:53-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=450:sc4d-lex-legacy-simgoober-utilities-set
+
+---
+group: simgoober
+name: power-plant-set
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: SimGoober Power Plant Set
+  description: |
+    This set includes all the power plants created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/450-sc4d-lex-legacy-simgoober-utilities-set
+    - http://www.simtropolis.com/stex/index.cfm?id=15092
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_HardunCoalPowerPlant_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_PeachWaterTower.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Muellkraftwerk_Tag.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-utilities
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-jbsimio-vol03
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-newmaninc-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol06
+  - gizmo:civic-vehicle-props
+
+assets:
+- assetId: bsc-simgoober-utilities-set
+  include:
+  - "/Power/"  
+
+---
+group: simgoober
+name: water-utility-set
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: SimGoober Water Utility Set
+  description: |
+    This set includes all the water utility created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/450-sc4d-lex-legacy-simgoober-utilities-set
+    - https://community.simtropolis.com/files/file/14356-water-control-board/
+    - https://www.sc4evermore.com/BSC%20SG%20Water%20Control%20Board
+    - https://community.simtropolis.com/files/file/14339-tea-pot-water-tower/
+    - https://community.simtropolis.com/files/file/14714-pequot-lakes-water-tower/
+    - https://community.simtropolis.com/files/file/4467-water-tower-peach/
+    - https://community.simtropolis.com/files/file/14336-smiley-water-tower/
+    - https://community.simtropolis.com/files/file/14716-washburn-water-tower/
+    - https://community.simtropolis.com/files/file/14715-brick-water-castle/
+    - https://community.simtropolis.com/files/file/14335-large-water-tower-set/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_HardunCoalPowerPlant_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_PeachWaterTower.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Muellkraftwerk_Tag.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-utilities
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-jbsimio-vol03
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-newmaninc-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol06
+  - gizmo:civic-vehicle-props
+
+assets:
+- assetId: bsc-simgoober-utilities-set
+  include:
+  - "/Water/"  
+  
+---
+group: simgoober
+name: waste-utility-set
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: SimGoober Waste Utility Set
+  description: |
+    This set includes all the waste utility created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/450-sc4d-lex-legacy-simgoober-utilities-set
+    - http://www.simtropolis.com/stex/index.cfm?id=14358
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_HardunCoalPowerPlant_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_PeachWaterTower.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Muellkraftwerk_Tag.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-utilities
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-jbsimio-vol03
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-newmaninc-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol06
+  - gizmo:civic-vehicle-props
+
+assets:
+- assetId: bsc-simgoober-utilities-set
+  include:
+  - "/Landfill/"  
+
+---
+group: simgoober
+name: utility-collection    
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: Utility Collection Pack
+  description: A collection of 17 Utility Lots by SimGoober (SG)       
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/450-sc4d-lex-legacy-simgoober-utilities-set
+    - http://www.simtropolis.com/stex/index.cfm?id=15092
+    - https://community.simtropolis.com/files/file/14356-water-control-board/
+    - https://www.sc4evermore.com/BSC%20SG%20Water%20Control%20Board
+    - https://community.simtropolis.com/files/file/14339-tea-pot-water-tower/
+    - https://community.simtropolis.com/files/file/14714-pequot-lakes-water-tower/
+    - https://community.simtropolis.com/files/file/4467-water-tower-peach/
+    - https://community.simtropolis.com/files/file/14336-smiley-water-tower/
+    - https://community.simtropolis.com/files/file/14716-washburn-water-tower/
+    - https://community.simtropolis.com/files/file/14715-brick-water-castle/
+    - https://community.simtropolis.com/files/file/14335-large-water-tower-set/    
+    - http://www.simtropolis.com/stex/index.cfm?id=14358    
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_HardunCoalPowerPlant_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_PeachWaterTower.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Muellkraftwerk_Tag.jpg
+    
+dependencies:
+  - simgoober:power-plant-set
+  - simgoober:water-utility-set
+  - simgoober:waste-utility-set
