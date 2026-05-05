@@ -15,7 +15,11 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20JBSimio%20Residentials.png
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/ArborWoods_Red.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Camalot01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/EvergreenHills_01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/PheasantRun_01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stratton01.jpg"
 dependencies:
   - "jbsimio:arbor-woods-apartments"
   - "jbsimio:camalot-apartments"
@@ -55,7 +59,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/ArborWoods_Red.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/ArborWoods_Tan.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol01"
@@ -98,7 +103,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Camalot01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Camalot02.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol01"
@@ -141,7 +147,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/EvergreenHills_01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/EvergreenHills_02.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol01"
@@ -182,7 +189,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/PheasantRun_01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/PheasantRun_02.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol01"
@@ -222,7 +230,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stratton01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stratton02.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol01"
@@ -254,7 +263,14 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20JBSimio%20Residentials.png
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Brownstone_Low.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Buder_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Citizen_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Lockwood_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/SHURImage01.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Rookery_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Stearns_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Taft_Day.jpg
 dependencies:
   - "jbsimio:shur-project-beginnings"
   - "jbsimio:brownstones"
@@ -263,7 +279,7 @@ dependencies:
   - "jbsimio:lockwood-arms"
   - "jbsimio:rookery-building"
   - "jbsimio:stearns-building"
-
+  - "jbsimio:taft-building"
 
 ---
 group: "jbsimio"
@@ -300,7 +316,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Brownstone_Low.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Brownstone_Med.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol02"
@@ -342,7 +359,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Buder_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Buder_Night.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol02"
@@ -386,7 +404,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Citizen_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Citizen_Night.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol02"
@@ -428,7 +447,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Lockwood_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Lockwood_Night.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol02"
@@ -454,9 +474,14 @@ info:
     - **Chalfonte Apartments**: 2 x 2 tiles, R$ grow ; 2 x 3 tiles, 4 x 2 tiles, 4 x 3 tiles, R$$ grow
     - **Hammond Building**: 3 x 3 tiles, CO$$ grow and plop, CS$$ grow and plop, R$$ grow
   author: JBSimio
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  website: 
+    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+    - https://community.simtropolis.com/files/file/16816-shur-chalfonte-apartments/
+    - https://community.simtropolis.com/files/file/16895-shur-hammond-building/
+    - https://community.simtropolis.com/files/file/16697-shur-wisner-apartments/
+    - https://community.simtropolis.com/files/file/16714-shur-worthington-arms/
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/SHURImage01.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol02"
@@ -503,7 +528,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Rookery_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Rookery_Night.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol02"
@@ -545,7 +571,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stearns_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stearns_Night.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol02"
@@ -587,7 +614,8 @@ info:
   author: JBSimio
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
   images:
-    - ""
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Taft_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Taft_Night.jpg"
 dependencies:
   - "bsc:essentials"
   - "bsc:mega-props-jbsimio-vol02"
