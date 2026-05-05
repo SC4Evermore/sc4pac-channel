@@ -342,7 +342,7 @@ info:
     
     This building was unfortunately torn down in 1984 along with several other buildings which occupied the same block. A number of personal liberties were taken with this version and while it is by no means an exact recreation, care was taken to keep the same spirit and borrowed as many of the character details as possible.
 
-    This release contains three lot versions. I've included a 3x3 stage seven growable with CO$$ jobs and also a functioning ploppable version with a plop cost of $8200. All the other statistics are the same as the growable. There is also a 3x3 stage seven R$$ version as well. All three versions are designed to fit a wall to wall corner setting. As always, you can safely delete any LOT versions you don't need, just be sure to keep the MODEL file. Enjoy!
+    This release contains three lot versions. A 3x3 stage seven growable with CO$$ jobs and also a functioning ploppable version with a plop cost of $8200 are included. All the other statistics are the same as the growable. There is also a 3x3 stage seven R$$ version as well. All three versions are designed to fit a wall to wall corner setting. As always, you can safely delete any LOT versions you don't need, just be sure to keep the MODEL file. Enjoy!
 
     # Lot Details & Information
 
@@ -387,7 +387,7 @@ info:
     
     This building was inspired by one in Sacramento, California. It was originally known as the Cal Western Life Building. It is currently being renovated for use as a hotel which will be called the Citizen Hotel. A number of personal liberties were taken with this version and while it is by no means an exact recreation, care was taken to keep the same spirit and borrowed as many of the character details as possible.
 
-    This release contains three lot versions. I've included a 3x3 stage seven growable with CO$$$ jobs and also a functioning ploppable version with a plop cost of $10860. All the other statistics are the same as the growable. There is also a 3x3 stage seven R$$ version as well. All three versions are designed to fit a wall to wall corner setting. As always, you can safely delete any LOT versions you don't need, just be sure to keep the MODEL file. Enjoy!
+    This release contains three lot versions. A 3x3 stage seven growable with CO$$$ jobs and also a functioning ploppable version with a plop cost of $10860 are included. All the other statistics are the same as the growable. There is also a 3x3 stage seven R$$ version as well. All three versions are designed to fit a wall to wall corner setting. As always, you can safely delete any LOT versions you don't need, just be sure to keep the MODEL file. Enjoy!
 
     # Lot Details & Information
 
@@ -481,11 +481,11 @@ info:
     - **Hammond Building**: 3 x 3 tiles, CO$$ grow and plop, CS$$ grow and plop, R$$ grow
   author: JBSimio
   website: 
-    - https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
-    - https://community.simtropolis.com/files/file/16816-shur-chalfonte-apartments/
-    - https://community.simtropolis.com/files/file/16895-shur-hammond-building/
-    - https://community.simtropolis.com/files/file/16697-shur-wisner-apartments/
-    - https://community.simtropolis.com/files/file/16714-shur-worthington-arms/
+    - "https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation"
+    - "https://community.simtropolis.com/files/file/16816-shur-chalfonte-apartments/"
+    - "https://community.simtropolis.com/files/file/16895-shur-hammond-building/"
+    - "https://community.simtropolis.com/files/file/16697-shur-wisner-apartments/"
+    - "https://community.simtropolis.com/files/file/16714-shur-worthington-arms/"
   images:
     - "https://www.sc4evermore.com/images/sc4pac/jbsimio/SHURImage01.jpg"
 dependencies:
