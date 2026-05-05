@@ -47,7 +47,7 @@ dependencies:
   - bsc:sg-models-offices-medium
   - bsc:sg-models-w2w-commercials
   - bsc:sg-models-transportation
-  - bsc:sg-models-im2"
+  - bsc:sg-models-im2
   - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
@@ -158,7 +158,7 @@ dependencies:
   - bsc:sg-models-offices-medium
   - bsc:sg-models-w2w-commercials
   - bsc:sg-models-transportation
-  - bsc:sg-models-im2"
+  - bsc:sg-models-im2
   - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
@@ -248,7 +248,7 @@ dependencies:
   - bsc:sg-models-offices-medium
   - bsc:sg-models-w2w-commercials
   - bsc:sg-models-transportation
-  - bsc:sg-models-im2"
+  - bsc:sg-models-im2
   - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
@@ -339,7 +339,7 @@ dependencies:
   - bsc:sg-models-offices-medium
   - bsc:sg-models-w2w-commercials
   - bsc:sg-models-transportation
-  - bsc:sg-models-im2"
+  - bsc:sg-models-im2
   - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
@@ -415,7 +415,7 @@ dependencies:
   - bsc:sg-models-offices-medium
   - bsc:sg-models-w2w-commercials
   - bsc:sg-models-transportation
-  - bsc:sg-models-im2"
+  - bsc:sg-models-im2
   - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
@@ -524,7 +524,7 @@ dependencies:
   - bsc:sg-models-offices-medium
   - bsc:sg-models-w2w-commercials
   - bsc:sg-models-transportation
-  - bsc:sg-models-im2"
+  - bsc:sg-models-im2
   - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
@@ -752,7 +752,7 @@ dependencies:
   - bsc:sg-models-offices-medium
   - bsc:sg-models-w2w-commercials
   - bsc:sg-models-transportation
-  - bsc:sg-models-im2"
+  - bsc:sg-models-im2
   - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
@@ -899,7 +899,7 @@ dependencies:
   - bsc:sg-models-offices-medium
   - bsc:sg-models-w2w-commercials
   - bsc:sg-models-transportation
-  - bsc:sg-models-im2"
+  - bsc:sg-models-im2
   - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
