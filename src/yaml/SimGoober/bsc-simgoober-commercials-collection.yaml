@@ -1,0 +1,1175 @@
+---
+assetId: bsc-simgoober-commercials-collection
+version: "1.0.0"
+lastModified: "2026-04-23T14:42:12-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=445:sc4d-lex-legacy-bsc-simgoober-commercials-collection
+
+---
+group: simgoober
+name: department-store-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SimGoober Department Store Set
+  description: |
+    This set includes all the Department Store created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/445-sc4d-lex-legacy-bsc-simgoober-commercials-collection
+    - https://community.simtropolis.com/files/file/15988-monkey-wards/
+    - https://community.simtropolis.com/files/file/15989-richardsons-department-store/
+    - https://community.simtropolis.com/files/file/12524-hechts-department-store/
+    - https://community.simtropolis.com/files/file/12525-nordstroms-department-store/
+    - https://community.simtropolis.com/files/file/12526-sears-department-store/
+    - https://community.simtropolis.com/files/file/4594-kohls-department-store/
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RichardsonsDeptStore01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Wainwright_day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-restaurants
+  - bsc:sg-models-grocery-stores
+  - bsc:sg-models-sainsbury
+  - bsc:sg-models-large-stores
+  - bsc:sg-models-medium-shops1
+  - bsc:sg-models-small-shops
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-motels
+  - bsc:sg-models-offices-hirise1
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-offices-medium
+  - bsc:sg-models-w2w-commercials
+  - bsc:sg-models-transportation
+  - bsc:sg-models-im2
+  - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-carch-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - csx:mega-props-vol07
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - gizmo:vehicle-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - bsc:sg-irrigation-canals-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: bsc-simgoober-commercials-collection
+        include:
+        - "/SG_BSCDeptStore_CS\\$\\$_GROW.dat"
+        - "/SG_RichardsonsDeptStore_CS\\$\\$_GROW.dat"
+        - "/SG_RichardsonsDeptStore_Cs\\$_GROW.dat"
+        - "/SG_UrbanDeptStore_CS\\$\\$\\$_GROW.dat"
+        - "/SG_MerchandiseMart_Cs\\$\\$\\$_GROW.dat"
+        - "/SG_MerchandiseMart_Cs\\$\\$_GROW.dat"
+        - "/SG_MonkeyWards_Cs\\$\\$_GROW.dat"
+        - "/SG_MonkeyWards_CS\\$_GROW.dat"
+        - "/City of Paris Building/" 
+        - "/Goobers Good Buys/"
+        - "/Hess Department Store/"
+        - "/Kohls/"
+        - "/Mall Department Stores/"
+        - "/Nieman Marcus/"
+        - "/Q204 Lillian Dukes/"
+        - "/Department Stores#/"  
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: bsc-simgoober-commercials-collection
+        include:
+        - "/CS\\$\\$9_7x3_SG_BSCDeptStore.SC4Lot"
+        - "/SG_RichardsonsDeptStore_Cs\\$_CAM_GROW.dat"
+        - "/SG_RichardsonsDeptStore_CS\\$\\$_GROW.dat"
+        - "/SG_UrbanDeptStore_Cs\\$\\$\\$_CAM_GROW.dat"
+        - "/CS\\$\\$\\$11_10x6_SG_MerchandiseMart.SC4Lot"
+        - "/CS\\$\\$12_10x6_SG_MerchandiseMart.SC4Lot"
+        - "/SG_MonkeyWards_Cs\\$_CAM_GROW.dat"
+        - "/SG_MonkeyWards_Cs\\$\\$_GROW.dat"
+        - "/City of Paris Building/" 
+        - "/Goobers Good Buys/"
+        - "/Hess Department Store/"
+        - "/Kohls/"
+        - "/Mall Department Stores/"
+        - "/Nieman Marcus/"
+        - "/Q204 Lillian Dukes/"
+        - "/Department Stores#/"        
+
+---
+group: simgoober
+name: entertainment-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SimGoober Entertainment Set
+  description: |
+    This set includes all the Entertainment buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/445-sc4d-lex-legacy-bsc-simgoober-commercials-collection
+    - https://community.simtropolis.com/files/file/12926-century-movie-theater/
+    - https://community.simtropolis.com/files/file/15716-chuck-e-cheese/
+    - https://community.simtropolis.com/files/file/12898-mini-golf/
+    - https://community.simtropolis.com/files/file/15711-dave-and-busters/
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RichardsonsDeptStore01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Wainwright_day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-restaurants
+  - bsc:sg-models-grocery-stores
+  - bsc:sg-models-sainsbury
+  - bsc:sg-models-large-stores
+  - bsc:sg-models-medium-shops1
+  - bsc:sg-models-small-shops
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-motels
+  - bsc:sg-models-offices-hirise1
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-offices-medium
+  - bsc:sg-models-w2w-commercials
+  - bsc:sg-models-transportation
+  - bsc:sg-models-im2
+  - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-carch-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - csx:mega-props-vol07
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - gizmo:vehicle-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - bsc:sg-irrigation-canals-props
+
+assets:
+- assetId: bsc-simgoober-commercials-collection
+  include:
+  - "/@2Entertainment#/"
+  - "/Entertainment#/"   
+
+---
+group: simgoober
+name: grocery-stores-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SimGoober Grocery Stores Set
+  description: |
+    This set includes all the Grocery Stores buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/445-sc4d-lex-legacy-bsc-simgoober-commercials-collection
+    - https://community.simtropolis.com/files/file/13852-blains-farm-and-fleet/
+    - https://community.simtropolis.com/files/file/10942-champion-supermarche/
+    - https://community.simtropolis.com/files/file/15066-food-lion-shopping-center/
+    - https://community.simtropolis.com/files/file/2885-food-lion-grocery-store/
+    - https://community.simtropolis.com/files/file/3287-kroger-grocery-store/
+    - https://community.simtropolis.com/files/file/10941-lidl-grocery-store/
+    - https://community.simtropolis.com/files/file/3541-piggly-wiggly-grocery-store/
+    - https://community.simtropolis.com/files/file/3542-publix-grocery-store/
+    - https://community.simtropolis.com/files/file/3257-safeway-gorcery-store/
+    - https://community.simtropolis.com/files/file/3583-shoppers-food-warehouse/
+    - https://community.simtropolis.com/files/file/3645-tesco-grocery-store/
+    - https://community.simtropolis.com/files/file/3540-tops-grocery-store/
+    - https://community.simtropolis.com/files/file/3539-wegmans-grocery-store/
+    - https://community.simtropolis.com/files/file/3646-wilson-farms-convenience-store/
+    - https://community.simtropolis.com/files/file/11354-sainsbury-grocer-suburban-version/
+    - https://community.simtropolis.com/files/file/11355-sainsbury-grocer-urban-version/
+    - https://community.simtropolis.com/files/file/11352-sainsbury-locals-suburban-version/
+    - https://community.simtropolis.com/files/file/11353-sainsbury-locals-urban-version/
+    - https://community.simtropolis.com/files/file/11356-sainsbury-savacentre/
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RichardsonsDeptStore01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Wainwright_day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-restaurants
+  - bsc:sg-models-grocery-stores
+  - bsc:sg-models-sainsbury
+  - bsc:sg-models-large-stores
+  - bsc:sg-models-medium-shops1
+  - bsc:sg-models-small-shops
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-motels
+  - bsc:sg-models-offices-hirise1
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-offices-medium
+  - bsc:sg-models-w2w-commercials
+  - bsc:sg-models-transportation
+  - bsc:sg-models-im2
+  - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-carch-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - csx:mega-props-vol07
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - gizmo:vehicle-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - bsc:sg-irrigation-canals-props
+
+assets:
+- assetId: bsc-simgoober-commercials-collection
+  include:
+  - "/@3Grocery Stores#/"  
+  - "/Grocery Stores#/" 
+  
+---
+group: simgoober
+name: restaurants-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SimGoober Restaurants Set
+  description: |
+    This set includes all the Restaurants buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/445-sc4d-lex-legacy-bsc-simgoober-commercials-collection
+    - https://community.simtropolis.com/files/file/13120-buffalo-grill-restaurant/
+    - https://community.simtropolis.com/files/file/11532-captain-jacks-seafood-restaurant/
+    - https://community.simtropolis.com/files/file/4392-bsc-stone-cold-creamery/
+    - https://community.simtropolis.com/files/file/13512-cracker-barrel/
+    - https://community.simtropolis.com/files/file/12265-dennys-diner/
+    - https://community.simtropolis.com/files/file/14259-california-pizza-kitchen/
+    - https://community.simtropolis.com/files/file/12557-pizzeria-uno/
+    - https://community.simtropolis.com/files/file/4493-fish-tale-ale-microbrewery-restaraunt/
+    - https://community.simtropolis.com/files/file/11631-fuddruckers-restaurant/
+    - https://community.simtropolis.com/files/file/11543-ruby-tuesday-restaurant/
+    - https://community.simtropolis.com/files/file/3647-hooters-restaurant/
+    - https://community.simtropolis.com/files/file/3734-outback-steakhouse/
+    - https://community.simtropolis.com/files/file/14260-panera-bread-company/
+    - https://community.simtropolis.com/files/file/3846-perkins-family-restaraunt/
+    - https://community.simtropolis.com/files/file/3685-plaza-azteca-mexican-restaraunt/
+    - https://community.simtropolis.com/files/file/3787-red-lobster/
+    - https://community.simtropolis.com/files/file/11795-restaurant-row/
+    - https://community.simtropolis.com/files/file/4040-starbucks-coffee-house/
+    - https://community.simtropolis.com/files/file/12190-waffle-house-restaurant/
+    - https://community.simtropolis.com/files/file/12189-waffle-king/
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RichardsonsDeptStore01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Wainwright_day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-restaurants
+  - bsc:sg-models-grocery-stores
+  - bsc:sg-models-sainsbury
+  - bsc:sg-models-large-stores
+  - bsc:sg-models-medium-shops1
+  - bsc:sg-models-small-shops
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-motels
+  - bsc:sg-models-offices-hirise1
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-offices-medium
+  - bsc:sg-models-w2w-commercials
+  - bsc:sg-models-transportation
+  - bsc:sg-models-im2
+  - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-carch-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - csx:mega-props-vol07
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - gizmo:vehicle-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - bsc:sg-irrigation-canals-props
+
+assets:
+- assetId: bsc-simgoober-commercials-collection
+  include:
+  - "/@7Restaurants#/"  
+  - "/Restaurants#/"   
+
+---
+group: simgoober
+name: malls-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SimGoober Malls Set
+  description: |
+    This set includes all the Malls buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/445-sc4d-lex-legacy-bsc-simgoober-commercials-collection
+    - https://community.simtropolis.com/files/file/3361-strip-mall-shopping-center-1/
+    - https://community.simtropolis.com/files/file/13826-super-center-1/
+    - https://community.simtropolis.com/files/file/13833-super-center-2/
+    - https://community.simtropolis.com/files/file/11185-rls-strip-mall-shopping-center/
+    - https://community.simtropolis.com/files/file/14033-urban-parking-garage/
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RichardsonsDeptStore01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Wainwright_day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-restaurants
+  - bsc:sg-models-grocery-stores
+  - bsc:sg-models-sainsbury
+  - bsc:sg-models-large-stores
+  - bsc:sg-models-medium-shops1
+  - bsc:sg-models-small-shops
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-motels
+  - bsc:sg-models-offices-hirise1
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-offices-medium
+  - bsc:sg-models-w2w-commercials
+  - bsc:sg-models-transportation
+  - bsc:sg-models-im2
+  - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-carch-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - csx:mega-props-vol07
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - gizmo:vehicle-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - bsc:sg-irrigation-canals-props
+
+assets:
+- assetId: bsc-simgoober-commercials-collection
+  include:
+  - "/@5Malls#/"  
+
+---
+group: simgoober
+name: retailers-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SimGoober Retailers Set
+  description: |
+    This set includes all the Retailers buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/445-sc4d-lex-legacy-bsc-simgoober-commercials-collection
+    - https://community.simtropolis.com/files/file/21192-goobers-good-buys/
+    - https://community.simtropolis.com/files/file/13621-ace-hardware/
+    - https://community.simtropolis.com/files/file/3909-costco-retail/
+    - https://community.simtropolis.com/files/file/4565-dsw-shoe-warehouse/
+    - https://community.simtropolis.com/files/file/12136-giant-tiger/
+    - https://community.simtropolis.com/files/file/13853-mills-fleet-farm/
+    - https://community.simtropolis.com/files/file/13709-outdoor-world/
+    - https://community.simtropolis.com/files/file/4544-pet-supermarket/
+    - https://community.simtropolis.com/files/file/13309-scheels-all-sports/
+    - https://community.simtropolis.com/files/file/13854-tractor-supply-company/
+    - https://community.simtropolis.com/files/file/15726-wally-ks-bullseye/
+    - https://community.simtropolis.com/files/file/3427-barnes-noble-booksellers/
+    - https://community.simtropolis.com/files/file/4532-bed-bath-beyond/
+    - https://community.simtropolis.com/files/file/12562-best-buy-updated/
+    - https://community.simtropolis.com/files/file/3580-blockbuster-video/
+    - https://community.simtropolis.com/files/file/4533-borders-books/
+    - https://community.simtropolis.com/files/file/4279-casa-bacardi-retail-store/
+    - https://community.simtropolis.com/files/file/15985-modern-circuit-city/
+    - https://community.simtropolis.com/files/file/15986-modern-compusa/
+    - https://community.simtropolis.com/files/file/3582-goober-electronics/
+    - https://community.simtropolis.com/files/file/12699-kellys-escort-service/
+    - https://community.simtropolis.com/files/file/14217-lcbo-store/
+    - https://community.simtropolis.com/files/file/4534-linens-n-things/
+    - https://community.simtropolis.com/files/file/4199-bsc-pansarkatt-retail-lots/
+    - https://community.simtropolis.com/files/file/4543-petco/
+    - https://community.simtropolis.com/files/file/3686-rite-aid-drug-store/
+    - https://community.simtropolis.com/files/file/12568-toys-r-us-updated/
+    - https://community.simtropolis.com/files/file/12051-rls-small-shops/
+    - https://community.simtropolis.com/files/file/10990-plop-a-shop-pack-1/
+    - https://community.simtropolis.com/files/file/10991-plop-a-shop-pack-2/
+    - https://community.simtropolis.com/files/file/10992-plop-a-shop-pack-3/
+    - https://community.simtropolis.com/files/file/11045-plop-a-shop-pack-4/
+    - https://community.simtropolis.com/files/file/3485-7eleven-stores-bsc/
+    - https://community.simtropolis.com/files/file/12943-boomland-fireworks/
+    - https://community.simtropolis.com/files/file/16073-goobers-nuts/
+    - https://community.simtropolis.com/files/file/12188-jiffy-lube/
+    - https://community.simtropolis.com/files/file/3581-kinkos/
+    - https://community.simtropolis.com/files/file/3788-small-kiosk-businesses-1x1-lots/
+    - https://community.simtropolis.com/files/file/15267-rural-stores/
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RichardsonsDeptStore01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Wainwright_day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-restaurants
+  - bsc:sg-models-grocery-stores
+  - bsc:sg-models-sainsbury
+  - bsc:sg-models-large-stores
+  - bsc:sg-models-medium-shops1
+  - bsc:sg-models-small-shops
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-motels
+  - bsc:sg-models-offices-hirise1
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-offices-medium
+  - bsc:sg-models-w2w-commercials
+  - bsc:sg-models-transportation
+  - bsc:sg-models-im2
+  - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-carch-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - csx:mega-props-vol07
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - gizmo:vehicle-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - bsc:sg-irrigation-canals-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: bsc-simgoober-commercials-collection
+        include:
+        - "/SG_Factory_LongFellow_CS\\$_GROW.dat"
+        - "/SG_RobotBuilding_Cs\\$\\$\\$_GROW.dat"
+        - "/SG_BlockThalhimer_CS\\$_GROW.dat"
+        - "/7-Eleven Convenience Store/"
+        - "/Ace Hardware/"
+        - "/Ace Loans/"
+        - "/Advance Auto/"
+        - "/Autozone Retailer/"
+        - "/Barber Shop/"
+        - "/Barnes Noble/"
+        - "/Bed Bath Beyond/"
+        - "/Best Buy/"
+        - "/BH Photography/"
+        - "/Block Buster/"
+        - "/Blue Iguana Souvenirs/"
+        - "/Borders Books/"
+        - "/Casa Bacardi/"
+        - "/Check Cashing/"
+        - "/Chocolate Boutique/"
+        - "/Circuit City/"
+        - "/Comp USA/"
+        - "/Costco Retail/"
+        - "/Dans Barber Shop/"
+        - "/Dollar Tree/"
+        - "/DSW Shoe Warehouse/"
+        - "/Firestone/"
+        - "/Fireworks Boomland/"
+        - "/Game Stop/"
+        - "/Giant Tiger/"
+        - "/Goober Electronics/"
+        - "/Goobers Barber Shop/"
+        - "/Goobers Go Go Golf Carts/"
+        - "/Goobers Nuts/"
+        - "/Jack Knoff Auto Sales/"
+        - "/Java Hut/"
+        - "/Jiffy Lube/"
+        - "/Kellys Escorts/"
+        - "/Key Maker/"
+        - "/Kidsexchange/"
+        - "/Kinkos/"
+        - "/LCBO Liquors/"
+        - "/Lifestyles/"
+        - "/Linens'N'Things/"
+        - "/Linwood Lighting/"
+        - "/Mills Fleet Farm/"
+        - "/Outdoor World/"
+        - "/Pansarkatt Commercial Ventures/"
+        - "/Pet Supermarket/"
+        - "/Petco/"
+        - "/Photo Mat/"
+        - "/Plop A Shop/"
+        - "/Pussy Cleaners/"
+        - "/Rite Aid/"
+        - "/Rural Stores/"
+        - "/Scheels All Sports/"
+        - "/Shiney Stuff/"
+        - "/Simply Pets/"
+        - "/Small Shops/"
+        - "/Toys R Us/"
+        - "/Tractor Supply/"
+        - "/Tread Quarters/"
+        - "/Valentine Shop/"
+        - "/W2W Collection/"
+        - "/Wally Ks Bullseye/"
+        - "/Wong Hung Long Chinese/"
+        - "/Woodcraft/"
+        - "/Retailers#/"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: bsc-simgoober-commercials-collection
+        include:
+        - "/CS\\$9_10x2_SG_Factory_LongFellow.SC4Lot"
+        - "/CS\\$\\$\\$9_3x4_SG_RobotBuilding.SC4Lot"
+        - "/CS\\$\\$\\$10_3x3_SG_RobotBuilding.SC4Lot"
+        - "/SG_BlockThalhimer_CS\\$_CAM_GROW.dat"
+        - "/7-Eleven Convenience Store/"
+        - "/Ace Hardware/"
+        - "/Ace Loans/"
+        - "/Advance Auto/"
+        - "/Autozone Retailer/"
+        - "/Barber Shop/"
+        - "/Barnes Noble/"
+        - "/Bed Bath Beyond/"
+        - "/Best Buy/"
+        - "/BH Photography/"
+        - "/Block Buster/"
+        - "/Blue Iguana Souvenirs/"
+        - "/Borders Books/"
+        - "/Casa Bacardi/"
+        - "/Check Cashing/"
+        - "/Chocolate Boutique/"
+        - "/Circuit City/"
+        - "/Comp USA/"
+        - "/Costco Retail/"
+        - "/Dans Barber Shop/"
+        - "/Dollar Tree/"
+        - "/DSW Shoe Warehouse/"
+        - "/Firestone/"
+        - "/Fireworks Boomland/"
+        - "/Game Stop/"
+        - "/Giant Tiger/"
+        - "/Goober Electronics/"
+        - "/Goobers Barber Shop/"
+        - "/Goobers Go Go Golf Carts/"
+        - "/Goobers Nuts/"
+        - "/Jack Knoff Auto Sales/"
+        - "/Java Hut/"
+        - "/Jiffy Lube/"
+        - "/Kellys Escorts/"
+        - "/Key Maker/"
+        - "/Kidsexchange/"
+        - "/Kinkos/"
+        - "/LCBO Liquors/"
+        - "/Lifestyles/"
+        - "/Linens'N'Things/"
+        - "/Linwood Lighting/"
+        - "/Mills Fleet Farm/"
+        - "/Outdoor World/"
+        - "/Pansarkatt Commercial Ventures/"
+        - "/Pet Supermarket/"
+        - "/Petco/"
+        - "/Photo Mat/"
+        - "/Plop A Shop/"
+        - "/Pussy Cleaners/"
+        - "/Rite Aid/"
+        - "/Rural Stores/"
+        - "/Scheels All Sports/"
+        - "/Shiney Stuff/"
+        - "/Simply Pets/"
+        - "/Small Shops/"
+        - "/Toys R Us/"
+        - "/Tractor Supply/"
+        - "/Tread Quarters/"
+        - "/Valentine Shop/"
+        - "/W2W Collection/"
+        - "/Wally Ks Bullseye/"
+        - "/Wong Hung Long Chinese/"
+        - "/Woodcraft/"
+        - "/Retailers#/"
+---
+group: simgoober
+name: hotels-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SimGoober Hotels Set
+  description: |
+    This set includes all the Hotels buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/445-sc4d-lex-legacy-bsc-simgoober-commercials-collection
+    - https://community.simtropolis.com/files/file/3180-embassy-suites-hotel/
+    - https://community.simtropolis.com/files/file/4430-marriott-hotel/
+    - https://community.simtropolis.com/files/file/11046-omni-hotel/
+    - https://community.simtropolis.com/files/file/3151-hotel-and-conference-center/
+    - https://community.simtropolis.com/files/file/4280-sheraton-four-points-hotel/
+    - https://community.simtropolis.com/files/file/3078-best-western-hotel/
+    - https://community.simtropolis.com/files/file/13219-coral-gables-hotel/
+    - https://community.simtropolis.com/files/file/3258-courtyard-hotel/
+    - https://community.simtropolis.com/files/file/4112-days-inn-hotel/
+    - https://community.simtropolis.com/files/file/3735-doubletree-hotel-airport/
+    - https://community.simtropolis.com/files/file/3106-fairfield-inn-hotel/
+    - https://community.simtropolis.com/files/file/3014-hampton-inn-hotel/
+    - https://community.simtropolis.com/files/file/12430-holiday-inn-express/
+    - https://community.simtropolis.com/files/file/13218-hotel-coral-essex/
+    - https://community.simtropolis.com/files/file/15598-hotel-zaza/
+    - https://community.simtropolis.com/files/file/4493-fish-tale-ale-microbrewery-restaraunt/
+    - https://community.simtropolis.com/files/file/3984-reds-roadside-motel/
+    - https://community.simtropolis.com/files/file/3983-super-8-motel/
+    
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RichardsonsDeptStore01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Wainwright_day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-restaurants
+  - bsc:sg-models-grocery-stores
+  - bsc:sg-models-sainsbury
+  - bsc:sg-models-large-stores
+  - bsc:sg-models-medium-shops1
+  - bsc:sg-models-small-shops
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-motels
+  - bsc:sg-models-offices-hirise1
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-offices-medium
+  - bsc:sg-models-w2w-commercials
+  - bsc:sg-models-transportation
+  - bsc:sg-models-im2
+  - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-carch-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - csx:mega-props-vol07
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - gizmo:vehicle-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - bsc:sg-irrigation-canals-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: bsc-simgoober-commercials-collection
+        include:
+        - "/SG_DoubleTreeHotel_CS\\$\\$_GROW.dat"
+        - "/SG_EmbassySuites_CS\\$\\$\\$_GROW.dat"
+        - "/SG_HotelCoralEssex_CS\\$\\$_GROW.dat"
+        - "/SG_HotelRoswellInn_CS\\$\\$_GROW.dat"
+        - "/SG_Marriott_CS\\$\\$\\$_GROW.dat"
+        - "/SG_OmniHotel_CS\\$\\$\\$_GROW.dat"
+        - "/CS\\$\\$8_5x4_SG_Westin_R1.SC4Lot"
+        - "/SG_SheratonFourPoints_CS\\$\\$\\$_GROW.dat"
+        - "/Best Western Hotel/"
+        - "/Coral Gables/"
+        - "/Courtyard Hotel/"
+        - "/Fairfield Inn/"
+        - "/Fish Tale Ale Pub and Motel/"
+        - "/Hampton Inn/"
+        - "/Holiday Inn Express/"
+        - "/Hotel Days Inn/"
+        - "/Hotel ZaZa/"
+        - "/Reds Roadside Motel/"
+        - "/Resort Hotel & Conference Center/"
+        - "/Sleep Eazy Motel"
+        - "/Super8 Motel"
+        - "/Surfside Inn"
+        - "/Hotels#/"
+
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: bsc-simgoober-commercials-collection
+        include:
+        - "/SG_DoubleTreeHotel_CS\\$\\$_GROW_CAM.dat"
+        - "/SG_EmbassySuites_CS\\$\\$\\$_CAM_GROW.dat"
+        - "/SG_HotelCoralEssex_CS\\$\\$_GROW_CAM.dat"
+        - "/SG_HotelRoswellInn_CS\\$\\$_GROW_CAM.dat"
+        - "/SG_Marriott_CS\\$\\$\\$_CAM_GROW.dat"
+        - "/SG_OmniHotel_CS\\$\\$\\$_CAM_GROW.dat"
+        - "/CS\\$\\$9_5x4_SG_Westin_R1.SC4Lot"
+        - "/SG_SheratonFourPoints_CS\\$\\$\\$_CAM_GROW.dat"
+        - "/CS\\$\\$9_2x3_SG_RevolvoTower.SC4Lot"
+        - "/Best Western Hotel/"
+        - "/Coral Gables/"
+        - "/Courtyard Hotel/"
+        - "/Fairfield Inn/"
+        - "/Fish Tale Ale Pub and Motel/"
+        - "/Hampton Inn/"
+        - "/Holiday Inn Express/"
+        - "/Hotel Days Inn/"
+        - "/Hotel ZaZa/"
+        - "/Reds Roadside Motel/"
+        - "/Resort Hotel & Conference Center/"
+        - "/Sleep Eazy Motel"
+        - "/Super8 Motel"
+        - "/Surfside Inn"
+        - "/Hotels#/"
+
+---
+group: simgoober
+name: offices-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SimGoober Offices Set
+  description: |
+    This set includes all the Offices buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/445-sc4d-lex-legacy-bsc-simgoober-commercials-collection
+    - https://community.simtropolis.com/files/file/14317-aramark-tower/
+    - https://community.simtropolis.com/files/file/14387-bellsouth-tower/
+    - https://community.simtropolis.com/files/file/12006-eon-tower/
+    - https://community.simtropolis.com/files/file/3786-jenna-lynn-office-building/
+    - https://community.simtropolis.com/files/file/13202-prentiss-building/
+    - https://community.simtropolis.com/files/file/4281-tucson-tower/
+    - https://community.simtropolis.com/files/file/3845-victoria-building/
+    - https://community.simtropolis.com/files/file/13203-blue-skyy-office-building/
+    - https://community.simtropolis.com/files/file/3290-columbus-one-towne-center/
+    - https://community.simtropolis.com/files/file/4354-cocacola-building/
+    - https://community.simtropolis.com/files/file/4475-washington-mutual-building/
+    - https://community.simtropolis.com/files/file/13900-azalea-building/
+    - https://community.simtropolis.com/files/file/3339-goober-small-office-building/
+    - https://community.simtropolis.com/files/file/13469-iron-block-building/
+    - https://community.simtropolis.com/files/file/14135-loyalty-building/
+    - https://community.simtropolis.com/files/file/3908-mackenzie-building-suburban-offices/
+    - https://community.simtropolis.com/files/file/15296-marshall-t-goodman-building/
+    - https://community.simtropolis.com/files/file/14104-northern-trust-bank/
+    - https://community.simtropolis.com/files/file/13483-palmetto-building/
+    - https://community.simtropolis.com/files/file/4477-parker-suburban-offices/
+    - https://community.simtropolis.com/files/file/3160-professional-center/
+    - https://community.simtropolis.com/files/file/14103-towne-bank/
+    - https://community.simtropolis.com/files/file/4474-suburban-office-complex/
+    - https://community.simtropolis.com/files/file/14189-mathew-keenan-townhome
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RichardsonsDeptStore01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Wainwright_day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-restaurants
+  - bsc:sg-models-grocery-stores
+  - bsc:sg-models-sainsbury
+  - bsc:sg-models-large-stores
+  - bsc:sg-models-medium-shops1
+  - bsc:sg-models-small-shops
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-motels
+  - bsc:sg-models-offices-hirise1
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-offices-medium
+  - bsc:sg-models-w2w-commercials
+  - bsc:sg-models-transportation
+  - bsc:sg-models-im2
+  - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-carch-vol01
+  - csx:mega-props-vol03
+  - csx:mega-props-vol06
+  - csx:mega-props-vol07
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - gizmo:vehicle-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - bsc:sg-irrigation-canals-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: bsc-simgoober-commercials-collection
+        include:
+        - "/SG_AramarkTower_CO\\$\\$\\$_GROW.dat"
+        - "/SG_BellSouthTower_CO\\$\\$\\$_GROW.dat"
+        - "/SG_BlueSkyyOffice_CO\\$\\$\\$_GROW.dat"
+        - "/SG_ColumbusOneTower_CS\\$\\$_GROW.dat"
+        - "/SG_EonCenter_CO\\$\\$\\$_GROW.dat"
+        - "/SG_JennaLynnOffices_CO\\$\\$_GROW.dat"
+        - "/SG_PrentissOffices_CO\\$\\$\\$_GROW.dat"
+        - "/SG_SimplypetsBuilding_CO\\$\\$\\$_GROW.dat"
+        - "/SG_TucsonTower_CO\\$\\$_GROW.dat"
+        - "/SG_VictoriaBuilding_CO\\$\\$_GROW.dat"
+        - "/Offices#/"
+        - "/Azalea Building/"
+        - "/Badger Row/"
+        - "/Baker Building/"
+        - "/Bell Telephone Building/"
+        - "/Burnett Plaza/"
+        - "/Casio Building/"
+        - "/Coca-Cola Building/"
+        - "/Dresden Block/"
+        - "/Goober Office Building/"
+        - "/Harrison Building/"
+        - "/Iron Block Building/"
+        - "/Loyalty Building/"
+        - "/MacKenzie Building/"
+        - "/Marshall T Goodman Offices/"
+        - "/Mathew Keegen Offices/"
+        - "/Northern Trust Bank/"
+        - "/Palmetto Building/"
+        - "/Parker Offices/"
+        - "/Professional Center/"
+        - "/Santa Clara Towne Bank/"
+        - "/Suburban Office/"
+        - "/Suburban Office Park/"
+        - "/Suppositories/"
+        - "/W2W Collection/"
+        - "/Wainwright Building/"
+        - "/Washington Mutual Building/"
+        - "/Williamson Building/"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: bsc-simgoober-commercials-collection
+        include:
+        - "/SG_AramarkTower_CO\\$\\$\\$_CAM_GROW.dat"
+        - "/SG_BellSouthTower_CO\\$\\$\\$_CAM_GROW.dat"
+        - "/SG_BlueSkyyOffice_CO\\$\\$\\$_CAM_GROW.dat"
+        - "/SG_ColumbusOneTower_CS\\$\\$_CAM_GROW.dat"
+        - "/SG_EonCenter_CO\\$\\$\\$_CAM_GROW.dat"
+        - "/SG_JennaLynnOffices_CO\\$\\$_CAM_GROW.dat"
+        - "/SG_PrentissOffices_CO\\$\\$\\$_CAM_GROW.dat"
+        - "/CO\\$\\$\\$11_3x3_SG_SimplypetsBuilding.SC4Lot"
+        - "/CO\\$\\$\\$11_3x3_SG_SimplypetsBuilding_34f62504.SC4Lot"
+        - "/SG_TucsonTower_CO\\$\\$_CAM_GROW.dat"
+        - "/SG_VictoriaBuilding_CO\\$\\$_CAM_GROW.dat"
+        - "/Offices#/"
+        - "/Azalea Building/"
+        - "/Badger Row/"
+        - "/Baker Building/"
+        - "/Bell Telephone Building/"
+        - "/Burnett Plaza/"
+        - "/Casio Building/"
+        - "/Coca-Cola Building/"
+        - "/Dresden Block/"
+        - "/Goober Office Building/"
+        - "/Harrison Building/"
+        - "/Iron Block Building/"
+        - "/Loyalty Building/"
+        - "/MacKenzie Building/"
+        - "/Marshall T Goodman Offices/"
+        - "/Mathew Keegen Offices/"
+        - "/Northern Trust Bank/"
+        - "/Palmetto Building/"
+        - "/Parker Offices/"
+        - "/Professional Center/"
+        - "/Santa Clara Towne Bank/"
+        - "/Suburban Office/"
+        - "/Suburban Office Park/"
+        - "/Suppositories/"
+        - "/W2W Collection/"
+        - "/Wainwright Building/"
+        - "/Washington Mutual Building/"
+        - "/Williamson Building/"
+
+---
+group: simgoober
+name: comemrcial-collection    
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Comemrcial Collection Pack
+  description: A collection of 62 Comemrcial Lots by SimGoober (SG)       
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/445-sc4d-lex-legacy-bsc-simgoober-commercials-collection
+    - https://community.simtropolis.com/files/file/15988-monkey-wards/
+    - https://community.simtropolis.com/files/file/15989-richardsons-department-store/
+    - https://community.simtropolis.com/files/file/12524-hechts-department-store/
+    - https://community.simtropolis.com/files/file/12525-nordstroms-department-store/
+    - https://community.simtropolis.com/files/file/12526-sears-department-store/
+    - https://community.simtropolis.com/files/file/4594-kohls-department-store/
+    - https://community.simtropolis.com/files/file/12926-century-movie-theater/
+    - https://community.simtropolis.com/files/file/15716-chuck-e-cheese/
+    - https://community.simtropolis.com/files/file/12898-mini-golf/
+    - https://community.simtropolis.com/files/file/15711-dave-and-busters/    
+    - https://community.simtropolis.com/files/file/13852-blains-farm-and-fleet/
+    - https://community.simtropolis.com/files/file/10942-champion-supermarche/
+    - https://community.simtropolis.com/files/file/15066-food-lion-shopping-center/
+    - https://community.simtropolis.com/files/file/2885-food-lion-grocery-store/
+    - https://community.simtropolis.com/files/file/3287-kroger-grocery-store/
+    - https://community.simtropolis.com/files/file/10941-lidl-grocery-store/
+    - https://community.simtropolis.com/files/file/3541-piggly-wiggly-grocery-store/
+    - https://community.simtropolis.com/files/file/3542-publix-grocery-store/
+    - https://community.simtropolis.com/files/file/3257-safeway-gorcery-store/
+    - https://community.simtropolis.com/files/file/3583-shoppers-food-warehouse/
+    - https://community.simtropolis.com/files/file/3645-tesco-grocery-store/
+    - https://community.simtropolis.com/files/file/3540-tops-grocery-store/
+    - https://community.simtropolis.com/files/file/3539-wegmans-grocery-store/
+    - https://community.simtropolis.com/files/file/3646-wilson-farms-convenience-store/
+    - https://community.simtropolis.com/files/file/11354-sainsbury-grocer-suburban-version/
+    - https://community.simtropolis.com/files/file/11355-sainsbury-grocer-urban-version/
+    - https://community.simtropolis.com/files/file/11352-sainsbury-locals-suburban-version/
+    - https://community.simtropolis.com/files/file/11353-sainsbury-locals-urban-version/
+    - https://community.simtropolis.com/files/file/11356-sainsbury-savacentre/    
+    - https://community.simtropolis.com/files/file/13120-buffalo-grill-restaurant/
+    - https://community.simtropolis.com/files/file/11532-captain-jacks-seafood-restaurant/
+    - https://community.simtropolis.com/files/file/4392-bsc-stone-cold-creamery/
+    - https://community.simtropolis.com/files/file/13512-cracker-barrel/
+    - https://community.simtropolis.com/files/file/12265-dennys-diner/
+    - https://community.simtropolis.com/files/file/14259-california-pizza-kitchen/
+    - https://community.simtropolis.com/files/file/12557-pizzeria-uno/
+    - https://community.simtropolis.com/files/file/4493-fish-tale-ale-microbrewery-restaraunt/
+    - https://community.simtropolis.com/files/file/11631-fuddruckers-restaurant/
+    - https://community.simtropolis.com/files/file/11543-ruby-tuesday-restaurant/
+    - https://community.simtropolis.com/files/file/3647-hooters-restaurant/
+    - https://community.simtropolis.com/files/file/3734-outback-steakhouse/
+    - https://community.simtropolis.com/files/file/14260-panera-bread-company/
+    - https://community.simtropolis.com/files/file/3846-perkins-family-restaraunt/
+    - https://community.simtropolis.com/files/file/3685-plaza-azteca-mexican-restaraunt/
+    - https://community.simtropolis.com/files/file/3787-red-lobster/
+    - https://community.simtropolis.com/files/file/11795-restaurant-row/
+    - https://community.simtropolis.com/files/file/4040-starbucks-coffee-house/
+    - https://community.simtropolis.com/files/file/12190-waffle-house-restaurant/
+    - https://community.simtropolis.com/files/file/12189-waffle-king/    
+    - https://community.simtropolis.com/files/file/3361-strip-mall-shopping-center-1/
+    - https://community.simtropolis.com/files/file/13826-super-center-1/
+    - https://community.simtropolis.com/files/file/13833-super-center-2/
+    - https://community.simtropolis.com/files/file/11185-rls-strip-mall-shopping-center/
+    - https://community.simtropolis.com/files/file/14033-urban-parking-garage/    
+    - https://community.simtropolis.com/files/file/21192-goobers-good-buys/
+    - https://community.simtropolis.com/files/file/13621-ace-hardware/
+    - https://community.simtropolis.com/files/file/3909-costco-retail/
+    - https://community.simtropolis.com/files/file/4565-dsw-shoe-warehouse/
+    - https://community.simtropolis.com/files/file/12136-giant-tiger/
+    - https://community.simtropolis.com/files/file/13853-mills-fleet-farm/
+    - https://community.simtropolis.com/files/file/13709-outdoor-world/
+    - https://community.simtropolis.com/files/file/4544-pet-supermarket/
+    - https://community.simtropolis.com/files/file/13309-scheels-all-sports/
+    - https://community.simtropolis.com/files/file/13854-tractor-supply-company/
+    - https://community.simtropolis.com/files/file/15726-wally-ks-bullseye/
+    - https://community.simtropolis.com/files/file/3427-barnes-noble-booksellers/
+    - https://community.simtropolis.com/files/file/4532-bed-bath-beyond/
+    - https://community.simtropolis.com/files/file/12562-best-buy-updated/
+    - https://community.simtropolis.com/files/file/3580-blockbuster-video/
+    - https://community.simtropolis.com/files/file/4533-borders-books/
+    - https://community.simtropolis.com/files/file/4279-casa-bacardi-retail-store/
+    - https://community.simtropolis.com/files/file/15985-modern-circuit-city/
+    - https://community.simtropolis.com/files/file/15986-modern-compusa/
+    - https://community.simtropolis.com/files/file/3582-goober-electronics/
+    - https://community.simtropolis.com/files/file/12699-kellys-escort-service/
+    - https://community.simtropolis.com/files/file/14217-lcbo-store/
+    - https://community.simtropolis.com/files/file/4534-linens-n-things/
+    - https://community.simtropolis.com/files/file/4199-bsc-pansarkatt-retail-lots/
+    - https://community.simtropolis.com/files/file/4543-petco/
+    - https://community.simtropolis.com/files/file/3686-rite-aid-drug-store/
+    - https://community.simtropolis.com/files/file/12568-toys-r-us-updated/
+    - https://community.simtropolis.com/files/file/12051-rls-small-shops/
+    - https://community.simtropolis.com/files/file/10990-plop-a-shop-pack-1/
+    - https://community.simtropolis.com/files/file/10991-plop-a-shop-pack-2/
+    - https://community.simtropolis.com/files/file/10992-plop-a-shop-pack-3/
+    - https://community.simtropolis.com/files/file/11045-plop-a-shop-pack-4/
+    - https://community.simtropolis.com/files/file/3485-7eleven-stores-bsc/
+    - https://community.simtropolis.com/files/file/12943-boomland-fireworks/
+    - https://community.simtropolis.com/files/file/16073-goobers-nuts/
+    - https://community.simtropolis.com/files/file/12188-jiffy-lube/
+    - https://community.simtropolis.com/files/file/3581-kinkos/
+    - https://community.simtropolis.com/files/file/3788-small-kiosk-businesses-1x1-lots/
+    - https://community.simtropolis.com/files/file/15267-rural-stores/    
+    - https://community.simtropolis.com/files/file/3180-embassy-suites-hotel/
+    - https://community.simtropolis.com/files/file/4430-marriott-hotel/
+    - https://community.simtropolis.com/files/file/11046-omni-hotel/
+    - https://community.simtropolis.com/files/file/3151-hotel-and-conference-center/
+    - https://community.simtropolis.com/files/file/4280-sheraton-four-points-hotel/
+    - https://community.simtropolis.com/files/file/3078-best-western-hotel/
+    - https://community.simtropolis.com/files/file/13219-coral-gables-hotel/
+    - https://community.simtropolis.com/files/file/3258-courtyard-hotel/
+    - https://community.simtropolis.com/files/file/4112-days-inn-hotel/
+    - https://community.simtropolis.com/files/file/3735-doubletree-hotel-airport/
+    - https://community.simtropolis.com/files/file/3106-fairfield-inn-hotel/
+    - https://community.simtropolis.com/files/file/3014-hampton-inn-hotel/
+    - https://community.simtropolis.com/files/file/12430-holiday-inn-express/
+    - https://community.simtropolis.com/files/file/13218-hotel-coral-essex/
+    - https://community.simtropolis.com/files/file/15598-hotel-zaza/
+    - https://community.simtropolis.com/files/file/3984-reds-roadside-motel/
+    - https://community.simtropolis.com/files/file/3983-super-8-motel/    
+    - https://community.simtropolis.com/files/file/14317-aramark-tower/
+    - https://community.simtropolis.com/files/file/14387-bellsouth-tower/
+    - https://community.simtropolis.com/files/file/12006-eon-tower/
+    - https://community.simtropolis.com/files/file/3786-jenna-lynn-office-building/
+    - https://community.simtropolis.com/files/file/13202-prentiss-building/
+    - https://community.simtropolis.com/files/file/4281-tucson-tower/
+    - https://community.simtropolis.com/files/file/3845-victoria-building/
+    - https://community.simtropolis.com/files/file/13203-blue-skyy-office-building/
+    - https://community.simtropolis.com/files/file/3290-columbus-one-towne-center/
+    - https://community.simtropolis.com/files/file/4354-cocacola-building/
+    - https://community.simtropolis.com/files/file/4475-washington-mutual-building/
+    - https://community.simtropolis.com/files/file/13900-azalea-building/
+    - https://community.simtropolis.com/files/file/3339-goober-small-office-building/
+    - https://community.simtropolis.com/files/file/13469-iron-block-building/
+    - https://community.simtropolis.com/files/file/14135-loyalty-building/
+    - https://community.simtropolis.com/files/file/3908-mackenzie-building-suburban-offices/
+    - https://community.simtropolis.com/files/file/15296-marshall-t-goodman-building/
+    - https://community.simtropolis.com/files/file/14104-northern-trust-bank/
+    - https://community.simtropolis.com/files/file/13483-palmetto-building/
+    - https://community.simtropolis.com/files/file/4477-parker-suburban-offices/
+    - https://community.simtropolis.com/files/file/3160-professional-center/
+    - https://community.simtropolis.com/files/file/14103-towne-bank/
+    - https://community.simtropolis.com/files/file/4474-suburban-office-complex/
+    - https://community.simtropolis.com/files/file/14189-mathew-keenan-townhome    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Commercial%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_RichardsonsDeptStore01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Wainwright_day.jpg
+    
+dependencies:
+  - simgoober:department-store-set
+  - simgoober:entertainment-set
+  - simgoober:grocery-stores-set
+  - simgoober:restaurants-set
+  - simgoober:malls-set
+  - simgoober:retailers-set
+  - simgoober:hotels-set
+  - simgoober:offices-set
