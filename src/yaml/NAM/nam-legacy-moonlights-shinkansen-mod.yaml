@@ -69,7 +69,7 @@ variantInfo:
         description: Concrete with a cool color
       - value: Warm
         description: Concrete with a warm color
-  - variantId: nam:moonligth:btm:fence:
+  - variantId: nam:moonligth:btm:fence
     description: Select the fences option
     values:
       - value: Yes
