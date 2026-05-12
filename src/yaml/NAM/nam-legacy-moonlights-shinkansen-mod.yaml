@@ -37,54 +37,54 @@ assets:
     - "/ML Shinkansen MOD WRCs.dat"
     - "/ML Shinkansen MOD T21 Catenaries.dat"
     withConditions:
-      - ifVariant: { nam:moonligth:btm:concrete:color: "cool" }
+      - ifVariant: { moonligth:btm:concrete: "cool" }
         include:
           - "/ML Shinkansen MOD Concrete Cool Hue.dat"
-      - ifVariant: { nam:moonligth:btm:concrete:color: "warm" }
+      - ifVariant: { moonligth:btm:concrete: "warm" }
         include:
           - "/ML Shinkansen MOD Concrete Warm Hue.dat"
-      - ifVariant: { nam:moonligth:btm:fence:enabled: "yes" }
+      - ifVariant: { moonligth:btm:fence: "yes" }
         include:
           - "/ML Shinkansen MOD Fence.dat"
-      - ifVariant: { nam:moonligth:btm:fence:enabled: "no" }
-      - ifVariant: { nam:moonligth:btm:ground-texture:enabled: "yes" }
+      - ifVariant: { moonligth:btm:fence: "no" }
+      - ifVariant: { moonligth:btm:ground-texture: "yes" }
         include:
           - "/ML Shinkansen MOD Ground Texture.dat"
-      - ifVariant: { nam:moonligth:btm:ground-texture:enabled: "no" }
+      - ifVariant: { moonligth:btm:ground-texture: "no" }
         include:
           - "/ML Shinkansen MOD no Ground Texture.dat"
       - ifVariant: { nam:maxis-highway:style: "default" }
       - ifVariant: { nam:maxis-highway:style: "MHO" }
         include:
           - "/ML Shinkansen MOD for MHO.dat"
-      - ifVariant: { nam:moonligth:btm:jp-elrail:enabled: "yes" }
+      - ifVariant: { moonligth:btm:jp-elrail: "yes" }
         include:
           - "/ML Shinkansen MOD for ML Jpn El-Rail.dat"
-      - ifVariant: { nam:moonligth:btm:jp-elrail:enabled: "no" }
+      - ifVariant: { moonligth:btm:jp-elrail: "no" }
 
 variantInfo:
-  - variantId: nam:moonligth:btm:concrete:color
+  - variantId:  moonligth:btm:concrete:
     description: Choose the color of the concrete
     values:
       - value: "cool" 
         description: Concrete with a cool color
       - value: "warm"
         description: Concrete with a warm color
-  - variantId: nam:moonligth:btm:fence:enabled
+  - variantId: moonligth:btm:fence:
     description: Select the fences option
     values:
       - value: "yes"
         description: Install the fences
       - value: "no"
         description: Do not install the fences
-  - variantId: nam:moonligth:btm:ground-texture:enabled
+  - variantId: moonligth:btm:ground-texture:
     description: Select the ground texture option
     values:
       - value: "yes"
         description: Install the Ground Texture
       - value: "no"
         description: Do not install the Ground Texture
-  - variantId: nam:moonligth:btm:jp-elrail:enabled
+  - variantId: moonligth:btm:jp-elrail:
     description: Select the Crosslink JP El-Rail option
     values:
       - value: "yes"
