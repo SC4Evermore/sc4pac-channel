@@ -63,28 +63,28 @@ assets:
       - ifVariant: { moonligth:btm:jp-elrail: "no" }
 
 variantInfo:
-  - variantId:  moonligth:btm:concrete:
+  - variantId:  moonligth:btm:concrete
     description: Choose the color of the concrete
     values:
       - value: "cool" 
         description: Concrete with a cool color
       - value: "warm"
         description: Concrete with a warm color
-  - variantId: moonligth:btm:fence:
+  - variantId: moonligth:btm:fence
     description: Select the fences option
     values:
       - value: "yes"
         description: Install the fences
       - value: "no"
         description: Do not install the fences
-  - variantId: moonligth:btm:ground-texture:
+  - variantId: moonligth:btm:ground-texture
     description: Select the ground texture option
     values:
       - value: "yes"
         description: Install the Ground Texture
       - value: "no"
         description: Do not install the Ground Texture
-  - variantId: moonligth:btm:jp-elrail:
+  - variantId: moonligth:btm:jp-elrail
     description: Select the Crosslink JP El-Rail option
     values:
       - value: "yes"
