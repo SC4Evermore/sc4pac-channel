@@ -65,30 +65,30 @@ variantInfo:
   - variantId: nam:moonligth:btm:concrete
     description: Choose the color of the concrete
     values:
-      - value: Cool Hue
+      - value: "Cool Hue"
         description: Concrete with a cool color
-      - value: Warm
+      - value: "Warm"
         description: Concrete with a warm color
   - variantId: nam:moonligth:btm:fence
     description: Select the fences option
     values:
-      - value: Yes
+      - value: "Yes"
         description: Install the fences
-      - value: No
+      - value: "No"
         description: Do not install the fences
   - variantId: nam:moonligth:btm:ground-texture
     description: Select the ground texture option
     values:
-      - value: Yes
+      - value: "Yes"
         description: Install the Ground Texture
-      - value: No
+      - value: "No"
         description: Do not install the Ground Texture
   - variantId: nam:moonligth:btm:jp-elrail
     description: Select the Crosslink JP El-Rail option
     values:
-      - value: Yes
+      - value: "Yes"
         description: Install the Crosslink JP El-Rail support file
-      - value: No
+      - value: "No"
         description: Do not install the Crosslink JP El-Rail support file
 ---
 group: nam
