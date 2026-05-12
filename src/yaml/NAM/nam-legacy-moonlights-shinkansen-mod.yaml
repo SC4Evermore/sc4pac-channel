@@ -92,7 +92,7 @@ variantInfo:
       - value: "no"
         description: Do not install the Crosslink JP El-Rail support file
 ---
-group: nam
+group: moonlight
 name: shinkansen-n700-automata
 version: "1.0.0"
 subfolder: 710-automata
