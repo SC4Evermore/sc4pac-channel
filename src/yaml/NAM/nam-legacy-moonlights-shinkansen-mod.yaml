@@ -37,10 +37,10 @@ assets:
     - "/ML Shinkansen MOD WRCs.dat"
     - "/ML Shinkansen MOD T21 Catenaries.dat"
     withConditions:
-      - ifVariant: { nam:moonligth:btm:concrete: "cool" }
+      - ifVariant: { nam:moonligth:btm:concrete:color: "cool" }
         include:
           - "/ML Shinkansen MOD Concrete Cool Hue.dat"
-      - ifVariant: { nam:moonligth:btm:concrete: "warm" }
+      - ifVariant: { nam:moonligth:btm:concrete:color: "warm" }
         include:
           - "/ML Shinkansen MOD Concrete Warm Hue.dat"
       - ifVariant: { nam:moonligth:btm:fence:enabled: "yes" }
@@ -63,7 +63,7 @@ assets:
       - ifVariant: { nam:moonligth:btm:jp-elrail:enabled: "no" }
 
 variantInfo:
-  - variantId: nam:moonligth:btm:concrete
+  - variantId: nam:moonligth:btm:concrete:color
     description: Choose the color of the concrete
     values:
       - value: "cool" 
