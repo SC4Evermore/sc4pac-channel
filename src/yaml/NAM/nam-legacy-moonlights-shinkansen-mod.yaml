@@ -1,0 +1,114 @@
+assetId: "nam-legacy-moonlight-shinkansen-mod"
+version: "1.0.0"
+lastModified: "2026-05-12T12:29:22-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=457:nam-legacy-moonlights-shinkansen-mod"
+
+---
+group: nam
+name: moonlight-shinkansen-mod
+version: "1.0.0"
+subfolder: 900-overrides
+info:
+  summary: NAM Legacy - Moonlight's Shinkansen Mod
+  description: |
+    This MOD changes the appearance of the monorail network into a Japanese style Shinkansen with elevated concrete pillars. Previous versions exist, known as the Bullet Train Mod (BTM), however as of this release the name has been changed to Shinkansen Mod, to differentiate it from the older and very out of date releases.
+  author: NAM Team, Moonlight, MGB204
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/457-nam-legacy-moonlights-shinkansen-mod
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BridgesTunnel.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/optCat.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Shinkansen.jpg
+
+dependencies:
+  - plundere:catenary-essentials 
+  - moonlight:shinkansen-n700-automata
+
+assets:
+  - assetId: nam-legacy-moonlight-shinkansen-mod
+    include:
+    - "/ML Shinkansen MOD Base.dat"
+    - "/ML Shinkansen MOD Bridges and Tunnels.dat"
+    - "/ML Shinkansen MOD Crossings.dat"
+    - "/ML Shinkansen MOD CrossingsNWM.dat"
+    - "/ML Shinkansen MOD CrossingsRHW.dat"
+    - "/ML Shinkansen MOD CrossingsSAM.dat"
+    - "/ML Shinkansen MOD WRCs.dat"
+    - "/ML Shinkansen MOD T21 Catenaries.dat"
+    withConditions:
+      - ifVariant: { nam:moonligth:btm:concrete: "Cool Hue" }
+        include:
+          - "/ML Shinkansen MOD Concrete Cool Hue.dat"
+      - ifVariant: { nam:moonligth:btm:concrete: "Warm" }
+        include:
+          - "/ML Shinkansen MOD Concrete Warm Hue.dat"
+      - ifVariant: { nam:moonligth:btm:fence: "Yes" }
+        include:
+          - "/ML Shinkansen MOD Fence.dat"
+      - ifVariant: { nam:moonligth:btm:fence: "No" }
+      - ifVariant: { nam:moonligth:btm:ground-texture: "Yes" }
+        include:
+          - "/ML Shinkansen MOD Ground Texture.dat"
+      - ifVariant: { nam:moonligth:btm:ground-texture: "No" }
+        include:
+          - "/ML Shinkansen MOD no Ground Texture.dat"
+      - ifVariant: { nam:maxis-highway:style: "MHO" }
+        include:
+          - "/ML Shinkansen MOD for MHO.dat"
+      - ifVariant: { nam:moonligth:btm:jp-elrail: "Yes" }
+        include:
+          - "/ML Shinkansen MOD for ML Jpn El-Rail.dat"
+      - ifVariant: { nam:moonligth:btm:jp-elrail: "No" }
+
+variantInfo:
+  - variantId: nam:moonligth:btm:concrete
+    description: Choose the color of the concrete
+    values:
+      - value: Cool Hue
+        description: Concrete with a cool color
+      - value: Warm
+        description: Concrete with a warm color
+  - variantId: nam:moonligth:btm:fence:
+    description: Select the fences option
+    values:
+      - value: Yes
+        description: Install the fences
+      - value: No
+        description: Do not install the fences
+  - variantId: nam:moonligth:btm:ground-texture
+    description: Select the ground texture option
+    values:
+      - value: Yes
+        description: Install the Ground Texture
+      - value: No
+        description: Do not install the Ground Texture
+  - variantId: nam:moonligth:btm:jp-elrail
+    description: Select the Crosslink JP El-Rail option
+    values:
+      - value: Yes
+        description: Install the Crosslink JP El-Rail support file
+      - value: No
+        description: Do not install the Crosslink JP El-Rail support file
+---
+group: nam
+name: shinkansen-n700-automata
+version: "1.0.0"
+subfolder: 710-automata
+info:
+  summary: Shinkansen N700 Automata
+  description: |
+    Mod that changes the appearance of the Automata Monorail Train to that of the Shinkansen N700
+  author: NAM Team, Moonlight, MGB204
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/457-nam-legacy-moonlights-shinkansen-mod
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BridgesTunnel.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/optCat.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Shinkansen.jpg
+
+assets:
+  - assetId: nam-legacy-moonlight-shinkansen-mod
+    include:
+    - "/ML Shinkansen MOD N700 Automata.dat"
