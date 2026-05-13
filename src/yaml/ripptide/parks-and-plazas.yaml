@@ -1,0 +1,207 @@
+assetId: sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+version: "2.0"
+lastModified: "2026-05-12T00:00:00Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=456:sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+
+---
+group: ripptide
+name: avalon-park
+version: "1"
+subfolder: 660-parks
+info:
+  summary: Ripptide Avalon Park
+  description: |
+    King Arthur lies in peace and tranquillity amid English oaks, guarded by an eternal flame and the Lady of the Lake who holds Excalibur high for all to see. Guinevere waits at the entrance to the park, hoping that Arthur will rise and come to her again.
+
+    This is a reward lot that requires the BSC Mansion House and a city at least 100 years old. The BAT was created by Ripptide, the lot designed and modded by BarbyW, the poem written by hogmeister, and the reward requirements coded by Colyn.
+
+    |     | **Ploppable version:** |
+    | --- | --- |
+    | Lot size: | **3 x 5 tiles** |
+    | Menu position: | **Building: Civic,Building: Park,BTE : Parks,BTE : CSX Tourism Chain**  If you are using the [SubMenu DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/) mod, it will appear in the Parks menu Green Spaces submenu. |
+    | Plop cost: | **§ 600** |
+    | Bulldoze cost: | **§ 40** |
+    | Monthly cost: | **§ 75** |
+    | Park effect: | **60 over 60 tiles** |
+    | Landmark effect: | **50 over 10 tiles** |
+    | Max. Fire Stage: | **0** |
+    | Power consumption: | **0 MWh/month** |
+    | Water consumption: | **20 Gallons/month** |
+    | Air pollution: | **\-30 over 8 tiles** |
+    | Water pollution: | **4 over 4 tiles** |
+    | Garbage pollution: | **0 over 0 tiles** |
+  author: ripptide, BarbyW, hogmeister, Colyn
+  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/Avalon%20Park_d.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/Avalon%20Park_n.jpg"
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+    include:
+      - "/Avalon Park/"
+
+---
+group: ripptide
+name: greek-bath
+version: "1"
+subfolder: 660-parks
+info:
+  summary: A Greek bath park
+  description: |-
+    Providing social and recreational activities was a basic responsibility for early Greek and Roman rulers. As a result, baths and adjacent gymnasiums were as ubiquitous in the old world as movie theatres and gas stations are now. In the Iliad, Homer often mentions the Greek's passion for bathing. This park was designed by BLS using BATs and props made by Ripptide. 
+
+    |     | **Ploppable version:** |
+    | --- | --- |
+    | Lot size: | **3 x 3 tiles** |
+    | Menu position: | **Building: Civic,Building: Park**  If you are using the [SubMenu DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/) mod, it will appear in the Parks menu Green Spaces submenu. |
+    | Plop cost: | **§ 360** |
+    | Bulldoze cost: | **§ 30** |
+    | Monthly cost: | **§ 45** |
+    | Park effect: | **45 over 45 tiles** |
+    | Landmark effect: | **40 over 10 tiles** |
+    | Power consumption: | **0 MWh/month** |
+    | Water consumption: | **15 Gallons/month** |
+    | Air pollution: | **\-18 over 3 tiles** |
+    | Water pollution: | **3 over 3 tiles** |
+    | Garbage pollution: | **0 over 0 tiles** |
+  author: ripptide, BarbyW
+  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/GreekPark_s.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/GreekPark_sn.jpg"
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-rt-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+    include:
+      - "/Greek Bath Park/"
+
+---
+group: ripptide
+name: murney-tower
+version: "1"
+subfolder: 660-parks
+info:
+  summary: BSC Murney Tower
+  description: |-
+    The Murney Redoubt was built in 1846 on the shores of Lake Ontario as part of the defenses of Kingston. By 1890 it was regarded as obsolete by the militia and it was allowed to deteriorate. It was taken over in the early 1920s by the Kingston Historical Society and officially opened as a Museum in 1925. Now a National Historic Site, it is still run by the Kingston Historical Society, welcoming visitors each summer to explore this wonderful piece of Kingston heritage. Bloomfield cannon, carronades and domestic artifacts have been maintained to tell the story of soldiers and families who lived inside.
+
+    |     | **Ploppable version:** |
+    | --- | --- |
+    | Lot size: | **4 x 4 tiles** |
+    | Menu position: | **Building: Civic,Building: Park**  If you are using the [SubMenu DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/) mod, it will appear in the Parks menu Green Spaces submenu. |
+    | Plop cost : | § 690 |
+    | Bulldoze cost: | § 280 |
+    | Monthly cost: | § 159 |
+    | Park effect: | 20 over 40 tiles |
+    | Landmark effect: | 100 over 10 tiles |
+    | Max. Fire Stage/Flamability: | 3/10 |
+    | Power consumption: | 3 MWh/month |
+    | Water consumption: | 0 Gallons/month |
+    | Air pollution: | \-15 over 6 tiles |
+    | Water pollution: | 4 over 3 tiles |
+    | Garbage pollution: | 0 over 0 tiles |
+  author: ripptide, BarbyW
+  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/BSC_MurneyTower_s.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/BSC_MurneyTower_sn.jpg"
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-rt-vol02
+  - bsc:textures-vol01
+assets:
+  - assetId: sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+    include:
+      - "/Murney Tower/"
+
+---
+group: ripptide
+name: spean-bridge-commando-memorial
+version: "1"
+subfolder: 660-parks
+info:
+  summary: Spean Bridge Commando Memorial
+  description: |-
+    The world famous Commando Memorial stands proudly high above Spean Bridge. The three gigantic bronze figures stand proud in battledress, woolen caps and climbing boots looking across the Great Glen. The 17 foot high Memorial was designed by Scott Sutherland from Dundee College of Art in 1949, and unveiled by Her Majesty Queen Elizabeth the Queen Mother in 1952. Hundreds of veteran Commandos make the annual pilgrimage to attend the Service of Remembrance and Wreath Laying held at the Memorial in November.
+
+    |     | **Ploppable version:** |
+    | --- | --- |
+    | Lot size: | 2 x 2 tiles |
+    | Menu position: | Landmarks  If you are using the [SubMenu DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/) mod, it will appear in the Parks menu Plazas submenu. |
+    | Plop cost : | § 2500 |
+    | Bulldoze cost: | § 100 |
+    | Monthly cost: | § 50 |
+    | Landmark effect: | 40 over 20 tiles |
+    | Max. Fire Stage/Flamability: | 1/10 |
+    | Power consumption: | 50 MWh/month |
+    | Water consumption: | 0   |
+    | Air pollution: | 1 over 1 tiles |
+    | Water pollution: | 1 over 2 tiles |
+    | Garbage pollution: | 10 over 0 tiles |
+  author: ripptide
+  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/SBM%20day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/SBM%20night.jpg"
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:textures-vol02
+assets:
+  - assetId: sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+    include:
+      - "/Spean Bridge Memorial/"
+
+---
+group: ripptide
+name: us-marine-corps-war-memorial
+version: "1"
+subfolder: 660-parks
+info:
+  summary: US Marine Corps War Memorial
+  description: |-
+    The Marine Corps War Memorial stands as a symbol of this grateful Nation's esteem for the honored dead of the U.S. Marine Corps. While the statue depicts one of the most famous incidents of World War II, the memorial is dedicated to all Marines who have given their lives in the defense of the United States since 1775.
+
+    The base of the memorial is made of rough Swedish granite. Burnished in gold on the granite are the names and dates of every principal Marine Corps engagement since the founding of the Corps, as well as the inscription: "In honor and in memory of the men of the United States Marine Corps who have given their lives to their country since November 10, 1775." Also inscribed on the base is the tribute of Fleet Adm. Chester W. Nimitz to the fighting men on Iwo Jima: "Uncommon Valor was a Common Virtue."
+
+    |     | **Ploppable version:** |
+    | --- | --- |
+    | Lot size: | 6 x 6 tiles |
+    | Menu position: | Landmarks  If you are using the [SubMenu DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/) mod, it will appear in the Parks menu Plazas submenu. |
+    | Custom Features : | Menu Icon, Query, Query Sound |
+    | Plop cost: | § 5,000 |
+    | Bulldoze cost: | § 1,250 |
+    | Power consumption: | 50 MWh/month |
+    | Water consumption: | 0 Gallons/month |
+    | Air pollution: | 1 over 1 tiles |
+    | Water pollution: | 1 over 2 tiles |
+    | Garbage pollution: | 10 Tons Per Month |
+    | Park Effect: | +25 over 25 Tiles |
+    | Landmark Effect: | +40 over 20 Tiles |
+    | Mayor Rating Effect | 10 over 256 tiles |
+    | Demand Cap Relief: | Residential : +4,000 Each Wealth Level |
+  author: ripptide, Vlakhaas, SimGoober
+  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/BSC_USMCWarMemorial_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/ripptide/BSC_USMCWarMemorial_Night.jpg"
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-rt-vol02
+  - csx:mega-props-vol03
+  - bsc:textures-vol01
+assets:
+  - assetId: sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+    include:
+      - "/USMC Memorial/"
