@@ -1,5 +1,5 @@
 assetId: sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
-version: "2.0"
+version: "1"
 lastModified: "2026-05-12T00:00:00Z"
 url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=456:sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
 
@@ -31,7 +31,7 @@ info:
     | Water pollution: | **4 over 4 tiles** |
     | Garbage pollution: | **0 over 0 tiles** |
   author: ripptide, BarbyW, hogmeister, Colyn
-  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/456-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
   images:
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/Avalon%20Park_d.jpg"
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/Avalon%20Park_n.jpg"
@@ -70,7 +70,7 @@ info:
     | Water pollution: | **3 over 3 tiles** |
     | Garbage pollution: | **0 over 0 tiles** |
   author: ripptide, BarbyW
-  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/456-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
   images:
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/GreekPark_s.jpg"
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/GreekPark_sn.jpg"
@@ -102,14 +102,14 @@ info:
     | Monthly cost: | § 159 |
     | Park effect: | 20 over 40 tiles |
     | Landmark effect: | 100 over 10 tiles |
-    | Max. Fire Stage/Flamability: | 3/10 |
+    | Max. Fire Stage/Flammability: | 3/10 |
     | Power consumption: | 3 MWh/month |
     | Water consumption: | 0 Gallons/month |
     | Air pollution: | \-15 over 6 tiles |
     | Water pollution: | 4 over 3 tiles |
     | Garbage pollution: | 0 over 0 tiles |
   author: ripptide, BarbyW
-  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/456-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
   images:
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/BSC_MurneyTower_s.jpg"
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/BSC_MurneyTower_sn.jpg"
@@ -140,14 +140,14 @@ info:
     | Bulldoze cost: | § 100 |
     | Monthly cost: | § 50 |
     | Landmark effect: | 40 over 20 tiles |
-    | Max. Fire Stage/Flamability: | 1/10 |
+    | Max. Fire Stage/Flammability: | 1/10 |
     | Power consumption: | 50 MWh/month |
     | Water consumption: | 0   |
     | Air pollution: | 1 over 1 tiles |
     | Water pollution: | 1 over 2 tiles |
     | Garbage pollution: | 10 over 0 tiles |
   author: ripptide
-  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/456-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
   images:
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/SBM%20day.jpg"
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/SBM%20night.jpg"
@@ -190,7 +190,7 @@ info:
     | Mayor Rating Effect | 10 over 256 tiles |
     | Demand Cap Relief: | Residential : +4,000 Each Wealth Level |
   author: ripptide, Vlakhaas, SimGoober
-  website: https://www.sc4evermore.com/index.php/downloads/download/TODO-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/456-sc4d-lex-legacy-bsc-ripptide-parks-and-plazas
   images:
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/BSC_USMCWarMemorial_Day.jpg"
     - "https://www.sc4evermore.com/images/sc4pac/ripptide/BSC_USMCWarMemorial_Night.jpg"
