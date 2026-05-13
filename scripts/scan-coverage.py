@@ -17,17 +17,16 @@ Requirements:
 
 import json
 import os
-import sys
 import urllib.request
 from datetime import datetime, timezone
 
 
 SC4E_API_URL        = "https://www.sc4evermore.com/latest-modified-downloads.php"
+SC4E_CHANNEL_URL    = "https://sc4evermore.github.io/sc4pac-channel/json/sc4pac-channel-contents.json"
 SC4PAC_CHANNEL_URL  = "https://memo33.github.io/sc4pac/channel/sc4pac-channel-contents.json"
 
 SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT    = os.path.dirname(SCRIPT_DIR)
-CHANNEL_JSON = os.path.join(REPO_ROOT, "dist", "channel", "json", "sc4pac-channel-contents.json")
 OUTPUT_DIR   = os.path.join(REPO_ROOT, "docs", "coverage-report")
 OUTPUT_FILE  = os.path.join(OUTPUT_DIR, "index.html")
 
@@ -48,28 +47,16 @@ def fetch_sc4e_files():
     return files
 
 
-def load_channel_data():
-    if not os.path.exists(CHANNEL_JSON):
-        print(f"ERROR: Channel JSON not found at {CHANNEL_JSON}")
-        print("       Run the channel build first (yarn build).")
-        sys.exit(1)
-    print(f"Loading channel data from {CHANNEL_JSON} ...")
-    with open(CHANNEL_JSON, encoding="utf-8") as f:
-        data = json.load(f)
-    print(f"  {data.get('stats', {}).get('totalPackageCount', '?')} packages in channel")
-    return data
-
-
-def fetch_upstream_channel_data():
-    print(f"Fetching {SC4PAC_CHANNEL_URL} ...")
+def fetch_channel_data(url):
+    print(f"Fetching {url} ...")
     req = urllib.request.Request(
-        SC4PAC_CHANNEL_URL,
+        url,
         headers={"User-Agent": "sc4pac-coverage-scanner/1.0"},
     )
     with urllib.request.urlopen(req, timeout=30) as response:
         data = json.loads(response.read().decode("utf-8"))
     pkgs = data.get("packages", [])
-    print(f"  {len(pkgs)} packages in upstream channel")
+    print(f"  {len(pkgs)} packages in channel")
     return data
 
 
@@ -212,19 +199,19 @@ def generate_report(sc4e_files, covered_ids, channel_data, local_version_map, up
 # ---------------------------------------------------------------------------
 def main():
     sc4e_files      = fetch_sc4e_files()
-    channel_data    = load_channel_data()
-    upstream_data   = fetch_upstream_channel_data()
+    channel_data    = fetch_channel_data(SC4E_CHANNEL_URL)
+    upstream_data   = fetch_channel_data(SC4PAC_CHANNEL_URL)
 
     local_version_map    = build_version_map(channel_data)
     upstream_version_map = build_version_map(upstream_data)
     covered_ids          = set(local_version_map.keys()) | set(upstream_version_map.keys())
 
     print(f"\nAnalysis:")
-    print(f"  > Total files      : {len(sc4e_files)}")
-    print(f"  > Covered (local)  : {len(local_version_map)}")
-    print(f"  > Covered (sc4pac) : {len(upstream_version_map)}")
-    print(f"  > Covered (total)  : {len(covered_ids)}")
-    print(f"  > Missing          : {len(sc4e_files) - len(covered_ids)}")
+    print(f"  > sc4e uploaded files    : {len(sc4e_files)}")
+    print(f"  > covered (sc4e channel) : {len(local_version_map)}")
+    print(f"  > covered (main channel) : {len(upstream_version_map)}")
+    print(f"  > covered (total)        : {len(covered_ids)}")
+    print(f"  > missing packages       : {len(sc4e_files) - len(covered_ids)}")
 
     html = generate_report(sc4e_files, covered_ids, channel_data, local_version_map, upstream_version_map)
 
