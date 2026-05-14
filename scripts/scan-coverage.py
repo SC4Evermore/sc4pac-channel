@@ -22,7 +22,7 @@ from datetime import datetime, timezone
 
 
 SC4E_API_URL        = "https://www.sc4evermore.com/latest-modified-downloads.php"
-SC4E_CHANNEL_URL    = "https://sc4evermore.github.io/sc4pac-channel/json/sc4pac-channel-contents.json"
+SC4E_CHANNEL_URL    = "https://sc4evermore.github.io/sc4pac-channel/channel/sc4pac-channel-contents.json"
 SC4PAC_CHANNEL_URL  = "https://memo33.github.io/sc4pac/channel/sc4pac-channel-contents.json"
 
 SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
