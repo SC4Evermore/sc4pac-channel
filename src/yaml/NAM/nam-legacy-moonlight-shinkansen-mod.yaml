@@ -15,7 +15,7 @@ info:
   author: NAM Team, Moonlight, MGB204
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/457-nam-legacy-moonlights-shinkansen-mod
-
+    - https://community.simtropolis.com/files/file/37377-nam-legacy-moonlights-shinkansen-mod/
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/BridgesTunnel.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/optCat.jpg
@@ -109,7 +109,6 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/BridgesTunnel.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/optCat.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/Shinkansen.jpg
-
 assets:
   - assetId: nam-legacy-moonlight-shinkansen-mod
     include:
