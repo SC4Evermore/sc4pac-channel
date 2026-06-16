@@ -1,12 +1,12 @@
 assetId: "sc4d-lex-legacy-bsc-canals-collection"
-version: "2.0"
+version: "2.0.0-1"
 lastModified: "2024-08-20T02:52:39-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=277:sc4d-lex-legacy-bsc-canals-collection"
 
 ---
 group: bsc
 name: irrigation-canals  
-version: "2.0.0"
+version: "2.0.0-1"
 subfolder: 660-parks
 info:
   summary: BSC Irrigation Canals
@@ -68,7 +68,7 @@ assets:
 ---
 group: bsc
 name: sg-urban-canals
-version: "2.0.0"
+version: "2.0.0-1"
 subfolder: 660-parks
 info:
   summary: BSC SG Urban Canals
@@ -127,11 +127,11 @@ assets:
    
 ---
 group: bsc
-name: sg-stone-canals
-version: "2.0.0"
+name: cal-stone-canals
+version: "2.0.0-1"
 subfolder: 660-parks
 info:
-  summary: BSC Stone Canals
+  summary: BSC CAL Stone Canals
   description: |
     This stone canal allows for the creation of a network of historic canals that crosses both historic towns and rural landscapes.
 
@@ -188,7 +188,7 @@ assets:
 ---
 group: bsc
 name: sg-brick-canals
-version: "2.0.0"
+version: "2.0.0-1"
 subfolder: 660-parks
 info:
   summary: BSC SG Brick Canals
@@ -249,7 +249,7 @@ assets:
 ---
 group: bsc
 name: river-and-pond-kit-rpk
-version: "2.0.0"
+version: "2.0.0-1"
 subfolder: 660-parks
 info:
   summary: BSC River and Pond Kit (RPK)
@@ -309,7 +309,7 @@ assets:
 ---
 group: bsc
 name: sg-remastered-canals
-version: "2.0.0"
+version: "2.0.0-1"
 subfolder: 660-parks
 info:
   summary: BSC Remastered SG Canals
@@ -370,7 +370,7 @@ assets:
 ---
 group: bsc
 name: bsc-canals-collection
-version: "4.0.0"
+version: "2.0.0-1"
 subfolder: 660-parks
 info:
   summary: BSC Canals Collection
@@ -392,7 +392,7 @@ info:
 dependencies:
   - bsc:irrigation-canals
   - bsc:sg-urban-canals
-  - bsc:sg-stone-canals
+  - bsc:cal-stone-canals
   - bsc:sg-brick-canals
   - bsc:river-and-pond-kit-rpk
   - bsc:sg-remastered-canals
