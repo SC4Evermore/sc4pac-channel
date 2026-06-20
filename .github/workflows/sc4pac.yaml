@@ -19,3 +19,25 @@ jobs:
     permissions:
       pages: write                   # to deploy to GitHub Pages
       id-token: write                # to verify the deployment originates from an appropriate source
+
+  coverage:
+    needs: channel
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait for Pages to propagate
+        run: sleep 300 # deployment typically takes less than a minute. Wait 5 mins to be safe.
+
+      - name: Generate coverage report
+        run: python scripts/scan-coverage.py
+
+      - name: Commit coverage report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/coverage-report/
+          git diff --cached --quiet || git commit -m "chore: update coverage report" && git push
