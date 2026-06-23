@@ -1,6 +1,6 @@
 group: mas71
 name: japanese-river-project
-version: "2"
+version: "2-1"
 subfolder: 660-parks
 info:
   summary: "A canal set featuring wide sloped banks"
@@ -48,11 +48,13 @@ assets:
     exclude:
       - /@4Suburban Canal/
       - /@1\^Props Pack#/
+      - /@5\!xx_Options#/  # non-default deselected options like a water mod
+      - /.Documents/  # alt-files like MML
 
 ---
 group: mas71
 name: suburban-canal-set
-version: "2"
+version: "2-1"
 subfolder: 660-parks
 info:
   summary: "Narrow suburban canal set"
@@ -109,53 +111,26 @@ assets:
       - "/03_JRPSC prop_Option Gurdrail 01.dat"
       - /@101_Essential \(canal props\)/
     withConditions:
-      - ifVariant: { mas71:suburban-canal-set:tree-type: maxis, mas71:suburban-canal-set:fence-color: white }
+      - ifVariant: { mas71:suburban-canal-set:tree-type: maxis }
         include:
           - "/@4Lot Set - MAXIS tree/"
-          - "/=White/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: maxis, mas71:suburban-canal-set:fence-color: black }
-        include:
-          - "/@4Lot Set - MAXIS tree/"
-          - "/-Black/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: maxis, mas71:suburban-canal-set:fence-color: green }
-        include:
-          - "/@4Lot Set - MAXIS tree/"
-          - "/-Green/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: porkissimo, mas71:suburban-canal-set:fence-color: white }
+      - ifVariant: { mas71:suburban-canal-set:tree-type: porkissimo }
         include:
           - "/@5!Lot Set - PORKISSIMO tree/"
-          - "/=White/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: porkissimo, mas71:suburban-canal-set:fence-color: black }
-        include:
-          - "/@5!Lot Set - PORKISSIMO tree/"
-          - "/-Black/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: porkissimo, mas71:suburban-canal-set:fence-color: green }
-        include:
-          - "/@5!Lot Set - PORKISSIMO tree/"
-          - "/-Green/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: simfox, mas71:suburban-canal-set:fence-color: white }
+      - ifVariant: { mas71:suburban-canal-set:tree-type: simfox }
         include:
           - "/@6!Lot Set - SIMFOX tree/"
+      - ifVariant: { mas71:suburban-canal-set:tree-type: cherry }
+        include:
+          - "/@7!Lot Set - CHERRY tree/"
+      - ifVariant: { mas71:suburban-canal-set:fence-color: white }
+        include:
           - "/=White/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: simfox, mas71:suburban-canal-set:fence-color: black }
+      - ifVariant: { mas71:suburban-canal-set:fence-color: black }
         include:
-          - "/@6!Lot Set - SIMFOX tree/"
           - "/-Black/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: simfox, mas71:suburban-canal-set:fence-color: green }
+      - ifVariant: { mas71:suburban-canal-set:fence-color: green }
         include:
-          - "/@6!Lot Set - SIMFOX tree/"
-          - "/-Green/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: cherry, mas71:suburban-canal-set:fence-color: white }
-        include:
-          - "/@7!Lot Set - CHERRY tree/"
-          - "/=White/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: cherry, mas71:suburban-canal-set:fence-color: black }
-        include:
-          - "/@7!Lot Set - CHERRY tree/"
-          - "/-Black/"
-      - ifVariant: { mas71:suburban-canal-set:tree-type: cherry, mas71:suburban-canal-set:fence-color: green }
-        include:
-          - "/@7!Lot Set - CHERRY tree/"
           - "/-Green/"
 variantInfo:
 - variantId: "mas71:suburban-canal-set:tree-type"
