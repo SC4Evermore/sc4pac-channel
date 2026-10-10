@@ -32,7 +32,7 @@ setup([channel]).then(({plugin, h}) => {
   packages = [...map.values()];
   
   const button = h('a', {
-    href: plugin.getInstallUrl(packages),
+    href: plugin.getInstallUrl(packages, {provider: 'sc4e', id}),
     id: 'install-sc4pac',
     class: 'jdbutton jblack'
   }, ['Download with SC4Pac']);
