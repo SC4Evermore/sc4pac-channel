@@ -95,8 +95,8 @@ info:
     1. 31 Building models and props from Melbourne as part of the HD Prop Pack. This is similar to `pkg=reddonquixote:model-pack`, except the models are additionally included as props.
     2. RDQ HD Prop Pack. The RDQ HD Prop Pack includes 4 categories of props.
       * Urban Street Props - Includes various street props such as mailboxes, traffic lights, benches etc
-      * Tree Props - Includes most of the tree models I've made over the years
-      * Statues & Sculptures - Several of the statues and street sculptures I've made for various BATs are included in this pack.
+      * Tree Props - Includes most of the tree models RDQ made over the years
+      * Statues & Sculptures - Several of the statues and street sculptures for various BATs are included in this pack.
       * Buildings - A plethora of standalone buildings are included, mostly Victorian period style buildings, but a couple of 20thC mid-rises are also included.
   author: Reddonquixote (RDQ)
   images:
@@ -144,8 +144,6 @@ info:
 
     Source: Wikipedia
 
-    This is my 33rd BAT.
-
     There are 3 versions of the Chrysler Building, they are all available in Darknite and Maxis Night.
 
     - CO$$$ growable (Stage 8, CAMpatible - but CAM not required)
@@ -190,22 +188,14 @@ info:
   description: |-
     Statue of Liberty, New York City, USA
 
-    "Give me your tired, your poor,
-    Your huddled masses yearning to breathe free,
-    The wretched refuse of your teeming shore.
-    Send these, the homeless, tempest-tost to me,
-    I lift my lamp beside the golden door!"
-
     The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City. It was designed by French sculptor Frédéric Auguste Bartholdi and dedicated 1886. The statue is of a robed female figure bearing a torch and tablet. A broken chain lies at her feet. The statue is an icon of freedom and of the United States, a welcoming signal to immigrants arriving from abroad.
 
-    Source: Wikipedia (http://en.wikipedia.org/wiki/Statue_of_Liberty)
-
-    This is my 31st BAT, and my very first BAT release for the LEX.
+    Source: [Wikipedia](http://en.wikipedia.org/wiki/Statue_of_Liberty)
 
     The Statue of Liberty is a Landmark that comes in two versions.
 
     1) Statue of Liberty, is an overhanging prop that sits on 1x1 lot. Costs §2500 to build and §150 per month.
-    This is the familar patina green version atop a tiered platform, as we see today.
+    This is the familiar patina green version atop a tiered platform, as we see today.
 
     2) Statue of Liberty 1886, is an overhanging prop that sits on 1x1 lot. Costs §2500 to build and §150 per month.
     This is a copper metal version on a grassy mound, as she first appeared in 1886.
@@ -214,7 +204,7 @@ info:
     You can use both!
 
     Instructions:
-    1) If you use Darknite, delete the folder RDQ_Statue_Of_Liberty_MN. Otherwsie, delete the folder RDQ_Statue_Of_Liberty_DN.
+    1) If you use Darknite, delete the folder RDQ_Statue_Of_Liberty_MN. Otherwise, delete the folder RDQ_Statue_Of_Liberty_DN.
     2) Don't delete the folder RDQ_Statue_Of_Liberty_Building or you will get the dreaded brown box.
     3) Place 2 remaining folders into your SC4 plugins folder.
 
@@ -260,9 +250,7 @@ info:
 
     The cathedral was declared officially complete by Parliament on 25 December 1711 although construction was to continue for several years after that, with the statues on the roof only being added in the 1720s. In 1716 the total costs amounted to £1,095,556 (£143 million in 2015).
 
-    Source: Wikipedia (http://en.wikipedia.org/wiki/St_Paul%27s_Cathedral)
-
-    This is my 32nd BAT.
+    Source: [Wikipedia](http://en.wikipedia.org/wiki/St_Paul%27s_Cathedral)
 
     St Pauls Cathedral is a House of Worship, Landmark with Park Effect. It is an overhanging prop that sits on 5x5 lot. Costs §2500 to build and §150 per month to maintain.
 
@@ -332,11 +320,9 @@ info:
   description: |-
     PWC Tower, Melbourne, Australia
 
-    PWC Tower is a 161 metre office skyscraper in Southbank, Melbourne Australia and is located at 2 Southbank Boulevard. 
+    PWC Tower is a 161 metre office skyscraper in Southbank, Melbourne Australia and is located at 2 Southbank Boulevard.
 
     Part of the Freshwater Place complex, the concrete structure Freshwater Place Commercial Tower was completed in 2005. Features a spacious lobby and extensive use of limestone, comprised of a 38 story tower and 8 podium levels at approximately 55,000sqm of office accommodation.
-
-    This is my 36th BAT.
 
     PWC Tower is made available as Growable (Co$$$10 CAM lot) as well as CO$$$ functional landmark.
 
@@ -420,15 +406,13 @@ info:
   description: |-
     Crown Metropol, Melbourne, Australia
 
-    Crown Metropol is a 5 star hotel located at 8 Whiteman Street Southbank, Melbourne Australia. 
+    Crown Metropol is a 5 star hotel located at 8 Whiteman Street Southbank, Melbourne Australia.
 
     The ultimate in contemporary luxury, Crown Metropol rooms feature specially commissioned works of Sim art, bespoke Sim fittings and designer Sim furniture to deliver a truly unique hotel experience.
 
     The highest and most exclusive Sim cocktail bar in Melbourne, 28 Skybar Lounge showcases jaw-dropping views over the SimCity skyline.
 
     No stay at Crown Metropol Melbourne is complete without a visit to the infinity pool located on level 27, the 25 metre indoor pool offers unparalleled views across the entire SimCity.
-
-    This is my 37th BAT.
 
     Crown Metropol is made available as Growable (Cs$$$10 CAM lot) as well as CS$$$ functional landmark.
 
@@ -517,8 +501,6 @@ info:
 
     It is a Premium Landmark offering a central location halfway between the old Paris End and the new Docklands end of Collins Street.
 
-    This is the 2nd version of my 8th BAT.
-
     530 Collins is made available as Growable (Co$$$10 CAM lot) as well as CO$$$ functional landmark.
 
     There are no Prop dependencies, although the Dark Nite version requires Simfox Day n Nite Modd.
@@ -574,7 +556,7 @@ info:
 
     Rialto Towers is a 251m 63 floor office building in Collins Street, Melbourne. Built in the early 1980's, Rialto Towers is distinctive in the Melbourne skyline for its bright blue lights around the tops of the two different height glass towers.
 
-    This is version 4 of the first BAT I made, but first time release on the LEX.
+    This is version 4 of the first BAT RDQ made.
 
     Rialto Towers is a presented as Growable (Co$$$12 CAM lot) as well as CO$$$ Functional Landmark.
 
@@ -629,8 +611,6 @@ info:
     500 Collins Street, Melbourne, Australia
 
     500 Collins Street is a 29 story, 106m high Office Building located in Collins Street Melbourne. Built in 1970 in the typical Internationalist style from concrete, steel and glass, with a bare wall and vertical emphasis.
-
-    This is my 38th BAT.
 
     500 Collins Street is made available as Growable (CO$$9 CAM lot) as well as CO$$ functional landmark.
 
@@ -691,8 +671,6 @@ info:
 
     Stunning Rooftop Apartments offer sweeping views from exclusive 19th floor balconies overlooking the vibrant SimCity below.
 
-    This is my 39th BAT.
-
     Oaks on Collins is made available as R$$ Growable (R$$9 CAM lot) as well as CS$$ functional landmark.
 
     There are no Prop dependencies, although the Dark Nite version requires Simfox Day n Nite Modd.
@@ -748,8 +726,6 @@ info:
     The Capita Building at 459 Collins Street is a 32 story, 131 metre office skyscraper in Melbourne, Victoria, Australia and is located on the corner of Collins Street and William Street. 
 
     The building was originally known as the City Mutual building when completed in 1973, and was 117.6 metres high to a flat roof. It was renamed the Capita building in 1990 and was completely refurbished including the addition of a pyramidal top and spire.
-
-    This is my 35th BAT.
 
     The Capita Building is made available as Growable (CO$$10 CAM lot) as well as CO$$ functional landmark.
 
@@ -807,9 +783,7 @@ info:
 
     When completed in 1977 it became the tallest building in Melbourne, however the similar MLC Centre in Sydney retained Australia's tallest building at the time, from when it was completed just a few months earlier in the same year.
 
-    Source: Wikipedia
-
-    This is my 34th BAT.
+    Source: [Wikipedia](https://en.wikipedia.org/wiki/Nauru_House)
 
     Nauru House is presented as growable version (Co$$11 CAM lot) as well as a CO$$ functional Landmark.
 
@@ -876,15 +850,15 @@ info:
 
     Regardless, even if the empty heads did nothing with RDQ's prop pack after demanding he split his scenes into component files, I am truly grateful, and hopefully this upload puts these models front and centre, as they deserve. 
 
-    In making use of the prop pack, I have turned all the buildings into Commercial growables (CO and CS) and, because they weren't actually designed as standalone buildings, I have in some cases doubled them up to make them suitable for wall to wall applications (which is what they are in real life, but don't conform to the 16m scale of SC4). 
+    In making use of the prop pack, all the buildings have been turned into Commercial growables (CO and CS) and, because they weren't actually designed as standalone buildings, some have been doubled up to make them suitable for wall to wall applications (which is what they are in real life, but don't conform to the 16m scale of SC4). 
 
-    In letting RDQ's prop pack shine, I have used ONLY his models and the base game props. There are no dependencies beyond his prop pack.
+    There are no dependencies beyond his prop pack.
 
     These grow on all tilesets. 
 
-    I have also made two of the buildings (which are churches) as non-conditional rewards.
+    Two of the buildings (which are churches) are non-conditional rewards.
 
-    Given the number of lots and files, I am not listing out individual stats: like all my uploads the stats are balanced and made with the PIM-X.
+    Given the number of lots and files, individual stats are not listed out here. The stats are balanced and made with the PIM-X.
 
     Credit for every model to RDQ.
 
