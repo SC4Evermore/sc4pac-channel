@@ -1,0 +1,897 @@
+assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+url: "https://www.sc4evermore.com/index.php/downloads/send/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+version: "2"
+lastModified: "2024-10-06T10:24:21Z"
+
+---
+assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+url: "https://www.sc4evermore.com/index.php/downloads/send/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+version: "2"
+lastModified: "2024-10-06T10:25:01Z"
+
+---
+group: reddonquixote
+name: compilation
+version: "2"
+subfolder: 360-landmark
+info:
+  summary: SC4D LEX Legacy - Reddonquixote Compilation
+  description: |-
+    This SC4 Devotion LEX Legacy Pack features all twelve releases by legendary BATer Reddonquixote, which had been available on the Lot Exchange (LEX) at SC4 Devotion. It includes the contents of 12 previously separate downloads, plus the separate RDQ PropPack Growables by Mattb325 (added to Version 2).
+    
+    After battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023, and this package is designed to collect these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    There are two versions of this package that exist as separate downloads. One [(MN) is for Maxis Nite](https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night) (the default night settings), while the other [(DN) is for Dark Nite](https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation) and is optimized for use with darker Night Mods, such as the mods by SimFox and gizmo28.
+
+    Some of the Lots in here come with additional Ploppable options, or are Ploppable Only. Ploppable Only Lots are noted as "(Ploppable)" in the installer, and those with options will have the Ploppable option deselectable at a sublevel (click "+" to expand and deselect the Ploppable verison if you do not wish to install it).
+
+    Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+  author: Reddonquixote (RDQ), Tyberius06
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/RDQ-Mattb325_RDQ_Melb_lg.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+dependencies:
+  - reddonquixote:model-pack
+  - reddonquixote:prop-pack
+  - reddonquixote:the-chrysler-building
+  - reddonquixote:statue-of-liberty
+  - reddonquixote:st-pauls-cathedral
+  - reddonquixote:sealife-melbourne-aquarium
+  - reddonquixote:price-waterhouse-coopers-tower
+  - reddonquixote:cross-culture-church
+  - reddonquixote:crown-metropol
+  - reddonquixote:collins-street-baptist-church
+  - reddonquixote:530-collins-street
+  - reddonquixote:525-collins-street-rialto-towers
+  - reddonquixote:500-collins-street
+  - reddonquixote:480-collins-street-oaks-on-collins
+  - reddonquixote:459-collins-street-the-capita-building
+  - reddonquixote:80-collins-street-nauru-house
+  - mattb325:melbourne-expansion-pack-growables
+
+
+---
+group: reddonquixote
+name: model-pack
+version: "2"
+subfolder: 110-resources
+info:
+  summary: Models created by Reddonquixote (RDQ)
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Buildings_01.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Buildings_02.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Buildings_03.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Buildings_04.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/\\^RDQ Props/"
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/\\^RDQ Props/"
+
+
+---
+group: reddonquixote
+name: prop-pack
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: Models and props created by Reddonquixote (RDQ)
+  description: |-
+    This is a combination of two prop packs:
+    1. 31 Building models and props from Melbourne as part of the HD Prop Pack. This is similar to `pkg=reddonquixote:model-pack`, except the models are additionally included as props.
+    2. RDQ HD Prop Pack. The RDQ HD Prop Pack includes 4 categories of props.
+      * Urban Street Props - Includes various street props such as mailboxes, traffic lights, benches etc
+      * Tree Props - Includes most of the tree models RDQ made over the years
+      * Statues & Sculptures - Several of the statues and street sculptures for various BATs are included in this pack.
+      * Buildings - A plethora of standalone buildings are included, mostly Victorian period style buildings, but a couple of 20thC mid-rises are also included.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Banner_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Banner_Night.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Main_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Buildings_01.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Buildings_02.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Buildings_03.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Buildings_04.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Trees.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Urban_Props.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_HD_PropPack_Art_Props.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/RDQ Props/"
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/RDQ Props/"
+
+
+---
+group: reddonquixote
+name: the-chrysler-building
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: The Chrysler Building
+  description: |-
+    Chrysler Building, New York City, USA
+
+    The Chrysler Building is an Art Deco style skyscraper located in Manhattan at the intersection of 42nd Street and Lexington Avenue. Completed in 1930, at 319m it is the tallest brick building in the world. The Chrysler Building is the 4th tallest building in New York, (tied equal height with The New York Times Building, 2007)
+
+    The Chrysler Building is a classic example of Art Deco architecture and considered by many contemporary architects to be one of the finest buildings in New York City.
+
+    Source: Wikipedia
+
+    There are 3 versions of the Chrysler Building, they are all available in Darknite and Maxis Night.
+
+    - CO$$$ growable (Stage 8, CAMpatible - but CAM not required)
+      Lot Size: 4*4
+      Commercial Office Jobs: Co$$$ - 3143, Co$$ - 4492
+    - Functional CO$$$ Landmark
+    - EyeCandy Landmark
+
+    Huge thanks and credit goes to CasperVg for all the modding on this BAT.
+
+    Enjoy!
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_Chrysler%20Day_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_Chrysler%20Night_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_Chrysler_Building_Main.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/The Chrysler Building/"
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/The Chrysler Building/"
+
+
+---
+group: reddonquixote
+name: statue-of-liberty
+version: "2"
+subfolder: 360-landmark
+info:
+  summary: Statue of Liberty in oxidized copper color, as it appears currently
+  description: |-
+    Statue of Liberty, New York City, USA
+
+    The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City. It was designed by French sculptor Frédéric Auguste Bartholdi and dedicated 1886. The statue is of a robed female figure bearing a torch and tablet. A broken chain lies at her feet. The statue is an icon of freedom and of the United States, a welcoming signal to immigrants arriving from abroad.
+
+    Source: [Wikipedia](http://en.wikipedia.org/wiki/Statue_of_Liberty)
+
+    The Statue of Liberty is a Landmark that comes in two versions.
+
+    1) Statue of Liberty, is an overhanging prop that sits on 1x1 lot. Costs §2500 to build and §150 per month.
+    This is the familiar patina green version atop a tiered platform, as we see today.
+
+    2) Statue of Liberty 1886, is an overhanging prop that sits on 1x1 lot. Costs §2500 to build and §150 per month.
+    This is a copper metal version on a grassy mound, as she first appeared in 1886.
+    Delete folder 'RDQ_Statue_Of_Liberty_1886_Prop_XN' if you don't want the old copper statue.
+
+    You can use both!
+
+    Instructions:
+    1) If you use Darknite, delete the folder RDQ_Statue_Of_Liberty_MN. Otherwise, delete the folder RDQ_Statue_Of_Liberty_DN.
+    2) Don't delete the folder RDQ_Statue_Of_Liberty_Building or you will get the dreaded brown box.
+    3) Place 2 remaining folders into your SC4 plugins folder.
+
+    Enjoy!
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_SoLNY_Day_Image_Primary.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_SoLNY_Night_Image_Primary.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_SoLNY_Main_Pic.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/Statue Of Liberty/"
+          - "/Statue Of Liberty 1886 Version/"
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/Statue Of Liberty/"
+          - "/Statue Of Liberty 1886 Version/"
+
+
+---
+group: reddonquixote
+name: st-pauls-cathedral
+version: "2"
+subfolder: 650-religion
+info:
+  summary: St Paul's Cathedral in London, UK
+  description: |-
+    St Pauls Cathedral, London, England
+
+    St Paul's is an Anglican Cathedral and sits at the top of Ludgate Hill, the highest point in the City of London. The present church, dating from the late 17th century, was designed in the English Baroque style by Sir Christopher Wren. Its construction was part of a major rebuilding programme which took place in the city after the Great Fire of London.
+
+    The cathedral is one of the most famous and recognizable sights of London, with its dome dominating the skyline for 300 years, its dome is also among the highest in the world.
+
+    The cathedral was declared officially complete by Parliament on 25 December 1711 although construction was to continue for several years after that, with the statues on the roof only being added in the 1720s. In 1716 the total costs amounted to £1,095,556 (£143 million in 2015).
+
+    Source: [Wikipedia](http://en.wikipedia.org/wiki/St_Paul%27s_Cathedral)
+
+    St Pauls Cathedral is a House of Worship, Landmark with Park Effect. It is an overhanging prop that sits on 5x5 lot. Costs §2500 to build and §150 per month to maintain.
+
+    Enjoy!
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_St_Pauls_Cathedral_UK_Banner_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_St_Pauls_Cathedral_UK_Banner_Night.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_St_Pauls_Cathedral_UK_Detail.jpg
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night
+    - https://community.simtropolis.com/files/file/28948-st-pauls-cathedral-melbourne-australia/
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/St Pauls Cathedral, London/"
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/St Pauls Cathedral, London/"
+
+
+---
+group: reddonquixote
+name: sealife-melbourne-aquarium
+version: "2"
+subfolder: 620-education
+info:
+  summary: SEALife Melbourne Aquarium
+  description: |-
+    SEALife Melbourne Aquarium is a popular tourist attraction and educational facility located in Melbourne, Australia.
+
+    It is modded as a museum, providing educational exhibits about marine life for 32,900 students and adults alike.
+  author: Reddonquixote (RDQ), Tyberius06
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ-Tyb06%20SeaLife%20Aquarium-d.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/SEALife Melbourne Aquarium \\(museum\\)/"
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/SEALife Melbourne Aquarium \\(museum\\)/"
+
+---
+group: reddonquixote
+name: price-waterhouse-coopers-tower
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Price-Waterhouse-Coopers Tower
+  description: |-
+    PWC Tower, Melbourne, Australia
+
+    PWC Tower is a 161 metre office skyscraper in Southbank, Melbourne Australia and is located at 2 Southbank Boulevard.
+
+    Part of the Freshwater Place complex, the concrete structure Freshwater Place Commercial Tower was completed in 2005. Features a spacious lobby and extensive use of limestone, comprised of a 38 story tower and 8 podium levels at approximately 55,000sqm of office accommodation.
+
+    PWC Tower is made available as Growable (Co$$$10 CAM lot) as well as CO$$$ functional landmark.
+
+    There are no Prop dependencies, although the Dark Nite version requires Simfox Day n Nite Mod.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_PWC_Tower_Day_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_PWC_Tower_Night_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_PWC_Tower_Main_Pic.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: "standard", CAM: "no" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/Price-Waterhouse-Coopers Tower/"
+  - variant: { nightmode: "dark", CAM: "no" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/Price-Waterhouse-Coopers Tower/"
+  - variant: { nightmode: "standard", CAM: "yes" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/Price-Waterhouse-Coopers Tower/"
+          - "/CAM/RedDonQuixote/PWC Tower/"
+  - variant: { nightmode: "dark", CAM: "yes"  }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/Price-Waterhouse-Coopers Tower/"
+          - "/CAM/RedDonQuixote/PWC Tower/"
+
+
+---
+group: reddonquixote
+name: cross-culture-church
+version: "2"
+subfolder: 650-religion
+info:
+  summary: Melbourne CrossCulture Church
+  description: |-
+    The Melbourne CrossCulture Church is a notable religious building in Melbourne, Australia.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ-Mattb325_RDQ_Church.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/Melbourne CrossCulture Church/"
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/Melbourne CrossCulture Church/"
+
+
+---
+group: reddonquixote
+name: crown-metropol
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Crown Metropol, Melbourne
+  description: |-
+    Crown Metropol, Melbourne, Australia
+
+    Crown Metropol is a 5 star hotel located at 8 Whiteman Street Southbank, Melbourne Australia.
+
+    The ultimate in contemporary luxury, Crown Metropol rooms feature specially commissioned works of Sim art, bespoke Sim fittings and designer Sim furniture to deliver a truly unique hotel experience.
+
+    The highest and most exclusive Sim cocktail bar in Melbourne, 28 Skybar Lounge showcases jaw-dropping views over the SimCity skyline.
+
+    No stay at Crown Metropol Melbourne is complete without a visit to the infinity pool located on level 27, the 25 metre indoor pool offers unparalleled views across the entire SimCity.
+
+    Crown Metropol is made available as Growable (Cs$$$10 CAM lot) as well as CS$$$ functional landmark.
+
+    There are no Prop dependencies, although the Dark Nite version requires Simfox Day n Nite Modd.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_Crown_Metropol_Day_Banner2.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_Crown_Metropol_Night_Banner2.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_Crown_Metropol_Main_Pic2.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+dependencies:
+  - bsc:essentials
+  - reddonquixote:model-pack
+variants:
+  - variant: { nightmode: "standard", CAM: "no" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "installation/RedDonQuixote/Crown Metropol/"
+  - variant: { nightmode: "dark", CAM: "no" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "installation/RedDonQuixote/Crown Metropol/"
+  - variant: { nightmode: "standard", CAM: "yes" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "installation/RedDonQuixote/Crown Metropol/"
+          - "/CAM/RedDonQuixote/Crown Metropol/"
+  - variant: { nightmode: "dark", CAM: "yes"  }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "installation/RedDonQuixote/Crown Metropol/"
+          - "/CAM/RedDonQuixote/Crown Metropol/"
+
+
+---
+group: reddonquixote
+name: collins-street-baptist-church
+version: "2"
+subfolder: 650-religion
+info:
+  summary: Collins Street Baptist Church, Melbourne
+  description: |-
+    Collins Street Baptist Church is a historic church located in Melbourne, Australia.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ-Mattb325_RDQ_Baptist_Church.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/Collins Street Baptist Church/"
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/Collins Street Baptist Church/"
+
+
+---
+group: reddonquixote
+name: 530-collins-street
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: 530 Collins Street, Melbourne
+  description: |-
+    530 Collins, Melbourne, Australia
+
+    530 Collins is a 167m, 40 floor office building located on the corner of Collins and King Streets and was completed in 1991.
+
+    It is a Premium Landmark offering a central location halfway between the old Paris End and the new Docklands end of Collins Street.
+
+    530 Collins is made available as Growable (Co$$$10 CAM lot) as well as CO$$$ functional landmark.
+
+    There are no Prop dependencies, although the Dark Nite version requires Simfox Day n Nite Modd.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_530_Collins_Day_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_530_Collins_Night_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_530_Collins_Main_Pic.jpg
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night
+    - https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: "standard", CAM: "no" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/530 Collins Street v.*/"
+  - variant: { nightmode: "dark", CAM: "no" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/530 Collins Street v.*/"
+  - variant: { nightmode: "standard", CAM: "yes" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/530 Collins Street v.*/"
+          - "/CAM/RedDonQuixote/530 Collins Street/"
+  - variant: { nightmode: "dark", CAM: "yes"  }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/530 Collins Street v.*/"
+          - "/CAM/RedDonQuixote/530 Collins Street/"
+
+
+---
+group: reddonquixote
+name: 525-collins-street-rialto-towers
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Rialto Towers, Melbourne
+  description: |-
+    Rialto Towers, Melbourne, Australia
+
+    Rialto Towers is a 251m 63 floor office building in Collins Street, Melbourne. Built in the early 1980's, Rialto Towers is distinctive in the Melbourne skyline for its bright blue lights around the tops of the two different height glass towers.
+
+    This is version 4 of the first BAT RDQ made.
+
+    Rialto Towers is a presented as Growable (Co$$$12 CAM lot) as well as CO$$$ Functional Landmark.
+
+    There are no Prop dependencies, although the Dark Nite version requires Simfox Day n Nite Modd.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_Rialto_Towers_Day_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_Rialto_Towers_Night_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_Rialto_Towers_Main_Pic.jpg
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: "standard", CAM: "no" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/525 Collins Street Rialto Towers v4/"
+  - variant: { nightmode: "dark", CAM: "no" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/525 Collins Street Rialto Towers v4/"
+  - variant: { nightmode: "standard", CAM: "yes" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/525 Collins Street Rialto Towers v4/"
+          - "/CAM/RedDonQuixote/Rialto Towers v4/"
+  - variant: { nightmode: "dark", CAM: "yes"  }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/525 Collins Street Rialto Towers v4/"
+          - "/CAM/RedDonQuixote/Rialto Towers v4/"
+
+
+---
+group: reddonquixote
+name: 500-collins-street
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: 500 Collins Street, Melbourne
+  description: |-
+    500 Collins Street, Melbourne, Australia
+
+    500 Collins Street is a 29 story, 106m high Office Building located in Collins Street Melbourne. Built in 1970 in the typical Internationalist style from concrete, steel and glass, with a bare wall and vertical emphasis.
+
+    500 Collins Street is made available as Growable (CO$$9 CAM lot) as well as CO$$ functional landmark.
+
+    There are no Prop dependencies, although the Dark Nite version requires Simfox Day n Nite Modd.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_500_CSM_Day_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_500_CSM_Night_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_500_CSM_Main_Pic.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+dependencies:
+  - bsc:essentials
+  - reddonquixote:model-pack
+variants:
+  - variant: { nightmode: "standard", CAM: "no" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "installation/RedDonQuixote/500 Collins Street/"
+  - variant: { nightmode: "dark", CAM: "no" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "installation/RedDonQuixote/500 Collins Street/"
+  - variant: { nightmode: "standard", CAM: "yes" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "installation/RedDonQuixote/500 Collins Street/"
+          - "/CAM/RedDonQuixote/500 Collins Street/"
+  - variant: { nightmode: "dark", CAM: "yes"  }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "installation/RedDonQuixote/500 Collins Street/"
+          - "/CAM/RedDonQuixote/500 Collins Street/"
+
+
+---
+group: reddonquixote
+name: 480-collins-street-oaks-on-collins
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: 530 Collins Street, Melbourne
+  description: |-
+    Oaks on Collins, Melbourne, Australia
+
+    New York-style Hotel Apartment Accommodation in the heart of the CBD.
+
+    The 4.5 star Oaks on Collins at 480 Collins Street is fashioned on New York-style living and stretches 20 floors up, providing uninterrupted access to the business, shopping and entertainment precincts that lie below.
+
+    Stunning Rooftop Apartments offer sweeping views from exclusive 19th floor balconies overlooking the vibrant SimCity below.
+
+    Oaks on Collins is made available as R$$ Growable (R$$9 CAM lot) as well as CS$$ functional landmark.
+
+    There are no Prop dependencies, although the Dark Nite version requires Simfox Day n Nite Modd.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_480_CSM_Day_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_480_CSM_Night_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_480_CSM_Main_Pic.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: "standard", CAM: "no" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/480 Collins Street Oaks on Collins/"
+  - variant: { nightmode: "dark", CAM: "no" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/480 Collins Street Oaks on Collins/"
+  - variant: { nightmode: "standard", CAM: "yes" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/480 Collins Street Oaks on Collins/"
+          - "/CAM/RedDonQuixote/Oaks on Collins/"
+  - variant: { nightmode: "dark", CAM: "yes"  }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/480 Collins Street Oaks on Collins/"
+          - "/CAM/RedDonQuixote/Oaks on Collins/"
+
+
+---
+group: reddonquixote
+name: 459-collins-street-the-capita-building
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: 459 Collins Street, Melbourne
+  description: |-
+    Capita Building, Melbourne, Australia
+
+    The Capita Building at 459 Collins Street is a 32 story, 131 metre office skyscraper in Melbourne, Victoria, Australia and is located on the corner of Collins Street and William Street. 
+
+    The building was originally known as the City Mutual building when completed in 1973, and was 117.6 metres high to a flat roof. It was renamed the Capita building in 1990 and was completely refurbished including the addition of a pyramidal top and spire.
+
+    The Capita Building is made available as Growable (CO$$10 CAM lot) as well as CO$$ functional landmark.
+
+    There are no Prop dependencies, although the Dark Nite version requires Simfox_Day n Nite Modd.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_459_CSM_Day_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_459_CSM_Night_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_459_CSM_Main_Pic.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: "standard", CAM: "no" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/459 Collins Street The Capita Building/"
+  - variant: { nightmode: "dark", CAM: "no"  }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/459 Collins Street The Capita Building/"
+  - variant: { nightmode: "standard", CAM: "yes" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/459 Collins Street The Capita Building/"
+          - "/CAM/RedDonQuixote/The Capita Building/"
+  - variant: { nightmode: "dark", CAM: "yes"  }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/459 Collins Street The Capita Building/"
+          - "/CAM/RedDonQuixote/The Capita Building/"
+
+
+---
+group: reddonquixote
+name: 80-collins-street-nauru-house
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: 80 Collins Street, Melbourne
+  description: |-
+    Nauru House, Melbourne, Australia
+
+    Nauru House (also called 80 Collins Street) is a landmark 52-storey building located in the Melbourne CBD. The building was designed by architectural firm Perrott Lyon Timlock & Kesa.
+
+    When completed in 1977 it became the tallest building in Melbourne, however the similar MLC Centre in Sydney retained Australia's tallest building at the time, from when it was completed just a few months earlier in the same year.
+
+    Source: [Wikipedia](https://en.wikipedia.org/wiki/Nauru_House)
+
+    Nauru House is presented as growable version (Co$$11 CAM lot) as well as a CO$$ functional Landmark.
+
+    There are no Prop dependencies, although the Dark Nite version requires Simfox Day n Nite Modd.
+  author: Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_NH_Day_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_NH_Night_Banner.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ_NH_Main_Pic.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: "standard", CAM: "no" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/80 Collins Street Nauru House/"
+  - variant: { nightmode: "dark", CAM: "no" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/80 Collins Street Nauru House/"
+  - variant: { nightmode: "standard", CAM: "yes" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/80 Collins Street Nauru House/"
+          - "/CAM/RedDonQuixote/Nauru House/"
+  - variant: { nightmode: "dark", CAM: "yes"  }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/80 Collins Street Nauru House/"
+          - "/CAM/RedDonQuixote/Nauru House/"
+
+
+---
+group: mattb325
+name: melbourne-expansion-pack-growables
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: RDQ's prop pack modded as growable buildings
+  description: |-
+    RDQ Melbourne Expansion Pack, by Mattb325.
+    ---------------------------------------
+
+    Another file from the 'vault'.
+
+    Some time ago, RDQ, separated and released quite a large number of smaller annexes, buildings and props that made up his skyscrapers into a large HD prop-pack.
+
+    In making use of the prop pack, all the buildings have been turned into Commercial growables (CO and CS) and, because they weren't actually designed as standalone buildings, some have been doubled up to make them suitable for wall to wall applications (which is what they are in real life, but don't conform to the 16m scale of SC4). 
+
+    There are no dependencies beyond his prop pack.
+
+    These grow on all tilesets. 
+
+    Two of the buildings (which are churches) are non-conditional rewards.
+
+    Given the number of lots and files, individual stats are not listed out here. The stats are balanced and made with the PIM-X.
+
+    Credit for every model to RDQ.
+
+    ---------------------------------------
+
+    STATS CS§§ & CS§§§:        
+      
+    Lot size: 	     2x2, 1x3, 2x3, 2x4 and 6x6
+    Growth Stage:	     1-7 (Low, Medium and High Density Zoning)
+    Building Style:      Chicago/NY/Houston/Euro
+    Occupant Group:	     Medium and High Wealth Commercial Services Buildings
+
+
+    ---------------------------------------
+
+    STATS CO§§ & CO§§§:        
+      
+    Lot size: 	     1x2, 2x2, 2x4, 3x3 and 3x4
+    Growth Stage:	     1-7 (Low, Medium and High Density Zoning)
+    Building Style:      Chicago/NY/Houston/Euro
+    Occupant Group:	     Medium Wealth Commercial Offices Buildings
+  author: Mattb325, Reddonquixote (RDQ)
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ-Mattb325_RDQ_Melb_lg.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ-Mattb325_RDQ_Melb_s.jpg
+    - https://www.sc4evermore.com/images/sc4pac/reddonquixote/RDQ-Mattb325_RDQ_Melb_sn.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation"
+    - "https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+dependencies:
+  - reddonquixote:prop-pack
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-maxis-night"
+        include:
+          - "/Mattb325's RDQ Melbourne Expansion Pack Growables#/"
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+    assets:
+      - assetId: "sc4d-lex-legacy-reddonquixote-compilation-dark-night"
+        include:
+          - "/Mattb325's RDQ Melbourne Expansion Pack Growables#/"
