@@ -37,7 +37,7 @@ dependencies:
   - reddonquixote:prop-pack
   - reddonquixote:the-chrysler-building
   - reddonquixote:statue-of-liberty
-  - reddonquixote:st-pauls-cathedral
+  - reddonquixote:st-pauls-cathedral-london
   - reddonquixote:sealife-melbourne-aquarium
   - reddonquixote:price-waterhouse-coopers-tower
   - reddonquixote:cross-culture-church
@@ -236,7 +236,7 @@ variants:
 
 ---
 group: reddonquixote
-name: st-pauls-cathedral
+name: st-pauls-cathedral-london
 version: "2"
 subfolder: 650-religion
 info:
@@ -263,7 +263,6 @@ info:
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation
     - https://www.sc4evermore.com/index.php/downloads/download/21-other/206-sc4d-lex-legacy-reddonquixote-compilation-maxis-night
-    - https://community.simtropolis.com/files/file/28948-st-pauls-cathedral-melbourne-australia/
 variants:
   - variant: { nightmode: "standard" }
     assets:
