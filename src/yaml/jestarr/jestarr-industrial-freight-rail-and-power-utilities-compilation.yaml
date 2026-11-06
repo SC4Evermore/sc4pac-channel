@@ -1,0 +1,445 @@
+assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+version: "2"
+lastModified: "2025-08-30T02:10:55-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=337:sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+
+---
+group: jestarr
+name: industrial-lots
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Jestarr industrial lots
+  description: |-
+    The industrial lots by BSC BATer Jestarr (JES) that were available on the LEX: growable I-D, I-M and I-HT lots, ploppable lots and canal lots.
+
+    With CAM, the CAMelots are included as well.
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/VW_Factory_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/GeereRobotics_Day.jpg
+dependencies:
+  - aln:rrp-pasture-flora-props
+  - bsc:essentials
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-t1-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - csx:billboards-props
+  - csx:mega-props-vol01
+  - gizmo:vehicle-props
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+        include:
+          - "/BSC/jestarr/Industrial/"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+        include:
+          - "/BSC/jestarr/Industrial/"
+          - "/!CAM/jestarr/"
+        # lower stage lots of buildings that have a CAMelot, which would otherwise grow twice
+        exclude:
+          - "/I-d3_12x6_OwossoBeetSugarFactory_e4962318\\.SC4Lot$"
+          - "/I-d3_15x3_jes_SugarWarehouse_canal_53d2e083\\.SC4Lot$"
+          - "/I-d3_15x3_jes_SugarWarehouse_no-canal_53d2f478\\.SC4Lot$"
+          - "/I-ht2_3x4_jes_Rorschach_RD_f50ca619\\.SC4Lot$"
+          - "/I-ht3_5x6_jes_GeereRoboticsCorporation_f45deb76\\.SC4Lot$"
+          - "/I-m2_4x2_jes_ReplogleGlobeFactory_d3fd9ab8\\.SC4Lot$"
+          - "/I-m2_4x3_jes_GK_MetalFabrication_33de1ff1\\.SC4Lot$"
+          - "/I-m3_16x3_jes_EnglehardtShirtFactory_f3f323d8\\.SC4Lot$"
+          - "/I-m3_5x4_jes_UnderhillCasketCompany_3397abb6\\.SC4Lot$"
+          - "/I-m3_5x5_jes_RedwingMill_140c64e0\\.SC4Lot$"
+          - "/I-m3_7x4_Gerlach-Barklow Calendar Factory_047d9ea3\\.SC4Lot$"
+          - "/ID\\$\\$2_13x2_jes_BondingWarehouse_36d031be\\.SC4Lot$"
+          - "/ID\\$\\$2_6x2_Yankee Linen Supply_464a7f88\\.SC4Lot$"
+          - "/ID\\$\\$3_17x21_jes_VW Automotive Factory_ec2e6dea\\.SC4Lot$"
+          - "/ID\\$\\$3_5x1_YankeeLinenSupply_16492fbb\\.SC4Lot$"
+          - "/ID\\$\\$3_5x3_Black's Ice Company_74d32b87\\.SC4Lot$"
+          - "/IM\\$\\$3_3x3_PrairieStarFoodCompany_d5c2e109\\.SC4Lot$"
+          - "/IM\\$\\$3_3x7_jes_Holzman Postcard Factory_2e96d2e5\\.SC4Lot$"
+          - "/IM\\$\\$3_5x1_jes_BallardsBallandJacksFactory_948673bd\\.SC4Lot$"
+          - "/IM\\$\\$3_5x1_jes_BelkinsBobbinFactory_25013adb\\.SC4Lot$"
+          - "/IM\\$\\$3_5x3_Woods Paper Products_058cf06c\\.SC4Lot$"
+          - "/IM\\$\\$3_5x7_jes_South China Tea Factory_99c70c53\\.SC4Lot$"
+          - "/IM\\$\\$3_6x2_jes_KrispyKrackerCompany_39c6e619\\.SC4Lot$"
+          - "/IM\\$\\$3_6x5_jes_E-Z Polish Factory_5924c1b3\\.SC4Lot$"
+          - "/IM\\$\\$3_7x3_jes_American Licorice Company_8ea3fca8\\.SC4Lot$"
+
+---
+group: jestarr
+name: freight-rail-collection
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Jestarr freight rail lots
+  description: |-
+    A collection of the 11 freight rail lots by BSC BATer Jestarr (JES).
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/VW_Factory_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/GeereRobotics_Day.jpg
+dependencies:
+  - jestarr:freight-rail-cal-fame-packing-shed
+  - jestarr:freight-rail-currey-petro-chemical
+  - jestarr:freight-rail-empire-leather-works
+  - jestarr:freight-rail-hoof-mouth-glue-factory
+  - jestarr:freight-rail-owosso-beet-sugar-factory
+  - jestarr:freight-rail-perkins-furniture-company
+  - jestarr:freight-rail-pu-fertilizer-plant
+  - jestarr:freight-rail-railway-express-agency
+  - jestarr:freight-rail-rayden-transfer
+  - jestarr:freight-rail-redwing-mill
+  - jestarr:freight-rail-sterling-consolidated-manufacturing
+
+---
+group: jestarr
+name: freight-rail-cal-fame-packing-shed
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Cal Fame Packing Shed (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - sc4jeeks:parking-textures-vol01
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Cal Fame Packing Shed/"
+
+---
+group: jestarr
+name: freight-rail-currey-petro-chemical
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Currey Petro Chemical (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Currey Petro Chemical/"
+
+---
+group: jestarr
+name: freight-rail-empire-leather-works
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Empire Leather Works (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - csx:billboards-props
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Empire Leather Works/"
+
+---
+group: jestarr
+name: freight-rail-hoof-mouth-glue-factory
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Hoof Mouth Glue Factory (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Hoof Mouth Glue Factory/"
+
+---
+group: jestarr
+name: freight-rail-owosso-beet-sugar-factory
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Owosso Beet Sugar Factory (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - csx:billboards-props
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Owosso Beet Sugar Factory/"
+
+---
+group: jestarr
+name: freight-rail-perkins-furniture-company
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Perkins Furniture Company (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Perkins Furniture Company/"
+
+---
+group: jestarr
+name: freight-rail-pu-fertilizer-plant
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: PU Fertilizer Plant (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/PU Fertilizer Plant/"
+
+---
+group: jestarr
+name: freight-rail-railway-express-agency
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Railway Express Agency (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - csx:mega-props-vol01
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Railway Express Agency/"
+
+---
+group: jestarr
+name: freight-rail-rayden-transfer
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Rayden Transfer (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - sc4jeeks:parking-textures-vol01
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Rayden Transfer/"
+
+---
+group: jestarr
+name: freight-rail-redwing-mill
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Redwing Mill (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Redwing Mill/"
+
+---
+group: jestarr
+name: freight-rail-sterling-consolidated-manufacturing
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Sterling Consolidated Manufacturing (freight rail)
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Freight Rail/Sterling Consolidated Manufacturing/"
+
+---
+group: jestarr
+name: power-utility-lots
+version: "2"
+subfolder: 500-utilities
+info:
+  summary: Jestarr power utility lots
+  description: |-
+    The power utility lots by BSC BATer Jestarr (JES): the coal fired power plant, the coal power plant and the HV powerline substation.
+  author: Jestarr (JES), BSC
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/VW_Factory_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/GeereRobotics_Day.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - subgrav:power-transformer-model
+assets:
+  - assetId: sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+    include:
+      - "/BSC/jestarr/Power Utility/"
