@@ -1,0 +1,233 @@
+---
+assetId: bsc-simgoober-civic-servicies-health-safety-education
+version: "1.0.0"
+lastModified: "2026-04-23T14:44:09-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=448:sc4d-lex-legacy-bsc-simgoober-civic-servicies-health-safety-education
+
+---
+group: simgoober
+name: education-set
+version: "1.0.0"
+subfolder: 620-education
+info:
+  summary: SimGoober Education Set
+  description: |
+    This set includes all the education buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/448-sc4d-lex-legacy-bsc-simgoober-civic-servicies-health-safety-education
+    - https://community.simtropolis.com/files/file/13341-enyati-college/
+    - https://community.simtropolis.com/files/file/13340-enyati-urban-school/
+    - https://community.simtropolis.com/files/file/13275-goober-elementary-school/
+    - https://community.simtropolis.com/files/file/13992-goobergen-aquarium/
+    - https://community.simtropolis.com/files/file/13266-larger-high-school/
+    - https://community.simtropolis.com/files/file/14162-milwaukee-club-library/
+    - https://community.simtropolis.com/files/file/13997-museum-of-simnation/
+    - https://community.simtropolis.com/files/file/13653-brewery-museum/
+    - https://community.simtropolis.com/files/file/11565-grand-opera-house-manaus-brazil/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SECURI%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/HEALTH%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/EDUCAT%201.JPG
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-education
+  - bsc:sg-models-civic-services
+  - bsc:sg-models-civic-rewards
+  - bsc:sg-mega-residentials-vol03-models
+  - bsc:sg-models-entertainment
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - peg:one-flag-many-nations
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - csx:mega-props-vol03
+  
+assets:
+- assetId: bsc-simgoober-civic-servicies-health-safety-education
+  include:
+  - "/@1Education/"  
+
+---
+group: simgoober
+name: health-set
+version: "1.0.0"
+subfolder: 630-health
+info:
+  summary: SimGoober Health Set
+  description: |
+    This set includes all the health buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/448-sc4d-lex-legacy-bsc-simgoober-civic-servicies-health-safety-education
+    - https://community.simtropolis.com/files/file/14479-goobergen-hospital/
+    - https://community.simtropolis.com/files/file/16015-goobergen-rural-hospital/
+    - https://community.simtropolis.com/files/file/14798-goobergen-urgent-care/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SECURI%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/HEALTH%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/EDUCAT%201.JPG
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-education
+  - bsc:sg-models-civic-services
+  - bsc:sg-models-civic-rewards
+  - bsc:sg-mega-residentials-vol03-models
+  - bsc:sg-models-entertainment
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - peg:one-flag-many-nations
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - csx:mega-props-vol03
+  
+assets:
+- assetId: bsc-simgoober-civic-servicies-health-safety-education
+  include:
+  - "/@2Health#/"  
+
+---
+group: simgoober
+name: government-set
+version: "1.0.0"
+subfolder: 640-government
+info:
+  summary: SimGoober Government Set
+  description: |
+    This set includes all the government buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/448-sc4d-lex-legacy-bsc-simgoober-civic-servicies-health-safety-education
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SECURI%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/HEALTH%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/EDUCAT%201.JPG
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-education
+  - bsc:sg-models-civic-services
+  - bsc:sg-models-civic-rewards
+  - bsc:sg-mega-residentials-vol03-models
+  - bsc:sg-models-entertainment
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - peg:one-flag-many-nations
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - csx:mega-props-vol03
+  
+assets:
+- assetId: bsc-simgoober-civic-servicies-health-safety-education
+  include:
+  - "/@5Government#/"  
+
+---
+group: simgoober
+name: security-set
+version: "1.0.0"
+subfolder: 610-safety
+info:
+  summary: SimGoober Security Set
+  description: |
+    This set includes all the security buildings created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/448-sc4d-lex-legacy-bsc-simgoober-civic-servicies-health-safety-education
+    - https://community.simtropolis.com/files/file/12285-fire-house-fdny-house-ten/
+    - https://community.simtropolis.com/files/file/4168-fire-house-chicago-e77/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SECURI%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/HEALTH%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/EDUCAT%201.JPG
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-education
+  - bsc:sg-models-civic-services
+  - bsc:sg-models-civic-rewards
+  - bsc:sg-mega-residentials-vol03-models
+  - bsc:sg-models-entertainment
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - peg:one-flag-many-nations
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - csx:mega-props-vol03
+  
+assets:
+- assetId: bsc-simgoober-civic-servicies-health-safety-education
+  include:
+  - "/@3Fire Department#/"  
+  - "/@4Police#/"  
+
+---
+group: simgoober
+name:  civic-servicies-health-safety-education-collection    
+version: "1.0.0"
+subfolder: 640-government
+info:
+  summary: Civic Services, Health, Saftey and Education Collection Pack
+  description: A collection of 31 Civic Services, Health, Saftey and Education Lots by SimGoober (SG)       
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/448-sc4d-lex-legacy-bsc-simgoober-civic-servicies-health-safety-education
+    - https://community.simtropolis.com/files/file/13341-enyati-college/
+    - https://community.simtropolis.com/files/file/13340-enyati-urban-school/
+    - https://community.simtropolis.com/files/file/13275-goober-elementary-school/
+    - https://community.simtropolis.com/files/file/13992-goobergen-aquarium/
+    - https://community.simtropolis.com/files/file/13266-larger-high-school/
+    - https://community.simtropolis.com/files/file/14162-milwaukee-club-library/
+    - https://community.simtropolis.com/files/file/13997-museum-of-simnation/
+    - https://community.simtropolis.com/files/file/13653-brewery-museum/
+    - https://community.simtropolis.com/files/file/11565-grand-opera-house-manaus-brazil/
+    - https://community.simtropolis.com/files/file/14479-goobergen-hospital/
+    - https://community.simtropolis.com/files/file/16015-goobergen-rural-hospital/
+    - https://community.simtropolis.com/files/file/14798-goobergen-urgent-care/
+    - https://community.simtropolis.com/files/file/12285-fire-house-fdny-house-ten/
+    - https://community.simtropolis.com/files/file/4168-fire-house-chicago-e77/    
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SECURI%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/HEALTH%201.JPG
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/EDUCAT%201.JPG
+    
+dependencies:
+  - simgoober:education-set
+  - simgoober:health-set
+  - simgoober:government-set
+  - simgoober:security-set

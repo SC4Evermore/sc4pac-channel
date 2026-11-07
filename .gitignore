@@ -3,6 +3,7 @@
 /*.lnk
 /*.bat
 /*.log
+/dist
 
 /src/**/*
 !/src/**/*/

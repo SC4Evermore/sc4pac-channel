@@ -1,0 +1,118 @@
+---
+assetId: bsc-simgoober-adults-collection
+version: "1.0.0"
+lastModified: "2026-04-23T14:42:59-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=447:sc4d-lex-legacy-bsc-simgoober-adults-collection
+
+---
+group: simgoober
+name: adults-industrial-set
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: SimGoober Adults Industrial Set
+  description: |
+    A group of industries that manufacture adult products, created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/447-sc4d-lex-legacy-bsc-simgoober-adults-collection
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Adult%20Lots%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_NimbyPack01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_SleezePack03.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-adult
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - cogeo:logistics-centre-dependency-pack
+  - peg:mtp-super-pack
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: bsc-simgoober-adults-collection
+        include:
+        - "/I-d2_2x4_SG_TeddyBareFactory.dat"
+        - "/SG_5x4_GooberGenLatex_IHT_GROW.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: bsc-simgoober-adults-collection
+        include:
+        - "/I-d2_2x4_SG_TeddyBareFactory.dat"
+        - "/SG_5x4_GooberGenLatex_IHT_GROW_CAM.dat"
+
+---
+group: simgoober
+name: adults-commercial-set
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SimGoober Adults Commercial Set
+  description: |
+    Mayor, the Adult industry seems to be growing in your city. As a reward, one of the owners in particular would like to build a new residence. He got the plans from the architect who made that nice seaside Villa of yours, but is making a few "upgrades"....
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/447-sc4d-lex-legacy-bsc-simgoober-adults-collection
+    - https://community.simtropolis.com/files/file/14696-nimby-collection-1/
+    - https://community.simtropolis.com/files/file/12674-sum-ting-wong-chinese-food/
+    - https://community.simtropolis.com/files/file/12440-lappers-go-go/
+    - https://community.simtropolis.com/files/file/12441-club-deja-vu-showgirls/
+    - https://community.simtropolis.com/files/file/12450-chippendales/
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Adult%20Lots%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_NimbyPack01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_SleezePack03.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-adult
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - cogeo:logistics-centre-dependency-pack
+  - peg:mtp-super-pack
+
+assets:
+- assetId: bsc-simgoober-adults-collection
+  include:
+  - "/Commercials/" 
+
+---
+group: simgoober
+name:  adults-collection    
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Adults Collection Pack
+  description: A collection of 28 Adults Comemrical Lots and 2 Adults Industrial Lot by SimGoober (SG)       
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/447-sc4d-lex-legacy-bsc-simgoober-adults-collection
+    - https://community.simtropolis.com/files/file/14696-nimby-collection-1/
+    - https://community.simtropolis.com/files/file/12674-sum-ting-wong-chinese-food/
+    - https://community.simtropolis.com/files/file/12440-lappers-go-go/
+    - https://community.simtropolis.com/files/file/12441-club-deja-vu-showgirls/
+    - https://community.simtropolis.com/files/file/12450-chippendales/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Adult%20Lots%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_NimbyPack01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_SleezePack03.jpg
+    
+dependencies:
+  - simgoober:adults-industrial-set
+  - simgoober:adults-commercial-set

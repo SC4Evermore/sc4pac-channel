@@ -1,0 +1,58 @@
+assetId: "mas71-water-mods"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=442:mas71-water-mods"
+version: "1"
+lastModified: "2026-04-22T20:10:29Z"
+
+---
+group: "mas71"
+name: "water-mods"
+version: "1"
+subfolder: "170-terrain"
+info:
+  summary: "Brings a change of design for water in your city"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/442-mas71-water-mods"
+  author: "Mas'71"
+  images:
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Mas71%20Water%20MODs.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Mas71_Waters_100-500.jpg"
+variants:
+- variant: { mas71:water-mods:type: "100" }
+  assets:
+  - assetId: "mas71-water-mods"
+    include:
+    - "Mas71_Waters_100.dat"
+- variant: { mas71:water-mods:type: "200" }
+  assets:
+  - assetId: "mas71-water-mods"
+    include:
+    - "Mas71_Waters_200.dat"
+- variant: { mas71:water-mods:type: "300" }
+  assets:
+  - assetId: "mas71-water-mods"
+    include:
+    - "Mas71_Waters_300.dat"
+- variant: { mas71:water-mods:type: "400" }
+  assets:
+  - assetId: "mas71-water-mods"
+    include:
+    - "Mas71_Waters_400.dat"
+- variant: { mas71:water-mods:type: "500" }
+  assets:
+  - assetId: "mas71-water-mods"
+    include:
+    - "Mas71_Waters_500.dat"
+variantInfo:
+- variantId: "mas71:water-mods:type"
+  description: "Customize the water appearance"
+  values:
+  - value: "100"
+    description: "Option 1 (see package screenshot)"
+    default: true
+  - value: "200"
+    description: "Option 2 (see package screenshot)"
+  - value: "300"
+    description: "Option 3 (see package screenshot)"
+  - value: "400"
+    description: "Option 4 (see package screenshot)"
+  - value: "500"
+    description: "Option 5 (see package screenshot)"

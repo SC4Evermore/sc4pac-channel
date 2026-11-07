@@ -1,0 +1,342 @@
+assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=430:sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+version: "1"
+lastModified: "2026-06-28T03:10:29Z"
+
+---
+group: "cp"
+name: "scilt"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "Sidewalk Compatible Interchangeable Lot Textures (SCILT)"
+  description: |-
+    This is a collection of lot textures intended to match the texture of your sidewalk mod. Note that for this version, the sidewalk mod is included, meaning the sidewalk textures in your game will change to this texture. The lot textures should be useful on lots where the sidewalk texture needs to be extended onto the lot, or for paths, plazas, patios, etc.
+
+    The different versions are interchangeable, meaning if you remove one version from your plugins and replace it with another, the game will show the new SCILT textures on your lots in place of the old SCILT textures. These BSC Sidewalk Mods are based on base textures that can originally be found in the BSC Textures Vol01, BSC Textures Vol02 and BSC Textures Vol03 dependency packs.
+  author: "CycleDogg/CP"
+  images:
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/scilt-cp-and-bsc.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/Preview.JPG"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/44-sidewalks/430-sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+variants:
+# Maxis, BSC, and CP textures
+- variant: { cp:scilt:texture: "maxis-default" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_MaxisSidewalk"
+- variant: { cp:scilt:texture: "bsc-cobblestone" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCCobblestone"
+- variant: { cp:scilt:texture: "bsc-diagonal-tile" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCDiagonalTile"
+- variant: { cp:scilt:texture: "bsc-diamond-brick" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCDiamondBrick"
+- variant: { cp:scilt:texture: "bsc-earthy-cobbles" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCEarthyCobbles"
+- variant: { cp:scilt:texture: "bsc-fieldstone" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCFieldstone"
+- variant: { cp:scilt:texture: "bsc-gray-pavers" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCGrayPavers"
+- variant: { cp:scilt:texture: "bsc-little-dark-pavers" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCLittleDarkPavers"
+- variant: { cp:scilt:texture: "bsc-old-beige-mosaic" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCOldBeigeMosaic"
+- variant: { cp:scilt:texture: "bsc-old-stone-pavement" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCOldStonePavement"
+- variant: { cp:scilt:texture: "bsc-orange-mosaic" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_BSCOrangeMosaic"
+- variant: { cp:scilt:texture: "cp-brick" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_CPBrick"
+- variant: { cp:scilt:texture: "cp-concrete" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_CPConc"
+- variant: { cp:scilt:texture: "maxis-dirt" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_MaxisDirt"
+- variant: { cp:scilt:texture: "maxis-light-asphalt" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_MaxisLightAsphalt"
+- variant: { cp:scilt:texture: "maxis-wood-plank" }
+  assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    include:
+    - "SCILT_MaxisWoodPlank"
+
+# Gobias textures
+- variant: { cp:scilt:texture: "gobias-suburban-cement" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "Gobias Suburban Cement \\(HD\\)/"
+- variant: { cp:scilt:texture: "gobias-queens-cobble" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "/=Gobias Queens Cobble \\(HD\\)/"
+- variant: { cp:scilt:texture: "gobias-ny-slab" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "/=Gobias NY Slab \\(HD\\)/"
+- variant: { cp:scilt:texture: "gobias-new-england-cobble" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "/=Gobias New England Cobble \\(HD\\)/"
+- variant: { cp:scilt:texture: "gobias-modern-cobble" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "/=Gobias Modern Cobble \\(HD\\)/"
+- variant: { cp:scilt:texture: "gobias-mediterranean-mortar" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "/=Gobias Mediterranean Mortar \\(HD\\)/"
+- variant: { cp:scilt:texture: "gobias-central-park" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "/=Gobias Central Park \\(HD\\)/"
+- variant: { cp:scilt:texture: "gobias-brooklyn-brick" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "/=Gobias Brooklyn Brick \\(HD\\)/"
+- variant: { cp:scilt:texture: "gobias-boston-brick" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "/=Gobias Boston Brick \\(HD\\)/"
+- variant: { cp:scilt:texture: "gobias-19thc-cobble" }
+  assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+    - "/=Gobias 19th Century Cobble \\(HD\\)/"
+
+variantInfo:
+- variantId: "cp:scilt:texture"
+  description: Choose the lot texture to install. If you use a SCILT-compatible sidewalk mod, you may choose to match this to your sidewalk texture.
+  values:
+  - value: "maxis-default"
+    description: Use the default Maxis textures. Recommended for users without a sidewalk mod.
+    default: true
+
+---
+group: cp
+name: sidewalk-mod
+version: "1"
+subfolder: 150-mods
+info:
+  summary: HD Sidewalk Pack and Maxis Plaza Texture Replacements
+  description: |-
+    This SC4 Devotion LEX Legacy Pack features all 15 SideWalk (SW) mods and their Sidewalk Compatible Interchangeable Lot Textures (SCILT) created by legendary custom content creator CycleDogg/CP, which had been available on the Lot Exchange (LEX) at SC4 Devotion. This mod is highly customizable, allowing you to choose a different sidewalk texture for each wealth level ($, $$, $$$), or even mix and match between different sidewalk mods. The textures are compatible with the Gobias Sidewalks and SCILT (Sidewalk Compatible Interchangeable Lot Textures) mods.
+
+    The pack also includes a plugin to replace the Maxis plaza base and overlay textures. Use this plugin with ANY sidewalk texture to better blend the new sidewalk with lot bases.
+  author: "CycleDogg/CP"
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/cp/scilt/scilt-primary.png
+  website: https://www.sc4evermore.com/index.php/downloads/download/44-sidewalks/430-sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation
+assets:
+  - assetId: "sc4d-lex-legacy-bsc-cp-sidewalk-and-scilt-compilation"
+    withConditions:
+      # High Wealth $$$
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "maxis-wood" }
+        include:
+          - "/CP_SW_MaxisWoodPlank\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "maxis-light-asphalt" }
+        include:
+          - "/CP_SW_MaxisLightAsphalt\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "maxis-dirt" }
+        include:
+          - "/CP_SW_MaxisDirt\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "cp-concrete" }
+        include:
+          - "/CP_SW_CPConc\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "cp-brick" }
+        include:
+          - "/CP_SW_CPBrick\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-orange-mosaic" }
+        include:
+          - "/CP_SW_BSCOrangeMosaic\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-old-stone-pavement" }
+        include:
+          - "/CP_SW_BSCOldStonePavement\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-old-beige-mosaic" }
+        include:
+          - "/CP_SW_BSCOldBeigeMosaic\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-little-dark-pavers" }
+        include:
+          - "/CP_SW_BSCLittleDarkPavers\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-gray-pavers" }
+        include:
+          - "/CP_SW_BSCGrayPavers\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-fieldstone" }
+        include:
+          - "/CP_SW_BSCFieldstone\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-earthy-cobbles" }
+        include:
+          - "/CP_SW_BSCEarthyCobbles\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-diamond-brick" }
+        include:
+          - "/CP_SW_BSCDiamondBrick\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-diagonal-tile" }
+        include:
+          - "/CP_SW_BSCDiagonalTile\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "bsc-cobblestone" }
+        include:
+          - "/CP_SW_BSCCobblestone\\$\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:sss-texture: "none" }
+      
+      # Medium wealth $$
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "maxis-wood" }
+        include:
+          - "/CP_SW_MaxisWoodPlank\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "maxis-light-asphalt" }
+        include:
+          - "/CP_SW_MaxisLightAsphalt\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "maxis-dirt" }
+        include:
+          - "/CP_SW_MaxisDirt\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "cp-concrete" }
+        include:
+          - "/CP_SW_CPConc\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "cp-brick" }
+        include:
+          - "/CP_SW_CPBrick\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-orange-mosaic" }
+        include:
+          - "/CP_SW_BSCOrangeMosaic\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-old-stone-pavement" }
+        include:
+          - "/CP_SW_BSCOldStonePavement\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-old-beige-mosaic" }
+        include:
+          - "/CP_SW_BSCOldBeigeMosaic\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-little-dark-pavers" }
+        include:
+          - "/CP_SW_BSCLittleDarkPavers\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-gray-pavers" }
+        include:
+          - "/CP_SW_BSCGrayPavers\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-fieldstone" }
+        include:
+          - "/CP_SW_BSCFieldstone\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-earthy-cobbles" }
+        include:
+          - "/CP_SW_BSCEarthyCobbles\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-diamond-brick" }
+        include:
+          - "/CP_SW_BSCDiamondBrick\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-diagonal-tile" }
+        include:
+          - "/CP_SW_BSCDiagonalTile\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "bsc-cobblestone" }
+        include:
+          - "/CP_SW_BSCCobblestone\\$\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:ss-texture: "none" }
+      
+      # Low wealth $
+      - ifVariant: { cp:sidewalk-mod:s-texture: "maxis-wood" }
+        include:
+          - "/CP_SW_MaxisWoodPlank\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "maxis-light-asphalt" }
+        include:
+          - "/CP_SW_MaxisLightAsphalt\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "maxis-dirt" }
+        include:
+          - "/CP_SW_MaxisDirt\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "cp-concrete" }
+        include:
+          - "/CP_SW_CPConc\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "cp-brick" }
+        include:
+          - "/CP_SW_CPBrick\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-orange-mosaic" }
+        include:
+          - "/CP_SW_BSCOrangeMosaic\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-old-stone-pavement" }
+        include:
+          - "/CP_SW_BSCOldStonePavement\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-old-beige-mosaic" }
+        include:
+          - "/CP_SW_BSCOldBeigeMosaic\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-little-dark-pavers" }
+        include:
+          - "/CP_SW_BSCLittleDarkPavers\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-gray-pavers" }
+        include:
+          - "/CP_SW_BSCGrayPavers\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-fieldstone" }
+        include:
+          - "/CP_SW_BSCFieldstone\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-earthy-cobbles" }
+        include:
+          - "/CP_SW_BSCEarthyCobbles\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-diamond-brick" }
+        include:
+          - "/CP_SW_BSCDiamondBrick\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-diagonal-tile" }
+        include:
+          - "/CP_SW_BSCDiagonalTile\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "bsc-cobblestone" }
+        include:
+          - "/CP_SW_BSCCobblestone\\$.dat"
+      - ifVariant: { cp:sidewalk-mod:s-texture: "none" }
+
+variantInfo:
+- variantId: "cp:sidewalk-mod:s-texture"
+  description: Choose the texture for the low wealth ($) sidewalks
+  values:
+  - value: "none"
+    description: Choose to retain the Maxis sidewalk texture or to use a different sidewalk mod at this wealth level.
+- variantId: "cp:sidewalk-mod:ss-texture"
+  description: Choose the texture for the medium wealth ($$) sidewalks
+  values:
+  - value: "none"
+    description: Choose to retain the Maxis sidewalk texture or to use a different sidewalk mod at this wealth level.
+- variantId: "cp:sidewalk-mod:sss-texture"
+  description: Choose the texture for the high wealth ($$$) sidewalks
+  values:
+  - value: "none"
+    description: Choose to retain the Maxis sidewalk texture or to use a different sidewalk mod at this wealth level.

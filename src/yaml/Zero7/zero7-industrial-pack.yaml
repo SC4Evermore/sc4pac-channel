@@ -12,6 +12,27 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=140:s
 
 ---
 group: zero7
+name: industrial-pack-shared-resources
+version: "1-1"
+subfolder: 110-resources
+info:
+  summary: Industrial pack shared resources
+  description: |-
+    A dependency containing a few resources used by zero7's industrial content.
+variants:
+  - variant: { memo:industrial-revolution-mod:enabled: "no" }
+    assets:
+      - assetId: zero7-industrial-pack
+        include:
+        - "Shared Resources/"
+  - variant: { memo:industrial-revolution-mod:enabled: "yes" }
+    assets:
+      - assetId: zero7-industrial-pack-irm
+        include:
+        - "Shared Resources/"
+
+---
+group: zero7
 name: mirror-box-blue-hightech
 version: "1.0.0"
 subfolder: 400-industrial

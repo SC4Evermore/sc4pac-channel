@@ -33,15 +33,23 @@ export class Sc4PacPlugin {
    * Returns the installation url for the package, or array of packages.
    *
    * @param pkg the package(s) to pass in
+   * @param external if given and there are 2+ packages, the short `externalId` url format is used to stay under the
+   * Windows URL length limit
    * @returns the sc4pac:/// protocol url
    */
-  getInstallUrl(pkg: Package | Package[]): string {
+  getInstallUrl(pkg: Package | Package[], external?: {provider: string; id: string}): string {
     const packages = [pkg].flat();
     const channels = new Set<string>();
     const url = new URL('sc4pac:///package');
-    for (let pkg of packages) {
-      url.searchParams.append('pkg', pkg.id);
-      channels.add(pkg.channelUrl);
+    if (external && packages.length >= 2) {
+      url.searchParams.append('externalId', external.id);
+      url.searchParams.append('externalIdProvider', external.provider);
+      packages.forEach(p => channels.add(p.channelUrl));
+    } else {
+      for (let pkg of packages) {
+        url.searchParams.append('pkg', pkg.id);
+        channels.add(pkg.channelUrl);
+      }
     }
     for (let channel of channels) {
       url.searchParams.append('channel', channel);

@@ -1,0 +1,150 @@
+assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=25:gobias-hd-sidewalks"
+version: "2"
+lastModified: "2025-10-28T16:12:41Z"
+
+---
+group: gobias
+name: sidewalk-mod
+version: "2"
+subfolder: 150-mods
+info:
+  summary: HD Sidewalk Pack and Maxis Texture Replacements
+  description: |-
+    This pack includes a variety of 10 custom HD Sidewalk Texture mods ranging from Cobblestone, Cement, Brick and Mortar sidewalks. This mod is highly customizable, allowing you to choose a different sidewalk texture for each wealth level ($, $$, $$$), or even mix and match between different sidewalk mods. The textures are compatible with the BSC Sidewalks and SCILT (Sidewalk Compatible Interchangeable Lot Textures) mods.
+
+    The pack also includes a plugin to replace the Maxis plaza base and overlay textures. Use this plugin with ANY sidewalk texture to better blend the new sidewalk with lot bases.
+  author: "Gobias"
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20Preview.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%2019thC%20Cobble.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20Boston%20Brick.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20Brooklyn%20Brick.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20Central%20Park.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20Mediterranean%20Mortar.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20Modern%20Cobble.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20New%20England%20Cobble.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20NY%20Slab.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20Queens%20Cobble.jpg
+    - https://www.sc4evermore.com/images/sc4pac/gobias/Sidewalk%20Suburban%20Cement.jpg
+  website: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/25-gobias-hd-sidewalks
+assets:
+  - assetId: "sc4d-lex-legacy-gobias-sidewalk-and-scilt-compilation"
+    include:
+      - "/GB Plaza Txt Replace HD.dat"
+    withConditions:
+      # High Wealth $$$
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "19thc-cobble" }
+        include:
+          - 'Sidewalk 19thC Cobble \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "boston-brick" }
+        include:
+          - 'Sidewalk Boston Brick \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "brooklyn-brick" }
+        include:
+          - 'Sidewalk Brooklyn Brick \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "central-park" }
+        include:
+          - 'Sidewalk Central Park \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "mediterranean-mortar" }
+        include:
+          - 'Sidewalk Mediterranean Mortar \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "modern-cobble" }
+        include:
+          - 'Sidewalk Modern Cobble \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "new-england-cobble" }
+        include:
+          - 'Sidewalk New England Cobble \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "ny-slab" }
+        include:
+          - 'Sidewalk NY Slab \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "queens-cobble" }
+        include:
+          - 'Sidewalk Queens Cobble \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "suburban-cement" }
+        include:
+          - 'Sidewalk Suburban Cement \$\$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:sss-texture: "none" }
+      
+      # Medium wealth $$
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "19thc-cobble" }
+        include:
+          - 'Sidewalk 19thC Cobble \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "boston-brick" }
+        include:
+          - 'Sidewalk Boston Brick \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "brooklyn-brick" }
+        include:
+          - 'Sidewalk Brooklyn Brick \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "central-park" }
+        include:
+          - 'Sidewalk Central Park \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "mediterranean-mortar" }
+        include:
+          - 'Sidewalk Mediterranean Mortar \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "modern-cobble" }
+        include:
+          - 'Sidewalk Modern Cobble \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "new-england-cobble" }
+        include:
+          - 'Sidewalk New England Cobble \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "ny-slab" }
+        include:
+          - 'Sidewalk NY Slab \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "queens-cobble" }
+        include:
+          - 'Sidewalk Queens Cobble \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "suburban-cement" }
+        include:
+          - 'Sidewalk Suburban Cement \$\$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:ss-texture: "none" }
+      
+      # Low wealth $
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "19thc-cobble" }
+        include:
+          - 'Sidewalk 19thC Cobble \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "boston-brick" }
+        include:
+          - 'Sidewalk Boston Brick \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "brooklyn-brick" }
+        include:
+          - 'Sidewalk Brooklyn Brick \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "central-park" }
+        include:
+          - 'Sidewalk Central Park \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "mediterranean-mortar" }
+        include:
+          - 'Sidewalk Mediterranean Mortar \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "modern-cobble" }
+        include:
+          - 'Sidewalk Modern Cobble \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "new-england-cobble" }
+        include:
+          - 'Sidewalk New England Cobble \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "ny-slab" }
+        include:
+          - 'Sidewalk NY Slab \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "queens-cobble" }
+        include:
+          - 'Sidewalk Queens Cobble \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "suburban-cement" }
+        include:
+          - 'Sidewalk Suburban Cement \$\.dat'
+      - ifVariant: { gobias:sidewalk-mod:s-texture: "none" }
+
+variantInfo:
+- variantId: "gobias:sidewalk-mod:s-texture"
+  description: Choose the texture for low wealth ($) sidewalks
+  values:
+  - value: "none"
+    description: Choose to retain the Maxis sidewalk texture or to use a different sidewalk mod (SCILT or otherwise) at this wealth level.
+- variantId: "gobias:sidewalk-mod:ss-texture"
+  description: Choose the texture for medium wealth ($$) sidewalks
+  values:
+  - value: "none"
+    description: Choose to retain the Maxis sidewalk texture or to use a different sidewalk mod (SCILT or otherwise) at this wealth level.
+- variantId: "gobias:sidewalk-mod:sss-texture"
+  description: Choose the texture for high wealth ($$$) sidewalks
+  values:
+  - value: "none"
+    description: Choose to retain the Maxis sidewalk texture or to use a different sidewalk mod (SCILT or otherwise) at this wealth level.

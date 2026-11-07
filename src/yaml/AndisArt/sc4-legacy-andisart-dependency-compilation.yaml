@@ -1,0 +1,132 @@
+---
+assetId: sc4-legacy-andisart-dependency-compilation
+version: "2.0.0"
+lastModified: "2026-06-03T02:53:08-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=423:sc4d-lex-legacy-andisart-compilation
+
+---
+group: andisart
+name: lighthouse-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Lighthouse Tower
+  description: |
+    Currently under construction in Dubai, to be completed in 2010.
+    A low-carbon building, using wind-turbines and solar panels to minimize carbon emmissions!
+    For the game, the power consumtion has been considerably reduced to reflect this.
+  author: AndisArt
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/387-sc4-legacy-andisart-dependency-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_AndisArt%20Dependency%20Compilation.png
+
+dependencies:
+  - bsc:essentials
+  - andisart:models-mega-pack-vol01
+
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: sc4-legacy-andisart-dependency-compilation
+        include:
+        - "/CO\\$\\$\\$10_6x3_AndisArt_Lighthouse_Tower_396b8d14.SC4Lot"
+        - "/CO\\$\\$\\$12_6x3_AnidsArt_Lighthouse_Tower_779f4954.SC4Lot"
+---
+group: andisart
+name: okhta-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Okhta Center
+  description: |
+    A proposed skyscraper under planning for St. Petersburg, Russia.
+  author: AndisArt
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/387-sc4-legacy-andisart-dependency-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_AndisArt%20Dependency%20Compilation.png
+
+dependencies:
+  - bsc:essentials
+  - andisart:models-mega-pack-vol01
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: sc4-legacy-andisart-dependency-compilation
+        include:
+        - "/CO\\$\\$\\$8_4x4_AndisArt_OkhtaCenter_96877251.SC4Lot"  
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: sc4-legacy-andisart-dependency-compilation
+        include:
+        - "/CO\\$\\$\\$10_4x4_AndisArt_OkhtaCenter_56293890.SC4Lot"
+
+---
+group: andisart
+name:  andis-plaza   
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Andis Plaza
+  description: |
+    This BAT was inspired by the Burj Dubai design.
+  author: AndisArt
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/387-sc4-legacy-andisart-dependency-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_AndisArt%20Dependency%20Compilation.png
+
+dependencies:
+  - bsc:essentials
+  - andisart:models-mega-pack-vol01
+
+assets:
+- assetId: sc4-legacy-andisart-dependency-compilation
+  include:
+  - "/Andis Plaza/"   
+
+---
+group: andisart
+name:  one21-apartment-tower     
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: One21-Apartment Tower
+  description: |
+    Find your apartment for well living at moderate prices.
+    Enjoy the view from 21 levels, take advantage from two highspeed elevators and handicap access.
+    Reserve your apartment today!      
+  author: AndisArt
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/387-sc4-legacy-andisart-dependency-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_AndisArt%20Dependency%20Compilation.png
+
+
+dependencies:
+  - bsc:essentials
+  - andisart:models-mega-pack-vol01
+
+assets:
+- assetId: sc4-legacy-andisart-dependency-compilation
+  include:
+  - "/One21-Apartment Tower/"  
+
+---
+group: andisart
+name:  andisart-compilation    
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: AndisArt Compilation
+  description: A collection of 4 Residential an Commercial Lots by AndisArt       
+  author: AndisArt
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/387-sc4-legacy-andisart-dependency-compilation
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_AndisArt%20Dependency%20Compilation.png
+
+dependencies:
+  - andisart:lighthouse-tower
+  - andisart:okhta-center
+  - andisart:andis-plaza
+  - andisart:one21-apartment-tower
+  

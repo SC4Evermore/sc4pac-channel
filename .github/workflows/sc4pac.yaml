@@ -3,19 +3,16 @@ name: sc4pac CI
 on:
   push:
     branches: [ "main" ]
-  pull_request_target:
+  pull_request:
     branches: [ "main" ]
 
 jobs:
   channel:
-    uses: memo33/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@main
+    uses: memo33/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@v2
     with:
-      path: src/yaml                      # path to yaml source files, e.g. src/yaml
-      channel-label: SC4Evermore           # your name or other suitable label
+      path: src/yaml                 # path to yaml source files, e.g. src/yaml
+      channel-label: SC4Evermore     # your name or other suitable label
       deploy-repository: SC4Evermore/sc4pac-channel  # your GitHub repository
-      use-stex-api: false            # optionally enable the STEX API calls if you have a private key
-    #secrets:
-    #  stex-api-key: ${{ secrets.STEX_API_KEY }}  # set the STEX_API_KEY under: Settings > Secrets and variables > Actions > Repository secrets
     permissions:
       pages: write                   # to deploy to GitHub Pages
       id-token: write                # to verify the deployment originates from an appropriate source

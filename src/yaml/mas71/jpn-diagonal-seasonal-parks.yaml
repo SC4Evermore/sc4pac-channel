@@ -1,0 +1,51 @@
+group: "mas71"
+name: "diagonal-seasonal-parks"
+version: "1"
+subfolder: "660-parks"
+info:
+  summary: "Two diagonal corner parks that change throughout the seasons"
+  author: "Mas'71"
+  description: |-
+    This is the "Parks of Diagonal" small set.   
+    Please plop it up while referring to the guide of the arrow.
+
+    #### Details of LOTs
+
+    Plop Size : 2x1 (for diagonal corner 3x3 )  
+    Plop Cost : $160  
+    Wealth : Medium Wealth  
+    Park Effect : 30/30R  
+    Landmark Effect : 30/10R  
+    Demand Satisfied : $1000, $$1000, $$$1000  
+    Air Pollution : -12/12R  
+    Monthly Cost : $20  
+    Bulldoze Cost : $20
+
+    All Icons add to "PARK" menu.
+
+    #### Additional Notes
+
+    The lots are seasonal. Nothing is displayed down immediately after having dropped.  
+    !! Please advance time. !! It will displayed in 1,March & 1/June & 1/September & 1/December.  
+      
+    \=====================================================================  
+      
+    Thank you for Download,  
+
+    Mas'71 from JAPAN.
+      
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/JPN_Diagonal_Parks_01.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/JPN_Diagonal_Parks_02.jpg
+  website: https://www.sc4evermore.com/index.php/downloads/download/14-park/437-jpn-diagonal-seasonal-parks
+dependencies:
+- mas71:mega-props-vol01
+- peg:mtp-seasonal-woods
+assets:
+- assetId: "mas71-jpn-diagonal-seasonal-parks"
+
+---
+assetId: "mas71-jpn-diagonal-seasonal-parks"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=437:jpn-diagonal-seasonal-parks"
+version: "1"
+lastModified: "2026-04-22T13:11:00-07:00"

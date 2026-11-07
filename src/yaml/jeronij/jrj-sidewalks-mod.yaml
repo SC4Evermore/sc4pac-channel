@@ -1,0 +1,38 @@
+assetId: "jrj-sidewalks-mod-with-scilt"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=314:scilt-jrj-sidewalks-mod"
+version: "3.0"
+lastModified: "2024-11-01T15:14:52Z"
+
+---
+group: "jeronij"
+name: "sidewalk-mod"
+version: "3.0"
+subfolder: "150-mods"
+info:
+  summary: "Jeronij alternative sidewalks set (aka JRJ Sidewalks)"
+  author: "Jeronij (JRJ)"
+  description: |-
+    This is a set of sidewalks which will replace the original Maxis ones. It also has SCILT compatibility thanks to C.P. (CycleDogg).
+  images:
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/JRJ_Sidewalks_V2.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/LEX_SCILT_JRJSidewalks.jpg"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/44-sidewalks/314-scilt-jrj-sidewalks-mod"
+variants:
+- variant: { jeronij:sidewalk-mod:wealth: "low" }
+  assets:
+  - assetId: "jrj-sidewalks-mod-with-scilt"
+    include:
+    - "/OPTIONAL_LW/"
+- variant: { jeronij:sidewalk-mod:wealth: "medium" }
+  assets:
+  - assetId: "jrj-sidewalks-mod-with-scilt"
+    include:
+    - "/OPTIONAL_MW/"
+variantInfo:
+- variantId: "jeronij:sidewalk-mod:wealth"
+  description: "Choose sidewalk textures"
+  values:
+  - value: "medium"
+    description: "Shows the medium wealth textures in the high wealth zones, avoiding the pinky brick ones, and keeping homogeneity with the other sidewalk textures"
+  - value: "low"
+    description: "Designed for low wealth / old cities. Low wealth sidewalks will be seen everywhere except in farming areas."

@@ -30,9 +30,9 @@ setup([channel]).then(({plugin, h}) => {
     map.set(pkg.id, pkg)
   }
   packages = [...map.values()];
-  
+
   const button = h('a', {
-    href: plugin.getInstallUrl(packages),
+    href: plugin.getInstallUrl(packages, {provider: 'sc4e', id}),
     id: 'install-sc4pac',
     class: 'jdbutton jblack'
   }, ['Download with SC4Pac']);
@@ -42,8 +42,9 @@ setup([channel]).then(({plugin, h}) => {
     const href = a.getAttribute('href');
     if (!href) return false;
     try {
-      let url = new URL(href, 'https://www.sc4evermore.com/');
+      const url = new URL(href, 'https://www.sc4evermore.com/');
       return url.searchParams.get('task') === 'download.send'
+          || url.pathname.includes('/downloads/send/');
     } catch {
       return false;
     }

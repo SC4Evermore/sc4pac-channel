@@ -1,0 +1,56 @@
+---
+assetId: bsc-simgoober-transportation-set
+version: "1.0.0"
+lastModified: "2026-04-23T13:27:19-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=452:sc4d-lex-legacy-bsc-simgoober-transportation-set
+
+---
+group: simgoober
+name: transportation-set
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: SimGoober Transportation Set
+  description: |
+    This SC4 Devotion LEX Legacy Pack features the transportation (bus, subway and railway station) lot sets by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/452-sc4d-lex-legacy-bsc-simgoober-transportation-set
+    - https://community.simtropolis.com/files/file/11467-suburban-bus-stop-set/
+    - https://community.simtropolis.com/files/file/14566-urban-subway-stations/
+    - https://community.simtropolis.com/files/file/14411-central-railroad-station/
+    - https://community.simtropolis.com/files/file/14427-clock-tower-train-station/
+    - https://community.simtropolis.com/files/file/14412-passenger-railroad-depot/
+    - https://community.simtropolis.com/files/file/14728-simtropolis-train-station/
+    - https://community.simtropolis.com/files/file/15402-container-freight-yards/
+
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_Bus%20Stops%20Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_SimTropolisStation01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_SubwayStation02_Day.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-transportation
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - csx:mega-props-vol03
+  - cogeo:logistics-centre-dependency-pack
+  - peg:mtp-super-pack
+  - eggman121:rrw-reskin-lot-support
+
+
+assets:
+- assetId: bsc-simgoober-transportation-set
+  include:
+  - "/Bus Stops/"  
+  - "/Freight Rail/"  
+  - "/Parking/"  
+  - "/Passanger Rail/"  
+  - "/Subway/" 

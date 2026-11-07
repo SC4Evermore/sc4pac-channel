@@ -1,6 +1,6 @@
 group: "orange"
 name: "pyrenean-terrain-mod"
-version: "1.0"
+version: "1.0-1"
 subfolder: "170-terrain"
 info:
   summary: "An HD terrain mod based on the Pyranees region of France"
@@ -12,8 +12,6 @@ info:
   images:
     - "https://www.toutsimcities.com/img/downloads/image_1641.jpg"
   website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/429-pyrenean-terrain-mod"
-dependencies:
-  - lowkee33:seasonal-flora-patch-maxis
 assets:
 - assetId: "orange-pyrenean-terrain-mod"
   include:

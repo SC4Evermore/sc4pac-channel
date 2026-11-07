@@ -1,0 +1,407 @@
+---
+assetId: bsc-simgoober-industrials-collection
+version: "1.0.0"
+lastModified: "2026-04-23T14:42:32-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=446:sc4d-lex-legacy-bsc-simgoober-industrials-collection
+
+---
+group: simgoober
+name: hi-tech-industrial-set
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Hi Tech Industrials Set
+  description: |
+    This set includes all the High Tech Industy created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/446-sc4d-lex-legacy-bsc-simgoober-industrials-collection
+    - https://community.simtropolis.com/files/file/13927-goobergen-labs/
+    - https://community.simtropolis.com/files/file/15647-goobergen-pharmeceuticals/
+    - https://community.simtropolis.com/files/file/13778-internal-gasses-factory/
+    - https://community.simtropolis.com/files/file/13779-sc4-tech-factory/
+    - https://community.simtropolis.com/files/file/12860-modern-warehouses/
+
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Industrials%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_LongFellows03.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-iht
+  - bsc:sg-models-im1
+  - bsc:sg-models-im2
+  - bsc:sg-models-education
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jmyers-agriculture-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:jrj-cpt-trees-as-props
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol01
+  - csx:mega-props-vol06
+  - cycledogg:tree-models-part-one-and-two
+  - peg:mtp-super-pack
+  - peg:christmas-development-kit
+  - eggman121:rrw-reskin-lot-support
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: bsc-simgoober-industrials-collection
+        include:
+        - "/IHT\\$\\$\\$3_4x3_SG_BellIndustries_HT.SC4Lot"
+        - "/SG_FukitolPharmsHT_GROW.dat"
+        - "/SG_FukitolUltraMain_IHT_GROW.dat"
+        - "/IHT\\$\\$\\$6_6x6_SG_FukitolUltraMain.SC4Lot"
+        - "/I-ht3_6x6_SG_GooberGenLabs_GROW.dat"
+        - "/SG_GooberGenPharm_IHT_GROW.dat"
+        - "/SG_HardunHeavyMetals_IHT_GROW.dat"
+        - "/SG_InternalGasses_IHT_GROW.dat"
+        - "/SG_SC4Tech_IHT_GROW.dat"
+        - "/SG_Warehouse_Modern_IHT_GROW.dat"
+        - "/SG_PLOP_FukitolPharmsHT_368ae960.SC4Lot"
+        - "/PLOP_6x6_SG_FukitolUltra.SC4Lot"
+        - "/PLOP_4x4_SG_GooberGenPharm_IHT.dat"
+        - "/PLOP_5x5_SG_WarehouseModern_IHT.dat"           
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: bsc-simgoober-industrials-collection
+        include:
+        - "/IHT\\$\\$\\$4_4x3_SG_BellIndustries_HT.SC4Lot"
+        - "/SG_FukitolPharmsHT_GROW_CAM.dat"
+        - "/IHT\\$\\$\\$6_6x6_SG_FukitolUltraMain.SC4Lot"
+        - "/SG_GooberGenLabs_IHT_GROW_CAM.dat"
+        - "/SG_GooberGenPharm_IHT_GROW_CAM.dat"
+        - "/SG_InternalGasses_IHT_GROW_CAM.dat"
+        - "/SG_SC4Tech_IHT_GROW_CAM.dat"
+        - "/SG_Warehouse_Modern_IHT_GROW.dat"
+        - "/SG_PLOP_FukitolPharmsHT_368ae960.SC4Lot"
+        - "/PLOP_6x6_SG_FukitolUltra.SC4Lot"
+        - "/PLOP_4x4_SG_GooberGenPharm_IHT.dat"
+        - "/PLOP_5x5_SG_WarehouseModern_IHT.dat"   
+        
+---
+group: simgoober
+name: dirty-industrial-set
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Dirty Industrials Set
+  description: |
+    This set includes all the Dirty Industy created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/446-sc4d-lex-legacy-bsc-simgoober-industrials-collection
+    - https://community.simtropolis.com/files/file/15015-hanson-hosiery-textile-mill/
+    - https://community.simtropolis.com/files/file/14941-hardun-industries-coal-mine/
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Industrials%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_LongFellows03.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-iht
+  - bsc:sg-models-im1
+  - bsc:sg-models-im2
+  - bsc:sg-models-education
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jmyers-agriculture-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:jrj-cpt-trees-as-props
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol01
+  - csx:mega-props-vol06
+  - cycledogg:tree-models-part-one-and-two
+  - peg:mtp-super-pack
+  - peg:christmas-development-kit
+  - eggman121:rrw-reskin-lot-support
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: bsc-simgoober-industrials-collection
+        include:
+        - "/SG_HansonHosieryMills_ID_GROW.dat"
+        - "/SG_HardunCoalMine_ID_GROW.dat"
+        - "/SG_Factory_LongFellow_ID_GROW.dat"
+        - "/SG_RandTextiles_ID_GROW.dat"
+        - "/ID\\$\\$1_3x2_SG_AbersAparatus.SC4Lot"
+        - "/ID\\$\\$3_3x2_SG_BareBottomBrewery.SC4Lot"
+        - "/ID\\$\\$1_2x3_SG_CreepieCrawleyCriiterCave.SC4Lot"
+        - "/ID\\$\\$1_2x2_SG_DKDental.SC4Lot"
+        - "/SG_EagleElectrical_ID_GROW.dat"
+        - "/SG_FranklinFurs_ID_GROW.dat"
+        - "/SG_GoobersGoGoGolfCarts_ID_GROW.dat"
+        - "/SG_HamiltonHose_ID_GROW.dat"
+        - "/ID\\$\\$3_4x2_SG_IcabodIce_ID_45bcb2d7.SC4Lot"
+        - "/ID\\$\\$1_3x3_SG_JezebelsJellyRolls_ID_96de155d.SC4Lot"
+        - "/SG_LinwoodLighting_ID_GROW.dat"        
+        - "/PLOP_8x6_SG_HansonHosieryMills_ID.dat"
+        - "/SG_8x8_PrentissTextileMill01_efdd3e12.SC4Lot"    
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: bsc-simgoober-industrials-collection
+        include:
+        - "/SG_HansonHosieryMills_ID_GROW_CAM.dat"
+        - "/SG_HardunCoalMine_ID_GROW_CAM.dat"
+        - "/I-d5_4x5_SG_RandTextiles.SC4Lot"
+        - "/I-d5_6x4_SG_RandTextiles.SC4Lot"
+        - "/ID\\$\\$1_3x2_SG_AbersAparatus.SC4Lot"
+        - "/ID\\$\\$3_3x2_SG_BareBottomBrewery.SC4Lot"
+        - "/ID\\$\\$1_2x3_SG_CreepieCrawleyCriiterCave.SC4Lot"
+        - "/ID\\$\\$1_2x2_SG_DKDental.SC4Lot"
+        - "/SG_EagleElectrical_ID_GROW.dat"
+        - "/SG_FranklinFurs_ID_GROW.dat"
+        - "/SG_GoobersGoGoGolfCarts_ID_GROW.dat"
+        - "/SG_HamiltonHose_ID_GROW.dat"
+        - "/ID\\$\\$3_4x2_SG_IcabodIce_ID_45bcb2d7.SC4Lot"
+        - "/ID\\$\\$1_3x3_SG_JezebelsJellyRolls_ID_96de155d.SC4Lot"
+        - "/SG_LinwoodLighting_ID_GROW.dat"
+        - "/PLOP_8x6_SG_HansonHosieryMills_ID.dat"
+        - "/SG_8x8_PrentissTextileMill01_efdd3e12.SC4Lot"                
+
+---
+group: simgoober
+name: manufacturing-industrial-set
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Manufacturing Industrials Set
+  description: |
+    This set includes all the Manufacturing Industy created by the legendary BSC BATer SimGoober (SG) 
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/446-sc4d-lex-legacy-bsc-simgoober-industrials-collection
+    - https://community.simtropolis.com/files/file/3910-costco-distribution-center/
+    - https://community.simtropolis.com/files/file/14999-tractor-supply-distribution-center/
+    - https://community.simtropolis.com/files/file/15734-wally-ks-distribution-center/
+    - https://community.simtropolis.com/files/file/14942-hardun-industries-steel-mill/
+    - https://community.simtropolis.com/files/file/12859-small-warehouse-pack-01/
+    - https://community.simtropolis.com/files/file/12327-blackbeards-rum-distillery/
+    - https://community.simtropolis.com/files/file/12626-gooberum-sugar-mill/
+    - https://community.simtropolis.com/files/file/21056-fukitol-pharms-ht/
+    - https://community.simtropolis.com/files/file/12861-sg-auto-factory/
+    - https://community.simtropolis.com/files/file/13926-flopper-stoppers-undergarment-factory/
+    - https://community.simtropolis.com/files/file/4391-bsc-peters-pipe-company/
+    - https://community.simtropolis.com/files/file/11296-santas-workshop/
+
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Industrials%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_LongFellows03.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:sg-models-iht
+  - bsc:sg-models-im1
+  - bsc:sg-models-im2
+  - bsc:sg-models-education
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jmyers-agriculture-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:jrj-cpt-trees-as-props
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - csx:mega-props-vol01
+  - csx:mega-props-vol06
+  - cycledogg:tree-models-part-one-and-two
+  - peg:mtp-super-pack
+  - peg:christmas-development-kit
+  - eggman121:rrw-reskin-lot-support
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: bsc-simgoober-industrials-collection
+        include:
+        - "/SG_AutoFactory_IM_GROW.dat"
+        - "/I-m3_6x6_SG_CanadaDry_f23cbde0.SC4Lot"
+        - "/I-m3_7x5_SG_CocaColaPlant_d22f9040.SC4Lot"
+        - "/IM3_5x6_SG_EZFlo.SC4Lot"
+        - "/SG_Fabrications_IM_GROW.dat"
+        - "/SG_FlopperStoppersFactory_IM_GROW.dat"
+        - "/SG_FukitolHerbalFactory_IM_GROW.dat"
+        - "/SG_FukitolPharms_IM_GROW.dat"
+        - "/SG_GooberRumSugarMillMain_IM_GROW.dat"
+        - "/SG_HansonHosieryMills_IM_GROW.dat"
+        - "/SG_HardunCoalMine_IM_GROW.dat"
+        - "/SG_HardunHeavyMetals_IM_GROW.dat"
+        - "/SG_HardunSteelMill_IM_GROW.dat"
+        - "/SG_Factory_LongFellow_IM_GROW.dat"
+        - "/I-m3_8x5_SG_PepsiPlant_522f9027.SC4Lot"
+        - "/SG_TootSweetFactory_IM_GROW.dat"
+        - "/SG_DistributionCenterTSC_IM_GROW.dat"
+        - "/SG_DistributionCenterWallyKs_IM_GROW.dat"
+        - "/IM\\$\\$2_4x4_SG_AlkaSeltzerFactory.SC4Lot"
+        - "/SG_BlackbeardsRumDistillery_IM_GROW.dat"
+        - "/SG_CostcoDistribution_IM_GROW.dat"
+        - "/IM\\$\\$2_4x4_SG_KinKaidKinetics_IM_e6e897b7.SC4Lot"
+        - "/SG_LiquidStorageTanks_IM_GROW.dat"       
+        - "/SG_OldBrewery_IM_GROW.dat"
+        - "/IM\\$\\$1_2x4_SG_OlliesOil_36b9cd4a.SC4Lot"
+        - "/IM\\$\\$1_3x3_SG_OlliesOil_16b9cd9c.SC4Lot"
+        - "/IM\\$\\$2_4x4_SG_OlliesOil_76b9ce21.SC4Lot"
+        - "/SG_PetersPipeComp_IM_GROW.dat"
+        - "/SG_SantasWorkshop_IM_GROW.dat"
+        - "/SG_WarehouseSmall_IM_GROW.dat" 
+        - "/SG_TankGlobe_IM_GROW.dat"  
+        - "/PLOP_6x4_SG_AutoFactory_IM.dat"
+        - "/SG_6x6_CanadaDry_f23cbe27.SC4Lot"
+        - "/SG_7x5_CocaColaBottling_b2208b75.SC4Lot"
+        - "/SG_6x5_CooperCookware_12353a37.SC4Lot"       
+        - "/PLOP_6x6_SG_CostcoDistributionCenter_IM.dat"
+        - "/PLOP_8x5_SG_FukitolPharms_IM.dat"
+        - "/PLOP_8x6_SG_HansonHosieryMills_IM.dat"
+        - "/PLOP_6x6_SG_HardunCoalMine_IM.dat" 
+        - "/PLOP_5x10_SG_HardunHeavyMetals.SC4Lot"
+        - "/SG_8x6_IronMine_10f12b2b.SC4Lot"
+        - "/PLOP_5x4_SG_HardunSteelMill_IM.dat"
+        - "/SG_PLOP_4x4_OilStorage.SC4Lot" 
+        - "/SG_8x5_PepsiBottling_b2208b76.SC4Lot"
+        - "/PLOP_3x3_SG_PetersPipeComp_IM.dat"
+        - "/PLOP_3x5_SG_PetersPipeCompany_IM.dat"
+        - "/PLOP_3x4_SG_SantasWorkshop_IM.dat"  
+        - "/PLOP_3x4_SG_SmallWarehouses_IM.dat"
+        - "/PLOP_5x6_SG_TractorSupplyDistributionCenter_IM.dat"
+        - "/PLOP_5x6_SG_WallyKDistributionCenter_IM.dat"  
+        - "/SG_4x5_YuenglingBrewery.dat"        
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: bsc-simgoober-industrials-collection
+        include:
+        - "/SG_AutoFactory_IM_GROW_CAM.dat"
+        - "/IM\\$\\$4_6x6_SG_Factory_CanadaDry_stage 4 CAM_02593c12.SC4Lot"
+        - "/IM\\$\\$4_7x5_SG_CokeColaPlant stage 4 CAM_e25e776e.SC4Lot"
+        - "/IM4_4x6_SG_EZFlo.SC4Lot"
+        - "/SG_Fabrications_IM_GROW_CAM.dat"
+        - "/SG_FlopperStoppersFactory_IM_GROW_CAM.dat"
+        - "/SG_FukitolHerbalFactory_IM_GROW_CAM.dat"
+        - "/SG_FukitolPharms_IM_GROW_CAM.dat"
+        - "/SG_GooberRumSugarMill_IM_GROW_CAM.dat"
+        - "/SG_HansonHosieryMills_IM_GROW_CAM.dat"
+        - "/SG_HardunCoalMine_IM_GROW_CAM.dat"
+        - "/IM\\$\\$6_5x10_SG_HardunHeavyMetals.SC4Lot"
+        - "/SG_HardunSteelMill_IM_GROW_CAM.dat"
+        - "/IM\\$\\$6_10x2_SG_Factory_LongFellow.SC4Lot"
+        - "/IM\\$\\$5_8x5_SG_PepsiPlant_stage 5 CAM_a25e68de.SC4Lot"
+        - "/SG_TootSweetFactory_IM_GROW_CAM.dat"
+        - "/SG_DistributionCenterTSC_IM_GROW_CAM.dat"
+        - "/SG_DistributionCenterWallyKs_IM_GROW_CAM.dat"
+        - "/IM\\$\\$2_4x4_SG_AlkaSeltzerFactory.SC4Lot"
+        - "/SG_BlackbeardsRumDistillery_IM_GROW.dat"
+        - "/SG_CostcoDistribution_IM_GROW.dat"
+        - "/IM\\$\\$2_4x4_SG_KinKaidKinetics_IM_e6e897b7.SC4Lot"
+        - "/SG_LiquidStorageTanks_IM_GROW.dat"       
+        - "/SG_OldBrewery_IM_GROW.dat"
+        - "/IM\\$\\$1_2x4_SG_OlliesOil_36b9cd4a.SC4Lot"
+        - "/IM\\$\\$1_3x3_SG_OlliesOil_16b9cd9c.SC4Lot"
+        - "/IM\\$\\$2_4x4_SG_OlliesOil_76b9ce21.SC4Lot"
+        - "/SG_PetersPipeComp_IM_GROW.dat"
+        - "/SG_SantasWorkshop_IM_GROW.dat"
+        - "/SG_WarehouseSmall_IM_GROW.dat" 
+        - "/SG_TankGlobe_IM_GROW.dat"        
+        - "/PLOP_6x4_SG_AutoFactory_IM.dat"
+        - "/SG_6x6_CanadaDry_f23cbe27.SC4Lot"
+        - "/SG_7x5_CocaColaBottling_b2208b75.SC4Lot"
+        - "/SG_6x5_CooperCookware_12353a37.SC4Lot"       
+        - "/PLOP_6x6_SG_CostcoDistributionCenter_IM.dat"
+        - "/PLOP_8x5_SG_FukitolPharms_IM.dat"
+        - "/PLOP_8x6_SG_HansonHosieryMills_IM.dat"
+        - "/PLOP_6x6_SG_HardunCoalMine_IM.dat" 
+        - "/PLOP_5x10_SG_HardunHeavyMetals.SC4Lot"
+        - "/SG_8x6_IronMine_10f12b2b.SC4Lot"
+        - "/PLOP_5x4_SG_HardunSteelMill_IM.dat"
+        - "/SG_PLOP_4x4_OilStorage.SC4Lot" 
+        - "/SG_8x5_PepsiBottling_b2208b76.SC4Lot"
+        - "/PLOP_3x3_SG_PetersPipeComp_IM.dat"
+        - "/PLOP_3x5_SG_PetersPipeCompany_IM.dat"
+        - "/PLOP_3x4_SG_SantasWorkshop_IM.dat"  
+        - "/PLOP_3x4_SG_SmallWarehouses_IM.dat"
+        - "/PLOP_5x6_SG_TractorSupplyDistributionCenter_IM.dat"
+        - "/PLOP_5x6_SG_WallyKDistributionCenter_IM.dat"  
+        - "/SG_4x5_YuenglingBrewery.dat"    
+
+---
+group: simgoober
+name: industrial-collection    
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Industrial Collection Pack
+  description: A collection of 43 Industrial Lots by SimGoober (SG)       
+  author: SimGoober (SG)
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/446-sc4d-lex-legacy-bsc-simgoober-industrials-collection
+    - https://community.simtropolis.com/files/file/13927-goobergen-labs/
+    - https://community.simtropolis.com/files/file/15647-goobergen-pharmeceuticals/
+    - https://community.simtropolis.com/files/file/13778-internal-gasses-factory/
+    - https://community.simtropolis.com/files/file/13779-sc4-tech-factory/
+    - https://community.simtropolis.com/files/file/12860-modern-warehouses/
+    - https://community.simtropolis.com/files/file/15015-hanson-hosiery-textile-mill/
+    - https://community.simtropolis.com/files/file/14941-hardun-industries-coal-mine/
+    - https://community.simtropolis.com/files/file/3910-costco-distribution-center/
+    - https://community.simtropolis.com/files/file/14999-tractor-supply-distribution-center/
+    - https://community.simtropolis.com/files/file/15734-wally-ks-distribution-center/
+    - https://community.simtropolis.com/files/file/14942-hardun-industries-steel-mill/
+    - https://community.simtropolis.com/files/file/12859-small-warehouse-pack-01/
+    - https://community.simtropolis.com/files/file/12327-blackbeards-rum-distillery/
+    - https://community.simtropolis.com/files/file/12626-gooberum-sugar-mill/
+    - https://community.simtropolis.com/files/file/21056-fukitol-pharms-ht/
+    - https://community.simtropolis.com/files/file/12861-sg-auto-factory/
+    - https://community.simtropolis.com/files/file/13926-flopper-stoppers-undergarment-factory/
+    - https://community.simtropolis.com/files/file/4391-bsc-peters-pipe-company/
+    - https://community.simtropolis.com/files/file/11296-santas-workshop/
+    
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20SC4D%20Legacy%20Sidebar%20-%20SG%20Industrials%20V1.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_LongFellows03.jpg
+    
+dependencies:
+  - simgoober:hi-tech-industrial-set
+  - simgoober:dirty-industrial-set
+  - simgoober:manufacturing-industrial-set
