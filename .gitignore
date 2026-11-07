@@ -77,3 +77,4 @@ node_modules/
 # IDEs - don't want this cluttering up our directories
 .idea/*
 .vscode/*
+/dist
