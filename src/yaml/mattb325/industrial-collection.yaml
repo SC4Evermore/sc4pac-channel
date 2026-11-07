@@ -52,7 +52,7 @@ variants:
 group: mattb325
 name: 2121-north-san-fernando-rd
 subfolder: 400-industrial
-version: "2.0-1"
+version: "2.0-2"
 info:
   summary: 2121 North San Fernando Rd
   author: mattb325
@@ -62,6 +62,7 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/129-sc4d-lex-legacy-mattb325-irm-industrial-pack-dark-nite
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/130-sc4d-lex-legacy-mattb325-irm-industrial-pack-maxis-nite
 dependencies:
+  - mattb325:2121-north-san-fernando-rd-model
   - bsc:mega-props-cp-vol02
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -69,20 +70,41 @@ variants:
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
   - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
   - variant: { nightmode: standard, memo:industrial-revolution-mod:enabled: "yes" }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
   - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "yes" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
         include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
+---
+group: mattb325
+name: 2121-north-san-fernando-rd-model
+version: "2.0-1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=mattb325:2121-north-san-fernando-rd`
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/129-sc4d-lex-legacy-mattb325-irm-industrial-pack-dark-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/130-sc4d-lex-legacy-mattb325-irm-industrial-pack-maxis-nite
+# The model is identical in all four downloads.
+assets:
+  - assetId: mattb325-industrial-pack-maxisnite
+    include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/.*\\.SC4Model$" ]
 ---
 group: mattb325
 name: canadian-bitters
@@ -250,7 +272,7 @@ variants:
 group: mattb325
 name: gsk-packaging
 subfolder: 400-industrial
-version: "2.0-1"
+version: "2.0-2"
 info:
   summary: GSK Packaging
   author: mattb325
@@ -260,26 +282,48 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/129-sc4d-lex-legacy-mattb325-irm-industrial-pack-dark-nite
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/130-sc4d-lex-legacy-mattb325-irm-industrial-pack-maxis-nite
 dependencies:
+  - mattb325:gsk-packaging-model
   - bsc:bat-props-mattb325-vol02
 variants:
   - variant: { nightmode: standard, memo:industrial-revolution-mod:enabled: "no" }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
   - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
   - variant: { nightmode: standard, memo:industrial-revolution-mod:enabled: "yes" }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
   - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "yes" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
         include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
+---
+group: mattb325
+name: gsk-packaging-model
+version: "2.0-1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=mattb325:gsk-packaging`
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/129-sc4d-lex-legacy-mattb325-irm-industrial-pack-dark-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/130-sc4d-lex-legacy-mattb325-irm-industrial-pack-maxis-nite
+# The model is identical in all four downloads.
+assets:
+  - assetId: mattb325-industrial-pack-maxisnite
+    include: [ "/GSK ?Packaging(_[MD]N)?#?/.*\\.SC4Model$" ]
 
 ---
 group: mattb325
@@ -719,7 +763,7 @@ variants:
 group: mattb325
 name: selby-shoes
 subfolder: 400-industrial
-version: "2.0-1"
+version: "2.0-2"
 info:
   summary: Selby Shoes
   author: mattb325
@@ -734,25 +778,56 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/Selby1.jpg.9db793d7e31308ef861136fc8787c9ee.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/Selby2.jpg.6daeea6ab870ff006e282bd282770dce.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/Selby3.jpg.23db47400cc766a7421db0b9723c8d6c.jpg
+dependencies:
+  - mattb325:selby-shoes-model
 variants:
   - variant: { nightmode: standard, memo:industrial-revolution-mod:enabled: "no" }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
         include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
   - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
   - variant: { nightmode: standard, memo:industrial-revolution-mod:enabled: "yes" }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite-irm
         include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
   - variant: { nightmode: dark, memo:industrial-revolution-mod:enabled: "yes" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite-irm
         include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
+        exclude: [ "\\.SC4Model$" ]
+---
+group: mattb325
+name: selby-shoes-model
+version: "2.0-1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=mattb325:selby-shoes`
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/129-sc4d-lex-legacy-mattb325-irm-industrial-pack-dark-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/130-sc4d-lex-legacy-mattb325-irm-industrial-pack-maxis-nite
+    - https://community.simtropolis.com/files/file/30951-selby-shoe-factory/
+# The MaxisNite and DarkNite models differ (same ID), but are identical in the regular and the IRM downloads.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/.*\\.SC4Model$" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/.*\\.SC4Model$" ]
 ---
 group: mattb325
 name: stratton-biotech
