@@ -27,6 +27,8 @@ SC4PAC_CHANNEL_URL  = "https://memo33.github.io/sc4pac/channel/sc4pac-channel-co
 
 SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT    = os.path.dirname(SCRIPT_DIR)
+# Channel build downloaded by the deploy workflow; preferred over the published URL when present
+LOCAL_CHANNEL_FILE = os.path.join(REPO_ROOT, "tmp_gh-pages", "channel", "sc4pac-channel-contents.json")
 OUTPUT_DIR   = os.path.join(REPO_ROOT, "docs", "coverage-report")
 OUTPUT_FILE  = os.path.join(OUTPUT_DIR, "index.html")
 
@@ -47,14 +49,19 @@ def fetch_sc4e_files():
     return files
 
 
-def fetch_channel_data(url):
-    print(f"Fetching {url} ...")
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": "sc4pac-coverage-scanner/1.0"},
-    )
-    with urllib.request.urlopen(req, timeout=30) as response:
-        data = json.loads(response.read().decode("utf-8"))
+def fetch_channel_data(url, local_file=None):
+    if local_file and os.path.isfile(local_file):
+        print(f"Reading {local_file} ...")
+        with open(local_file, encoding="utf-8") as f:
+            data = json.load(f)
+    else:
+        print(f"Fetching {url} ...")
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "sc4pac-coverage-scanner/1.0"},
+        )
+        with urllib.request.urlopen(req, timeout=30) as response:
+            data = json.loads(response.read().decode("utf-8"))
     pkgs = data.get("packages", [])
     print(f"  {len(pkgs)} packages in channel")
     return data
@@ -199,7 +206,7 @@ def generate_report(sc4e_files, covered_ids, channel_data, local_version_map, up
 # ---------------------------------------------------------------------------
 def main():
     sc4e_files      = fetch_sc4e_files()
-    channel_data    = fetch_channel_data(SC4E_CHANNEL_URL)
+    channel_data    = fetch_channel_data(SC4E_CHANNEL_URL, LOCAL_CHANNEL_FILE)
     upstream_data   = fetch_channel_data(SC4PAC_CHANNEL_URL)
 
     local_version_map    = build_version_map(channel_data)
