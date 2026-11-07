@@ -1,0 +1,654 @@
+assetId: jbsimio-residentials-compilation
+version: "1.0.0"
+lastModified: "2026-03-23T18:59:43-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=434:sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+
+---
+group: "jbsimio"
+name: rusa-project
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Repetitive Urban Sprawl Apartments (RUSA) Project
+  description: |
+    This is a series of five apartments called (for no real reason) the "Repetitive Urban Sprawl Apartments" Project. When building suburbs for cities, there just wasn't a whole lot of generic options for low rise apartment buildings. These files are designed to fill that gap.
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/ArborWoods_Red.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Camalot01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/EvergreenHills_01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/PheasantRun_01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stratton01.jpg"
+dependencies:
+  - "jbsimio:arbor-woods-apartments"
+  - "jbsimio:camalot-apartments"
+  - "jbsimio:evergreen-hills-apartments"
+  - "jbsimio:pheasant-run-apartments"
+  - "jbsimio:stratton-apartments"
+
+---
+group: "jbsimio"
+name: arbor-woods-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Arbor Woods Apartments, a RUSA Project release
+  description: |-
+    Arbor Woods is based loosely on an apartment complex in Ann Arbor, Michigan. This one simply comes with two different color combinations for a little variety. It will grow on a 3x2 medium density lot. These were not put into prop families, so if there is a color scheme you don't want (or if you want  the same color over and over again) you can easily remove the lots you don't want, just be sure to keep the file with "models" in the title.
+
+    Enjoy!
+
+    # Lot Details & Information
+
+    |     | Growable Version |
+    | --- | --- |
+    | Lot size: | 3 x 2 tiles |
+    | Building style(s): | Building: Residential, Building: R$$, Style: Chicago, Style: New York, Style: Houston, BTE : Residential - Medium Income, BTE : JBSimio Creation |
+    | Growth stage: | 4   |
+    | Occupants: | R-$ : 163 , R-$$ : 91 |
+    | Bulldoze cost: | § 194 |
+    | Worth: | § 2352 |
+    | Construction Time: | 19 days |
+    | Max. Fire Stage: | 40  |
+    | Power consumption: | 2 MWh/month |
+    | Water consumption: | 5 Gallons/month |
+    | Air pollution: | 1 over 5 tiles |
+    | Water pollution: | 1 over 6 tiles |
+    | Garbage pollution: | 4 over 0 tiles |
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/ArborWoods_Red.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/ArborWoods_Tan.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol01"
+  - "bsc:mega-props-cp-vol01"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Arbor Woods/" 
+
+---
+group: "jbsimio"
+name: camalot-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Camelot Apartments, a RUSA Project release
+  description: |-
+    Camelot Apartments is based loosely on some apartments from where JBSimio grew up. This building is available in low or medium wealth varieties and will grow on medium density zoning. There are also four larger mega lots which also come in low or medium wealth versions. As you can see, these lots are fairly tolerant of slopes, so you may wish to "prep" the terrain before zoning... especially with the larger lots. You can easily remove the lots you don't want, but be sure to keep the "Models" file installed.
+
+    Enjoy!
+
+    # Lot Details & Information
+
+    |     | Single Building R$ | Single Building R$$ | Multi Building R$ | Multi Building R$$ |
+    | --- | --- | --- | --- | --- |
+    | Lot size: | 3 x 3 tiles | 3 x 3 tiles | 6 x 5 tiles | 6 x 5 tiles |
+    | Growth stage: | 5   | 5   | 6   | 6   |
+    | Occupants: | R-$ : 357 | R-$ : 357, R-$$ : 199 | R-$ : 1653 | R-$ : 1653, R-$$ : 914 |
+    | Bulldoze cost: | § 241 | § 248 | § 620 | § 640 |
+    | Worth: | § 4851 | § 5151 | § 22464 | § 23852 |
+    | Construction Time: | 24 days | 24 days | 62 days | 64 days |
+    | Max. Fire Stage: | 45  | 40  | 45  | 40  |
+    | Power consumption: | 2 MWh/month | 3 MWh/month | 7 MWh/month | 13 MWh/month |
+    | Water consumption: | 4 Gallons/month | 9 Gallons/month | 17 Gallons/month | 35 Gallons/month |
+    | Air pollution: | 1 over 5 tiles | 1 over 5 tiles | 8 over 5 tiles | 7 over 5 tiles |
+    | Water pollution: | 1 over 5 tiles | 1 over 6 tiles | 3 over 5 tiles | 3 over 6 tiles |
+    | Garbage pollution: | 4 over 0 tiles | 4 over 0 tiles | 4 over 0 tiles | 4 over 0 tiles |
+    
+    Building style(s): Building: Residential, Building: R$ or R$$, Style: Chicago, Style: New York, Style: Houston, BTE : Residential - Low or Medium Income, BTE : JBSimio Creation
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Camalot01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Camalot02.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol01"
+  - "bsc:mega-props-cp-vol01"
+  - "bsc:textures-vol01"
+  - "bsc:textures-vol02"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Camalot Apartments/" 
+
+---
+group: "jbsimio"
+name: evergreen-hills-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Evergreen Hills Apartments, a RUSA Project release
+  description: |-
+    Evergreen Hills is based loosely on some random apartments from Michigan. This building is available in medium or high wealth varieties and will grow on medium density zoning. It also comes in two different color variations. These were not put into prop families, so if there is a color scheme you don't like (or if you want the same color over and over again) you can easily remove the lots you don't want, just be sure to keep the file with "models" in the title.
+
+    # Lot Details & Information
+
+    |     | R$$ | R$$$ |
+    | --- | --- | ---- |
+    | Lot size: | 4 x 2 tiles | 4 x 2 tiles |
+    | Growth stage: | 4   | 4   |
+    | Occupants: | R-$ : 146, R-$$ : 82 | R-$ : 146, R-$$ : 82, R-$$$ : 38 |
+    | Bulldoze cost: | § 209 | § 215 |
+    | Worth: | § 2106 | § 2229 |
+    | Construction Time: | 20 days | 21 days |
+    | Max. Fire Stage: | 40  | 35  |
+    | Power consumption: | 2 MWh/month | 5 MWh/month |
+    | Water consumption: | 4 Gallons/month | 9 Gallons/month |
+    | Air pollution: | 1 over 5 tiles | 1 over 6 tiles |
+    | Water pollution: | 1 over 6 tiles | 1 over 7 tiles |
+    | Garbage pollution: | 4 over 0 tiles | 4 over 0 tiles |
+
+    Building style(s): Building: Residential, Building: R$$ or R$$$, Style: Chicago, Style: New York, Style: Houston, BTE : Residential -  Medium or High Income, BTE : JBSimio Creation
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/EvergreenHills_01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/EvergreenHills_02.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol01"
+  - "bsc:mega-props-cp-vol01"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Evergreen Hills/" 
+
+---
+group: "jbsimio"
+name: pheasant-run-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Pheasant Run Apartments, a RUSA Project release
+  description: |-
+    Pheasant Run is based loosely on a friend's apartment outside of Ann Arbor, Michigan. This building is available in low or medium wealth varieties and will grow on medium density zoning. It also comes in two different color variations. These were not put into prop families, so if there is a color scheme you don't like (or if you want the same color over and over again) you can easily remove the lots you don't want, just be sure to keep the file with "models" in the title.
+
+    # Lot Details & Information
+
+    |     | R$  | R$$ |
+    | --- | --- | --- |
+    | Lot size: | 3 x 2 tiles | 3 x 2 tiles |
+    | Growth stage: | 4   | 4   |
+    | Occupants: | R-$ : 115 | R-$ : 102, R-$$ : 58 |
+    | Bulldoze cost: | § 240 | § 246 |
+    | Worth: | § 1562 | § 1471 |
+    | Construction Time: | 24 days | 24 days |
+    | Max. Fire Stage: | 45  | 40  |
+    | Power consumption: | 1 MWh/month | 1 MWh/month |
+    | Water consumption: | 2 Gallons/month | 4 Gallons/month |
+    | Air pollution: | 1 over 5 tiles | 1 over 5 tiles |
+    | Water pollution: | 1 over 5 tiles | 1 over 6 tiles |
+    | Garbage pollution: | 4 over 0 tiles | 4 over 0 tiles |
+
+    Building style(s): Building: Residential, Building: R$ or R$$, Style: Chicago, Style: New York, Style: Houston, BTE : Residential - Low or Medium Income, BTE : JBSimio Creation
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/PheasantRun_01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/PheasantRun_02.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol01"
+  - "bsc:mega-props-cp-vol01"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Pheasant Run/" 
+
+---
+group: "jbsimio"
+name: stratton-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Stratton Apartments, a RUSA Project release
+  description: |-
+    Stratton Apartments is based loosely on a friend's apartment complex in the suburbs of Dallas, Texas. There are two different styled buildings with three different color combinations for a total of six buildings. All of these are available in low or medium wealth varieties and will grow on medium density zoning. These were not put into prop families, so if there is a color scheme you don't want (or if you want the same color over and over again) you can easily remove the lots you don't want.
+
+    # Lot Details & Information
+    |     | R$ Side Entry | R$$ Side Entry | R$ Center Entry | R$$ Center Entry |
+    | --- | --- | --- | --- | --- |
+    | Lot size: | 3 x 2 tiles | 3 x 2 tiles | 4 x 2 tiles | 4 x 2 tiles |
+    | Growth stage: | 4   | 4   | 4   | 4   |
+    | Occupants: | R-$ : 75 | R-$ : 75, R-$$ : 43 | R-$ : 123 | R-$ : 123, R-$$ : 69 |
+    | Bulldoze cost: | § 190 | § 195 | § 200 | § 206 |
+    | Worth: | § 1019 | § 1082 | § 1671 | § 1774 |
+    | Construction Time: | 19 days | 19 days | 20 days | 20 days |
+    | Max. Fire Stage: | 45  | 40  | 45  | 40  |
+    | Power consumption: | 1 MWh/month | 1 MWh/month | 1 MWh/month | 1 MWh/month |
+    | Water consumption: | 1 Gallons/month | 3 Gallons/month | 2 Gallons/month | 4 Gallons/month |
+    | Air pollution: | 1 over 5 tiles | 1 over 5 tiles | 1 over 5 tiles | 1 over 5 tiles |
+    | Water pollution: | 1 over 5 tiles | 1 over 6 tiles | 1 over 5 tiles | 1 over 6 tiles |
+    | Garbage pollution: | 4 over 0 tiles | 4 over 0 tiles | 4 over 0 tiles | 4 over 0 tiles |
+
+    Building style(s): Building: Residential, Building: R$ or R$$, Style: Chicago, Style: New York, Style: Houston, BTE : Residential - Low or Medium Income, BTE : JBSimio Creation
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stratton01.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stratton02.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol01"
+  - "bsc:mega-props-cp-vol01"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Stratton Apartments/" 
+
+
+
+
+# ========================================================================
+# ============================= SHUR PROJECT =============================
+# ========================================================================
+---
+group: "jbsimio"
+name: shur-project-collection
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Skipjack Historical Urban Restoration (SHUR) Project
+  description: |
+    By the time the industrial revolution came to America, Midland was poised to become one of the largest cities in the Midwest. The location of Midland made it a hub for railroads as well as shipbuilding and steel production. The population spiked and spurred a construction boom that has not been repeated in the city to this day. In a matter of three decades, the population exploded from 82,000 residents to 765,000. Land was in short supply and great pride was taken in the architecture of the day. The elite lived in sprawling estates outside the city, but many wealthy citizens took great pride in the urban apartments they called home and the ever taller commercial areas in which they conducted business. These were heady times in Midland, and the architecture not only reflected the optimism of endless prosperity, but also boasted the wealth and power of this great city and its people. Office buildings soared ever higher in the central city. Civic buildings were constructed with bragging rights in the foreground of every project. The apartments and hotels were places anyone would be proud to call home. Even the factories and warehouses lining the waterfront were built to impress.
+
+    Unfortunately, the post war era signaled the beginning of the end for the mighty Midland. The automobile made the escape to suburbia possible. It was no longer considered fashionable to live in the grand apartment buildings of the city. Ever building racial tensions made matters worse for the inner city residents. Safety in the city became a real concern as more and more people fled for the outlying areas. City wide riots in the 1960s sealed the fate of Midland for years to come. The new reputation of the city was its own death bell. The once proud structures began to fall into disrepair. Many were lost to fire and more were simply lost to the elements. Urban renewal projects were limited to the downtown area and often did more harm than good to the historical buildings. Rather than invest in the older structures, city leaders opted to tear them down to make way for “bigger and better” buildings that would surely entice people to come back.
+
+    Beginning in the late 1990s, the city began a slow comeback. Massive investments were made by private and public companies to revive the central areas of Midland. At about the same time, the attitude towards the larger historical structures changed. Many older buildings started to be restored and refurbished. Unfortunately, this only seemed to apply to the showcase buildings in the immediate downtown area. In response to this, a small grass roots organization was formed in a residential neighborhood surrounding Skipjack Park. The organization was founded to save the smaller historic buildings that the city overlooked. Originally, efforts centered around the Skipjack Park area and included little more than the large homes and one nearby apartment building. As time went on, The Skipjack Historical Urban Restoration (SHUR) Project grew and the list of buildings grew to monumental proportions. People following the news were stunned to learn of the number of historical treasures in the city. Young suburbanites began to move back into the city in search of an urban experience.
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/SHURImage01.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Brownstone_Low.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Buder_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Citizen_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Lockwood_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Rookery_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Stearns_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jbsimio/Taft_Day.jpg
+dependencies:
+  - "jbsimio:shur-project-beginnings"
+  - "jbsimio:brownstones"
+  - "jbsimio:bruder-building"
+  - "jbsimio:citizen-building"
+  - "jbsimio:lockwood-arms"
+  - "jbsimio:rookery-building"
+  - "jbsimio:stearns-building"
+  - "jbsimio:taft-building"
+
+---
+group: "jbsimio"
+name: brownstones
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The SHUR Brownstones, a SHUR Project release
+  description: |-
+    This is the eighth release in the Skipjack Historical Urban Restoration Project. Learn more about the history of this project [here](http://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=76703&STARTPAGE=14). There is entirely too much to talk about for this one to tell you a story about these buildings. Instead let's just get right into it, shall we?
+
+    This set was inspired by a friend's apartment in Chicago's Lincoln Park Neighborhood. There are blocks upon blocks of three story brownstone apartments which initially look like carbon copies, but when seen in more detail each have minor variations and details which set it apart from the one next door. The goal was to make a set that would mimic this style to some extent. With that in mind, there are four main building models included here. Each has its own name: The Armitage, The Halstead, The Fullerton, and The Sheffield. Each of these four buildings then comes with three color variations along with other minor variations in trim or other details. This brings the total up to 12 different buildings. To make things a little more confusing, there are also two different wealth levels and three lot sizes. The buildings are arranged in families by model name. The color variations will grow at random.
+    
+    The low wealth lots are all 1x2 with a fairly grimy feel to the back alleys. The medium wealth lots will grow on either 1x2 with a narrow alley in the back or on 1x3 with off street parking in the back. The 1x3 lots utilize another set of custom prop families to cycle through several garages for increased variety. Some of these lots have carports or just uncovered parking. As if all that weren't enough, a couple of “bonus” double lots were added with their own little quirks depending on which wealth level you are using. This download will install all versions to your plugins folder. You may safely remove any lot files you do not wish to use, but the “Essentials” file should NOT be removed. 
+
+    So all told, you're actually getting a total of 14 lots, using nearly 40 different models for buildings and props.
+
+    # Lot Details & Information
+
+    |     | R$ | R$ | R$$ | R$$ |
+    | --- | --- | --- | --- | --- |
+    | Lot size: | 1 x 2 tiles | 2 x 2 tiles | 1 x 2 tiles, 1 x 3 tiles | 2 x 2 tiles |
+    | Growth stage: | 5   | 4   | 5   | 5   |
+    | Occupants: | R-$ : 87 |     | R-$ : 87, R-$$ : 49 |     |
+    | Bulldoze cost: | § 234 |     | § 241 |     |
+    | Worth: | § 1182 |     | § 1255 |     |
+    | Construction Time: | 23 days |     | 24 days |     |
+    | Max. Fire Stage: | 3   |     | 3   |     |
+    | Power consumption: | 1 MWh/month |     | 2 MWh/month |     |
+    | Water consumption: | 1 Gallons/month |     | 3 Gallons/month |     |
+    | Air pollution: | 1 over 5 tiles |     | 1 over 5 tiles |     |
+    | Water pollution: | 1 over 5 tiles |     | 1 over 6 tiles |     |
+    | Garbage pollution: | 4 over 0 tiles |     | 4 over 0 tiles |     |
+
+    Building style(s): Building: Residential, Building: R$ or R$$, Style: Chicago, Style: New York, BTE : Res. Low or Med Wealth, BTE : JBSimio Creation, BTE : SHUR Project
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Brownstone_Low.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Brownstone_Med.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol02"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Brownstones#/"
+
+---
+group: "jbsimio"
+name: bruder-building
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Buder Building, a SHUR Project release
+  description: |-
+    This is the twelveth release in the Skipjack Historical Urban Restoration Project. Learn more about the history of this project [here](http://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=76703&STARTPAGE=14)'.
+    
+    The Buder Building was designed in 1901 by William Albert Swasey whose work significantly influenced building design in St. Louis. The construction of the Buder Building, originally named the Missouri Pacific Building, was regarded as a pivotal event marking the completion of the 1890's development plan for the west side of Seventh Street and also heralding a new vision for the revitalization of Market Street and cost approximately $600,000 to construct. 
+    
+    This building was unfortunately torn down in 1984 along with several other buildings which occupied the same block. A number of personal liberties were taken with this version and while it is by no means an exact recreation, care was taken to keep the same spirit and borrowed as many of the character details as possible.
+
+    This release contains three lot versions. A 3x3 stage seven growable with CO$$ jobs and also a functioning ploppable version with a plop cost of $8200 are included. All the other statistics are the same as the growable. There is also a 3x3 stage seven R$$ version as well. All three versions are designed to fit a wall to wall corner setting. As always, you can safely delete any LOT versions you don't need, just be sure to keep the MODEL file. Enjoy!
+
+    # Lot Details & Information
+
+    |     | CO$$ Version | R$$ Version |
+    | --- | --- | --- |
+    | Lot size: | 3 x 3 tiles (corner) | 3 x 3 tiles (corner) |
+    | Growth stage: | 7   | 7   |
+    | Occupants: | CO-$$ : 1492 | R-$ : 2701, R-$$ : 1492 |
+    | Bulldoze cost: | § 823 | § 823 |
+    | Worth: | § 10429 | § 38975 |
+    | Construction Time: | 82 days | 82 days |
+    | Max. Fire Stage: | 40  | 40  |
+    | Power consumption: | 30 MWh/month | 21 MWh/month |
+    | Water consumption: | 308 Gallons/month | 56 Gallons/month |
+    | Air pollution: | 5 over 5 tiles | 12 over 5 tiles |
+    | Water pollution: | 5 over 6 tiles | 6 over 6 tiles |
+    | Garbage pollution: | 4 over 0 tiles | 6 over 0 tiles |
+
+    Building style(s): Building: Commercial ,Building: CO$$, Style: Chicago, Style: New York, BTE : Comm. or Res. W2W, BTE : Res. Medium Wealth, BTE : JBSimio Creation, BTE : SHUR Project
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Buder_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Buder_Night.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol02"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Buder Apartments/"
+
+---
+group: "jbsimio"
+name: citizen-building
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Citizen Building, a SHUR Project release
+  description: |-
+    This is the thirteenth release in the Skipjack Historical Urban Restoration Project. Learn more about the history of this project [here](http://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=76703&STARTPAGE=14). 
+    
+    This building was inspired by one in Sacramento, California. It was originally known as the Cal Western Life Building. It is currently being renovated for use as a hotel which will be called the Citizen Hotel. A number of personal liberties were taken with this version and while it is by no means an exact recreation, care was taken to keep the same spirit and borrowed as many of the character details as possible.
+
+    This release contains three lot versions. A 3x3 stage seven growable with CO$$$ jobs and also a functioning ploppable version with a plop cost of $10860 are included. All the other statistics are the same as the growable. There is also a 3x3 stage seven R$$ version as well. All three versions are designed to fit a wall to wall corner setting. As always, you can safely delete any LOT versions you don't need, just be sure to keep the MODEL file. Enjoy!
+
+    # Lot Details & Information
+
+    |     | CO$$$ Version | R$$ Version |
+    | --- | --- | --- |
+    | Lot size: | 3 x 3 tiles | 3 x 3 tiles |
+    | Growth stage: | 7   | 8   |
+    | Occupants: | CO-$$ : 1257, CO-$$$ : 880 | R-$ : 2276, R-$$ : 1257 |
+    | Bulldoze cost: | § 1086 | § 1052 |
+    | Worth: | § 9829 | § 32842 |
+    | Construction Time: | 108 days | 105 days |
+    | Max. Fire Stage: | 35  | 40  |
+    | Power consumption: | 36 MWh/month | 18 MWh/month |
+    | Water consumption: | 392 Gallons/month | 47 Gallons/month |
+    | Air pollution: | 5 over 6 tiles | 10 over 5 tiles |
+    | Water pollution: | 5 over 7 tiles | 5 over 6 tiles |
+    | Garbage pollution: | 4 over 0 tiles | 5 over 0 tiles |
+
+    Building style(s): Building: Commercial, Building: CO$$$ or R$$ ,Style: Chicago ,Style: New York, BTE : Comm. W2W or Res Medium Income, BTE : JBSimio Creation, BTE : SHUR Project
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Citizen_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Citizen_Night.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol02"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Citizen Apartments/"
+
+---
+group: "jbsimio"
+name: lockwood-arms
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Lockwood Arms, a SHUR Project release
+  description: |-
+    This is the sixth release in the Skipjack Historical Urban Restoration Project. Learn more about the history of this project [here](http://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=76703&STARTPAGE=14). Built in 1927, the Lockwood Arms provided urban living at its finest for many well to do citizens. As with many urban apartments, the building began to empty out and deteriorate as the middle class fled to newly built suburbs in the 1950's. A resurgence in urban living helped to make the Lockwood Arms a primary candidate for salvation by the Skipjack Historical Society. Prized for its stonework, the building was given a complete interior face lift and once again houses people with dignity that can only be found in the solid craftsmanship of the city's historical builders.
+
+    Lockwood Arms is inspired by a building on a corner of Chicago's Lincoln Park Neighborhood. This release includes two versions, growable R$ and R$$. Both versions are CAMpatible, but as they are stage 7, do not require CAM to function.
+
+    # Lot Details & Information
+
+    |     | R$ | R$$ |
+    | --- | --- | --- |
+    | Lot size: | 2 x 2 tiles | 2 x 2 tiles |
+    | Growth stage: | 7   | 6   |
+    | Occupants: | R-$ : 415 | R-$ : 415, R-$$ : 231 |
+    | Bulldoze cost: | § 267 | § 274 |
+    | Worth: | § 5639 | § 5988 |
+    | Construction Time: | 26 days | 27 days |
+    | Max. Fire Stage: | 45  | 40  |
+    | Power consumption: | 2 MWh/month | 4 MWh/month |
+    | Water consumption: | 5 Gallons/month | 10 Gallons/month |
+    | Air pollution: | 2 over 4 tiles | 1 over 5 tiles |
+    | Water pollution: | 1 over 5 tiles | 1 over 5 tiles |
+    | Garbage pollution: | 4 over 0 tiles | 4 over 0 tiles |
+
+    Building style(s): Building: Residential, Building: R$, Style: Chicago, Style: New York, BTE : Res. Low or Medium Income, BTE : JBSimio Creation, BTE : SHUR Project
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Lockwood_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Lockwood_Night.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol02"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Lockwood Arms/"
+
+---
+group: "jbsimio"
+name: shur-project-beginnings
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The SHUR Project - Beginnings
+  description: |-
+    Today efforts of the SHUR Project save not only residential apartment buildings, but has also expanded to include smaller mid-rise office buildings and significant industrial buildings. Many projects are grouped together like the original Skipjack Park District and newer Warehouse District, although there are individual efforts scattered throughout the city. Making the list is not always a simple matter, but the criteria aren't as strict as some might think either. Historical significance may come from the original architect, builder, or owner, the building's role in Midland's growth, or simply the overall beauty of the structure.
+
+    # Included Lots
+
+    - **Wisner Apartments**: 2 x 2 tiles, R$ grow ; 2 x 3 tiles, R$$ grow, CO$$ grow and plop
+    - **Worthington Arms**: 2 x 2 tiles, R$ grow ; 2 x 3 tiles, R$$ grow
+    - **Chalfonte Apartments**: 2 x 2 tiles, R$ grow ; 2 x 3 tiles, 4 x 2 tiles, 4 x 3 tiles, R$$ grow
+    - **Hammond Building**: 3 x 3 tiles, CO$$ grow and plop, CS$$ grow and plop, R$$ grow
+  author: JBSimio
+  websites: 
+    - "https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation"
+    - "https://community.simtropolis.com/files/file/16816-shur-chalfonte-apartments/"
+    - "https://community.simtropolis.com/files/file/16895-shur-hammond-building/"
+    - "https://community.simtropolis.com/files/file/16697-shur-wisner-apartments/"
+    - "https://community.simtropolis.com/files/file/16714-shur-worthington-arms/"
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/SHURImage01.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol02"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Chalfonte Apartments/"
+   - "/Hammond Apartments/"
+   - "/Wisner Apartments/"
+   - "/Worthington Arms/"
+
+---
+group: "jbsimio"
+name: rookery-building
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Rookery Building, a SHUR Project release
+  description: |-
+    This is the fourteenth release in the Skipjack Historical Urban Restoration Project. Learn more about the history of this project [here](http://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=76703&STARTPAGE=14).
+
+    This building was inspired by the "oldest surviving skyscraper" in Chicago, Illinois. Constructed from 1885-1888, the building features a powerful exterior softened by very ornate detailing. The real building blends strong masonry wall-bearing with early steel skeletal frame construction. It took the name "Rookery" from a temporary City Hall and water tank that sat on the building site. As a common roost for pigeons, the structures were referred to as "the rookery."  This is not meant to be an exact copy by any means and there are many differences, but the building's character has been preserved as much as possible.
+
+    This release contains multiple lot versions. First is a 3x3 stage twelve growable with CS$ jobs which requires CAM to grow. There is also a functional plop version of this with a cost of $6700 to help fill that pesky CS$ demand. There are three versions with CO$$$ jobs: growable 3x3 stage seven, growable 4x4 stage six and also a functioning ploppable version with a plop cost of $6900. All the other statistics are the same as the growable. There are also two residential versions included. One is a 3x3 stage eight low wealth and the other is a 4x4 stage seven medium wealth'Every version is designed to fit in a more urban setting. As always, you can safely delete any LOT versions you don't need, just be sure to keep the MODEL file. Enjoy!
+
+    # Lot Details & Information
+
+    |     | CS$ Version | CO$$ Versions | R$ Version | R$$ Version |
+    | --- | --- | --- | --- | --- |
+    | Lot size: | 3 x 3 tiles | 3 x 3 tiles, 4 x 4 tiles | 3 x 3 tiles | 4 x 4 tiles |
+    | Growth stage: | 12 (CAM) | 6 or 7 | 8   | 7   |
+    | Occupants: | CS-$ : 2804 | CO-$$ : 1248 | R-$ : 2258 | R-$ : 2258, R-$$ : 1248 |
+    | Bulldoze cost: | § 670 | § 691 | § 670 | § 691 |
+    | Worth: | § 21478 | § 8723 | § 30686 | § 32582 |
+    | Construction Time: | 67 days | 69 days | 67 days | 69 days |
+    | Max. Fire Stage: | 45  | 40  | 45  | 40  |
+    | Power consumption: | 57 MWh/month | 25 MWh/month | 10 MWh/month | 17 MWh/month |
+    | Water consumption: | 562 Gallons/month | 259 Gallons/month | 23 Gallons/month | 47 Gallons/month |
+    | Air pollution: | 28 over 5 tiles | 4 over 5 tiles | 11 over 5 tiles | 10 over 5 tiles |
+    | Water pollution: | 14 over 5 tiles | 4 over 6 tiles | 4 over 5 tiles | 5 over 6 tiles |
+    | Garbage pollution: | 84 over 0 tiles | 4 over 0 tiles | 6 over 0 tiles | 5 over 0 tiles |
+    
+    Building style(s): Building: Commercial, Building: CS$ or CO$$$, Style: Chicago, Style: New York, BTE : JBSimio Creation, BTE : SHUR Project | Building: Residential, Building: CS$ or CO$$$, Style: Chicago, Style: New York, BTE : Res Low or Medium Wealth, BTE : JBSimio Creation, BTE : SHUR Project
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Rookery_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Rookery_Night.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol02"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Rookery Building/"
+
+---
+group: "jbsimio"
+name: stearns-building
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Stearns Building, a SHUR Project release
+  description: |-
+    This is the seventh release in the Skipjack Historical Urban Restoration Project. Learn more about the history of this project here'Business was booming downtown in the 1920's and the need for office space was high. Built in 1929 by Harvey Strearns, this was one of many office structures to be constructed near the end of the decade. Harvey chose a fairly simple and straightforward style for his building and then used a reddish toned brick and concrete detailing to  set his office apart. Unlike many buildings in the Skipjack Historical Society's portfolio, this particular building never really suffered through a time of abandonment and decay. The offices have been leased since the building opened. The need to save this building came about when it stood in the way of "progress" downtown. The parking structure was eventually built on a nearby lot thanks in part to the efforts of the SHUR Project.
+
+    The Stearns Building is based very loosely on a building in Fort Worth, Texas. This release contains three versions. There are growable R$$, CO$$ , and a CO$$ plop version. The ploppable version has all the same statistics as the growable with a plop cost of $5100. Enjoy!
+
+    # Lot Details & Information
+
+    |     | CO$$ Grow/Plop Version | R$$ Version |
+    | --- | --- | --- |
+    | Lot size: | 2 x 2 tiles | 2 x 2 tiles |
+    | Growth stage: | 7   | 7   |
+    | Occupants: | CO-$$ : 458 | R-$ : 827, R-$$ : 458 |
+    | Bulldoze cost: | § 516 | § 516 |
+    | Worth: | § 3201 | § 11933 |
+    | Construction Time: | 51 days | 51 days |
+    | Max. Fire Stage: | 40  | 40  |
+    | Power consumption: | 10 MWh/month | 7 MWh/month |
+    | Water consumption: | 101 Gallons/month | 18 Gallons/month |
+    | Air pollution: | 1 over 5 tiles | 3 over 5 tiles |
+    | Water pollution: | 1 over 6 tiles | 1 over 6 tiles |
+    | Garbage pollution: | 4 over 0 tiles | 4 over 0 tiles |
+    
+    Building style(s): Building: Commercial, Building: CO$$, Style: Chicago, Style: New York, BTE : JBSimio Creation, BTE: SHUR Project,  BTE : Comm. W2W or Res - Med Income
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stearns_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Stearns_Night.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol02"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Stearns Building/"
+
+---
+group: "jbsimio"
+name: taft-building
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Taft Building, a SHUR Project release
+  description: |-
+    This is the fifth release in the Skipjack Historical Urban Restoration Project. Learn more about the history of this project [here](http://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=76703&STARTPAGE=14). Originally built as a hotel, this structure has anchored its street corner since 1924. As was the case with so many urban hotels, business waned in the 1960's when the freeway came through town too far north to make it a convenient place to sleep. The building sat vacant for a number of years. Researchers at the Skipjack Historical Society discovered evidence that President Taft had once stayed in an upper room of the building and began their drive to save the building from further decay. After months of cleaning, street level shops opened and breathed new life into the building. The upper floors were slowly converted into offices and apartments and the building was given a new name in honor of its presidential ties.
+
+    The Taft Building is inspired by a building on the corner of Hollywood and Vine in Hollywood, California. (it's real name is unknown, but the building across the street had the name Taft, so that's what was chosen). This release includes four versions. There are growable CO$$, CS$$, and R$$. There is also a ploppable CO$$ version (plop cost is $5100) with the same statistics as the growable version.
+
+    # Lot Details & Information
+
+    |     | CO$$ Version | CS$$ Version | R$$ Version |
+    | --- | --- | --- | --- |
+    | Lot size: | 3 x 2 tiles | 3 x 2 tiles | 3 x 2 tiles |
+    | Growth stage: | 6   | 8   | 7   |
+    | Occupants: | CO-$$ : 670 | CS-$ : 1503CS-$$ : 378 | R-$ : 1211R-$$ : 670 |
+    | Bulldoze cost: | § 513 | § 513 | § 513 |
+    | Building Value: | § 4683 | § 12895 | § 17474 |
+    | Construction Time: | 51 days | 51 days | 51 days |
+    | Max. Fire Stage: | 4   | 4   | 4   |
+    | Power consumption: | 14 MWh/month | 31 MWh/month | 10 MWh/month |
+    | Water consumption: | 144 Gallons/month | 364 Gallons/month | 26 Gallons/month |
+    | Air pollution: | 2 over 4 tiles | 14 over 5 tiles | 5 over 5 tiles |
+    | Water pollution: | 2 over 5 tiles | 9 over 5 tiles | 2 over 6 tiles |
+    | Garbage pollution: | 4 over 0 tiles | 18 over 0 tiles | 4 over 0 tiles |
+
+    Building style(s): Building: Commercial, W2W, BTE: JBSimio | Style: Chicago, Style:Creation, BTE:SHUR | New York, BTE: Comm. Project
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Taft_Day.jpg"
+    - "https://www.sc4evermore.com/images/sc4pac/jbsimio/Taft_Night.jpg"
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol02"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Taft Apartments/"
+
+---
+group: "jbsimio"
+name: town-hall-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Town Hall Apartments, part of the SmalltownUSA Series by JBSimio
+  description: |-
+    As Smalltown grew from a fork in the road into a legitimate village, local leaders began to consider the idea of building a meeting hall'The more the area grew, the more necessary it became to have a place other than Edna Rausch's basement to store important records and building permits'Unfortunately, simply voting in favor of building a town hall was the easy part'The debate over style and location lasted for three years'Some people wanted a clock tower that would fit snugly between other businesses on Main Street'Others wanted a building that would stand alone with graceful lawns and gardens'Still others thought Edna's house should just be converted into a town hall'During all this bickering, the need for a police station became another hot issue in town'Finally in 1924, after years of delays, voters decided to erect a building at the head of the Village Common Park that would house all the official town offices as well as offices for the local police'Although some feel Smalltown has outgrown its once controversial structure, the building is still in use today, thanks to the ever watchful efforts of SLICH'Rather than rebuild, a small jail annex was added in 1967'Oddly enough, the first visitor to the new jail was a former record keeper'Followers of this series will all remember why she was not only fired, but also served a ten day sentence.
+
+    The Town Hall is the thirteenth release in the Smalltown, USA series'This package contains a total of six different versions in two building styles.
+  author: JBSimio
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/434-sc4d-lex-legacy-bsc-jbsimio-residentials-compilation
+  images:
+    - ""
+dependencies:
+  - "bsc:essentials"
+  - "bsc:mega-props-jbsimio-vol01"
+assets:
+ - assetId: jbsimio-residentials-compilation
+   include:
+   - "/Town Hall Apartments/"
