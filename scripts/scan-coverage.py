@@ -104,6 +104,11 @@ def generate_report(sc4e_files, covered_ids, channel_data, local_version_map, up
     generated     = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     channel_pkgs  = channel_data.get("stats", {}).get("totalPackageCount", len(channel_data.get("packages", [])))
 
+    sc4e_ids        = {str(f["id"]) for f in sc4e_files}
+    sc4e_chan_count = len(sc4e_ids & local_version_map.keys())
+    default_count   = len(sc4e_ids & upstream_version_map.keys())
+    sc4e_chan_pct   = f"{(sc4e_chan_count / covered_count * 100) if covered_count > 0 else 0.0:.1f}"
+    default_pct     = f"{(default_count / covered_count * 100) if covered_count > 0 else 0.0:.1f}"
     # Sort all files by numeric ID descending (highest ID = most recently added)
     sorted_files = sorted(sc4e_files, key=lambda f: int(f["id"]), reverse=True)
 
@@ -156,23 +161,31 @@ def generate_report(sc4e_files, covered_ids, channel_data, local_version_map, up
     <div class="summary-grid">
       <div class="stat-card">
         <div class="stat-value">{total}</div>
-        <div class="stat-label">Total SC4E Files</div>
+        <div class="stat-label">Total SC4 SC4E Files</div>
       </div>
       <div class="stat-card">
         <div class="stat-value" style="color:var(--covered-fg)">{covered_count}</div>
-        <div class="stat-label">Covered by Channel</div>
+        <div class="stat-label">Added to sc4pac</div>
       </div>
       <div class="stat-card">
         <div class="stat-value" style="color:var(--missing-fg)">{missing_count}</div>
-        <div class="stat-label">Not Yet in Channel</div>
+        <div class="stat-label">Not Yet in sc4pac</div>
       </div>
       <div class="stat-card">
         <div class="stat-value">{pct_str}%</div>
         <div class="stat-label">Coverage</div>
       </div>
+    </div>
+    <div class="summary-grid">
       <div class="stat-card">
-        <div class="stat-value">{channel_pkgs}</div>
-        <div class="stat-label">Channel Packages</div>
+        <div class="stat-value">{sc4e_chan_count}</div>
+        <div class="stat-label">Added to SC4E channel</div>
+        <div class="stat-label">{sc4e_chan_pct}% of files</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">{default_count}</div>
+        <div class="stat-label">Added to Default channel</div>
+        <div class="stat-label">{default_pct}% of files</div>
       </div>
     </div>
 
@@ -185,7 +198,7 @@ def generate_report(sc4e_files, covered_ids, channel_data, local_version_map, up
           <th>ID</th>
           <th>Last Modified</th>
           <th>SC4E Version</th>
-          <th>sc4pac Channel</th>
+          <th>sc4pac Version</th>
         </tr>
       </thead>
       <tbody>
