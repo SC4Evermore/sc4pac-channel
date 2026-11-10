@@ -20,6 +20,10 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/VW_Factory_Day.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/GeereRobotics_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/AmericanLicorice_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/CrumblyCheeseFactory-Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/SilverRock_4x2_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/UnderhillCasketCompany_Day.jpg
 dependencies:
   - aln:rrp-pasture-flora-props
   - bsc:essentials
@@ -129,9 +133,16 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: Cal Fame Packing Shed (freight rail)
+  description: |-
+    Here you have the Cal Fame Packing Shed "loosely" based on a citrus packing plant that once stood in Escondido, California (about 30 miles north of San Diego). This plant was first opened in 1935 by the Escondido Orange Association and continued processing citrus fruits until 1987 when it was closed down.
+
+    Note: This lot acts as a freight station and, as such, should be placed on a spur, as passenger traffic will not pass through. 
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/CalFamePackingShed-Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/CalFamePackingShed-Nite.jpg
 dependencies:
   - bsc:mega-props-gascooker-vol01
   - bsc:mega-props-jes-vol01
@@ -151,9 +162,14 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: Currey Petro Chemical (freight rail)
+  description: |-
+    Currey PetroChemical, serving all your bulk fuel and lubricant needs. This lot acts as a freight station and is TE'd for freight truck and rail. This lot only allows freight traffic through, so it should be placed on a spur off the main line.
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/CurreyPetroChemical_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/CurreyPetroChemical_Nite.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-dae-vol01
@@ -178,9 +194,13 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: Empire Leather Works (freight rail)
+  description: |-
+    Here you have the Empire Leather Works - turning raw leather into numerous items of apparel. There is one lot included: a 7x6 ploppable, TE'd for freight truck and rail and it acts as a freight rail station. The ploppable lot only allows freight traffic through, so should be placed on a spur off the main line. These lots are BTE enabled and will contribute to industrial reward chains.
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/EmpireLeatherWorks_Plop.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-cp-vol01
@@ -211,6 +231,15 @@ info:
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  description: |-
+    Le Sabot et L'usine de Colle de Bouche (AKA, The Hoof and Mouth Glue Factory) - makers of musilage for all your sticky needs. This comes as a freight rail station, TE'd for rail and truck.
+
+    All stats have been updated with X-Tool (SC4PIM-X).
+
+    NOTE:  The rail station only allows freight traffic to pass through.  To avoid maxing out the capacity, it should be placed on a spur, off the main line.
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/HoofMouth-Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/HoofMouth-Nite.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-d66-vol01
@@ -233,9 +262,14 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: Owosso Beet Sugar Factory (freight rail)
+  description: |-
+    Founded in 1902, the Ossowo sugar beet plant operated until 1924, when it was purchased by the Michigan Sugar Company. At this time, the plant was basically closed, and only used for storage until the beets could be transferred to a plant in Saginaw. Although the plant still exists, it's scheduled to be demolished and the land redeveloped. There is one lot included; a 12x7 ploppable freight station, TE'd for freight rail and truck. The rail TE'd lots only allow freight traffic through, so should be placed on a spur off the main line, so as not to max out your capacity. These lots are BTE enabled and will contribute to industrial reward chains.
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/Owosso_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/Owosso_Nite.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-dae-vol01
@@ -262,9 +296,16 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: Perkins Furniture Company (freight rail)
+  description: |-
+    Here you have Perkins Furniture Company - Makers of fine furnishings for home or business. This lot is available as a plop, TE'd for freight train and truck.
+
+    NOTE: The plop acts as a freight station and only allows freight traffic to pass through the lot, so you should place it on a spur off the main line.
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/PerkinsFurnitureCompany-Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/PerkinsFurnitureCompany-Nite.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-dae-vol01
@@ -285,9 +326,16 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: PU Fertilizer Plant (freight rail)
+  description: |-
+    This lot acts as a freight rail station, and is TE'd for rail and freight truck.
+
+    NOTE: This lot only allows freight traffic to pass through.  To avoid maxing out the capacity, it should be placed on a spur, off the main line.
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/FertilizerPlant-Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/FertilizerPlant-Nite.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-cp-vol01
@@ -309,9 +357,14 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: Railway Express Agency (freight rail)
+  description: |-
+    The American Railway Express Agency was founded on March 29, 1839. On November 1, 1866, Wells Fargo & Co. purchased the stage and Pony Express operations from Ben Holladay. At this time, there were several express companies; however, by 1914 there were only seven. During World War I, these seven companies were consolidated, at the direction of the US Federal Government, into one nationwide organization, The American Railway Express Agency. In 1929, the nation's railroads bought the express business and changed the name to Railway Express Agency, Inc.
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/REA_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/REA_Nite.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-jes-vol01
@@ -333,9 +386,13 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: Rayden Transfer (freight rail)
+  description: |-
+    This is a lot originally made to fit a specific spot in one of my regions. It acts as a freight station and is TE'd for freight truck and rail. This lot will only allow freight trains to pass through so it should be placed on a spur off the main line. 
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/RaydenTransfer_Day.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-dae-vol01
@@ -361,9 +418,16 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: Redwing Mill (freight rail)
+  description: |-
+    Redwing Mill - turning all sorts of grains into flour. This comes as a 5x5 I-m3 growable, a 5x5 IM$$4 Cam growable, a 5x5 regular ploppable, and as a 5x4 freight station and are BTE enabled for industrial reward chains.
+
+    The freight station version only allows freight traffic through, so it should be placed on a spur off the main line.
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/RedwingMill_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/RedwingMill_Nite.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-jes-vol01
@@ -385,9 +449,14 @@ version: "2"
 subfolder: 400-industrial
 info:
   summary: Sterling Consolidated Manufacturing (freight rail)
+  description: |-
+    Here you have Sterling Consolidated Manufacturing - makers of various products for home and industry. This comes contains a freight rail depot version now. This lot should be placed on a spur, off the main line, as, being a dead-end spur, it won't allow rail traffic through.
   author: Jestarr (JES), BSC
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
+  images:
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/SterlingConsolidated_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/SterlingConsolidated_Nite.jpg
 dependencies:
   - bsc:essentials
   - bsc:mega-props-cp-vol01
@@ -422,8 +491,11 @@ info:
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/337-sc4d-lex-legacy-bsc-jestarr-industrial-freight-rail-and-power-utilities-compilation
   images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/VW_Factory_Day.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/GeereRobotics_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/CoalPowerPlant_Day.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/CoalPowerPlant_Nite.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/HVPowerSubstation-Tower01.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/HVPowerSubstation02.jpg
+    - https://www.sc4evermore.com/images/sc4pac/jestarr/HVTransmissionLine03.jpg
 dependencies:
   - bsc:mega-props-jes-vol01
   - bsc:mega-props-jes-vol02
