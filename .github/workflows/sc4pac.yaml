@@ -13,6 +13,11 @@ jobs:
       path: src/yaml                 # path to yaml source files, e.g. src/yaml
       channel-label: SC4Evermore     # your name or other suitable label
       deploy-repository: SC4Evermore/sc4pac-channel  # your GitHub repository
+      channel-artifact-name: channel-artifact.zip
+      skip-build-website: true
+      skip-test: false
+      skip-url-check: false
+      skip-deploy: true
     permissions:
       pages: write                   # to deploy to GitHub Pages
       id-token: write                # to verify the deployment originates from an appropriate source
