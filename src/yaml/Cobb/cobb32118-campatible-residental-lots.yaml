@@ -7,12 +7,16 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=422:s
 ---
 group: cobb
 name: commercial-set
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: 300-commercial
 info:
   summary: Cobb Commercial Set
   description: |
-    Collection of 7 commercial buildings created by Cobb32118
+    Collection of 7 commercial buildings created by Cobb32118: hotels and offices that use the buildings of the Cobb residential uploads. The lots are compatible with CAM.
+
+    With `CAM: yes`, all 7 growable lots are installed: the 5th Avenue, Europa and Riviera hotels, the Emperador hotel, the Regency Resort and Spa, and the Emerald Park and Tower offices. With `CAM: no`, only the 5th Avenue, Europa and Riviera hotels are installed as growable lots.
+
+    Both variants also install the ploppable lots of 5th Avenue, Central Park West, Emerald Park, Emperador, Riviera and Tower.
   author: Cobb32118
   websites: 
     - https://www.sc4evermore.com/index.php/downloads/download/11-residential/422-sc4d-lex-legacy-bsc-cobb32118-campatible-residental-lots
@@ -64,12 +68,16 @@ variants:
 ---
 group: cobb
 name: residential-set
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: 200-residential
 info:
   summary: Cobb Residential Set
   description: |
-    Collection of 19 residential buildings created by Cobb32118
+    Collection of 19 residential buildings created by Cobb32118, with the lots of the original Simtropolis uploads updated to be compatible with CAM.
+
+    With `CAM: yes`, all 19 growable lots are installed. With `CAM: no`, only the growable lots of 5th Avenue, Central Park West, Europa, Grand Plaza, Regency, Riviera, Royale, Seaside Villa and the Troglodyte Complex are installed. The 13th Street Condos, Altura Tower, Atlantic, Emerald Park, Emperador, Galleria, Oceanic, Park Plaza, Shoreline and Veinte only have growable lots with CAM.
+
+    Both variants also install the ploppable lots of Altura Tower, Europa, Galleria, Oceanic and Seaside Villa.
   author: Cobb32118
   websites: 
     - https://www.sc4evermore.com/index.php/downloads/download/11-residential/422-sc4d-lex-legacy-bsc-cobb32118-campatible-residental-lots
@@ -135,15 +143,44 @@ variants:
         - "/PLOP_3x2_Cobb32118_Cobb_Seaside_Villa_LAND_8dd26dbc.SC4Lot"  
 ---
 group: cobb
-name:  collection-pack    
-version: "1.0.0"
+name: collection-pack
+version: "1.0.0-1"
 subfolder: 300-commercial
 info:
   summary: Cobb32118 Collection Pack
-  description: A collection of 26 Lots by Cobb32118      
+  description: |
+    A collection of 26 growable lots by Cobb32118 (19 residential and 7 commercial) and the ploppable versions of several buildings. It installs `pkg=cobb:residential-set` and `pkg=cobb:commercial-set`.
+
+    This collection has the same buildings and lot IDs as the original Simtropolis uploads of The Cobb Altura Tower, Atlantic, Central Park West, Emerald Park, Emperador, 5th Avenue, Europa, Galleria, Grand Plaza, Oceanic, Park Plaza, Regency, Riviera, Royale, Seaside Villa, Shoreline, Tower, Troglodyte Complex and Veinte Building, and The 13th Street Condos. The lots have been updated to be compatible with CAM: growth stages, capacities, costs and occupant groups differ from the originals. Because the lot IDs are the same, install either the collection or an original upload, not both.
+
+    **CAM variant**
+    - `CAM: yes`: all growable lots are installed.
+    - `CAM: no`: only the growable lots that do not need CAM are installed. The 13th Street Condos, Atlantic, Park Plaza, Shoreline and Veinte have no lots at all, and Altura Tower, Emerald Park, Emperador, Galleria, Oceanic and Tower only have their ploppable lots.
+
+    The collection also has 7 commercial lots (hotels and offices) that are not part of any of the original residential uploads.
   author: Cobb32118
-  websites: 
+  websites:
     - https://www.sc4evermore.com/index.php/downloads/download/11-residential/422-sc4d-lex-legacy-bsc-cobb32118-campatible-residental-lots
+    - https://community.simtropolis.com/files/file/16228-the-cobb-central-park-west/
+    - https://community.simtropolis.com/files/file/15869-the-cobb-troglodyte-complex/
+    - https://community.simtropolis.com/files/file/16158-the-cobb-emperador-hotel/
+    - https://community.simtropolis.com/files/file/16108-the-cobb-5th-avenue/
+    - https://community.simtropolis.com/files/file/16005-the-cobb-shoreline/
+    - https://community.simtropolis.com/files/file/15947-the-cobb-veinte-building/
+    - https://community.simtropolis.com/files/file/15905-the-13th-street-condos-by-cobb/
+    - https://community.simtropolis.com/files/file/15810-the-cobb-galleria/
+    - https://community.simtropolis.com/files/file/3774-the-cobb-grand-plaza/
+    - https://community.simtropolis.com/files/file/3558-cobbs-seaside-villa/
+    - https://community.simtropolis.com/files/file/3533-the-cobb-riviera/
+    - https://community.simtropolis.com/files/file/3514-the-cobb-europa/
+    - https://community.simtropolis.com/files/file/3480-the-cobb-oceanic/
+    - https://community.simtropolis.com/files/file/3412-the-cobb-emerald-park-building/
+    - https://community.simtropolis.com/files/file/3320-the-cobb-atlantic/
+    - https://community.simtropolis.com/files/file/3256-the-cobb-altura-tower/
+    - https://community.simtropolis.com/files/file/3213-the-cobb-royale/
+    - https://community.simtropolis.com/files/file/3089-the-cobb-regency/
+    - https://community.simtropolis.com/files/file/2994-the-cobb-park-plaza/
+    - https://community.simtropolis.com/files/file/2973-the-cobb-tower/
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/Cobb32118_13th_St_Condos_by_Cobb_JPG01.JPG
