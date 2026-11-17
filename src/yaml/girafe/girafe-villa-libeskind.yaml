@@ -1,0 +1,50 @@
+assetId: bsc-vip-girafe-villa-libeskind-v2
+version: "2"
+lastModified: "2024-01-22T07:25:55-08:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=221:bsc-vip-girafe-villa-libeskind-v2
+
+---
+group: girafe
+name: villa-libeskind
+version: "2"
+subfolder: 200-residential
+info:
+  summary: Villa Libeskind, a residential R$$$ building by Girafe
+  description: |-
+    A growable R$$$ villa, available in a Maxis Nite and a Dark Nite version. The lot can be found in the Lot Editor under the name `R$$$4_3x2_Grfe_villa_Libeskind`.
+
+    **Stats**
+
+    - Lot size: 3x2
+    - Growth stage: 4
+    - Capacity: R$ 81, R$$ 46, R$$$ 22
+    - Bulldoze cost and worth: 143
+    - Max. fire stage: 3, flammability: 35
+    - Power consumption: 3, water consumption: 7
+    - Air pollution: 1, water pollution: 1, garbage pollution: 4
+    - Construction time: 14
+
+    Timed props only work correctly after the city has run for a year.
+  author: Girafe
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/221-bsc-vip-girafe-villa-libeskind-v2
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Icon_villa_Libeskind_1.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:vip-girafe-carpack-vol03
+  - bsc:vip-girafe-urbanpack-vol01
+  - girafe:common-spruces
+  - girafe:hedges
+  - girafe:honey-locust
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: bsc-vip-girafe-villa-libeskind-v2
+        include: [ "/MN Model/", "\\.SC4Lot$" ]
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: bsc-vip-girafe-villa-libeskind-v2
+        include: [ "/DN Model/", "\\.SC4Lot$" ]
